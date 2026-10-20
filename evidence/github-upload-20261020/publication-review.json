@@ -1,0 +1,33 @@
+{
+  "schema": "GRID_GITHUB_SNAPSHOT_REVIEW_V1",
+  "date": "2026-10-20",
+  "repository": "https://github.com/wyyoh/mimajishujingsai",
+  "branch": "main",
+  "files": 958,
+  "total_bytes": 45101008,
+  "core_files_checked": 53,
+  "core_source_digest": "250da67238de715c9ffeb1d44a0d8c314a5cfc5e6d92b7cc045f4f20768ebe23",
+  "reviewed_support_zip_sha256": "51ddfeba703e27f34c490bdb4863787d91565108ce3553377e773bb6ad6a17b0",
+  "support_manifest_entries_verified": 652,
+  "static_scan": {
+    "files_or_archive_entries_checked": 3930,
+    "zip_archives_inspected": 61,
+    "public_pem_files_checked": 32
+  },
+  "findings": [],
+  "excluded": [
+    "private runtime and key custody roots",
+    "local credentials and session data",
+    "source plaintext and private oracle fixtures",
+    "full run/experiment workspace archives",
+    "original third-party paper/standards bundles",
+    "duplicate historical videos",
+    "node_modules and virtual environments"
+  ],
+  "status": "PRE_PUSH_CONTENT_AND_EVIDENCE_CHECKS_PASSED",
+  "python_source_files_syntax_checked": 121,
+  "operational_secrets_copied": false,
+  "new_business_tasks_submitted": 0,
+  "new_performance_measurements": 0,
+  "static_check_scope": "Selected credential formats, private PEM blocks, sensitive filenames and credential JSON fields; nested ZIP inspection"
+}

@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+set -euo pipefail
+cd "$(dirname "$0")/.."
+if [ "${1:-}" = build ]; then exec bash scripts/bootstrap.sh; fi
+if [ ! -x .venv/bin/python ]; then
+  printf 'Run scripts/project build first.\n' >&2
+  exit 2
+fi
+export PYTHONPATH="$PWD"
+case "${1:-}" in
+  server-host|status|stop) exec .venv/bin/python scripts/local_server.py "$@" ;;
+esac
+exec .venv/bin/python -m services.cli "$@"

@@ -1,0 +1,1250 @@
+[
+  {
+    "actual_link_count": 16,
+    "arm": "C0",
+    "computed_intervals": 16,
+    "coordinator_cpu_ns": 5717506666,
+    "core_source_digest": "44d66a025bef56b3e2136d897869eecbb55709bb69e2a5441975c062ee4ead32",
+    "cpu_role_total_ns": 140735570000,
+    "elapsed_ns": 83296191114,
+    "finished_at": "2026-10-17T15:01:45.100Z",
+    "independent_sets_and_integer_sums_match": true,
+    "nodes": 300,
+    "pair": 0,
+    "param_id": "3af88c6dedca421eb12a4ca13716ed21b15b56fd73d39364758b0a89553410c782c6bc539b9775392ec76d2fdb4fcda9",
+    "peak_sampled_role_rss_KiB": 407568,
+    "phase": "warmup",
+    "phase_timings": {
+      "child_execution_ns": 77048036134,
+      "child_preparation_ns": 4230602913,
+      "evaluation_verification_ns": 674353988,
+      "public_install_ns": 11145547,
+      "publication_builder_ns": 860518722,
+      "publication_transaction_ns": 875880723,
+      "queue_ns": 0
+    },
+    "private_stage_ciphertext_sha256": "4f716c9dd6d90966e521dc582b4057ff7e911954024fbb3bedfed8a1f95f6126",
+    "private_stage_path": "<PRIVATE_RUNTIME>",
+    "public_evidence": [
+      {
+        "path": "artifacts/runs/97337a74b0fe437ab2a7da518dab57c8/run_manifest.json",
+        "sha256": "17fd061c55549db86aab3f7ab832d0a692672f4bc50fbb7e159253facad5c1f8"
+      },
+      {
+        "path": "artifacts/runs/7474d8afc0ab4bb2a397f281eb253ad9/run_manifest.json",
+        "sha256": "0c56081f327935bf863113f4bacd109e130393d2f1b1dfea0c4cafd8f4e483c2"
+      },
+      {
+        "path": "artifacts/runs/489833c967584209957f1179302f5a89/run_manifest.json",
+        "sha256": "7304f0f21fea5ac2a467c7d221773c90cf7164b593e5534c58742b135100a4b7"
+      },
+      {
+        "path": "artifacts/runs/2c6102570ac244a0a5386dc9cdbd8ca0/run_manifest.json",
+        "sha256": "d18f5c4a0f3663df33a5f8ab6226956547cf05f39b44af93c69f5248684cc63e"
+      }
+    ],
+    "public_numeric_output": false,
+    "run_id": "ee5dffaed3a144eaa6ddaec6b0800472",
+    "source_count": 3,
+    "started_at": "2026-10-17T15:00:20.300Z",
+    "success": true,
+    "tls_bytes": 54922510,
+    "wall_ns": 84769296435
+  },
+  {
+    "actual_link_count": 16,
+    "arm": "C1",
+    "computed_intervals": 16,
+    "coordinator_cpu_ns": 6012283893,
+    "core_source_digest": "44d66a025bef56b3e2136d897869eecbb55709bb69e2a5441975c062ee4ead32",
+    "cpu_role_total_ns": 139000661000,
+    "elapsed_ns": 83320444971,
+    "finished_at": "2026-10-17T15:03:10.484Z",
+    "independent_sets_and_integer_sums_match": true,
+    "nodes": 300,
+    "pair": 0,
+    "param_id": "3af88c6dedca421eb12a4ca13716ed21b15b56fd73d39364758b0a89553410c782c6bc539b9775392ec76d2fdb4fcda9",
+    "peak_sampled_role_rss_KiB": 408044,
+    "phase": "warmup",
+    "phase_timings": {
+      "child_execution_ns": 75987769002,
+      "child_preparation_ns": 4886202268,
+      "evaluation_verification_ns": 705833245,
+      "public_install_ns": 8378518,
+      "publication_builder_ns": 846659806,
+      "publication_transaction_ns": 1135485240,
+      "queue_ns": 0
+    },
+    "private_stage_ciphertext_sha256": "8a5e88c30c6237868f7f6aa173dadf14f5729521972f5112fa5d19a30860ca8c",
+    "private_stage_path": "<PRIVATE_RUNTIME>",
+    "public_evidence": [
+      {
+        "path": "artifacts/runs/3bd1121ee0154e0c87f48cc89e004a3d/run_manifest.json",
+        "sha256": "b3b271e8dce24b8523311b91a768f4f3c1f2c48ea9616b5a828ceb913f34f3e2"
+      },
+      {
+        "path": "artifacts/runs/679bb23b8a824be39862317882b9aac2/run_manifest.json",
+        "sha256": "2a14e9b009facb87f914a8de9b97bc717a90667af817a61693f402f3910be358"
+      },
+      {
+        "path": "artifacts/runs/07c40e2b5bde430987715f27de3a4250/run_manifest.json",
+        "sha256": "bbb3e1d0e24053da45a8656ad0fd8c84c7ec87b46bd02c7e35d041020eb79bd6"
+      },
+      {
+        "path": "artifacts/runs/ac52ce05f2b5456eb76f03fa5210874a/run_manifest.json",
+        "sha256": "99d9a5c00bc85949d7698ec5b60efc1682f28cc9639fdf64c2ae3d46fd42a588"
+      }
+    ],
+    "public_numeric_output": false,
+    "run_id": "b39cd84f9e364b1fb4f886007d8152f1",
+    "source_count": 3,
+    "started_at": "2026-10-17T15:01:45.178Z",
+    "success": true,
+    "tls_bytes": 54922832,
+    "wall_ns": 85268031426
+  },
+  {
+    "actual_link_count": 16,
+    "arm": "C1",
+    "computed_intervals": 16,
+    "coordinator_cpu_ns": 6580056249,
+    "core_source_digest": "44d66a025bef56b3e2136d897869eecbb55709bb69e2a5441975c062ee4ead32",
+    "cpu_role_total_ns": 139912972000,
+    "elapsed_ns": 84906496623,
+    "finished_at": "2026-10-17T15:04:37.033Z",
+    "independent_sets_and_integer_sums_match": true,
+    "nodes": 300,
+    "pair": 1,
+    "param_id": "3af88c6dedca421eb12a4ca13716ed21b15b56fd73d39364758b0a89553410c782c6bc539b9775392ec76d2fdb4fcda9",
+    "peak_sampled_role_rss_KiB": 435096,
+    "phase": "warmup",
+    "phase_timings": {
+      "child_execution_ns": 77311440894,
+      "child_preparation_ns": 4843150804,
+      "evaluation_verification_ns": 624373663,
+      "public_install_ns": 8334100,
+      "publication_builder_ns": 1346856720,
+      "publication_transaction_ns": 1614211242,
+      "queue_ns": 0
+    },
+    "private_stage_ciphertext_sha256": "809d5ed6091708a726ee80c1bc40ed6fe2c53d73e71e5a00b3c646ae63757171",
+    "private_stage_path": "<PRIVATE_RUNTIME>",
+    "public_evidence": [
+      {
+        "path": "artifacts/runs/4a5723fe816948ff8ef09f37fb5355e3/run_manifest.json",
+        "sha256": "b5b68f185673ef3d1abcfc301e77136651eadf5aadefa222dbbce787351cf4e9"
+      },
+      {
+        "path": "artifacts/runs/88fc6089bf98403f90ac449cb3f0ebe6/run_manifest.json",
+        "sha256": "cdc846c5634acfb7b9f935efdc8b4c1fceefc3157a56f9e95eade37871c7a309"
+      },
+      {
+        "path": "artifacts/runs/68d26e96716c46f7b9bd820ed93edb3b/run_manifest.json",
+        "sha256": "b5ed02fdfff628592b5320a4191d02e87087fc56defc8a272f59c7a6cdc489b0"
+      },
+      {
+        "path": "artifacts/runs/037016b8112a496783e7f542de0b52ca/run_manifest.json",
+        "sha256": "ca007bb35aa78e54703df926705e036fae73d56f29a24ec7c8aea51db56e0f9c"
+      }
+    ],
+    "public_numeric_output": false,
+    "run_id": "be8ec7af8c254dcbac321e71d5446609",
+    "source_count": 3,
+    "started_at": "2026-10-17T15:03:10.573Z",
+    "success": true,
+    "tls_bytes": 54922683,
+    "wall_ns": 86428130961
+  },
+  {
+    "actual_link_count": 16,
+    "arm": "C0",
+    "computed_intervals": 16,
+    "coordinator_cpu_ns": 6047375449,
+    "core_source_digest": "44d66a025bef56b3e2136d897869eecbb55709bb69e2a5441975c062ee4ead32",
+    "cpu_role_total_ns": 143312701000,
+    "elapsed_ns": 84077609088,
+    "finished_at": "2026-10-17T15:06:02.991Z",
+    "independent_sets_and_integer_sums_match": true,
+    "nodes": 300,
+    "pair": 1,
+    "param_id": "3af88c6dedca421eb12a4ca13716ed21b15b56fd73d39364758b0a89553410c782c6bc539b9775392ec76d2fdb4fcda9",
+    "peak_sampled_role_rss_KiB": 430420,
+    "phase": "warmup",
+    "phase_timings": {
+      "child_execution_ns": 77522598792,
+      "child_preparation_ns": 4470664449,
+      "evaluation_verification_ns": 640940605,
+      "public_install_ns": 7207239,
+      "publication_builder_ns": 950512008,
+      "publication_transaction_ns": 967287579,
+      "queue_ns": 0
+    },
+    "private_stage_ciphertext_sha256": "2677489e35fd517f897ff1f09d5eeb59fdc449a64dc34188a85d8e53194dea2f",
+    "private_stage_path": "<PRIVATE_RUNTIME>",
+    "public_evidence": [
+      {
+        "path": "artifacts/runs/393fc1b397be4ffb970a0137f4e31d56/run_manifest.json",
+        "sha256": "0a0c0ee2d2dd12d0dd7d6a2d3c2df649e4d0706caa7db939703ce38fc28e3097"
+      },
+      {
+        "path": "artifacts/runs/5f90877a777640938c4c5eae2a1addf9/run_manifest.json",
+        "sha256": "b59010d6d343b54c32ead7fb1de4b64dd62321e1d28a7856831a6415837e39fe"
+      },
+      {
+        "path": "artifacts/runs/e294393373c148488d3a354498017bde/run_manifest.json",
+        "sha256": "1d42d86cd7f7eb597981d0f838386f03a83a571db03be44d944e5151374d4d81"
+      },
+      {
+        "path": "artifacts/runs/69e74ec62c314305867e00a7475aa196/run_manifest.json",
+        "sha256": "363e2ce6f4aa44b0352166d635cacaeffc7e742b09d8f532baaa2b904cb4c547"
+      }
+    ],
+    "public_numeric_output": false,
+    "run_id": "7faab9c500dd4036af31d789cda99a51",
+    "source_count": 3,
+    "started_at": "2026-10-17T15:04:37.102Z",
+    "success": true,
+    "tls_bytes": 54922249,
+    "wall_ns": 85861072101
+  },
+  {
+    "actual_link_count": 16,
+    "arm": "C1",
+    "computed_intervals": 16,
+    "coordinator_cpu_ns": 6506651725,
+    "core_source_digest": "44d66a025bef56b3e2136d897869eecbb55709bb69e2a5441975c062ee4ead32",
+    "cpu_role_total_ns": 139234015000,
+    "elapsed_ns": 85283588363,
+    "finished_at": "2026-10-17T15:07:29.992Z",
+    "independent_sets_and_integer_sums_match": true,
+    "nodes": 300,
+    "pair": 0,
+    "param_id": "3af88c6dedca421eb12a4ca13716ed21b15b56fd73d39364758b0a89553410c782c6bc539b9775392ec76d2fdb4fcda9",
+    "peak_sampled_role_rss_KiB": 406880,
+    "phase": "formal",
+    "phase_timings": {
+      "child_execution_ns": 77219950803,
+      "child_preparation_ns": 5514727762,
+      "evaluation_verification_ns": 618503115,
+      "public_install_ns": 7504638,
+      "publication_builder_ns": 1004401556,
+      "publication_transaction_ns": 1378426335,
+      "queue_ns": 0
+    },
+    "private_stage_ciphertext_sha256": "481088dd7b65dd82ac24ee4313b84829572af5ffc553dfbe56296039a97e1909",
+    "private_stage_path": "<PRIVATE_RUNTIME>",
+    "public_evidence": [
+      {
+        "path": "artifacts/runs/a8557ef82d6242eab44377558163ed04/run_manifest.json",
+        "sha256": "788b2661eba85805fe9bb7cebfc26e99a3f83a115409068963e2580375fd36f7"
+      },
+      {
+        "path": "artifacts/runs/b1c3709b4eeb411bb8b44d7905da80ff/run_manifest.json",
+        "sha256": "5d61b919dae9384e2a9893191e10af5b567615054aeb28fe11262b54af5e1b4f"
+      },
+      {
+        "path": "artifacts/runs/26b0474fb6aa454cbad893aac43fc1f9/run_manifest.json",
+        "sha256": "39b74825e12c79a9d385ab52de44c607f4ecf9a948fc0b7d392b304e167b730c"
+      },
+      {
+        "path": "artifacts/runs/95ff8fff4e8545b680dd54eeea9d83f8/run_manifest.json",
+        "sha256": "1dfd903098df8e1a0a84b1016e638c0f5f34aa0373fecb4baa3efbe108084116"
+      }
+    ],
+    "public_numeric_output": false,
+    "run_id": "f9078ede8599451abe0d0b7713246157",
+    "source_count": 3,
+    "started_at": "2026-10-17T15:06:03.063Z",
+    "success": true,
+    "tls_bytes": 54922877,
+    "wall_ns": 86886906377
+  },
+  {
+    "actual_link_count": 16,
+    "arm": "C0",
+    "computed_intervals": 16,
+    "coordinator_cpu_ns": 5991394231,
+    "core_source_digest": "44d66a025bef56b3e2136d897869eecbb55709bb69e2a5441975c062ee4ead32",
+    "cpu_role_total_ns": 140426680000,
+    "elapsed_ns": 83252930824,
+    "finished_at": "2026-10-17T15:08:55.023Z",
+    "independent_sets_and_integer_sums_match": true,
+    "nodes": 300,
+    "pair": 0,
+    "param_id": "3af88c6dedca421eb12a4ca13716ed21b15b56fd73d39364758b0a89553410c782c6bc539b9775392ec76d2fdb4fcda9",
+    "peak_sampled_role_rss_KiB": 407088,
+    "phase": "formal",
+    "phase_timings": {
+      "child_execution_ns": 76661356521,
+      "child_preparation_ns": 4454663750,
+      "evaluation_verification_ns": 677234254,
+      "public_install_ns": 8152941,
+      "publication_builder_ns": 950839744,
+      "publication_transaction_ns": 965996352,
+      "queue_ns": 0
+    },
+    "private_stage_ciphertext_sha256": "2d66e978546120b5b6449ce7acd9e91df1768fce5f9fbfaa673f5398c1dfc840",
+    "private_stage_path": "<PRIVATE_RUNTIME>",
+    "public_evidence": [
+      {
+        "path": "artifacts/runs/cedf4b458eb64537b44df9044836b58c/run_manifest.json",
+        "sha256": "7fd87d27519f4be4a56635a147e25b809f668e7b33a5ab44322c659b2856502c"
+      },
+      {
+        "path": "artifacts/runs/0b79f9924c6e4d5c92ea81884b308d92/run_manifest.json",
+        "sha256": "5a091d28ab56f80835dbdf94ed59c4f9f9d1d8cc613714643d0c3fd271932cda"
+      },
+      {
+        "path": "artifacts/runs/3e84b47da5f341b3a9553fc165531025/run_manifest.json",
+        "sha256": "313d2a6a109a5e8d6c311dac15a99dd3f88ee41b2c8b876fcb3a4c6d100a0f49"
+      },
+      {
+        "path": "artifacts/runs/f1129cd609744dbb8ad71005c0e0d721/run_manifest.json",
+        "sha256": "c4c9a7be35b20acf01a55a3d519b076be311c87a5b402de356848b180fae2510"
+      }
+    ],
+    "public_numeric_output": false,
+    "run_id": "d4128f0e78ae4373a89c8c6bc8a7ae69",
+    "source_count": 3,
+    "started_at": "2026-10-17T15:07:30.084Z",
+    "success": true,
+    "tls_bytes": 54922734,
+    "wall_ns": 84912617687
+  },
+  {
+    "actual_link_count": 16,
+    "arm": "C0",
+    "computed_intervals": 16,
+    "coordinator_cpu_ns": 6270452135,
+    "core_source_digest": "44d66a025bef56b3e2136d897869eecbb55709bb69e2a5441975c062ee4ead32",
+    "cpu_role_total_ns": 140640828000,
+    "elapsed_ns": 83572077824,
+    "finished_at": "2026-10-17T15:10:20.750Z",
+    "independent_sets_and_integer_sums_match": true,
+    "nodes": 300,
+    "pair": 1,
+    "param_id": "3af88c6dedca421eb12a4ca13716ed21b15b56fd73d39364758b0a89553410c782c6bc539b9775392ec76d2fdb4fcda9",
+    "peak_sampled_role_rss_KiB": 415564,
+    "phase": "formal",
+    "phase_timings": {
+      "child_execution_ns": 76395155830,
+      "child_preparation_ns": 5023115039,
+      "evaluation_verification_ns": 634341029,
+      "public_install_ns": 8556149,
+      "publication_builder_ns": 984948049,
+      "publication_transaction_ns": 1001271479,
+      "queue_ns": 0
+    },
+    "private_stage_ciphertext_sha256": "ca3f13678c4fd2ab4c7df8a7124208ce714e60a180fa698b511891a7b451ff30",
+    "private_stage_path": "<PRIVATE_RUNTIME>",
+    "public_evidence": [
+      {
+        "path": "artifacts/runs/f5db059702b244f2a00d5e793dc7fb2e/run_manifest.json",
+        "sha256": "fe88c02476495b30d9ce0aa6b4c643361fb8b53232dfc9b21b05c8b655068f00"
+      },
+      {
+        "path": "artifacts/runs/5c61e0960d924c8c910a2d2f6cc0be16/run_manifest.json",
+        "sha256": "0c9c62b36050f59d87a4a40d91ca315e76541ab025094a5bfeb51a9a3bfdc251"
+      },
+      {
+        "path": "artifacts/runs/bd0fca1f24fb41ee872f8f5591195f4b/run_manifest.json",
+        "sha256": "88fbd2d8e33aa006385c031d5b9d51bcd7a2043709365c95278c4085aa6d22de"
+      },
+      {
+        "path": "artifacts/runs/be49e781b9b3468f8cdb05a25f8ff6f7/run_manifest.json",
+        "sha256": "e4c6d9a0c7d78c76b052204ac3390988ea5dfd95035646cb1c74d6d3fcd43613"
+      }
+    ],
+    "public_numeric_output": false,
+    "run_id": "94accb18f0854608964ca82f41b396a4",
+    "source_count": 3,
+    "started_at": "2026-10-17T15:08:55.095Z",
+    "success": true,
+    "tls_bytes": 54922590,
+    "wall_ns": 85618586119
+  },
+  {
+    "actual_link_count": 16,
+    "arm": "C1",
+    "computed_intervals": 16,
+    "coordinator_cpu_ns": 6260448310,
+    "core_source_digest": "44d66a025bef56b3e2136d897869eecbb55709bb69e2a5441975c062ee4ead32",
+    "cpu_role_total_ns": 139948240000,
+    "elapsed_ns": 84324677083,
+    "finished_at": "2026-10-17T15:11:46.877Z",
+    "independent_sets_and_integer_sums_match": true,
+    "nodes": 300,
+    "pair": 1,
+    "param_id": "3af88c6dedca421eb12a4ca13716ed21b15b56fd73d39364758b0a89553410c782c6bc539b9775392ec76d2fdb4fcda9",
+    "peak_sampled_role_rss_KiB": 400272,
+    "phase": "formal",
+    "phase_timings": {
+      "child_execution_ns": 77091653463,
+      "child_preparation_ns": 4592586264,
+      "evaluation_verification_ns": 935029854,
+      "public_install_ns": 8923773,
+      "publication_builder_ns": 925915290,
+      "publication_transaction_ns": 1249932874,
+      "queue_ns": 0
+    },
+    "private_stage_ciphertext_sha256": "2b834e03e3fd2168a3ed00f5f41bbc103993fb38f80954eda26e6fca3f51ebf0",
+    "private_stage_path": "<PRIVATE_RUNTIME>",
+    "public_evidence": [
+      {
+        "path": "artifacts/runs/2c79796b625848e7bfd14dd95ee32e29/run_manifest.json",
+        "sha256": "420e35a41ae315ca27e32f1d944664bfeb8e8f1e636f9cba8866559f1301f1fb"
+      },
+      {
+        "path": "artifacts/runs/99ced304ded94db594ec9c499aab74f1/run_manifest.json",
+        "sha256": "b4b5ae8fb5e2ebd75facacd705450ff9280df70fd610434f4266efea198bc8e3"
+      },
+      {
+        "path": "artifacts/runs/453b57fe1a854562acab8beddd51508d/run_manifest.json",
+        "sha256": "558543186223420bd60ccfd0cef9bac80fce62a880d02e2a372459d5a3891bf4"
+      },
+      {
+        "path": "artifacts/runs/99c9aa81365941ebb928fa746eccf9f8/run_manifest.json",
+        "sha256": "15209c2e246d0a1e744ff737f0f5923aac1b0e964a0cbaa5848effa809bb1d3b"
+      }
+    ],
+    "public_numeric_output": false,
+    "run_id": "33dd971019a343c583af93352b43f374",
+    "source_count": 3,
+    "started_at": "2026-10-17T15:10:20.840Z",
+    "success": true,
+    "tls_bytes": 54922829,
+    "wall_ns": 86009147225
+  },
+  {
+    "actual_link_count": 16,
+    "arm": "C1",
+    "computed_intervals": 16,
+    "coordinator_cpu_ns": 6063600735,
+    "core_source_digest": "44d66a025bef56b3e2136d897869eecbb55709bb69e2a5441975c062ee4ead32",
+    "cpu_role_total_ns": 141544537000,
+    "elapsed_ns": 83742481349,
+    "finished_at": "2026-10-17T15:13:12.438Z",
+    "independent_sets_and_integer_sums_match": true,
+    "nodes": 300,
+    "pair": 2,
+    "param_id": "3af88c6dedca421eb12a4ca13716ed21b15b56fd73d39364758b0a89553410c782c6bc539b9775392ec76d2fdb4fcda9",
+    "peak_sampled_role_rss_KiB": 430088,
+    "phase": "formal",
+    "phase_timings": {
+      "child_execution_ns": 76946423449,
+      "child_preparation_ns": 4495786782,
+      "evaluation_verification_ns": 621393157,
+      "public_install_ns": 8543112,
+      "publication_builder_ns": 965388742,
+      "publication_transaction_ns": 1235373153,
+      "queue_ns": 0
+    },
+    "private_stage_ciphertext_sha256": "9052b6ce8070f186de51e7ea1b9410fa073640a209b586c5a7971bbea0e86722",
+    "private_stage_path": "<PRIVATE_RUNTIME>",
+    "public_evidence": [
+      {
+        "path": "artifacts/runs/348ad46a60fe4aeb96b525a699f29248/run_manifest.json",
+        "sha256": "be73069d8828f1ce81de7b0c199756a55d6420b02649d6d062e9f8a15b15e740"
+      },
+      {
+        "path": "artifacts/runs/388973878c53478dbdb13aed04b2b107/run_manifest.json",
+        "sha256": "1bf6d410acc5ec3ceb80e6d34a67b876fd08e9d7fd040c939749547c3b2780ab"
+      },
+      {
+        "path": "artifacts/runs/30fc174163ff494ab0adcb77ffadc818/run_manifest.json",
+        "sha256": "747bdc0679a9d96b2e81165997551f6614683c43e86a253902191124f074256b"
+      },
+      {
+        "path": "artifacts/runs/5651ca7bee054567bf825acfb1de8e2f/run_manifest.json",
+        "sha256": "29c36a3b0bab7fc1009ed708e82e6684536b5338b884febe1519ed4f00ab7170"
+      }
+    ],
+    "public_numeric_output": false,
+    "run_id": "a3ec75a4e1664269a69f090ab60397d1",
+    "source_count": 3,
+    "started_at": "2026-10-17T15:11:46.975Z",
+    "success": true,
+    "tls_bytes": 54922483,
+    "wall_ns": 85436096634
+  },
+  {
+    "actual_link_count": 16,
+    "arm": "C0",
+    "computed_intervals": 16,
+    "coordinator_cpu_ns": 6642222973,
+    "core_source_digest": "44d66a025bef56b3e2136d897869eecbb55709bb69e2a5441975c062ee4ead32",
+    "cpu_role_total_ns": 139067619000,
+    "elapsed_ns": 84959340724,
+    "finished_at": "2026-10-17T15:14:39.096Z",
+    "independent_sets_and_integer_sums_match": true,
+    "nodes": 300,
+    "pair": 2,
+    "param_id": "3af88c6dedca421eb12a4ca13716ed21b15b56fd73d39364758b0a89553410c782c6bc539b9775392ec76d2fdb4fcda9",
+    "peak_sampled_role_rss_KiB": 414308,
+    "phase": "formal",
+    "phase_timings": {
+      "child_execution_ns": 77144113836,
+      "child_preparation_ns": 5516037820,
+      "evaluation_verification_ns": 760494075,
+      "public_install_ns": 9147118,
+      "publication_builder_ns": 979502717,
+      "publication_transaction_ns": 997197356,
+      "queue_ns": 0
+    },
+    "private_stage_ciphertext_sha256": "24e32cd71ca77e37d310c5b7f51c9fc2638c49f1beb71407f800bcdcfa15b3d6",
+    "private_stage_path": "<PRIVATE_RUNTIME>",
+    "public_evidence": [
+      {
+        "path": "artifacts/runs/76513de702894692acb69d29526e1d09/run_manifest.json",
+        "sha256": "e8ea0e748249bbf2d3a9917d9f8db8695d339f33518d6d9ab96afbfea21560e3"
+      },
+      {
+        "path": "artifacts/runs/cded610c456b487c9b68a48133425fa1/run_manifest.json",
+        "sha256": "10b9ffab5fe483bb0178950b93ecd7cb007251be0a853ddfd50c0d54fc5e9cbf"
+      },
+      {
+        "path": "artifacts/runs/1d66411ab408476c93f5adf6d64ebf62/run_manifest.json",
+        "sha256": "04aea0008b89134d3ae3d4c11674a68b6150bc48ecee802ea996721bdf6389fd"
+      },
+      {
+        "path": "artifacts/runs/1d60ad351d714eeab02ee82d5354de19/run_manifest.json",
+        "sha256": "eeb97b13d649071e91509383755c13b5571b9b431e76190b47704795330cdf8a"
+      }
+    ],
+    "public_numeric_output": false,
+    "run_id": "fd8d7e50d9c44c70abd1a47984a0faff",
+    "source_count": 3,
+    "started_at": "2026-10-17T15:13:12.504Z",
+    "success": true,
+    "tls_bytes": 54922501,
+    "wall_ns": 86564078036
+  },
+  {
+    "actual_link_count": 16,
+    "arm": "C1",
+    "computed_intervals": 16,
+    "coordinator_cpu_ns": 6004335596,
+    "core_source_digest": "44d66a025bef56b3e2136d897869eecbb55709bb69e2a5441975c062ee4ead32",
+    "cpu_role_total_ns": 140151143000,
+    "elapsed_ns": 83010116033,
+    "finished_at": "2026-10-17T15:16:03.692Z",
+    "independent_sets_and_integer_sums_match": true,
+    "nodes": 300,
+    "pair": 3,
+    "param_id": "3af88c6dedca421eb12a4ca13716ed21b15b56fd73d39364758b0a89553410c782c6bc539b9775392ec76d2fdb4fcda9",
+    "peak_sampled_role_rss_KiB": 429756,
+    "phase": "formal",
+    "phase_timings": {
+      "child_execution_ns": 76176517191,
+      "child_preparation_ns": 4551613755,
+      "evaluation_verification_ns": 611539982,
+      "public_install_ns": 9466250,
+      "publication_builder_ns": 931246724,
+      "publication_transaction_ns": 1201892970,
+      "queue_ns": 0
+    },
+    "private_stage_ciphertext_sha256": "8ff04fe7e504b3ddded933f85f6cf4d16a8167893822bac109df062a08fde041",
+    "private_stage_path": "<PRIVATE_RUNTIME>",
+    "public_evidence": [
+      {
+        "path": "artifacts/runs/2278945bf515451b94763b3a32aad009/run_manifest.json",
+        "sha256": "bdcb4ff6c9664c20eff9e409aa76e072f59bcb490c4c67c487399a9aa097a1cf"
+      },
+      {
+        "path": "artifacts/runs/7ec6864c2fbd413dae6528ab4fd8a09c/run_manifest.json",
+        "sha256": "23a0cb2c3394f0523094addac315f78dbf9d3429767a0e09b0a44b4991fd51ab"
+      },
+      {
+        "path": "artifacts/runs/286301a8d7614d59884649a923705948/run_manifest.json",
+        "sha256": "efccd251b6b344c4477b5837a9082e429f6aac5295e4eb8338b277e760218950"
+      },
+      {
+        "path": "artifacts/runs/bcf8dc864e8d4faebdbe9112ed31373a/run_manifest.json",
+        "sha256": "d2ed223f15f43dc3104f9eed14ac04cad57da69029d50542adadfd6e42a3c6e0"
+      }
+    ],
+    "public_numeric_output": false,
+    "run_id": "49c0eeb9ff4746f1b0fd174f42b8a08b",
+    "source_count": 3,
+    "started_at": "2026-10-17T15:14:39.171Z",
+    "success": true,
+    "tls_bytes": 54922791,
+    "wall_ns": 84492456484
+  },
+  {
+    "actual_link_count": 16,
+    "arm": "C0",
+    "computed_intervals": 16,
+    "coordinator_cpu_ns": 6630723512,
+    "core_source_digest": "44d66a025bef56b3e2136d897869eecbb55709bb69e2a5441975c062ee4ead32",
+    "cpu_role_total_ns": 139896199000,
+    "elapsed_ns": 84826715258,
+    "finished_at": "2026-10-17T15:17:30.139Z",
+    "independent_sets_and_integer_sums_match": true,
+    "nodes": 300,
+    "pair": 3,
+    "param_id": "3af88c6dedca421eb12a4ca13716ed21b15b56fd73d39364758b0a89553410c782c6bc539b9775392ec76d2fdb4fcda9",
+    "peak_sampled_role_rss_KiB": 412504,
+    "phase": "formal",
+    "phase_timings": {
+      "child_execution_ns": 77060488594,
+      "child_preparation_ns": 5413209931,
+      "evaluation_verification_ns": 629051951,
+      "public_install_ns": 11449327,
+      "publication_builder_ns": 1175034715,
+      "publication_transaction_ns": 1192160520,
+      "queue_ns": 0
+    },
+    "private_stage_ciphertext_sha256": "c9a5935f5a53d77b521b7195582f7e336a9e8dd06f9ffa1636acda3ee622d24b",
+    "private_stage_path": "<PRIVATE_RUNTIME>",
+    "public_evidence": [
+      {
+        "path": "artifacts/runs/88bffa2a8ef9456b9bdd0c5a01cee079/run_manifest.json",
+        "sha256": "0a45879f23110e62305d5420b9fb6be3c613699c3034289a96b4cc8cbd17eb13"
+      },
+      {
+        "path": "artifacts/runs/9c698c7d52604607b2f371f7ce4d4ce2/run_manifest.json",
+        "sha256": "1512f53c00ce97035ec178262d1fbd2686c92ee682e634286cf7dc0c6572aac9"
+      },
+      {
+        "path": "artifacts/runs/d03127d0f7394296bec111fd1a721677/run_manifest.json",
+        "sha256": "2f89ecddbdc9fde4eefc985d7dafbad6adaf0dd1a1658597f3a1e98aa7b08ef6"
+      },
+      {
+        "path": "artifacts/runs/c75000e45161469487353f4c958d8a5f/run_manifest.json",
+        "sha256": "c41125f7e8ae062f31eb9d09e714002e2a190a45e33f03627f3bd8e0eeca16ef"
+      }
+    ],
+    "public_numeric_output": false,
+    "run_id": "e29edda6a8e749b4add207a178cc1246",
+    "source_count": 3,
+    "started_at": "2026-10-17T15:16:03.779Z",
+    "success": true,
+    "tls_bytes": 54922732,
+    "wall_ns": 86331015341
+  },
+  {
+    "actual_link_count": 16,
+    "arm": "C0",
+    "computed_intervals": 16,
+    "coordinator_cpu_ns": 6280542509,
+    "core_source_digest": "44d66a025bef56b3e2136d897869eecbb55709bb69e2a5441975c062ee4ead32",
+    "cpu_role_total_ns": 141112287000,
+    "elapsed_ns": 84166225341,
+    "finished_at": "2026-10-17T15:18:56.135Z",
+    "independent_sets_and_integer_sums_match": true,
+    "nodes": 300,
+    "pair": 4,
+    "param_id": "3af88c6dedca421eb12a4ca13716ed21b15b56fd73d39364758b0a89553410c782c6bc539b9775392ec76d2fdb4fcda9",
+    "peak_sampled_role_rss_KiB": 407788,
+    "phase": "formal",
+    "phase_timings": {
+      "child_execution_ns": 76865789853,
+      "child_preparation_ns": 4989407341,
+      "evaluation_verification_ns": 707419127,
+      "public_install_ns": 8806975,
+      "publication_builder_ns": 1008799623,
+      "publication_transaction_ns": 1030066411,
+      "queue_ns": 0
+    },
+    "private_stage_ciphertext_sha256": "bf48f1b31eac2f97303de09f17df9e650cfde98d38b5c3c13dca58a393ab4ec2",
+    "private_stage_path": "<PRIVATE_RUNTIME>",
+    "public_evidence": [
+      {
+        "path": "artifacts/runs/07b8c9f5b9c64013b8ae4d5e2e598107/run_manifest.json",
+        "sha256": "889566a1fe5979dadb9168b220f930e5e7033fc7533d08d00d09687ba25d14e0"
+      },
+      {
+        "path": "artifacts/runs/96cf84a7f813401abab1734b5e703aed/run_manifest.json",
+        "sha256": "1948c5d0d8a186eb6ac75de506a8d90299634ec9604463e59c2dac59d278d447"
+      },
+      {
+        "path": "artifacts/runs/9d4e06355c7f4faba95b9050fdb337e2/run_manifest.json",
+        "sha256": "c15772040995eb1f640f7da621157cc6db70cc51a83b6f8fcfb24c261373f8d8"
+      },
+      {
+        "path": "artifacts/runs/fea18b6cd17949ea9dc068a0b86fb25c/run_manifest.json",
+        "sha256": "ea36970ca9662c3c27ac0d12351bd06dfdbd3ce909c517cadd6767ecb2c8340e"
+      }
+    ],
+    "public_numeric_output": false,
+    "run_id": "7916c3bdf5df4a46899045bbf5b9e8c5",
+    "source_count": 3,
+    "started_at": "2026-10-17T15:17:30.215Z",
+    "success": true,
+    "tls_bytes": 54922476,
+    "wall_ns": 85844453365
+  },
+  {
+    "actual_link_count": 16,
+    "arm": "C1",
+    "computed_intervals": 16,
+    "coordinator_cpu_ns": 6129437642,
+    "core_source_digest": "44d66a025bef56b3e2136d897869eecbb55709bb69e2a5441975c062ee4ead32",
+    "cpu_role_total_ns": 140132434000,
+    "elapsed_ns": 83364281946,
+    "finished_at": "2026-10-17T15:20:21.663Z",
+    "independent_sets_and_integer_sums_match": true,
+    "nodes": 300,
+    "pair": 4,
+    "param_id": "3af88c6dedca421eb12a4ca13716ed21b15b56fd73d39364758b0a89553410c782c6bc539b9775392ec76d2fdb4fcda9",
+    "peak_sampled_role_rss_KiB": 409248,
+    "phase": "formal",
+    "phase_timings": {
+      "child_execution_ns": 75991849741,
+      "child_preparation_ns": 4925798281,
+      "evaluation_verification_ns": 608249368,
+      "public_install_ns": 8466572,
+      "publication_builder_ns": 962861114,
+      "publication_transaction_ns": 1375152045,
+      "queue_ns": 0
+    },
+    "private_stage_ciphertext_sha256": "b0615cff030bec758dc72bca9d05823fd496eb8cb9ebe72a6085a2d2b6e096b9",
+    "private_stage_path": "<PRIVATE_RUNTIME>",
+    "public_evidence": [
+      {
+        "path": "artifacts/runs/d294c46f2a8a4d729d63e4a5f03945d5/run_manifest.json",
+        "sha256": "0efbf4f421deb4d155462ec74c39e7451c081d454ca82fc90a17a30ccd7b7ba8"
+      },
+      {
+        "path": "artifacts/runs/80f34a78482045fcbf0ee948fb8bf30d/run_manifest.json",
+        "sha256": "0ccd1ef147dd96913b4fa51866af9085c8d89ef7308a0d195a44ae1450927a20"
+      },
+      {
+        "path": "artifacts/runs/10aaa21cbba24a7ea3bff918a8af77f8/run_manifest.json",
+        "sha256": "090fe42558bdf5acda8c17007b6f2745cb17100f315d55d7d71c4caff3a3530e"
+      },
+      {
+        "path": "artifacts/runs/c603978fa97044a1816b332872d5add1/run_manifest.json",
+        "sha256": "d9cf3d31e14526975d454e498d3700c419c13eba206a4660e4d591adab01e63c"
+      }
+    ],
+    "public_numeric_output": false,
+    "run_id": "ff415c534f324984b5ba4209896a9f69",
+    "source_count": 3,
+    "started_at": "2026-10-17T15:18:56.352Z",
+    "success": true,
+    "tls_bytes": 54922512,
+    "wall_ns": 85274405536
+  },
+  {
+    "actual_link_count": 16,
+    "arm": "C1",
+    "computed_intervals": 16,
+    "coordinator_cpu_ns": 6634916198,
+    "core_source_digest": "44d66a025bef56b3e2136d897869eecbb55709bb69e2a5441975c062ee4ead32",
+    "cpu_role_total_ns": 139775302000,
+    "elapsed_ns": 85846639450,
+    "finished_at": "2026-10-17T15:21:49.362Z",
+    "independent_sets_and_integer_sums_match": true,
+    "nodes": 300,
+    "pair": 5,
+    "param_id": "3af88c6dedca421eb12a4ca13716ed21b15b56fd73d39364758b0a89553410c782c6bc539b9775392ec76d2fdb4fcda9",
+    "peak_sampled_role_rss_KiB": 400120,
+    "phase": "formal",
+    "phase_timings": {
+      "child_execution_ns": 77943436607,
+      "child_preparation_ns": 4881367831,
+      "evaluation_verification_ns": 771277399,
+      "public_install_ns": 8060223,
+      "publication_builder_ns": 1030614109,
+      "publication_transaction_ns": 1734957366,
+      "queue_ns": 0
+    },
+    "private_stage_ciphertext_sha256": "03853a5ade03ffd48ed36abd8faceccc5eac0422a4ecb5d999c521ec31a94918",
+    "private_stage_path": "<PRIVATE_RUNTIME>",
+    "public_evidence": [
+      {
+        "path": "artifacts/runs/42a7a3ad5ec84fbe8e96847a96e63a46/run_manifest.json",
+        "sha256": "f05bf084eab827b2fec2240a96f6eb20e620adee856e447be79fd8b5f153ee06"
+      },
+      {
+        "path": "artifacts/runs/3baf3d0ace4e4655ba4220c0e45e3e5d/run_manifest.json",
+        "sha256": "e347aa685d0053cfd9d9a5d0a7421aa964ac53143bfa8c80e3ef10259e3d0dbf"
+      },
+      {
+        "path": "artifacts/runs/758e42d6f7f04f80939851cbbcce54bb/run_manifest.json",
+        "sha256": "c05bb27793977e7158dea4ad9e1a2ff46053532cb85b5f98bc6a659feae94c64"
+      },
+      {
+        "path": "artifacts/runs/6ce89934beec45a88ddfa8ac81d8954d/run_manifest.json",
+        "sha256": "65ed65e193e089930f5a5c8ebd1c7b93b842e9c27010dfefdb840167389b2bf5"
+      }
+    ],
+    "public_numeric_output": false,
+    "run_id": "34f3d4223f7d4fdaaf42cc9c4c34a2e0",
+    "source_count": 3,
+    "started_at": "2026-10-17T15:20:21.783Z",
+    "success": true,
+    "tls_bytes": 54922667,
+    "wall_ns": 87549497285
+  },
+  {
+    "actual_link_count": 16,
+    "arm": "C0",
+    "computed_intervals": 16,
+    "coordinator_cpu_ns": 6009033805,
+    "core_source_digest": "44d66a025bef56b3e2136d897869eecbb55709bb69e2a5441975c062ee4ead32",
+    "cpu_role_total_ns": 140946057000,
+    "elapsed_ns": 82984198504,
+    "finished_at": "2026-10-17T15:23:14.111Z",
+    "independent_sets_and_integer_sums_match": true,
+    "nodes": 300,
+    "pair": 5,
+    "param_id": "3af88c6dedca421eb12a4ca13716ed21b15b56fd73d39364758b0a89553410c782c6bc539b9775392ec76d2fdb4fcda9",
+    "peak_sampled_role_rss_KiB": 407360,
+    "phase": "formal",
+    "phase_timings": {
+      "child_execution_ns": 76425839896,
+      "child_preparation_ns": 4445650159,
+      "evaluation_verification_ns": 635213449,
+      "public_install_ns": 8688350,
+      "publication_builder_ns": 1024135543,
+      "publication_transaction_ns": 1044853676,
+      "queue_ns": 0
+    },
+    "private_stage_ciphertext_sha256": "6c9f006be5e2b6a46a4886a30943617f3031e0b270c10ac2f1497b197f10b83e",
+    "private_stage_path": "<PRIVATE_RUNTIME>",
+    "public_evidence": [
+      {
+        "path": "artifacts/runs/efe5e65a92cf4589b645376eccc4d4bd/run_manifest.json",
+        "sha256": "7b897ad0306652118d8a11ea2dfaa1351b1c351dc6a867294908b3e6c16ea5b3"
+      },
+      {
+        "path": "artifacts/runs/7e18713bb927449cb7dca3356bf5ad87/run_manifest.json",
+        "sha256": "e318b128598e09dfc6a375c517d34dd8da7acc1fb16980fccda9cf65ed46d560"
+      },
+      {
+        "path": "artifacts/runs/669358dff3bd45bf86cfc043f1a33704/run_manifest.json",
+        "sha256": "cbd6411b13c08969ad32a81d9a0adf312ef24c8b18874d95ac5599dabaa2ea83"
+      },
+      {
+        "path": "artifacts/runs/dd71b37a72e94eeba6e98781494d0f9c/run_manifest.json",
+        "sha256": "c12911c50e99109ae788934262c5d2fa60f7688ebe7e11c1d99387fee1b83f86"
+      }
+    ],
+    "public_numeric_output": false,
+    "run_id": "56747e001e704680a8d6458407b5f497",
+    "source_count": 3,
+    "started_at": "2026-10-17T15:21:49.453Z",
+    "success": true,
+    "tls_bytes": 54922542,
+    "wall_ns": 84628356043
+  },
+  {
+    "actual_link_count": 16,
+    "arm": "C0",
+    "computed_intervals": 16,
+    "coordinator_cpu_ns": 6635376085,
+    "core_source_digest": "44d66a025bef56b3e2136d897869eecbb55709bb69e2a5441975c062ee4ead32",
+    "cpu_role_total_ns": 140133940000,
+    "elapsed_ns": 84491432469,
+    "finished_at": "2026-10-17T15:24:40.564Z",
+    "independent_sets_and_integer_sums_match": true,
+    "nodes": 300,
+    "pair": 6,
+    "param_id": "3af88c6dedca421eb12a4ca13716ed21b15b56fd73d39364758b0a89553410c782c6bc539b9775392ec76d2fdb4fcda9",
+    "peak_sampled_role_rss_KiB": 410348,
+    "phase": "formal",
+    "phase_timings": {
+      "child_execution_ns": 76825423019,
+      "child_preparation_ns": 5048523338,
+      "evaluation_verification_ns": 782757437,
+      "public_install_ns": 24599169,
+      "publication_builder_ns": 1143352062,
+      "publication_transaction_ns": 1162476027,
+      "queue_ns": 0
+    },
+    "private_stage_ciphertext_sha256": "5bf803c5fa97a1e5411b28acbc15c9bfc782712006b10691709f2113a9553745",
+    "private_stage_path": "<PRIVATE_RUNTIME>",
+    "public_evidence": [
+      {
+        "path": "artifacts/runs/e0584529d03348e59fc6a67de519ba2c/run_manifest.json",
+        "sha256": "a036a4b1d2b662c6527382c2a82cdaa7ec0848da632f6927be821bf5126d99c1"
+      },
+      {
+        "path": "artifacts/runs/2e637522b4f44985a6de4e6759ca58ab/run_manifest.json",
+        "sha256": "16d03e9190a527fea05337b06c870bc10881642f599a553f37e43f426fe947f9"
+      },
+      {
+        "path": "artifacts/runs/8753d922c9d746cfb089eafa5a364dc8/run_manifest.json",
+        "sha256": "22aa200fcab416a315f6f59aefeaa7fc856b2f15da5042c6854db7467c256915"
+      },
+      {
+        "path": "artifacts/runs/50145e13be5d4642b81ed8f6ded3527e/run_manifest.json",
+        "sha256": "dd3adcd729d6233e1449f7e0b669382036d252ee3d469bec5e408a3600439219"
+      }
+    ],
+    "public_numeric_output": false,
+    "run_id": "c716a4c3a881431fbd237f19aec61010",
+    "source_count": 3,
+    "started_at": "2026-10-17T15:23:14.203Z",
+    "success": true,
+    "tls_bytes": 54922787,
+    "wall_ns": 86320198791
+  },
+  {
+    "actual_link_count": 16,
+    "arm": "C1",
+    "computed_intervals": 16,
+    "coordinator_cpu_ns": 6234686333,
+    "core_source_digest": "44d66a025bef56b3e2136d897869eecbb55709bb69e2a5441975c062ee4ead32",
+    "cpu_role_total_ns": 141631318000,
+    "elapsed_ns": 85640490738,
+    "finished_at": "2026-10-17T15:26:07.941Z",
+    "independent_sets_and_integer_sums_match": true,
+    "nodes": 300,
+    "pair": 6,
+    "param_id": "3af88c6dedca421eb12a4ca13716ed21b15b56fd73d39364758b0a89553410c782c6bc539b9775392ec76d2fdb4fcda9",
+    "peak_sampled_role_rss_KiB": 407336,
+    "phase": "formal",
+    "phase_timings": {
+      "child_execution_ns": 78311043838,
+      "child_preparation_ns": 4565393010,
+      "evaluation_verification_ns": 725171479,
+      "public_install_ns": 9099700,
+      "publication_builder_ns": 1074996941,
+      "publication_transaction_ns": 1558567767,
+      "queue_ns": 0
+    },
+    "private_stage_ciphertext_sha256": "044604f6b0b107901841337af17df1b4728b9262cb0e20f69981a1087e07cabe",
+    "private_stage_path": "<PRIVATE_RUNTIME>",
+    "public_evidence": [
+      {
+        "path": "artifacts/runs/e2c3b1dbb4a14f69abab3b1ee530bfbd/run_manifest.json",
+        "sha256": "4a1b64b6ed20580c7c3cd20923199b0c7edf24c8aec4680ba28e9349e496f4d2"
+      },
+      {
+        "path": "artifacts/runs/6e7473d9e3924923ab434c447edbca57/run_manifest.json",
+        "sha256": "9f2af92d080a948c717b76a1b99b2d3ad66e8e12adda958a397db1cec55e3d5e"
+      },
+      {
+        "path": "artifacts/runs/55a164692c9d410cb83069325c777ff5/run_manifest.json",
+        "sha256": "10966f3ea3fbe6169314d28ec0a7d800ca8f1f3b17e8a88d1dbd26feecc34d13"
+      },
+      {
+        "path": "artifacts/runs/d858daa49f26408f92e44a1e0c2c1c36/run_manifest.json",
+        "sha256": "d7992043fc21c090a871fbffb94ace3fcc52c642cfd6ff1cc172bd6e448ecedf"
+      }
+    ],
+    "public_numeric_output": false,
+    "run_id": "885de425c82242ea872878fb9165f5b7",
+    "source_count": 3,
+    "started_at": "2026-10-17T15:24:40.644Z",
+    "success": true,
+    "tls_bytes": 54922763,
+    "wall_ns": 87268575964
+  },
+  {
+    "actual_link_count": 16,
+    "arm": "C1",
+    "computed_intervals": 16,
+    "coordinator_cpu_ns": 6119154841,
+    "core_source_digest": "44d66a025bef56b3e2136d897869eecbb55709bb69e2a5441975c062ee4ead32",
+    "cpu_role_total_ns": 142211652000,
+    "elapsed_ns": 84910790801,
+    "finished_at": "2026-10-17T15:27:34.684Z",
+    "independent_sets_and_integer_sums_match": true,
+    "nodes": 300,
+    "pair": 7,
+    "param_id": "3af88c6dedca421eb12a4ca13716ed21b15b56fd73d39364758b0a89553410c782c6bc539b9775392ec76d2fdb4fcda9",
+    "peak_sampled_role_rss_KiB": 428152,
+    "phase": "formal",
+    "phase_timings": {
+      "child_execution_ns": 77953599194,
+      "child_preparation_ns": 4562155037,
+      "evaluation_verification_ns": 632898573,
+      "public_install_ns": 7601665,
+      "publication_builder_ns": 1010299608,
+      "publication_transaction_ns": 1268576205,
+      "queue_ns": 0
+    },
+    "private_stage_ciphertext_sha256": "5e02c9720468d8d38ae75a2c3386aa01889c77bf7a0d17d2f673f8ce0d3b6523",
+    "private_stage_path": "<PRIVATE_RUNTIME>",
+    "public_evidence": [
+      {
+        "path": "artifacts/runs/da75f08d0b91483a87299b495a0d0960/run_manifest.json",
+        "sha256": "4155a3416e730ab09c87d5f876fc8c96d373ed524e45e360d8cad3519f8e7a31"
+      },
+      {
+        "path": "artifacts/runs/9d34dd36574540d0a04283d6b02ad44d/run_manifest.json",
+        "sha256": "ac65e6d5ecbcaa67209e4300567552b36bdfe6412ec275dcae748797e938ee0a"
+      },
+      {
+        "path": "artifacts/runs/761a8521cb7c45da94e467a7861ebe88/run_manifest.json",
+        "sha256": "1f0ef88a59e6836eef0d2a1ff795d9d71718a8dfe76ed9c2629f2d19fd96cbba"
+      },
+      {
+        "path": "artifacts/runs/2be8a6b3efbb473092fc275d7f907608/run_manifest.json",
+        "sha256": "b87bd8bae19243796f47f78b8163834763bf7a079b2b196bbf4e5b27b8a558f4"
+      }
+    ],
+    "public_numeric_output": false,
+    "run_id": "9c3a4c29a2924764b45f19acc02287ef",
+    "source_count": 3,
+    "started_at": "2026-10-17T15:26:08.014Z",
+    "success": true,
+    "tls_bytes": 54922506,
+    "wall_ns": 86641586533
+  },
+  {
+    "actual_link_count": 16,
+    "arm": "C0",
+    "computed_intervals": 16,
+    "coordinator_cpu_ns": 6342457120,
+    "core_source_digest": "44d66a025bef56b3e2136d897869eecbb55709bb69e2a5441975c062ee4ead32",
+    "cpu_role_total_ns": 139703695000,
+    "elapsed_ns": 84373311407,
+    "finished_at": "2026-10-17T15:29:00.708Z",
+    "independent_sets_and_integer_sums_match": true,
+    "nodes": 300,
+    "pair": 7,
+    "param_id": "3af88c6dedca421eb12a4ca13716ed21b15b56fd73d39364758b0a89553410c782c6bc539b9775392ec76d2fdb4fcda9",
+    "peak_sampled_role_rss_KiB": 442976,
+    "phase": "formal",
+    "phase_timings": {
+      "child_execution_ns": 77051652542,
+      "child_preparation_ns": 5176244264,
+      "evaluation_verification_ns": 649016471,
+      "public_install_ns": 9895553,
+      "publication_builder_ns": 985498312,
+      "publication_transaction_ns": 1007861828,
+      "queue_ns": 0
+    },
+    "private_stage_ciphertext_sha256": "b9e25258555e6f124ea61f83fc41e65459978e67baabd12884e7e9c45961e136",
+    "private_stage_path": "<PRIVATE_RUNTIME>",
+    "public_evidence": [
+      {
+        "path": "artifacts/runs/47fe164d52624ee0824612935a03467e/run_manifest.json",
+        "sha256": "8cf52cea6fcd67783fe8d5bb1c3ec6ea6e1a4d116425de561c4fa0942b05edd8"
+      },
+      {
+        "path": "artifacts/runs/e353e667a3ca4c1ab776b92a43553ef7/run_manifest.json",
+        "sha256": "6843aa7e7540b6d0f3deb25a5710ad0e460447321ce3815fd830598d0945c175"
+      },
+      {
+        "path": "artifacts/runs/2e26ded41cae43c5bc610fbdd1cb8c0d/run_manifest.json",
+        "sha256": "a650b5f652076e09f26aef7a81ff7b050a77726dfcaea5038718169179d406b2"
+      },
+      {
+        "path": "artifacts/runs/bc0c5ed5851a4d699f9d1fe53ae04e4c/run_manifest.json",
+        "sha256": "2d5550bf16edcc2d912ce8ed28c3444c037f3d08ee069258ac79cde5528ea6be"
+      }
+    ],
+    "public_numeric_output": false,
+    "run_id": "3ce04a6bc02e4fe3848f5b7192103d6a",
+    "source_count": 3,
+    "started_at": "2026-10-17T15:27:34.753Z",
+    "success": true,
+    "tls_bytes": 54922440,
+    "wall_ns": 85926861262
+  },
+  {
+    "actual_link_count": 16,
+    "arm": "C0",
+    "computed_intervals": 16,
+    "coordinator_cpu_ns": 6316954529,
+    "core_source_digest": "44d66a025bef56b3e2136d897869eecbb55709bb69e2a5441975c062ee4ead32",
+    "cpu_role_total_ns": 141384424000,
+    "elapsed_ns": 85453584835,
+    "finished_at": "2026-10-17T15:30:27.891Z",
+    "independent_sets_and_integer_sums_match": true,
+    "nodes": 300,
+    "pair": 8,
+    "param_id": "3af88c6dedca421eb12a4ca13716ed21b15b56fd73d39364758b0a89553410c782c6bc539b9775392ec76d2fdb4fcda9",
+    "peak_sampled_role_rss_KiB": 409088,
+    "phase": "formal",
+    "phase_timings": {
+      "child_execution_ns": 78143294566,
+      "child_preparation_ns": 4799722949,
+      "evaluation_verification_ns": 907933114,
+      "public_install_ns": 8219622,
+      "publication_builder_ns": 1071740483,
+      "publication_transaction_ns": 1111684141,
+      "queue_ns": 0
+    },
+    "private_stage_ciphertext_sha256": "0a32e193fc6f9717421e7434a49a8314b4dea94c720d662d9e0587d63a19c529",
+    "private_stage_path": "<PRIVATE_RUNTIME>",
+    "public_evidence": [
+      {
+        "path": "artifacts/runs/b77d4a01b48c494d9d241b3613e2ec98/run_manifest.json",
+        "sha256": "d354e070b6c6102aedee65f57927d0da85f9c58e6f8d70696c2cdb69cf79ad22"
+      },
+      {
+        "path": "artifacts/runs/34edd10ac89341f280154066218759da/run_manifest.json",
+        "sha256": "7452bc25fa5e8fab82cb8500557fa8ef3054342ce9994030b718f60fba213ae1"
+      },
+      {
+        "path": "artifacts/runs/07f596e7b35f412a9ba366c58dc1afe8/run_manifest.json",
+        "sha256": "ff725ba586b27cc43d6a2a8abbd8ac5366b3d372da4cf2f5105978f0becf9698"
+      },
+      {
+        "path": "artifacts/runs/307e51e282de478da896639ed18d9a7f/run_manifest.json",
+        "sha256": "b05c6c879e64d16b3a52cb7e923f3cddc8db629574fef4914404f55176df7e44"
+      }
+    ],
+    "public_numeric_output": false,
+    "run_id": "810824d80de944eb896a6564f3c23ffb",
+    "source_count": 3,
+    "started_at": "2026-10-17T15:29:00.807Z",
+    "success": true,
+    "tls_bytes": 54922425,
+    "wall_ns": 87031089172
+  },
+  {
+    "actual_link_count": 16,
+    "arm": "C1",
+    "computed_intervals": 16,
+    "coordinator_cpu_ns": 6120584362,
+    "core_source_digest": "44d66a025bef56b3e2136d897869eecbb55709bb69e2a5441975c062ee4ead32",
+    "cpu_role_total_ns": 141872943000,
+    "elapsed_ns": 85114304971,
+    "finished_at": "2026-10-17T15:31:55.059Z",
+    "independent_sets_and_integer_sums_match": true,
+    "nodes": 300,
+    "pair": 8,
+    "param_id": "3af88c6dedca421eb12a4ca13716ed21b15b56fd73d39364758b0a89553410c782c6bc539b9775392ec76d2fdb4fcda9",
+    "peak_sampled_role_rss_KiB": 408920,
+    "phase": "formal",
+    "phase_timings": {
+      "child_execution_ns": 78220325084,
+      "child_preparation_ns": 4424157534,
+      "evaluation_verification_ns": 640446641,
+      "public_install_ns": 6949760,
+      "publication_builder_ns": 954361052,
+      "publication_transaction_ns": 1235932329,
+      "queue_ns": 0
+    },
+    "private_stage_ciphertext_sha256": "06a7b87bb1210f56973369b575e349d9962c99e52d5dcef3ab6b1a5ef3bc6ec1",
+    "private_stage_path": "<PRIVATE_RUNTIME>",
+    "public_evidence": [
+      {
+        "path": "artifacts/runs/e2295924df2c4ec7b8e834a709146170/run_manifest.json",
+        "sha256": "95f248db98712e32d2e2df78647309e7dd100c5bf64cdfbb885a85be4831e4a9"
+      },
+      {
+        "path": "artifacts/runs/e092976272814c69896dd30d847858b4/run_manifest.json",
+        "sha256": "5408213ef5360aa426dbd504ea3f62eb72e7f57a6e0a5e3abb9da57c212d1381"
+      },
+      {
+        "path": "artifacts/runs/3abfd5fd7a444ce88fbb9f29e9dc5609/run_manifest.json",
+        "sha256": "045eb81d5f6b4638bac001648c1b393dece1cdf81e40bb0f8b1877ac68aebb43"
+      },
+      {
+        "path": "artifacts/runs/a9611ecf6fc741b2a66fbc4a5f2dab57/run_manifest.json",
+        "sha256": "f8df05b5073048535097527ef8ec684835bf0cedd4db3dfb3a59216af52eb05b"
+      }
+    ],
+    "public_numeric_output": false,
+    "run_id": "b6c318b18c704562b67a09733810ebd5",
+    "source_count": 3,
+    "started_at": "2026-10-17T15:30:27.961Z",
+    "success": true,
+    "tls_bytes": 54922574,
+    "wall_ns": 87071815653
+  },
+  {
+    "actual_link_count": 16,
+    "arm": "C1",
+    "computed_intervals": 16,
+    "coordinator_cpu_ns": 6281273910,
+    "core_source_digest": "44d66a025bef56b3e2136d897869eecbb55709bb69e2a5441975c062ee4ead32",
+    "cpu_role_total_ns": 140077293000,
+    "elapsed_ns": 84892259058,
+    "finished_at": "2026-10-17T15:33:21.712Z",
+    "independent_sets_and_integer_sums_match": true,
+    "nodes": 300,
+    "pair": 9,
+    "param_id": "3af88c6dedca421eb12a4ca13716ed21b15b56fd73d39364758b0a89553410c782c6bc539b9775392ec76d2fdb4fcda9",
+    "peak_sampled_role_rss_KiB": 431136,
+    "phase": "formal",
+    "phase_timings": {
+      "child_execution_ns": 77266578169,
+      "child_preparation_ns": 5216737767,
+      "evaluation_verification_ns": 635285579,
+      "public_install_ns": 15270664,
+      "publication_builder_ns": 970818746,
+      "publication_transaction_ns": 1254447732,
+      "queue_ns": 0
+    },
+    "private_stage_ciphertext_sha256": "894266b728784a3d6ef83c56509bea2123967d68774addd792fe8a92b4a2cbb1",
+    "private_stage_path": "<PRIVATE_RUNTIME>",
+    "public_evidence": [
+      {
+        "path": "artifacts/runs/816690b46ab049ee89044f13c5af90ac/run_manifest.json",
+        "sha256": "a58d8f2999ed7d4d930979d5d3a29609ea4fb6fdb844dc3d08801faab4db5fec"
+      },
+      {
+        "path": "artifacts/runs/fdc7c7591b684e1c97d12804b7845eea/run_manifest.json",
+        "sha256": "77f404bd10274b9be3080f8f2d814f877b71a61bcc64bafb462000eaf52cdb75"
+      },
+      {
+        "path": "artifacts/runs/d4854ade1a7d488d86692fade9a177f9/run_manifest.json",
+        "sha256": "0ca0a1e7ee8f67b5c2de593e15112e6706e0e06b49951f66f77671ac674b795a"
+      },
+      {
+        "path": "artifacts/runs/336c764bbbab495c8189ec1959b35d19/run_manifest.json",
+        "sha256": "575e5c17bfe64f07d62dd12e50191abfbb32a9c5ed745050fca7194d2e399aaa"
+      }
+    ],
+    "public_numeric_output": false,
+    "run_id": "6b01e8b5b9a54b05bef95c70ca8d2d20",
+    "source_count": 3,
+    "started_at": "2026-10-17T15:31:55.136Z",
+    "success": true,
+    "tls_bytes": 54922897,
+    "wall_ns": 86548237905
+  },
+  {
+    "actual_link_count": 16,
+    "arm": "C0",
+    "computed_intervals": 16,
+    "coordinator_cpu_ns": 6591620358,
+    "core_source_digest": "44d66a025bef56b3e2136d897869eecbb55709bb69e2a5441975c062ee4ead32",
+    "cpu_role_total_ns": 139668672000,
+    "elapsed_ns": 86064912245,
+    "finished_at": "2026-10-17T15:34:49.450Z",
+    "independent_sets_and_integer_sums_match": true,
+    "nodes": 300,
+    "pair": 9,
+    "param_id": "3af88c6dedca421eb12a4ca13716ed21b15b56fd73d39364758b0a89553410c782c6bc539b9775392ec76d2fdb4fcda9",
+    "peak_sampled_role_rss_KiB": 421064,
+    "phase": "formal",
+    "phase_timings": {
+      "child_execution_ns": 78699819987,
+      "child_preparation_ns": 5044672003,
+      "evaluation_verification_ns": 768426957,
+      "public_install_ns": 8783595,
+      "publication_builder_ns": 1049974410,
+      "publication_transaction_ns": 1065482957,
+      "queue_ns": 0
+    },
+    "private_stage_ciphertext_sha256": "447f4f01faf60be59e7ce86e910622a9f5eb0997b80d0f81985e334e16f9c118",
+    "private_stage_path": "<PRIVATE_RUNTIME>",
+    "public_evidence": [
+      {
+        "path": "artifacts/runs/5c346523d0cf4c20afb54d7215189c4e/run_manifest.json",
+        "sha256": "5a9749ba544c4b4c0530f8296483f91404e336b870490c261b19a4c6d0cd5db2"
+      },
+      {
+        "path": "artifacts/runs/0e16ed8e828d436f8ee5b960ca820714/run_manifest.json",
+        "sha256": "b98c1e789f0c0eb37bbbf55bce1d5e7011d416565f33c0948c1126c010da915e"
+      },
+      {
+        "path": "artifacts/runs/088cb769efa0499598fa142e32534d67/run_manifest.json",
+        "sha256": "3b3642982f02df960dae1549dbfedb6777e54872b6d87605a8e54f4c115494f7"
+      },
+      {
+        "path": "artifacts/runs/b4db7d0076db45518d0a51df482d71d1/run_manifest.json",
+        "sha256": "3c303755d6e7160d3ad9e1f64f027736d1a89032e98a88cb81737a3a2be5f96d"
+      }
+    ],
+    "public_numeric_output": false,
+    "run_id": "8923d759892b43d0bb34cfd7ee9a845a",
+    "source_count": 3,
+    "started_at": "2026-10-17T15:33:21.801Z",
+    "success": true,
+    "tls_bytes": 54922794,
+    "wall_ns": 87601898948
+  }
+]

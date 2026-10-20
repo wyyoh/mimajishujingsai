@@ -1,0 +1,3850 @@
+{
+  "schema": "GRID_GITHUB_FILE_MANIFEST_V1",
+  "date": "2026-10-20",
+  "repository": "https://github.com/wyyoh/mimajishujingsai",
+  "branch": "main",
+  "core_source_digest": "250da67238de715c9ffeb1d44a0d8c314a5cfc5e6d92b7cc045f4f20768ebe23",
+  "files": {
+    ".gitattributes": {
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+      "bytes": 8
+    },
+    ".gitignore": {
+      "sha256": "e598e0a2af584390eb3d4800dde883e85cf5ce1d6c2c8869d4b4a8adef248435",
+      "bytes": 405
+    },
+    "AGENTS.md": {
+      "sha256": "87f0c9247befed3dc66e5005ca0055f205751094cf291be9ecd0fa8777b1605a",
+      "bytes": 4596
+    },
+    "README.md": {
+      "sha256": "47422ee011d29119bcdfd5c65f2bc497dc2a2b2568192f2cf5679988e5872eff",
+      "bytes": 5938
+    },
+    "apps/web/dist/assets/index-BsdDBYTj.js": {
+      "sha256": "414b50dc1af1d85c7015cf27e1a12679f2f119a12938afc778fe1b4ee338d1e0",
+      "bytes": 378781
+    },
+    "apps/web/dist/assets/index-CORzpefk.css": {
+      "sha256": "4528f2b7cbc177a03a5e47d1dfeab51448409ad8ee4cf46e2aebcc51c89a9f2f",
+      "bytes": 105268
+    },
+    "apps/web/dist/favicon.svg": {
+      "sha256": "c63bcea8a253d62d0d9ab63a05f0f3eb85eda369902284cd666651c55beb8afe",
+      "bytes": 256
+    },
+    "apps/web/dist/index.html": {
+      "sha256": "4266b19a175132ae8b96208afebb926ee59eb3add7c2b1a0a8ad92305913e311",
+      "bytes": 612
+    },
+    "apps/web/index.html": {
+      "sha256": "09e5bcc094d6f45a7fc9dcac3749b7889612456b5a602c3d98302dbf50375333",
+      "bytes": 513
+    },
+    "apps/web/package-lock.json": {
+      "sha256": "c61987796f755e2df2ab9c48da6654ba761a0b22ef9b6d5a2a8201dfe7aeb8a7",
+      "bytes": 42381
+    },
+    "apps/web/package.json": {
+      "sha256": "e7809b301addf18d9f95d326a1498226ec53eab29b78bf711acb217d2387283e",
+      "bytes": 395
+    },
+    "apps/web/public/favicon.svg": {
+      "sha256": "c63bcea8a253d62d0d9ab63a05f0f3eb85eda369902284cd666651c55beb8afe",
+      "bytes": 256
+    },
+    "apps/web/scripts/frontend-review.mjs": {
+      "sha256": "2c1685dd0b163735bca9e7e7c095d27f6d5842a70d49e3dacd70e45a6df93ae3",
+      "bytes": 10033
+    },
+    "apps/web/scripts/local-standards-ui-check.mjs": {
+      "sha256": "31d1bdd65594ce385e6b82b10809b0520318300dc1916e0b1d92a4d260fc03c8",
+      "bytes": 8464
+    },
+    "apps/web/scripts/overview-check.mjs": {
+      "sha256": "aa42c9c7959dbc973132a077b70edadf3365e2932aa19fcdce4e685c918750f7",
+      "bytes": 6647
+    },
+    "apps/web/scripts/privacy-measurement-ui-check.mjs": {
+      "sha256": "2d88750c5e43a412137a0c84d3649f5723350a3526babd6f9e623e24782e18ba",
+      "bytes": 5686
+    },
+    "apps/web/scripts/privacy-ui-check.mjs": {
+      "sha256": "bb8b00c3deed104929d187b5fe6aabf4083897ff20783ecb220c58467db0e01c",
+      "bytes": 11255
+    },
+    "apps/web/scripts/record-demo.mjs": {
+      "sha256": "4012bf4eeb1db0572a5e1bd391326e6481247d4e104d87d5355315d626d1fd3f",
+      "bytes": 7022
+    },
+    "apps/web/scripts/record-rehearsal.mjs": {
+      "sha256": "a33a63b4aea1509bc5afaa465366b672af50b336a863a9913ad81c3ae4dc9c3e",
+      "bytes": 8440
+    },
+    "apps/web/scripts/selfcheck-ui-check.mjs": {
+      "sha256": "2de1ba7ea2b9f77278e33dc352f7efc0e43fc0dba67622d6a0dd85493dd4c5cc",
+      "bytes": 7747
+    },
+    "apps/web/scripts/showcase-review.mjs": {
+      "sha256": "dfca3e23234438eafabb1cdb8ecbdc95dab1b247c184bc61bd498c41980ce77c",
+      "bytes": 12015
+    },
+    "apps/web/scripts/ui-check.mjs": {
+      "sha256": "6657ae1d41fdbdd465f30ab6fdb66adc3f2f2a5a180f221ce074e878d7a5e4b5",
+      "bytes": 9792
+    },
+    "apps/web/scripts/ui-fingerprint.mjs": {
+      "sha256": "be54f9dfda7c3e17793e7846de5d8c3308f6c9a7a3c44a22b4a7b07a2e957378",
+      "bytes": 1432
+    },
+    "apps/web/scripts/v41-benchmark-check.mjs": {
+      "sha256": "91bf48b6fe01c7b571f123c7ae767ec1546257bc19813b69e34df41d88c7fefa",
+      "bytes": 6705
+    },
+    "apps/web/scripts/v41-ui-check.mjs": {
+      "sha256": "cc59266e92fea30eccc38305e3f956dcd4b7a39a908bf2fd5ca3fcbecc32f20b",
+      "bytes": 12559
+    },
+    "apps/web/scripts/v42-scale-check.mjs": {
+      "sha256": "448c1bb72a13418f53f0f14c301789c820013ccf1576f39e8efd7dd6ac6494db",
+      "bytes": 5893
+    },
+    "apps/web/scripts/v42-ui-check.mjs": {
+      "sha256": "4492b4ed5dba34457dc06d8bcf6d2e8943967631738d4c76f2c8137015d0db5f",
+      "bytes": 8633
+    },
+    "apps/web/src/compatibility.css": {
+      "sha256": "772e0eb9f01de1b5293478f4c908fd22fafe2c85c4ffde16616879803ee1d6b9",
+      "bytes": 9789
+    },
+    "apps/web/src/design-system.css": {
+      "sha256": "86cb273f98d73ad18c79916ee5753fae72bb30934601980f61f440e79acbd824",
+      "bytes": 7003
+    },
+    "apps/web/src/expansion.css": {
+      "sha256": "65f9ac1ffe08c6ca8f696721daeeed0154751e533e09a1bccd789c533e934ff7",
+      "bytes": 27278
+    },
+    "apps/web/src/expansion.tsx": {
+      "sha256": "a057c34366e4249288d9733f382c3fb3d1ddfe12c65bf83012e56e80a9d47d4c",
+      "bytes": 45476
+    },
+    "apps/web/src/http.ts": {
+      "sha256": "a780c2baaa70a6e7fb72ee1056f5d0f24919a9bf4ed02a381fb7263ec363503c",
+      "bytes": 969
+    },
+    "apps/web/src/main.tsx": {
+      "sha256": "11ef9329e7361a80abb43f7d8f258bd35dad7dd0c6421c9a0b94da3ec9042208",
+      "bytes": 54759
+    },
+    "apps/web/src/operator-login.tsx": {
+      "sha256": "a7438ef11c3bd3f8ebf4dd24ff2debd516081bce589b948a35b7b7a16e1859d0",
+      "bytes": 4423
+    },
+    "apps/web/src/overview.css": {
+      "sha256": "4cee3f523ca81d53180b23f145404c1d2be2c6e8285b189304961e090931df6d",
+      "bytes": 11595
+    },
+    "apps/web/src/overview.tsx": {
+      "sha256": "358a50eebaa9dbbf748458a41f662809bc102314f330c194c651dc9ba5830cb2",
+      "bytes": 4820
+    },
+    "apps/web/src/paired-experiments.tsx": {
+      "sha256": "b75a3ecadfb6786cd3ac97f9dcf72c5151876120859de304193949cc729bd655",
+      "bytes": 4257
+    },
+    "apps/web/src/presentation.tsx": {
+      "sha256": "56db0155b7114d0f7e9b167cb6f6c3be09304cbe11db2e616d44e4ff5eb5d541",
+      "bytes": 7914
+    },
+    "apps/web/src/response-workspace.css": {
+      "sha256": "37cd0895f2aca559497d188b892d4d94aedecea2694217b7fc605f8d6e157ea7",
+      "bytes": 6475
+    },
+    "apps/web/src/response-workspace.tsx": {
+      "sha256": "cc2e772bbd7b41bb94f8f61eec350de878598b7cf5084dd5b341b67e35cde3b6",
+      "bytes": 9458
+    },
+    "apps/web/src/scale-chart.tsx": {
+      "sha256": "7d8dbbd333977664985bcd52204ac92759dc0fbde2e9c2657b80c06969265f52",
+      "bytes": 2512
+    },
+    "apps/web/src/scheme-story.css": {
+      "sha256": "043d1d6273700b4ee84e2d926f41877a11eeb79b74ca2e8b6311a6d47b4ef27f",
+      "bytes": 2758
+    },
+    "apps/web/src/scheme-story.tsx": {
+      "sha256": "fc473a8caebad89c300f2d523004b56e3466a55c7b94d8c6c11ef8a9b4cc1de8",
+      "bytes": 1857
+    },
+    "apps/web/src/self-check.css": {
+      "sha256": "fbb17eb2a0208200e451076190f04081814d94bdaedce106dafdb2cec84f9cbb",
+      "bytes": 2077
+    },
+    "apps/web/src/self-check.tsx": {
+      "sha256": "df2f3065f3020272cf213b7a2594f2173f5883bdb15164e1cc52755b63091dd0",
+      "bytes": 3569
+    },
+    "apps/web/src/style.css": {
+      "sha256": "362323212c3f324f0f5ded932d0ce8ebe682463862b611768050f6f22644091b",
+      "bytes": 26268
+    },
+    "apps/web/src/v41.css": {
+      "sha256": "59e169ada098fc92fdfb16f482f4c7102dac25deb802be847a5a24005235dfdb",
+      "bytes": 20041
+    },
+    "apps/web/src/v41.tsx": {
+      "sha256": "f8c4601d56c633a3655657571a79e06eccd0eb4d23a3450d94aae63b9c89eb06",
+      "bytes": 44191
+    },
+    "apps/web/src/vite-env.d.ts": {
+      "sha256": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5",
+      "bytes": 38
+    },
+    "apps/web/src/wording.ts": {
+      "sha256": "17fc9f19867248dd486ebcc316251aec937a53051ab9f2d526328c84eb7e2b48",
+      "bytes": 15536
+    },
+    "apps/web/tsconfig.json": {
+      "sha256": "71eb37c1e9a9e3a9222f26c53fd95b9dc1b09fdf6d9460986a3e4b4a65d2c68f",
+      "bytes": 260
+    },
+    "apps/web/tsconfig.tsbuildinfo": {
+      "sha256": "625cb8a8bdf7b564cfa33e3edb900926e2b7f8616e3683ed564a3bb21711a105",
+      "bytes": 3151
+    },
+    "apps/web/vite.config.ts": {
+      "sha256": "47fe6db6277603500b6dab8bcf652144beaf4ee0b90da91c34f584b1379d7673",
+      "bytes": 303
+    },
+    "artifacts/iterations/privacy/benchmarks/current.json": {
+      "sha256": "9745b01ca9306c2035d5161b453f65ab31066c5707c2424af5f4a4ab8cb0b967",
+      "bytes": 19928
+    },
+    "artifacts/iterations/v41/benchmarks/summary.json": {
+      "sha256": "753fd0d27437da79c7132942f4ac2ae3380338c1248c3ff8f51e909b83d21918",
+      "bytes": 7090
+    },
+    "artifacts/iterations/v42/benchmarks/summary.json": {
+      "sha256": "e186c5241a348f5c348dd6e855f69c7799b7fb6f8ec25ab9826f2636d2447e83",
+      "bytes": 6318
+    },
+    "contracts/extra_acceptance_cases.json": {
+      "sha256": "3608f321dbec0bf3ef1df9588c50808e39ea1b2f6a311ca168f1f67e0922d13a",
+      "bytes": 5618
+    },
+    "contracts/history/privacy_release_v1-development.json": {
+      "sha256": "86bdaf7ac4b2359e221bd8010e662becdb4fac903bc684a91022a1382072ff19",
+      "bytes": 666
+    },
+    "contracts/human_rehearsal_record.json": {
+      "sha256": "46f3d4c428c31456f5504dd6437a7945d6a223c8652d2ba578ce6b8a44b44ba4",
+      "bytes": 859
+    },
+    "contracts/privacy_release.json": {
+      "sha256": "4bcd4e6fca6d311c96af1005ad2ea032bbed25e1b4f81e3ff5af2488631a1ab6",
+      "bytes": 948
+    },
+    "contracts/recovery_acceptance_cases.json": {
+      "sha256": "c4265d4b0ea88ab62086ad25e3d8594f11c31750555972b8d5654dc1866ac816",
+      "bytes": 1624
+    },
+    "contracts/v3_acceptance_cases.json": {
+      "sha256": "5c935ca2396e23ac22e60f8816d14858fd90b2a862372453de776ee2a779333d",
+      "bytes": 18459
+    },
+    "contracts/v3_evidence_contract.json": {
+      "sha256": "bce4a4c14a349d42a39d95a047b053bf6b83a7be0aab6c922f30cf07b82d82d2",
+      "bytes": 1200
+    },
+    "contracts/v3_security_profiles.json": {
+      "sha256": "361f487228bbcc331472d2be059ecc0fc7834e3683d791f42e7625290ed94ff7",
+      "bytes": 3474
+    },
+    "contracts/work_packages.json": {
+      "sha256": "e2d94b72f73c1bbf53f13948f8892c564f5f2101e9da8005546a549fa7f59f78",
+      "bytes": 2690
+    },
+    "docs/AGENT_IMPLEMENTATION_GUIDE.md": {
+      "sha256": "8816adea393aa7934dc3c82352c2eb4df475618dec05edac32f1b59f4f35fe2d",
+      "bytes": 65855
+    },
+    "docs/BENCHMARK_METHOD.md": {
+      "sha256": "970bd5c828633c988eb01d6b8ca1cb38c9034f58403a2d0fed9269f77904657a",
+      "bytes": 5900
+    },
+    "docs/BENCHMARK_RESULTS.md": {
+      "sha256": "3cea70be53589e7a6b95c62ed891369be8350d2965f82305525a5c472e953460",
+      "bytes": 2483
+    },
+    "docs/COMPETITION_DECISION.json": {
+      "sha256": "48293f384383c34e705fd53ba8c4cd696b52a5034f246959d620d32139971431",
+      "bytes": 1252
+    },
+    "docs/COMPLETION_AUDIT.md": {
+      "sha256": "ebf189f476886188c111a7f24726ec2dfc8e16066270ee9dc797d40c5ec8c017",
+      "bytes": 5816
+    },
+    "docs/CONTRIBUTIONS.md": {
+      "sha256": "5f48880ade4ce7e0637a497938c6a07d12916acbe864b88b83a44d207f02bd12",
+      "bytes": 7281
+    },
+    "docs/CRYPTO_APPLICATION_ASSESSMENT.md": {
+      "sha256": "405b853b0b26549a96d449f644a1065b76e2de44dbd22dc5c8eff0c37012d55c",
+      "bytes": 16988
+    },
+    "docs/CRYPTO_INVENTORY.json": {
+      "sha256": "3ee828a9051e55e1ef78e004040c7f36a1868070ac0dd0bd0ca84d34ad67b538",
+      "bytes": 14649
+    },
+    "docs/CRYPTO_REVIEW.md": {
+      "sha256": "d975b5bd73631cb3a0e1ee131eb12a890d2656feee8fdc1ce12aa6f52e666ab9",
+      "bytes": 33929
+    },
+    "docs/DECISIONS.md": {
+      "sha256": "493167e2e45068f0acb3b73c57465122f52e992678845ddc8d5afa5daa80322f",
+      "bytes": 4443
+    },
+    "docs/DEMO_SCRIPT.md": {
+      "sha256": "2000c3bbd3a523e84603520b11c21c648ffd44d47ea4ca5fd128135481d13dcf",
+      "bytes": 8676
+    },
+    "docs/DESIGN_REPORT.md": {
+      "sha256": "7e2f6b308220d29e42f61f137e0a31e5b6ad30f69c8688853f929fe9ec30645f",
+      "bytes": 13398
+    },
+    "docs/FRONTEND_REDESIGN.md": {
+      "sha256": "b3a6fd698711b5508236e0c795f6dc7c522c46115d6439735bc7fee4203c39ba",
+      "bytes": 5594
+    },
+    "docs/GITHUB_REPOSITORY.md": {
+      "sha256": "9b0dfe2a8c1b7563cf90aca46aa3f5053442d9e8529b3b25c9f2b3288f04f1ef",
+      "bytes": 4523
+    },
+    "docs/INVENTORY.md": {
+      "sha256": "51fbbad0e6e60c83761030b77bbd36b62fa65bd9946c88944e6424d5fc8128d7",
+      "bytes": 1028
+    },
+    "docs/LOCAL_STANDARD_PROFILE.md": {
+      "sha256": "89e8845ba35080ab594cbba634cf01ba488fa77320d87f7cf3c1472e2c83c6e4",
+      "bytes": 5142
+    },
+    "docs/NEXT.md": {
+      "sha256": "236b5164ca6e39f5be0a5610fb9e2f8c260077f4fe1d9e72732981be24ef5e9e",
+      "bytes": 17945
+    },
+    "docs/OVERVIEW_REFINEMENT.md": {
+      "sha256": "b21c8b6d1de61b73b104e79cca1b8b21fd58232fb330d9c179053a9e2900fe94",
+      "bytes": 2396
+    },
+    "docs/PFDAM_SCOPE_DEEP_REVIEW.md": {
+      "sha256": "1c31de44f8180747ff211c4bec4d2cc652d851afc533d95098720573248983b9",
+      "bytes": 5832
+    },
+    "docs/PLAN.md": {
+      "sha256": "ff04db57d152a533a7f5d8334b3a6d7e5a409fdbdbe1ee5ad7057851a0e97953",
+      "bytes": 1071
+    },
+    "docs/PRIVACY_SCENARIO_ITERATION.md": {
+      "sha256": "83d6aeaf6fae91da350979f1eebdfd83325df263333d8683c21d7975c51f2762",
+      "bytes": 12605
+    },
+    "docs/PRIVACY_SCENARIO_UPGRADE_PLAN.json": {
+      "sha256": "6cfff88f33bf407c9d0707fc043bdab3ee4c96465b30da4c17cd62e724ae9bf3",
+      "bytes": 9443
+    },
+    "docs/PRIVACY_SCENARIO_UPGRADE_PLAN.md": {
+      "sha256": "ec90363594bded37c1fd64f2fc383fa43ddf5760960cf77a11667b956f36560e",
+      "bytes": 28403
+    },
+    "docs/PROTOCOL_FINDINGS.md": {
+      "sha256": "cdd8dfaa41a887ef748e55460fa693f7fffddb7da28d173bc0d393fe02f98329",
+      "bytes": 2729
+    },
+    "docs/REFERENCE37_REVIEW.md": {
+      "sha256": "005afb6af37e1d64341cf4dbaed3a2d35017b30195d03481a24a2dcd64d6b960",
+      "bytes": 1856
+    },
+    "docs/REVIEW_DECISION.json": {
+      "sha256": "0d5ec6a157293efad7ffec6f0f549b41a39b823d081d1e4e3d1e602cb1725038",
+      "bytes": 1317
+    },
+    "docs/SELF_CHECK_ITERATION.md": {
+      "sha256": "86fff339c3745e9ba208e5fc7cb95d4f2313a91dbfff7fd86809143def296dc6",
+      "bytes": 6498
+    },
+    "docs/SHOWCASE_DESIGN.md": {
+      "sha256": "99cb403607da8b9340b45a125605ae5698bd88fc1ded853ec5fb677983b7904e",
+      "bytes": 4030
+    },
+    "docs/SHOWCASE_POSITIONING.md": {
+      "sha256": "50c99e0808ab5f685c12a5080a2d6942b608165fbe1557a252a2faa6dfbd2ba2",
+      "bytes": 4980
+    },
+    "docs/STANDARDS_ALIGNMENT.md": {
+      "sha256": "83afd6a1682d51251305c90cdaf4cb5e27af2179423a3a117a0e102e726b03af",
+      "bytes": 31744
+    },
+    "docs/STANDARDS_ALIGNMENT_EXECUTION.json": {
+      "sha256": "0378068562432125b861d498066354862fb7dbba84b5817cc576739528d24fa4",
+      "bytes": 81368
+    },
+    "docs/STANDARDS_ALIGNMENT_EXECUTION.md": {
+      "sha256": "aee9391500c3a527a08b1c27497a7982592e04b9ed282ebcff4cb2376d8e0025",
+      "bytes": 6706
+    },
+    "docs/STANDARDS_ALIGNMENT_PLAN.json": {
+      "sha256": "5bf96bdb8a7034fb8d1668f13a8611bbed902a0b373795a89e91173faab07b45",
+      "bytes": 22553
+    },
+    "docs/STANDARDS_ALIGNMENT_PLAN.md": {
+      "sha256": "e06c0f1f1ccb1ee6e9a12a8fed85e87f486bee280d57484b4fc091659d71262f",
+      "bytes": 28386
+    },
+    "docs/STANDARDS_ITERATION.md": {
+      "sha256": "a986e94e0f6259e5594efd18854a42d332a10e0bb56aadb9ea2a3ff52af4091f",
+      "bytes": 10349
+    },
+    "docs/STANDARDS_OPERATIONS.md": {
+      "sha256": "96d2ce9936d940d9cf107470e6438379716b1b12391970623690c233e49c47c8",
+      "bytes": 8446
+    },
+    "docs/STATUS.md": {
+      "sha256": "bf138c2167a16be9e70fbc85096c1daaeeb0ad4e62a7137168911fde72319cfa",
+      "bytes": 23955
+    },
+    "docs/SUBMISSION_ABSTRACT.txt": {
+      "sha256": "0e409ca38893e91c8ac4d1bc37ec055b0326dcd357e3dff3e50d8e15026139ef",
+      "bytes": 1249
+    },
+    "docs/SUBMISSION_MATERIALS.md": {
+      "sha256": "35e55daba644c99de00e5f02ad2dc35edf8e54a49e515293d5d68be80200ab6e",
+      "bytes": 3317
+    },
+    "docs/SUBMISSION_REPORT.md": {
+      "sha256": "c15f7fdfa483f551759084105c1f029b65f7e50776ceeb7eb012f3fedfef1a1f",
+      "bytes": 25932
+    },
+    "docs/THIRD_PARTY_NOTICES.md": {
+      "sha256": "aed59f0e906e28c7d6e3af5c07e07357a1cd57ba30d46e186daf84695e6be2a8",
+      "bytes": 3743
+    },
+    "docs/THREAT_MODEL.md": {
+      "sha256": "829f41c29a2c78af9107e76a30c83bbab51bc01f89861ad366c9a65bdc7968c5",
+      "bytes": 5795
+    },
+    "docs/USER_GUIDE.md": {
+      "sha256": "1e0c26d4a767f59bf088a59a5745e5b0e183ff2c1063c66aec3d4ed551adf119",
+      "bytes": 15512
+    },
+    "docs/V41_ITERATION.md": {
+      "sha256": "c37d6c8b4c0376a1f6a5570fde24ae92421d46570c5d17a0de486b3f881c8206",
+      "bytes": 15892
+    },
+    "docs/V41_SECURITY_DESIGN.md": {
+      "sha256": "5b2f85a61fa92c4cef3d63ca006122b48d98cc4542458f3fbf04021168160691",
+      "bytes": 4289
+    },
+    "docs/V42_ITERATION.md": {
+      "sha256": "1e38c86c97ac05384bfcf37c9128ae7ce5aa7689613d0d3b952c27ba676cf65e",
+      "bytes": 11131
+    },
+    "docs/claims_registry.json": {
+      "sha256": "41b88b87e5be1b523159ece0295a2168ff0209b9ebad4e7431fa8c028b5047ba",
+      "bytes": 6834
+    },
+    "docs/competition_requirements.md": {
+      "sha256": "67273391983df5f464d72f1ef646cc5a72cb788b965742aba9d34f7c1e7f1022",
+      "bytes": 2157
+    },
+    "evidence/competition/00_支撑材料导读.html": {
+      "sha256": "3af4e054deb7d7b543cfbe7f8fe6a38f77e3930112bea7af3029eddf1ba5cd30",
+      "bytes": 8223
+    },
+    "evidence/competition/01_方案与界面/01_场景总览.png": {
+      "sha256": "4fbaa884171e1764bf88e004f4224cfed921e9badd9ff5bd81059a01877bed68",
+      "bytes": 112792
+    },
+    "evidence/competition/01_方案与界面/02_园区评估.png": {
+      "sha256": "17f90b5c1c0522fd8c9114b0182b48eae66911c136725e8f075158391c56cb29",
+      "bytes": 109769
+    },
+    "evidence/competition/01_方案与界面/03_密码能力.png": {
+      "sha256": "b2da8c8e242be11744337123bfaf449af8d9952c6d608170c339450a2b19c351",
+      "bytes": 153546
+    },
+    "evidence/competition/01_方案与界面/04_回执审计.png": {
+      "sha256": "f74a6ec45db66888d82d70e74232f3c5256abbb2e82f2e78492f906fb216eec6",
+      "bytes": 105762
+    },
+    "evidence/competition/01_方案与界面/05_功能自检.png": {
+      "sha256": "7294ba4a933ba6a34e13ac9d0b6e5331d2fe1f791104f801bdb89562c158bdec",
+      "bytes": 169338
+    },
+    "evidence/competition/01_方案与界面/architecture.png": {
+      "sha256": "d4ffce4a776fdfef6390533a6491cf62f261e7d7db7b350874060b6793b6bf6e",
+      "bytes": 209698
+    },
+    "evidence/competition/01_方案与界面/browser-validation.anonymous.json": {
+      "sha256": "b757eb82ba0bb8508fa4aa1aa1fbd8ede61efcc70355f44f055f597bb325991b",
+      "bytes": 8396
+    },
+    "evidence/competition/01_方案与界面/evidence.png": {
+      "sha256": "fe5ac63ee70954d2394d1a16cdaceb8ee4ab40951fc332ae69a19ef197a2d41a",
+      "bytes": 164738
+    },
+    "evidence/competition/01_方案与界面/figure-inputs.json": {
+      "sha256": "92660e50fc88f9eb009706e2a1b4c00294c5655733f97ecbfd108c5611935ea5",
+      "bytes": 485
+    },
+    "evidence/competition/01_方案与界面/performance.png": {
+      "sha256": "bba1815f52dcfc624cf3747457225a0c492aba88b2b1992a68661c26019fbafc",
+      "bytes": 119758
+    },
+    "evidence/competition/01_方案与界面/publication.png": {
+      "sha256": "c44fa100b3334905c821dbd029726b5c263ca77be5c2677d2ce866c3e12b562f",
+      "bytes": 157847
+    },
+    "evidence/competition/01_方案与界面/response.png": {
+      "sha256": "5516d11cb3ba0ec038156b6db9d806ee1b65431e7e1705d5e2094adc349813d7",
+      "bytes": 115678
+    },
+    "evidence/competition/02_业务实例/offline-verification.json": {
+      "sha256": "b631954847b4af3e71569297db9a3a46f77c3348270a6381daa0061d7cc257fc",
+      "bytes": 25314
+    },
+    "evidence/competition/02_业务实例/park-evaluation-public-evidence.zip": {
+      "sha256": "3a99b8072f2ce344fda875a8967ff7fb7f3797f416bb6fdeebd486379411447e",
+      "bytes": 217546
+    },
+    "evidence/competition/02_业务实例/trust-copy-record.json": {
+      "sha256": "0623bd41f91795d57de2ccbeff99979bb9cf4538a6640b7bd4f6c65100759f2a",
+      "bytes": 2160
+    },
+    "evidence/competition/02_业务实例/trust-runtime/public/ca.pem": {
+      "sha256": "5abbbbd6d24e7b80e90c10f7f576e4cd97162a4e6edce3ec52f16fbc5f75731e",
+      "bytes": 639
+    },
+    "evidence/competition/02_业务实例/trust-runtime/public/gateway-ecdsa-1.pem": {
+      "sha256": "7321e5c6740b23ece3e6897b79a24e0f269e5b50519bf0c367f335e1b35ec5b6",
+      "bytes": 178
+    },
+    "evidence/competition/02_业务实例/trust-runtime/public/gateway-mldsa-1.pem": {
+      "sha256": "518faccc25962404112e2c45d7da2caf8e3ca08cff1328333a08df0c9cbbe862",
+      "bytes": 2726
+    },
+    "evidence/competition/02_业务实例/trust-runtime/public/gateway-sm2-1.pem": {
+      "sha256": "74b1f524228d23846c324c41cf4b0a8a364743094d04f8e9d6d9cbd1b6bbc167",
+      "bytes": 178
+    },
+    "evidence/competition/02_业务实例/trust-runtime/public/gateway-tls-1.pem": {
+      "sha256": "bea82745a7b6d5914b0a184793b4b2dcf6ed09c0650d8accbf9cc431fbe05c7e",
+      "bytes": 696
+    },
+    "evidence/competition/02_业务实例/trust-runtime/public/registry-root-ecdsa.pem": {
+      "sha256": "aaffcf05baee5fa3186fbb01a5585767f0f4d177bbd28dbefb5ff5dfd6f3ca3c",
+      "bytes": 178
+    },
+    "evidence/competition/02_业务实例/trust-runtime/public/registry-root-mldsa.pem": {
+      "sha256": "e7be43d3708fd129bbfc7a65a3dd809ce5c45c5325623953411d2c79b51e6d6b",
+      "bytes": 2726
+    },
+    "evidence/competition/02_业务实例/trust-runtime/public/source-1-tls-1.pem": {
+      "sha256": "6f7aa554f54dfebae1179e49f50eca3822317156b3e5a20980a5581148571219",
+      "bytes": 688
+    },
+    "evidence/competition/02_业务实例/trust-runtime/public/source-2-tls-1.pem": {
+      "sha256": "0925d6a9f7d894a6e2c67172e6ed6ba2af4f06321f3b7b3cab81f977f837eff2",
+      "bytes": 688
+    },
+    "evidence/competition/02_业务实例/trust-runtime/public/source-3-tls-1.pem": {
+      "sha256": "527b1f1a2d8a1f2bcda289a7c15a2b0a17a161c8a2e99109d47485e18ada2b9a",
+      "bytes": 684
+    },
+    "evidence/competition/02_业务实例/trust-runtime/public/source-tls-1.pem": {
+      "sha256": "ad9e22a632256662af514c8ba5cbff89ac8dc54b2ad5c039fb5816420700d3a7",
+      "bytes": 696
+    },
+    "evidence/competition/02_业务实例/trust-runtime/public/trust-history/9b1b1ead5cb83f380f3162e3cb024e90dc583d5e1822e0c13f63cd76ff5e0c8f74f0292a7c1b05ed1b3407ea34464c40.json": {
+      "sha256": "8826738abaeaecd21c6273f1b7b36ba03a9c2a256f4e0c7802483c15fce17bd9",
+      "bytes": 7912
+    },
+    "evidence/competition/02_业务实例/trust-runtime/public/trust-history/b973fbc239722480c4e08806690d5e1aa028dbfff3d8e9428ef04d6fef0ad63256a609393b55ba59dd13dfaf8f70cf58.json": {
+      "sha256": "7aa6527e9f4f8c7a6a8b50c19a425383f42fb6b4a545e6a0a8c6e3ce6812b8f8",
+      "bytes": 9069
+    },
+    "evidence/competition/02_业务实例/trust-runtime/public/trust-registry.json": {
+      "sha256": "7aa6527e9f4f8c7a6a8b50c19a425383f42fb6b4a545e6a0a8c6e3ce6812b8f8",
+      "bytes": 9069
+    },
+    "evidence/competition/02_业务实例/trust-runtime/public/utility-ecdsa-1.pem": {
+      "sha256": "1c943837b2084298efac5c0ef372b0d0e365016017b21bf22d0a224c1849c6f6",
+      "bytes": 178
+    },
+    "evidence/competition/02_业务实例/trust-runtime/public/utility-mldsa-1.pem": {
+      "sha256": "4e8ad3e1fda1435611c8501717e87ddc29efc2f160ba4f2dc3eaf63c8a570c07",
+      "bytes": 2726
+    },
+    "evidence/competition/02_业务实例/trust-runtime/public/utility-sm2-1.pem": {
+      "sha256": "df0d2c97773a9501fa2a2b3c5a54d0610d279b74356ac167b941431bce0c0e49",
+      "bytes": 178
+    },
+    "evidence/competition/02_业务实例/trust-runtime/public/utility-tls-1.pem": {
+      "sha256": "f129ec39f58a8eb1d8d8e19260dc48fdef39f70150bfd74cc777bd317001ff9d",
+      "bytes": 696
+    },
+    "evidence/competition/02_业务实例/trusted-pin.json": {
+      "sha256": "cc9486b2b700bf525411e4b3d9271d4d33ea7451c3f2a0df0e8c03bc8f316030",
+      "bytes": 383
+    },
+    "evidence/competition/02_业务实例/核验说明.txt": {
+      "sha256": "289d9f4f2e7de6ca094809ceac60f09eb8c3cde10d311e15913e7d7ff1b33645",
+      "bytes": 1269
+    },
+    "evidence/competition/03_性能实验/120/pairs.anonymous.json": {
+      "sha256": "8694818b383140d47aace1924edac253d85e0a92e81dbf7428214a801fe8de7b",
+      "bytes": 612
+    },
+    "evidence/competition/03_性能实验/120/plan.anonymous.json": {
+      "sha256": "09f9c14e3c76f58a96133d31a2eb62b58d76b274180180f6a8438509506a3348",
+      "bytes": 9132
+    },
+    "evidence/competition/03_性能实验/120/raw.anonymous.json": {
+      "sha256": "5b122e83946fabe26e85c935d9e32e75a56a3d015f26f187964466e3f3f27223",
+      "bytes": 29705
+    },
+    "evidence/competition/03_性能实验/120/summary.anonymous.json": {
+      "sha256": "f40190d81b16944e8e72619ab775de4aedf0bd349c9ee124203e11751b1f8f3d",
+      "bytes": 6611
+    },
+    "evidence/competition/03_性能实验/300/pairs.anonymous.json": {
+      "sha256": "048ced689e047c05a1b0543917e3f187fed2500b119d7958a53378a81e0b7221",
+      "bytes": 1047
+    },
+    "evidence/competition/03_性能实验/300/plan.anonymous.json": {
+      "sha256": "ae2361d197a2e5fb184f9cc6fa67bef44125a8e31526475e88475b21ce4ed2ce",
+      "bytes": 9708
+    },
+    "evidence/competition/03_性能实验/300/raw.anonymous.json": {
+      "sha256": "73dae39d191b29441801c9d23da9edd4ec0357b450f98898eccb74945a0091cb",
+      "bytes": 50942
+    },
+    "evidence/competition/03_性能实验/300/summary.anonymous.json": {
+      "sha256": "af51f2a552f77a28818c12ea89e6d5fa927941480d4444fb8ac97bfba6d3aa10",
+      "bytes": 6673
+    },
+    "evidence/competition/03_性能实验/900/pairs.anonymous.json": {
+      "sha256": "8694818b383140d47aace1924edac253d85e0a92e81dbf7428214a801fe8de7b",
+      "bytes": 612
+    },
+    "evidence/competition/03_性能实验/900/plan.anonymous.json": {
+      "sha256": "c2aca3b93b05adc25af5657fec21d6147812dd312cee120e8077f6683c739f9b",
+      "bytes": 9130
+    },
+    "evidence/competition/03_性能实验/900/raw.anonymous.json": {
+      "sha256": "86ce366d90c6fcc8273cfc8efb9dc882c2b594f640ac8a60e4cec511f41363cf",
+      "bytes": 29764
+    },
+    "evidence/competition/03_性能实验/900/summary.anonymous.json": {
+      "sha256": "06016cfac985bc5e10cd1e30b4118b0fc48c51067dbcc762044660064fa8c100",
+      "bytes": 6617
+    },
+    "evidence/competition/03_性能实验/current.anonymous.json": {
+      "sha256": "0c685369db8089b9114cf17282164d1b4e0dc685e864d5ac11939b45df053f40",
+      "bytes": 22970
+    },
+    "evidence/competition/03_性能实验/history/release-protection-20261017-v1/900/raw.json": {
+      "sha256": "cb3e620889a1de9ab0100ce2803c99236ce5a65fcf6b9fa7332811a02c424caf",
+      "bytes": 603
+    },
+    "evidence/competition/03_性能实验/history/release-protection-20261017-v1/history-amendment.json": {
+      "sha256": "5004966bc82d6d3a2b3defcde55d30284e3cde8665d8854d8d5b04b150132d97",
+      "bytes": 10227
+    },
+    "evidence/competition/03_性能实验/history/release-protection-20261017-v1/readiness-amendment.json": {
+      "sha256": "b54e023b5cd345bc5c5972ce58f7ca41afc4bb305bdd1e7e23ded757eceda6ad",
+      "bytes": 9987
+    },
+    "evidence/competition/03_性能实验/history/release-protection-20261017-v1/series-plan.json": {
+      "sha256": "1dc91a0c9e6b9ad82998d3007b6fff64e102907d443c79ebafc814a75e108790",
+      "bytes": 5985
+    },
+    "evidence/competition/03_性能实验/history/release-protection-20261017-v1/storage-boundary-amendment.json": {
+      "sha256": "2b8104297ddd53d55659201306bafdb356b86733a6d5b14b59bb565e533d215b",
+      "bytes": 9356
+    },
+    "evidence/competition/03_性能实验/history/release-protection-20261017-v1/verification.json": {
+      "sha256": "eb0f707aded6191b5f494206b43f7b68dfdfd4f40de6e6174ef2a99870b0f76b",
+      "bytes": 18221
+    },
+    "evidence/competition/03_性能实验/recomputation.json": {
+      "sha256": "81a8a1bb53d360ca62617a010411d5c10e2e031d3169ba61420a76703553cf63",
+      "bytes": 266
+    },
+    "evidence/competition/03_性能实验/summary.csv": {
+      "sha256": "4afc11cd5fa21150ba1dfbbf6a2183c70733eef21e02a92b76a90a21ba1ab2e0",
+      "bytes": 458
+    },
+    "evidence/competition/04_功能与标准/assertion_records.anonymous.json": {
+      "sha256": "77be11ddfe55a254e1fc384bc5c9025218d6ea1645056372a599688d1753e7bc",
+      "bytes": 246175
+    },
+    "evidence/competition/04_功能与标准/downloaded_selfcheck.anonymous.json": {
+      "sha256": "2d3a16b3a39cc5a63ef6c59ff9cc64cd74d098b1430a81c9d47de4b7c90a549b",
+      "bytes": 31013
+    },
+    "evidence/competition/04_功能与标准/regression.anonymous.json": {
+      "sha256": "819c21511c5748a97b0ad97f9f35b5362bffc4916c86538b9a13f4dedec43d31",
+      "bytes": 6685
+    },
+    "evidence/competition/04_功能与标准/security_lifecycle.anonymous.json": {
+      "sha256": "d1c125c3e1d03478ae6c7e0475986e728be793dc04e1b367e5edc5bb5126e389",
+      "bytes": 13370
+    },
+    "evidence/competition/04_功能与标准/supplementary_vector_interop.anonymous.json": {
+      "sha256": "106cb54be641c100cc3cf80049e3e81bc5cdcbc4d4986f173daede3c39a95a16",
+      "bytes": 19225
+    },
+    "evidence/competition/04_功能与标准/validation-index.anonymous.json": {
+      "sha256": "596644ce24cb1a662e38dc3727899a4487424d5fcee4715bd459fcf373f0c8b9",
+      "bytes": 7931
+    },
+    "evidence/competition/05_程序与源码/platform/.build/libgridcrypto.so": {
+      "sha256": "f37f407d61567ec304904c693ef7dc3259eafa44f843a884bf88a2a4b67ce000",
+      "bytes": 86528
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/manifest.json": {
+      "sha256": "ddfeff760ccd68f3322c7ee21b9769d9242eceea8d0cc0eed0b42fe61eb32008",
+      "bytes": 11076
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/mcl/COPYRIGHT": {
+      "sha256": "5d1e7a7fc15e2249a7744ab54a37c93b6520d1be68d6f23430fd405197c7c8ab",
+      "bytes": 1501
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/npm/@oxc-project__types/LICENSE": {
+      "sha256": "95ced5ecf1133fbf41d409b5555c86c344f83f3b019926057ddbc07cfdcc27b3",
+      "bytes": 1119
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/npm/@playwright__test/LICENSE": {
+      "sha256": "45873d00a0dd243596deb4aa23b2493b3d1f0671921bf2538ea431d7380220eb",
+      "bytes": 11601
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/npm/@playwright__test/NOTICE": {
+      "sha256": "6d602191187b35b9b01d2cffa01c8469c2c8d9de8a96f1bf868e0f264f51c81d",
+      "bytes": 254
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/npm/@rolldown__pluginutils/LICENSE": {
+      "sha256": "e1919b3b98b8bf6c1b99fcc60a0ed46027c97ac947432e1278446c9606f50161",
+      "bytes": 1106
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/npm/@types__react-dom/LICENSE": {
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "bytes": 1141
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/npm/@types__react/LICENSE": {
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "bytes": 1141
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/npm/@typescript__typescript-win32-x64/LICENSE": {
+      "sha256": "a7d00bfd54525bc694b6e32f64c7ebcf5e6b7ae3657be5cc12767bce74654a47",
+      "bytes": 9197
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/npm/@typescript__typescript-win32-x64/NOTICE.txt": {
+      "sha256": "f5c708b59114507b8b27b48181b6883d106bbca0c1634bbee45b5e344237b66b",
+      "bytes": 48860
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/npm/@vitejs__plugin-react/LICENSE": {
+      "sha256": "29b68325fe026047d13e187b44c33b2acacf7dc647dec4583702e59f235e13b5",
+      "bytes": 1103
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/npm/csstype/LICENSE": {
+      "sha256": "11d55bd4541c75ee7879547ac49089c489163dae49551389713c3d026cab383e",
+      "bytes": 1062
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/npm/detect-libc/LICENSE": {
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "bytes": 11357
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/npm/fdir/LICENSE": {
+      "sha256": "9a39f2aadab11a3697edd668ff2d8ad885b649737b7ab4d3bf12b34e5ada0c86",
+      "bytes": 1053
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/npm/lightningcss-win32-x64-msvc/LICENSE": {
+      "sha256": "5eba353fe5076ac3432177f8ab1cf75e3afcd0584251e37c3bfead5f447d040e",
+      "bytes": 15648
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/npm/lightningcss/LICENSE": {
+      "sha256": "5eba353fe5076ac3432177f8ab1cf75e3afcd0584251e37c3bfead5f447d040e",
+      "bytes": 15648
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/npm/nanoid/LICENSE": {
+      "sha256": "da4db1480d9beea3483a2eda5c53b22238d0827d57da162b48f122e04d2d9987",
+      "bytes": 1095
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/npm/picocolors/LICENSE": {
+      "sha256": "6582629e2979466878f6014313dcc2f3756c9616148682227ce3063dde310750",
+      "bytes": 787
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/npm/picomatch/LICENSE": {
+      "sha256": "d0cd141b0c322fded5dfad1d4645bb2fedfc05b7321fe1009469638190d59ef9",
+      "bytes": 1091
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/npm/playwright-core/LICENSE": {
+      "sha256": "45873d00a0dd243596deb4aa23b2493b3d1f0671921bf2538ea431d7380220eb",
+      "bytes": 11601
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/npm/playwright-core/NOTICE": {
+      "sha256": "6d602191187b35b9b01d2cffa01c8469c2c8d9de8a96f1bf868e0f264f51c81d",
+      "bytes": 254
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/npm/playwright-core/ThirdPartyNotices.txt": {
+      "sha256": "a549d329bad8806fe279f0ecae0fc0270dec7e7c2dc8ec10f90e394f7c32b144",
+      "bytes": 676
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/npm/playwright/LICENSE": {
+      "sha256": "45873d00a0dd243596deb4aa23b2493b3d1f0671921bf2538ea431d7380220eb",
+      "bytes": 11601
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/npm/playwright/NOTICE": {
+      "sha256": "6d602191187b35b9b01d2cffa01c8469c2c8d9de8a96f1bf868e0f264f51c81d",
+      "bytes": 254
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/npm/playwright/ThirdPartyNotices.txt": {
+      "sha256": "b17ac0bd6f4b8207e440639cc8e0ba1bf1d9eaf9b12236764ab93b346c7abd8e",
+      "bytes": 705
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/npm/postcss/LICENSE": {
+      "sha256": "5be1f3465bba68a626777f984878814aaf35e7ef8e9fd314d469bcf887050fb8",
+      "bytes": 1095
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/npm/react-dom/LICENSE": {
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "bytes": 1088
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/npm/react/LICENSE": {
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "bytes": 1088
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/npm/rolldown/LICENSE": {
+      "sha256": "23ecfff35a5a2e80d92142f75228912c3b1abc4b5a8337a821ff4397e2f9f734",
+      "bytes": 1302
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/npm/rolldown/THIRD-PARTY-LICENSE": {
+      "sha256": "a877291d800ed43692f3f9ae09d8e01cc6f7293ad39d43896059c188ffbb8b7c",
+      "bytes": 2209
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/npm/scheduler/LICENSE": {
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "bytes": 1088
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/npm/source-map-js/LICENSE": {
+      "sha256": "6cb0631f71c7749763fd3dd1d5bee52dd1070ec17f2edc1710079ad070bd2fbd",
+      "bytes": 1526
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/npm/tinyglobby/LICENSE": {
+      "sha256": "22c68811e174cbbfb3813d4135918df4f540959c14d872e601d9abe83d3cde8f",
+      "bytes": 1076
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/npm/typescript/LICENSE": {
+      "sha256": "a7d00bfd54525bc694b6e32f64c7ebcf5e6b7ae3657be5cc12767bce74654a47",
+      "bytes": 9197
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/npm/typescript/NOTICE.txt": {
+      "sha256": "f5c708b59114507b8b27b48181b6883d106bbca0c1634bbee45b5e344237b66b",
+      "bytes": 48860
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/npm/vite/LICENSE.md": {
+      "sha256": "a47172e44a86a7e2cd1c16282341f7726ec60caafe3a6166fe3e0602005b6fa6",
+      "bytes": 108786
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/python/Pygments-2.21.0/pygments-2.21.0.dist-info/licenses/AUTHORS": {
+      "sha256": "71a83872ad82f57be692cf827e048e2cd51d45169cfa1ea3f28706d97a872c0f",
+      "bytes": 11048
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/python/Pygments-2.21.0/pygments-2.21.0.dist-info/licenses/LICENSE": {
+      "sha256": "a9d66f1d526df02e29dce73436d34e56e8632f46c275bbdffc70569e882f9f17",
+      "bytes": 1331
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/python/annotated-doc-0.0.5/annotated_doc-0.0.5.dist-info/licenses/LICENSE": {
+      "sha256": "fff170779a6acbf65abdb405c087f1cee1786691e4a96a4034517e4a504a0cdf",
+      "bytes": 1086
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/python/annotated-types-0.8.0/annotated_types-0.8.0.dist-info/licenses/LICENSE": {
+      "sha256": "fe1049884b1a0d9342901e88e07f32925d24b3121d9972b6a6805fb9824b095d",
+      "bytes": 1083
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/python/anyio-4.15.1/anyio-4.15.1.dist-info/licenses/LICENSE": {
+      "sha256": "5361ac9dc58f2ef5fd2e9b09c68297c17f04950909bbc8023bdb82eacf22c2b0",
+      "bytes": 1081
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/python/attrs-26.1.0/attrs-26.1.0.dist-info/licenses/LICENSE": {
+      "sha256": "882115c95dfc2af1eeb6714f8ec6d5cbcabf667caff8729f42420da63f714e9f",
+      "bytes": 1109
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/python/certifi-2026.7.22/certifi-2026.7.22.dist-info/licenses/LICENSE": {
+      "sha256": "e93716da6b9c0d5a4a1df60fe695b370f0695603d21f6f83f053e42cfc10caf7",
+      "bytes": 989
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/python/click-8.5.0/click-8.5.0.dist-info/licenses/LICENSE.txt": {
+      "sha256": "9a8ad106a394e853bfe21f42f4e72d592819a22805d991b5f3275029292b658d",
+      "bytes": 1475
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/python/fastapi-0.135.1/fastapi-0.135.1.dist-info/licenses/LICENSE": {
+      "sha256": "4ec89ffc81485b97fec584b2d4a961032eeffe834453894fd9c1274906cc744e",
+      "bytes": 1086
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/python/gmpy2-2.2.1/gmpy2-2.2.1.dist-info/licenses/COPYING": {
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+      "bytes": 35147
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/python/gmpy2-2.2.1/gmpy2-2.2.1.dist-info/licenses/COPYING.LESSER": {
+      "sha256": "da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768",
+      "bytes": 7651
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/python/h11-0.16.0/h11-0.16.0.dist-info/licenses/LICENSE.txt": {
+      "sha256": "37db5bb85926db28a427a25867f10b1232003aea1be69ccb851138adb8e6f361",
+      "bytes": 1124
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/python/httpcore-1.0.9/httpcore-1.0.9.dist-info/licenses/LICENSE.md": {
+      "sha256": "fdcb59154c74cbaba16a11242f7740bea9f23d6feb5547917d8c5f94a80392a5",
+      "bytes": 1518
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/python/httpx-0.28.1/httpx-0.28.1.dist-info/licenses/LICENSE.md": {
+      "sha256": "4ec59d544f12b5f539a3a716fd321ac58ccd8030b465221f2c880200cdf28d8d",
+      "bytes": 1508
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/python/idna-3.20/idna-3.20.dist-info/licenses/LICENSE.md": {
+      "sha256": "1a9a4f0e3d479a27240ddd59a9137a66ab4a0f9dfdc8ca6188cc0bfd85187f04",
+      "bytes": 1541
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/python/iniconfig-2.3.1/iniconfig-2.3.1.dist-info/licenses/LICENSE": {
+      "sha256": "3409fa91f7ace557894632676656e32264fe5ef7581535725dc9a23774551bd4",
+      "bytes": 1098
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/python/jsonschema-4.26.0/jsonschema-4.26.0.dist-info/licenses/COPYING": {
+      "sha256": "4f92a015a13c4d1a040bef018aa13430b4f1bc73b41b16bb846c346766de7439",
+      "bytes": 1057
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/python/jsonschema-specifications-2025.9.1/jsonschema_specifications-2025.9.1.dist-info/licenses/COPYING": {
+      "sha256": "42dcd63495f87b4eb7c7757afa379bb55a53f94afd7a5f657d9adf57236e515c",
+      "bytes": 1057
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/python/packaging-26.3/packaging-26.3.dist-info/licenses/LICENSE": {
+      "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48",
+      "bytes": 197
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/python/packaging-26.3/packaging-26.3.dist-info/licenses/LICENSE.APACHE": {
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+      "bytes": 10174
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/python/packaging-26.3/packaging-26.3.dist-info/licenses/LICENSE.BSD": {
+      "sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5",
+      "bytes": 1344
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/python/packaging-26.3/packaging/licenses/__init__.py": {
+      "sha256": "590d12eee73ddbec53b4e9ee5bfc64d9cb3aacb4940e8ebcba260757ce56740b",
+      "bytes": 7859
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/python/packaging-26.3/packaging/licenses/_spdx.py": {
+      "sha256": "596ec35e2ca0ebcba9fd8343ff0a51625af548786257815f24b41f7e08613314",
+      "bytes": 51122
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/python/pluggy-1.7.0/pluggy-1.7.0.dist-info/licenses/LICENSE": {
+      "sha256": "d6b65e6c213a5d0b577911d34d6e5949b9f59d76c238c5071a2f3fc16cfb2606",
+      "bytes": 1110
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/python/pydantic-2.14.1/pydantic-2.14.1.dist-info/licenses/LICENSE": {
+      "sha256": "a9e186f3ca16b5eef84318e7a701721351a00cb7b8ae3a4394b67b49e3529ef3",
+      "bytes": 1129
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/python/pydantic_core-2.50.1/pydantic_core-2.50.1.dist-info/licenses/LICENSE": {
+      "sha256": "2afdd30d54b4d62b6f488a6bcc1546e84ec5061f13f4209c03d012348783795a",
+      "bytes": 1080
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/python/pytest-9.0.2/pytest-9.0.2.dist-info/licenses/LICENSE": {
+      "sha256": "ca836a5f9ecca3b2f350230faa20a48fb8b145653b5568d784862df864706b9b",
+      "bytes": 1091
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/python/referencing-0.37.0/referencing-0.37.0.dist-info/licenses/COPYING": {
+      "sha256": "42dcd63495f87b4eb7c7757afa379bb55a53f94afd7a5f657d9adf57236e515c",
+      "bytes": 1057
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/python/rpds-py-2026.9.1/rpds_py-2026.9.1.dist-info/licenses/LICENSE": {
+      "sha256": "314e4e91be3baa93c0fb4bccc9e4e97cd643eb839b065af921782c2175fe9909",
+      "bytes": 1057
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/python/starlette-1.8.0/starlette-1.8.0.dist-info/licenses/LICENSE.md": {
+      "sha256": "dcb95677a02240243187e964f941847d19b17821cf99e5afae684fab328c19bf",
+      "bytes": 1518
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/python/typing-inspection-0.4.4/typing_inspection-0.4.4.dist-info/licenses/LICENSE": {
+      "sha256": "804b59b25f2c31bd278f9202a19ae49a3945aa2664387e2d0a128c7cacc61ec3",
+      "bytes": 1090
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/python/typing_extensions-4.16.0/typing_extensions-4.16.0.dist-info/licenses/LICENSE": {
+      "sha256": "3b2f81fe21d181c499c59a256c8e1968455d6689d269aa85373bfb6af41da3bf",
+      "bytes": 13936
+    },
+    "evidence/competition/05_程序与源码/platform/.build/licenses/python/uvicorn-0.42.0/uvicorn-0.42.0.dist-info/licenses/LICENSE.md": {
+      "sha256": "efe1acf3e62fb99c288b0ec73e5a773b7268ef4320fe757ea994214e4b63c371",
+      "bytes": 1526
+    },
+    "evidence/competition/05_程序与源码/platform/.build/sources/gmpy2-2.2.1.tar.gz": {
+      "sha256": "e83e07567441b78cb87544910cb3cc4fe94e7da987e93ef7622e76fb96650432",
+      "bytes": 234228
+    },
+    "evidence/competition/05_程序与源码/platform/.build/sources/manifest.json": {
+      "sha256": "74ad089701a1a1bf00527d5aa7367bc00120666f6e98d4504face54f5e8a9521",
+      "bytes": 279
+    },
+    "evidence/competition/05_程序与源码/platform/.build/wheelhouse/annotated_doc-0.0.5-py3-none-any.whl": {
+      "sha256": "117bac03a25ede5df5440e855b32d556049ca169ead221505badf432fed4b101",
+      "bytes": 5302
+    },
+    "evidence/competition/05_程序与源码/platform/.build/wheelhouse/annotated_types-0.8.0-py3-none-any.whl": {
+      "sha256": "f072f4d804ea359e4eaf198b1af7a8b0943881a87f31bb764f8bf219bb9419e0",
+      "bytes": 13427
+    },
+    "evidence/competition/05_程序与源码/platform/.build/wheelhouse/anyio-4.15.1-py3-none-any.whl": {
+      "sha256": "6152fdbbf9a77fdec97731721bebf7c4c44f7c29b424b0065826173efc7ed101",
+      "bytes": 132079
+    },
+    "evidence/competition/05_程序与源码/platform/.build/wheelhouse/attrs-26.1.0-py3-none-any.whl": {
+      "sha256": "c647aa4a12dfbad9333ca4e71fe62ddc36f4e63b2d260a37a8b83d2f043ac309",
+      "bytes": 67548
+    },
+    "evidence/competition/05_程序与源码/platform/.build/wheelhouse/certifi-2026.7.22-py3-none-any.whl": {
+      "sha256": "62f22742b58a1a33014a2b6b706588a8d7e2a88ae7bd1a6ebe8c992928483775",
+      "bytes": 136983
+    },
+    "evidence/competition/05_程序与源码/platform/.build/wheelhouse/click-8.5.0-py3-none-any.whl": {
+      "sha256": "255bc9599cf7748b4b1a446ccc735421bd08a2ae529a8b88597d3de5664ee360",
+      "bytes": 125251
+    },
+    "evidence/competition/05_程序与源码/platform/.build/wheelhouse/fastapi-0.135.1-py3-none-any.whl": {
+      "sha256": "46e2fc5745924b7c840f71ddd277382af29ce1cdb7d5eab5bf697e3fb9999c9e",
+      "bytes": 116999
+    },
+    "evidence/competition/05_程序与源码/platform/.build/wheelhouse/gmpy2-2.2.1-cp314-cp314-linux_x86_64.whl": {
+      "sha256": "c926e8baa685da18c4a70998cae746609bee17433a784a63178513197990c1d6",
+      "bytes": 854794
+    },
+    "evidence/competition/05_程序与源码/platform/.build/wheelhouse/h11-0.16.0-py3-none-any.whl": {
+      "sha256": "63cf8bbe7522de3bf65932fda1d9c2772064ffb3dae62d55932da54b31cb6c86",
+      "bytes": 37515
+    },
+    "evidence/competition/05_程序与源码/platform/.build/wheelhouse/httpcore-1.0.9-py3-none-any.whl": {
+      "sha256": "2d400746a40668fc9dec9810239072b40b4484b640a8c38fd654a024c7a1bf55",
+      "bytes": 78784
+    },
+    "evidence/competition/05_程序与源码/platform/.build/wheelhouse/httpx-0.28.1-py3-none-any.whl": {
+      "sha256": "d909fcccc110f8c7faf814ca82a9a4d816bc5a6dbfea25d6591d6985b8ba59ad",
+      "bytes": 73517
+    },
+    "evidence/competition/05_程序与源码/platform/.build/wheelhouse/idna-3.20-py3-none-any.whl": {
+      "sha256": "ab7ae7122974553370f0bdb919e1a960b2cd1bc1ef0276416d896db81c14582c",
+      "bytes": 69583
+    },
+    "evidence/competition/05_程序与源码/platform/.build/wheelhouse/iniconfig-2.3.1-py3-none-any.whl": {
+      "sha256": "9121e2c1fdb355232495be3194c8dfe87ccc2d5dee45947b78e68f499790d7a7",
+      "bytes": 7552
+    },
+    "evidence/competition/05_程序与源码/platform/.build/wheelhouse/jcs-0.2.1-py3-none-any.whl": {
+      "sha256": "e23a3e1de60f832d33cd811bb9c3b3be79219cdf95f63b88f0972732c3fa8476",
+      "bytes": 7603
+    },
+    "evidence/competition/05_程序与源码/platform/.build/wheelhouse/jsonschema-4.26.0-py3-none-any.whl": {
+      "sha256": "d489f15263b8d200f8387e64b4c3a75f06629559fb73deb8fdfb525f2dab50ce",
+      "bytes": 90630
+    },
+    "evidence/competition/05_程序与源码/platform/.build/wheelhouse/jsonschema_specifications-2025.9.1-py3-none-any.whl": {
+      "sha256": "98802fee3a11ee76ecaca44429fda8a41bff98b00a0f2838151b113f210cc6fe",
+      "bytes": 18437
+    },
+    "evidence/competition/05_程序与源码/platform/.build/wheelhouse/manifest.json": {
+      "sha256": "823c11f91cd39b1b54488f5b91fabe2ef01a4a4ff44335a7269ec7b4a5a750c3",
+      "bytes": 3129
+    },
+    "evidence/competition/05_程序与源码/platform/.build/wheelhouse/packaging-26.3-py3-none-any.whl": {
+      "sha256": "d7193f7c8e4e93f444fde0262bf90af30e16fa0ad0ad44cb553c87339b23cd1c",
+      "bytes": 129956
+    },
+    "evidence/competition/05_程序与源码/platform/.build/wheelhouse/pluggy-1.7.0-py3-none-any.whl": {
+      "sha256": "7dd7b0d8832ba3cb632c306926ded123429211b83641b35dc5c41ad2d34f9bec",
+      "bytes": 27082
+    },
+    "evidence/competition/05_程序与源码/platform/.build/wheelhouse/pydantic-2.14.1-py3-none-any.whl": {
+      "sha256": "9195d967ec791692a04438115466764fb8b9a27b31f14a760437694f40d6b454",
+      "bytes": 488106
+    },
+    "evidence/competition/05_程序与源码/platform/.build/wheelhouse/pydantic_core-2.50.1-cp314-cp314-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": {
+      "sha256": "42b54c2c90ad348b5e3a85e03e715d572c1fde357ef104cdfe3b03b697a404ea",
+      "bytes": 2159857
+    },
+    "evidence/competition/05_程序与源码/platform/.build/wheelhouse/pygments-2.21.0-py3-none-any.whl": {
+      "sha256": "2363c69b61c4a97c838da3b130dcd6468f4848992b21a82f2a63ec34377137d9",
+      "bytes": 1250147
+    },
+    "evidence/competition/05_程序与源码/platform/.build/wheelhouse/pytest-9.0.2-py3-none-any.whl": {
+      "sha256": "711ffd45bf766d5264d487b917733b453d917afd2b0ad65223959f59089f875b",
+      "bytes": 374801
+    },
+    "evidence/competition/05_程序与源码/platform/.build/wheelhouse/referencing-0.37.0-py3-none-any.whl": {
+      "sha256": "381329a9f99628c9069361716891d34ad94af76e461dcb0335825aecc7692231",
+      "bytes": 26766
+    },
+    "evidence/competition/05_程序与源码/platform/.build/wheelhouse/rpds_py-2026.9.1-cp314-cp314-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": {
+      "sha256": "eac2f5dbafd585dfe31f86a23ebf0d3ba480a9d49ebc87947267b5608d4ea0cd",
+      "bytes": 371623
+    },
+    "evidence/competition/05_程序与源码/platform/.build/wheelhouse/starlette-1.8.0-py3-none-any.whl": {
+      "sha256": "dfdd6b29c26483288088d990eee59631dedadd66ce20d203402a7ca8e3c4656f",
+      "bytes": 79612
+    },
+    "evidence/competition/05_程序与源码/platform/.build/wheelhouse/typing_extensions-4.16.0-py3-none-any.whl": {
+      "sha256": "481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8",
+      "bytes": 45571
+    },
+    "evidence/competition/05_程序与源码/platform/.build/wheelhouse/typing_inspection-0.4.4-py3-none-any.whl": {
+      "sha256": "65b8397ba37ccbce054456aaccddfc91e6e3083c92824df348d96ca832f3f147",
+      "bytes": 14750
+    },
+    "evidence/competition/05_程序与源码/platform/.build/wheelhouse/uvicorn-0.42.0-py3-none-any.whl": {
+      "sha256": "96c30f5c7abe6f74ae8900a70e92b85ad6613b745d4879eb9b16ccad15645359",
+      "bytes": 68830
+    },
+    "evidence/competition/05_程序与源码/platform/apps/web/dist/assets/index-BsdDBYTj.js": {
+      "sha256": "414b50dc1af1d85c7015cf27e1a12679f2f119a12938afc778fe1b4ee338d1e0",
+      "bytes": 378781
+    },
+    "evidence/competition/05_程序与源码/platform/apps/web/dist/assets/index-CORzpefk.css": {
+      "sha256": "4528f2b7cbc177a03a5e47d1dfeab51448409ad8ee4cf46e2aebcc51c89a9f2f",
+      "bytes": 105268
+    },
+    "evidence/competition/05_程序与源码/platform/apps/web/dist/favicon.svg": {
+      "sha256": "c63bcea8a253d62d0d9ab63a05f0f3eb85eda369902284cd666651c55beb8afe",
+      "bytes": 256
+    },
+    "evidence/competition/05_程序与源码/platform/apps/web/dist/index.html": {
+      "sha256": "4266b19a175132ae8b96208afebb926ee59eb3add7c2b1a0a8ad92305913e311",
+      "bytes": 612
+    },
+    "evidence/competition/05_程序与源码/platform/apps/web/index.html": {
+      "sha256": "09e5bcc094d6f45a7fc9dcac3749b7889612456b5a602c3d98302dbf50375333",
+      "bytes": 513
+    },
+    "evidence/competition/05_程序与源码/platform/apps/web/package-lock.json": {
+      "sha256": "c61987796f755e2df2ab9c48da6654ba761a0b22ef9b6d5a2a8201dfe7aeb8a7",
+      "bytes": 42381
+    },
+    "evidence/competition/05_程序与源码/platform/apps/web/package.json": {
+      "sha256": "e7809b301addf18d9f95d326a1498226ec53eab29b78bf711acb217d2387283e",
+      "bytes": 395
+    },
+    "evidence/competition/05_程序与源码/platform/apps/web/public/favicon.svg": {
+      "sha256": "c63bcea8a253d62d0d9ab63a05f0f3eb85eda369902284cd666651c55beb8afe",
+      "bytes": 256
+    },
+    "evidence/competition/05_程序与源码/platform/apps/web/scripts/ui-fingerprint.mjs": {
+      "sha256": "be54f9dfda7c3e17793e7846de5d8c3308f6c9a7a3c44a22b4a7b07a2e957378",
+      "bytes": 1432
+    },
+    "evidence/competition/05_程序与源码/platform/apps/web/src/compatibility.css": {
+      "sha256": "772e0eb9f01de1b5293478f4c908fd22fafe2c85c4ffde16616879803ee1d6b9",
+      "bytes": 9789
+    },
+    "evidence/competition/05_程序与源码/platform/apps/web/src/design-system.css": {
+      "sha256": "86cb273f98d73ad18c79916ee5753fae72bb30934601980f61f440e79acbd824",
+      "bytes": 7003
+    },
+    "evidence/competition/05_程序与源码/platform/apps/web/src/expansion.css": {
+      "sha256": "65f9ac1ffe08c6ca8f696721daeeed0154751e533e09a1bccd789c533e934ff7",
+      "bytes": 27278
+    },
+    "evidence/competition/05_程序与源码/platform/apps/web/src/expansion.tsx": {
+      "sha256": "a057c34366e4249288d9733f382c3fb3d1ddfe12c65bf83012e56e80a9d47d4c",
+      "bytes": 45476
+    },
+    "evidence/competition/05_程序与源码/platform/apps/web/src/http.ts": {
+      "sha256": "a780c2baaa70a6e7fb72ee1056f5d0f24919a9bf4ed02a381fb7263ec363503c",
+      "bytes": 969
+    },
+    "evidence/competition/05_程序与源码/platform/apps/web/src/main.tsx": {
+      "sha256": "11ef9329e7361a80abb43f7d8f258bd35dad7dd0c6421c9a0b94da3ec9042208",
+      "bytes": 54759
+    },
+    "evidence/competition/05_程序与源码/platform/apps/web/src/operator-login.tsx": {
+      "sha256": "a7438ef11c3bd3f8ebf4dd24ff2debd516081bce589b948a35b7b7a16e1859d0",
+      "bytes": 4423
+    },
+    "evidence/competition/05_程序与源码/platform/apps/web/src/overview.css": {
+      "sha256": "4cee3f523ca81d53180b23f145404c1d2be2c6e8285b189304961e090931df6d",
+      "bytes": 11595
+    },
+    "evidence/competition/05_程序与源码/platform/apps/web/src/overview.tsx": {
+      "sha256": "358a50eebaa9dbbf748458a41f662809bc102314f330c194c651dc9ba5830cb2",
+      "bytes": 4820
+    },
+    "evidence/competition/05_程序与源码/platform/apps/web/src/paired-experiments.tsx": {
+      "sha256": "b75a3ecadfb6786cd3ac97f9dcf72c5151876120859de304193949cc729bd655",
+      "bytes": 4257
+    },
+    "evidence/competition/05_程序与源码/platform/apps/web/src/presentation.tsx": {
+      "sha256": "56db0155b7114d0f7e9b167cb6f6c3be09304cbe11db2e616d44e4ff5eb5d541",
+      "bytes": 7914
+    },
+    "evidence/competition/05_程序与源码/platform/apps/web/src/response-workspace.css": {
+      "sha256": "37cd0895f2aca559497d188b892d4d94aedecea2694217b7fc605f8d6e157ea7",
+      "bytes": 6475
+    },
+    "evidence/competition/05_程序与源码/platform/apps/web/src/response-workspace.tsx": {
+      "sha256": "cc2e772bbd7b41bb94f8f61eec350de878598b7cf5084dd5b341b67e35cde3b6",
+      "bytes": 9458
+    },
+    "evidence/competition/05_程序与源码/platform/apps/web/src/scale-chart.tsx": {
+      "sha256": "7d8dbbd333977664985bcd52204ac92759dc0fbde2e9c2657b80c06969265f52",
+      "bytes": 2512
+    },
+    "evidence/competition/05_程序与源码/platform/apps/web/src/scheme-story.css": {
+      "sha256": "043d1d6273700b4ee84e2d926f41877a11eeb79b74ca2e8b6311a6d47b4ef27f",
+      "bytes": 2758
+    },
+    "evidence/competition/05_程序与源码/platform/apps/web/src/scheme-story.tsx": {
+      "sha256": "fc473a8caebad89c300f2d523004b56e3466a55c7b94d8c6c11ef8a9b4cc1de8",
+      "bytes": 1857
+    },
+    "evidence/competition/05_程序与源码/platform/apps/web/src/self-check.css": {
+      "sha256": "fbb17eb2a0208200e451076190f04081814d94bdaedce106dafdb2cec84f9cbb",
+      "bytes": 2077
+    },
+    "evidence/competition/05_程序与源码/platform/apps/web/src/self-check.tsx": {
+      "sha256": "df2f3065f3020272cf213b7a2594f2173f5883bdb15164e1cc52755b63091dd0",
+      "bytes": 3569
+    },
+    "evidence/competition/05_程序与源码/platform/apps/web/src/style.css": {
+      "sha256": "362323212c3f324f0f5ded932d0ce8ebe682463862b611768050f6f22644091b",
+      "bytes": 26268
+    },
+    "evidence/competition/05_程序与源码/platform/apps/web/src/v41.css": {
+      "sha256": "59e169ada098fc92fdfb16f482f4c7102dac25deb802be847a5a24005235dfdb",
+      "bytes": 20041
+    },
+    "evidence/competition/05_程序与源码/platform/apps/web/src/v41.tsx": {
+      "sha256": "f8c4601d56c633a3655657571a79e06eccd0eb4d23a3450d94aae63b9c89eb06",
+      "bytes": 44191
+    },
+    "evidence/competition/05_程序与源码/platform/apps/web/src/vite-env.d.ts": {
+      "sha256": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5",
+      "bytes": 38
+    },
+    "evidence/competition/05_程序与源码/platform/apps/web/src/wording.ts": {
+      "sha256": "17fc9f19867248dd486ebcc316251aec937a53051ab9f2d526328c84eb7e2b48",
+      "bytes": 15536
+    },
+    "evidence/competition/05_程序与源码/platform/apps/web/tsconfig.json": {
+      "sha256": "71eb37c1e9a9e3a9222f26c53fd95b9dc1b09fdf6d9460986a3e4b4a65d2c68f",
+      "bytes": 260
+    },
+    "evidence/competition/05_程序与源码/platform/apps/web/vite.config.ts": {
+      "sha256": "47fe6db6277603500b6dab8bcf652144beaf4ee0b90da91c34f584b1379d7673",
+      "bytes": 303
+    },
+    "evidence/competition/05_程序与源码/platform/contracts/extra_acceptance_cases.json": {
+      "sha256": "3608f321dbec0bf3ef1df9588c50808e39ea1b2f6a311ca168f1f67e0922d13a",
+      "bytes": 5618
+    },
+    "evidence/competition/05_程序与源码/platform/contracts/history/privacy_release_v1-development.json": {
+      "sha256": "86bdaf7ac4b2359e221bd8010e662becdb4fac903bc684a91022a1382072ff19",
+      "bytes": 666
+    },
+    "evidence/competition/05_程序与源码/platform/contracts/privacy_release.json": {
+      "sha256": "4bcd4e6fca6d311c96af1005ad2ea032bbed25e1b4f81e3ff5af2488631a1ab6",
+      "bytes": 948
+    },
+    "evidence/competition/05_程序与源码/platform/contracts/recovery_acceptance_cases.json": {
+      "sha256": "c4265d4b0ea88ab62086ad25e3d8594f11c31750555972b8d5654dc1866ac816",
+      "bytes": 1624
+    },
+    "evidence/competition/05_程序与源码/platform/contracts/v3_acceptance_cases.json": {
+      "sha256": "5c935ca2396e23ac22e60f8816d14858fd90b2a862372453de776ee2a779333d",
+      "bytes": 18459
+    },
+    "evidence/competition/05_程序与源码/platform/contracts/v3_evidence_contract.json": {
+      "sha256": "bce4a4c14a349d42a39d95a047b053bf6b83a7be0aab6c922f30cf07b82d82d2",
+      "bytes": 1200
+    },
+    "evidence/competition/05_程序与源码/platform/contracts/v3_security_profiles.json": {
+      "sha256": "361f487228bbcc331472d2be059ecc0fc7834e3683d791f42e7625290ed94ff7",
+      "bytes": 3474
+    },
+    "evidence/competition/05_程序与源码/platform/contracts/work_packages.json": {
+      "sha256": "e2d94b72f73c1bbf53f13948f8892c564f5f2101e9da8005546a549fa7f59f78",
+      "bytes": 2690
+    },
+    "evidence/competition/05_程序与源码/platform/docs/STANDARDS_ALIGNMENT_EXECUTION.json": {
+      "sha256": "0378068562432125b861d498066354862fb7dbba84b5817cc576739528d24fa4",
+      "bytes": 81368
+    },
+    "evidence/competition/05_程序与源码/platform/native/agility.cpp": {
+      "sha256": "33ca0cd08f588368a5b068e9f91c68dcc07ab851624681a7c4fa822e261ddc79",
+      "bytes": 5707
+    },
+    "evidence/competition/05_程序与源码/platform/native/grid_crypto.cpp": {
+      "sha256": "2b5d296d9eff72a17c1dc8b235140351b461214fabfb0a7e0ff141483ac7649c",
+      "bytes": 15178
+    },
+    "evidence/competition/05_程序与源码/platform/references/datasets/uci321/import.json": {
+      "sha256": "b3c07911ca1a332c5ff6d0f8a96ab547f4ab60f4c0836d25cfb03783ebb45185",
+      "bytes": 1320
+    },
+    "evidence/competition/05_程序与源码/platform/requirements.lock.txt": {
+      "sha256": "7ba08a87c14a977456f550257a1afe6f70fbe54f016d5af7040dd572217fb3bb",
+      "bytes": 492
+    },
+    "evidence/competition/05_程序与源码/platform/requirements.txt": {
+      "sha256": "ad8f86f2297937f57db5b99e75a41a84bcbf819c5e1292e49b1218ff5d92b5ac",
+      "bytes": 104
+    },
+    "evidence/competition/05_程序与源码/platform/scripts/bootstrap.sh": {
+      "sha256": "facb2053130f658eef8ede28c0bb463dab3145d6fa2f463cbacd634bcf1c4fe3",
+      "bytes": 1005
+    },
+    "evidence/competition/05_程序与源码/platform/scripts/doctor.py": {
+      "sha256": "6bc77615afec078857a7a51b49e644396e4fb32fccdc9eb1162e15ac145c9586",
+      "bytes": 1620
+    },
+    "evidence/competition/05_程序与源码/platform/scripts/import_public_load.py": {
+      "sha256": "25663ec3afd688ddc5568a115e8a1e9b55a786b9c4760abac9c2cfd7510bc17e",
+      "bytes": 5390
+    },
+    "evidence/competition/05_程序与源码/platform/scripts/local_server.py": {
+      "sha256": "360cfce9c16bc08a814520793763fa63c50c299034ffcda8068b91b099e91463",
+      "bytes": 5609
+    },
+    "evidence/competition/05_程序与源码/platform/scripts/privacy_benchmark_summary.py": {
+      "sha256": "ae9691d335c1e69f2ecf1aac2463c62455bb27b6610e517bec6697a812c5111c",
+      "bytes": 9128
+    },
+    "evidence/competition/05_程序与源码/platform/scripts/privacy_business_validation.py": {
+      "sha256": "e3827fe5ca6ddd4a69898da3d29b3cf08b35efd35554dd005c9b6e868da50e66",
+      "bytes": 8193
+    },
+    "evidence/competition/05_程序与源码/platform/scripts/privacy_matched_benchmark.py": {
+      "sha256": "7b570fca9c20cbe81cabf69812da12f905a3f474e064e04cad4c1662ec61937c",
+      "bytes": 11185
+    },
+    "evidence/competition/05_程序与源码/platform/scripts/probe.py": {
+      "sha256": "9cb72430ac80762738cbb76d9980a198bf3bfc821323574264712a38e6ffa40f",
+      "bytes": 5862
+    },
+    "evidence/competition/05_程序与源码/platform/scripts/project": {
+      "sha256": "1d74daa777c5e8b891da8ee070c454a88ef92c2e685ec8bc6cfe6758880ba052",
+      "bytes": 395
+    },
+    "evidence/competition/05_程序与源码/platform/scripts/project.ps1": {
+      "sha256": "ef9f71edbbe5f22018065a60f34373b63610980447cb73985acb555ca53433fc",
+      "bytes": 2678
+    },
+    "evidence/competition/05_程序与源码/platform/scripts/security_validation.py": {
+      "sha256": "289aba43d360ff8c64108be8868cd169fc884d6d917f669857d25bef713739ac",
+      "bytes": 18841
+    },
+    "evidence/competition/05_程序与源码/platform/scripts/standards_regression.py": {
+      "sha256": "6a084992337c321409dcff65e0814e0f7abb9616fb575d7d6d9bc5875bccf6fc",
+      "bytes": 2442
+    },
+    "evidence/competition/05_程序与源码/platform/scripts/standards_vectors.py": {
+      "sha256": "f204d9fd52e78d89c9edf042bfe41cfb0b7c85dd3c3fd061c5b83f36b7840938",
+      "bytes": 10805
+    },
+    "evidence/competition/05_程序与源码/platform/services/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "evidence/competition/05_程序与源码/platform/services/agility.py": {
+      "sha256": "85f31093c901e521c72d1965b3635aa683bbbb6b4cb839d21fc3509380f27bd0",
+      "bytes": 6279
+    },
+    "evidence/competition/05_程序与源码/platform/services/api.py": {
+      "sha256": "5a5065cf7f83ca0e71e69f0b75f02797fce2b014dcbba86cf4640b8cb351e5a9",
+      "bytes": 18582
+    },
+    "evidence/competition/05_程序与源码/platform/services/audit.py": {
+      "sha256": "395382d750f0c4e2b5bbc2dfe485f69bf7c7630ed7d824ac152939c4109e83f1",
+      "bytes": 2856
+    },
+    "evidence/competition/05_程序与源码/platform/services/benchmarks.py": {
+      "sha256": "cc75ded9f502c34818dd8ca594a8de5bf557cd17be6f11b4cc25cf2de14a8e50",
+      "bytes": 6715
+    },
+    "evidence/competition/05_程序与源码/platform/services/cli.py": {
+      "sha256": "5ec5c5bde703fcb3ab2fdb1970917bd575cc64059270478b4b30ea9f9dda6f81",
+      "bytes": 9913
+    },
+    "evidence/competition/05_程序与源码/platform/services/custody.py": {
+      "sha256": "0019ada46e9d7faa225ed5dd430f6cec6547fc6b7c6f20458dafefece842d0f8",
+      "bytes": 15659
+    },
+    "evidence/competition/05_程序与源码/platform/services/dataset.py": {
+      "sha256": "49733b3e1e1d1a76b5b88ce781e33941511d98c9bacb19297f9a48d3adcbdb1e",
+      "bytes": 2053
+    },
+    "evidence/competition/05_程序与源码/platform/services/encoding.py": {
+      "sha256": "5ec8670ab9c87733dd18ba0ea428ee003519911bf741c5df0d7142137027764d",
+      "bytes": 3018
+    },
+    "evidence/competition/05_程序与源码/platform/services/evidence.py": {
+      "sha256": "fa4a4795d946fdac13699a1d07efa59ed70686f9fd637943fad70e8a37f2d334",
+      "bytes": 17943
+    },
+    "evidence/competition/05_程序与源码/platform/services/expansion_api.py": {
+      "sha256": "a53da8b5245e30f06f95877765200284937217e77a10a23216664147c5f7d780",
+      "bytes": 7474
+    },
+    "evidence/competition/05_程序与源码/platform/services/expansion_data.py": {
+      "sha256": "7b4ee51b2d259aa53f3d537bec3491ffca2b212d8298e1f7c3a6422ec86a7477",
+      "bytes": 7388
+    },
+    "evidence/competition/05_程序与源码/platform/services/expansion_evidence.py": {
+      "sha256": "a620baac267169f2f54fd9746b781f40da2847415844a71485f968c60829fe87",
+      "bytes": 2464
+    },
+    "evidence/competition/05_程序与源码/platform/services/expansion_governance.py": {
+      "sha256": "5db208cf69092a21578bc465fd858a640d2a648e85078bb8d0642afdf956962a",
+      "bytes": 10596
+    },
+    "evidence/competition/05_程序与源码/platform/services/expansion_orchestrator.py": {
+      "sha256": "7c98a2ee30d8a2f01af444128a4117e6e166d52c7457be939bc7e98dfc6fb964",
+      "bytes": 15585
+    },
+    "evidence/competition/05_程序与源码/platform/services/expansion_schemas.py": {
+      "sha256": "e58799ca1e6258ba9febeab56d130607bc1a9e7a1d2bf91b5fcacfe31678648d",
+      "bytes": 3089
+    },
+    "evidence/competition/05_程序与源码/platform/services/expansion_workers.py": {
+      "sha256": "0d3f0817b83ed368fa1f3e1ca247afb8db1b7417d319629e1304b1029bda0a67",
+      "bytes": 22428
+    },
+    "evidence/competition/05_程序与源码/platform/services/governance.py": {
+      "sha256": "8490cc8bb150283918190ddfddde30f84023e5053a1bb59cf7441287846a99e2",
+      "bytes": 6783
+    },
+    "evidence/competition/05_程序与源码/platform/services/initialization.py": {
+      "sha256": "19d6de06159fb399cd5e2df57305db8f7dbe50b94b17dd65ebb2d137a3ef177d",
+      "bytes": 5706
+    },
+    "evidence/competition/05_程序与源码/platform/services/management.py": {
+      "sha256": "dc33957f91e610b89260fc4936855e2017c534440b96b19ccdcf240b6144ff64",
+      "bytes": 18958
+    },
+    "evidence/competition/05_程序与源码/platform/services/merkle.py": {
+      "sha256": "4cf68ba9b3dd45a68dd9b2286aa29ed132b0e5102417f5611aad7562349c69e6",
+      "bytes": 3553
+    },
+    "evidence/competition/05_程序与源码/platform/services/native.py": {
+      "sha256": "6252ac5eee8af5abd64c6c560c79baccde50ee29390c8c1818b4bb9e93441f6b",
+      "bytes": 11496
+    },
+    "evidence/competition/05_程序与源码/platform/services/orchestrator.py": {
+      "sha256": "8de8f18f2ae19d0bd679e983fda4f332cecb21c854909af680de2cd1a5f3cb1b",
+      "bytes": 17680
+    },
+    "evidence/competition/05_程序与源码/platform/services/pairing.py": {
+      "sha256": "5949b1bb2161b7a41e3a1a2f8f6521da7b56a25307d4ceeabbcb6e70129c57c9",
+      "bytes": 4497
+    },
+    "evidence/competition/05_程序与源码/platform/services/pfdam.py": {
+      "sha256": "ed696e1963964940898c100733bdd48d94d70d6385abfc99aa2933379bdfd37d",
+      "bytes": 10092
+    },
+    "evidence/competition/05_程序与源码/platform/services/publication.py": {
+      "sha256": "01d4ebea4cde15880019ad09bad226a383af72a5066872b618f1c62b61592160",
+      "bytes": 17118
+    },
+    "evidence/competition/05_程序与源码/platform/services/publication_evidence.py": {
+      "sha256": "e0d38b1a93ef26c3d956fcb2fca7bf2cfa48b7a10e92b995c0303896db157687",
+      "bytes": 12449
+    },
+    "evidence/competition/05_程序与源码/platform/services/publication_runtime.py": {
+      "sha256": "19019d796f56e2fea6d0afd5c728f94925fefa5b6d9683a8e55e4905f4e84ebd",
+      "bytes": 6748
+    },
+    "evidence/competition/05_程序与源码/platform/services/publication_schemas.py": {
+      "sha256": "494f4d840ea83489b879bb425bf5a0997bc82c1e6d549aae69e7dfcf3514c050",
+      "bytes": 2920
+    },
+    "evidence/competition/05_程序与源码/platform/services/recovery.py": {
+      "sha256": "0704b2e6b9d54b518558f3b798e1118bc4a0ccb59e02ee763765c401fef0eaa7",
+      "bytes": 8360
+    },
+    "evidence/competition/05_程序与源码/platform/services/release.py": {
+      "sha256": "a7acd27e1c432ff12259a48531732869aab6783d586d72d2ba1e3a1d1d7df8e3",
+      "bytes": 3141
+    },
+    "evidence/competition/05_程序与源码/platform/services/response.py": {
+      "sha256": "5857649b95831c66af1d8c4b8aa6a8023ee37bd947a94c3d970aadadb2cfc629",
+      "bytes": 19999
+    },
+    "evidence/competition/05_程序与源码/platform/services/response_api.py": {
+      "sha256": "3937b341ae3be2f1318144fe6da97800b258db659092190160cc93a0871c5b8d",
+      "bytes": 3146
+    },
+    "evidence/competition/05_程序与源码/platform/services/result_attestation.py": {
+      "sha256": "328db4c7a502e5b8f54de5f87c1b394a814ebb3f88b27d16ffb5365fc7207c63",
+      "bytes": 2549
+    },
+    "evidence/competition/05_程序与源码/platform/services/schemas.py": {
+      "sha256": "57a280c9138afab4cbb97c7bdb5db3d4ba4d3d674ff624e04318725929ddef9e",
+      "bytes": 6952
+    },
+    "evidence/competition/05_程序与源码/platform/services/security_schemas.py": {
+      "sha256": "cdde19fa6db4c4d172e0e8a94ee4faee701c92ef8798a4edecd3b0566e94ea04",
+      "bytes": 2333
+    },
+    "evidence/competition/05_程序与源码/platform/services/selfcheck.py": {
+      "sha256": "efcf7828d6a0a248e1a735485477c698d0a9736dc97eaf4da5175da346d5114e",
+      "bytes": 18349
+    },
+    "evidence/competition/05_程序与源码/platform/services/selfcheck_probes.py": {
+      "sha256": "c310b91774fff17c3949d8525070b6314685c7b91b54a0a60f4c8e9faf1dd9e8",
+      "bytes": 20897
+    },
+    "evidence/competition/05_程序与源码/platform/services/sessions.py": {
+      "sha256": "b6a475f451b67bfccf3f215813e6f97a06947176a301d10ef1a58fef41db5211",
+      "bytes": 3157
+    },
+    "evidence/competition/05_程序与源码/platform/services/signatures.py": {
+      "sha256": "e1712a480b05506c1d954d7a0b3517bc9c4fff5d3f161a0c6c99aa64cdf15197",
+      "bytes": 12174
+    },
+    "evidence/competition/05_程序与源码/platform/services/standards_profile.py": {
+      "sha256": "69af6ccfc21c9d00753d0db08149b89e506f8fabebecf2cf92657f1b9a1fbc87",
+      "bytes": 6060
+    },
+    "evidence/competition/05_程序与源码/platform/services/storage.py": {
+      "sha256": "0e1c4af3cc3807756b164d014dc34437954fa75472259b0411dad3fdd60eaaa0",
+      "bytes": 2611
+    },
+    "evidence/competition/05_程序与源码/platform/services/trust.py": {
+      "sha256": "af823859668bdd2208d13eaf883397b0e1b2f7e93b6741dac64e4d1c39ea1146",
+      "bytes": 13951
+    },
+    "evidence/competition/05_程序与源码/platform/services/v41_api.py": {
+      "sha256": "62bfc864d2523ad54d7f82640e82c964d567a0ec90f53a380f47a36a2916bc8c",
+      "bytes": 9026
+    },
+    "evidence/competition/05_程序与源码/platform/services/v41_attacks.py": {
+      "sha256": "526f279fe6b61df950e8c10f659d5105b27abe9a5d06b39bf6bcb89f8e0b32e3",
+      "bytes": 4975
+    },
+    "evidence/competition/05_程序与源码/platform/services/v41_evidence.py": {
+      "sha256": "0cf2291be04cae00b4e8846d36fd8152d275e3118329b1192806ee9a2d894064",
+      "bytes": 3503
+    },
+    "evidence/competition/05_程序与源码/platform/services/versioning.py": {
+      "sha256": "17eece28893c4f177ac4c0cb0d5ce2ecc624f234e9b9fa60eeb7b235cc617ec4",
+      "bytes": 779
+    },
+    "evidence/competition/05_程序与源码/platform/services/workers.py": {
+      "sha256": "f0e11de151d082b29dcc7b8a3833c077952938f9d5c4c719f9b0671de8b0675e",
+      "bytes": 34586
+    },
+    "evidence/competition/05_程序与源码/platform/shared/schemas/AggregationReceipt.json": {
+      "sha256": "7391735893abc90ad425d2f2623bd18d8b7528ed863f5910e2a1aa99925a7ad9",
+      "bytes": 2651
+    },
+    "evidence/competition/05_程序与源码/platform/shared/schemas/AggregationReceiptV2.json": {
+      "sha256": "89f08be7c5d0a5498cb0768cd94f767866f5431f8bfbaf86deea1463f64fe633",
+      "bytes": 3667
+    },
+    "evidence/competition/05_程序与源码/platform/shared/schemas/AggregationReceiptV3.json": {
+      "sha256": "f08eed37ad3ee085f92f8f88a81af4fbdd8c2c71ba176d659f89f5798a3d637d",
+      "bytes": 4538
+    },
+    "evidence/competition/05_程序与源码/platform/shared/schemas/AggregationReceiptV4.json": {
+      "sha256": "57343fc06dc43d36c00d1eb1b76762f77b1c584b7c982f03351e2b46f7a34697",
+      "bytes": 4683
+    },
+    "evidence/competition/05_程序与源码/platform/shared/schemas/AuthorizationV5.json": {
+      "sha256": "3f88b6d7e7702c429e8460d67ca210bf59dae48198261e79c76de1cf962446ab",
+      "bytes": 7586
+    },
+    "evidence/competition/05_程序与源码/platform/shared/schemas/CollaborationRequest.json": {
+      "sha256": "cc50ebd070f2a9fc034b05a0ac2a8928520c1c853bf303d2a1f44bb9dffcb505",
+      "bytes": 973
+    },
+    "evidence/competition/05_程序与源码/platform/shared/schemas/CreateRun.json": {
+      "sha256": "d47138ce793e1aaa38c401ed32f636499c98fa3457300a7c8e10b2a28df3fa2c",
+      "bytes": 649
+    },
+    "evidence/competition/05_程序与源码/platform/shared/schemas/EvaluationV1.json": {
+      "sha256": "9eeaa0a9a970885018abb1796aa7cc39d6c38dd9785b3e2f6d7195038036aad4",
+      "bytes": 1868
+    },
+    "evidence/competition/05_程序与源码/platform/shared/schemas/ExpansionPolicy.json": {
+      "sha256": "4426c37d8a2a1356fedfaf1476a2878f0cc6f34e99b07be86c7a5d4e0ef7d9f2",
+      "bytes": 4128
+    },
+    "evidence/competition/05_程序与源码/platform/shared/schemas/ExpansionPolicyV4.json": {
+      "sha256": "9cac0beaf79e42d6fbbe65fec88df0392e68f444b6a5621ca51c5a8c8183ed02",
+      "bytes": 4275
+    },
+    "evidence/competition/05_程序与源码/platform/shared/schemas/ExpansionRequest.json": {
+      "sha256": "9d10292c9b5a49e097707f62546bb746fbb062d0a46eaf523502a251733b496e",
+      "bytes": 1399
+    },
+    "evidence/competition/05_程序与源码/platform/shared/schemas/GovernancePolicy.json": {
+      "sha256": "b102f78d1dc78c0685594a55aa22b89f442d5f2228cb782c2c77687f92df40df",
+      "bytes": 2237
+    },
+    "evidence/competition/05_程序与源码/platform/shared/schemas/PublicTaskContext.json": {
+      "sha256": "c141252ac6077860640bd197bccd6357b221a077b5cbc9ca027350aa956a1729",
+      "bytes": 1431
+    },
+    "evidence/competition/05_程序与源码/platform/shared/schemas/PublicTaskContextV2.json": {
+      "sha256": "15423ebd730182ecd131da8958d49599ce938e6f41926fadac68ce5562120767",
+      "bytes": 3853
+    },
+    "evidence/competition/05_程序与源码/platform/shared/schemas/PublicTaskContextV3.json": {
+      "sha256": "c922347209d40c996f2a7454caff54a13ea9d5e2a4792e0d9e672ab7e5be4b1d",
+      "bytes": 5244
+    },
+    "evidence/competition/05_程序与源码/platform/shared/schemas/PublicTaskContextV4.json": {
+      "sha256": "41a0b6e33b5e59ab4c18af02fbef778e0d76d0b145154f5d0ae46189e95c61b7",
+      "bytes": 5395
+    },
+    "evidence/competition/05_程序与源码/platform/shared/schemas/PublicTaskV5.json": {
+      "sha256": "500cfa4fea3fcccbf6b7aaea5351c05bb0fd3c059415b1b18acc8617cb8c1489",
+      "bytes": 6304
+    },
+    "evidence/competition/05_程序与源码/platform/shared/schemas/PublicationPolicy.json": {
+      "sha256": "1a29d1b905d48ab23254cd5e485c54e2f1be1a744609dcdd29424247797f69de",
+      "bytes": 5191
+    },
+    "evidence/competition/05_程序与源码/platform/shared/schemas/PublicationStatement.json": {
+      "sha256": "2c8b85e0260c180e99efbadbcf73ca4fba6d8f79af06176e1a7f58e0675688ab",
+      "bytes": 1927
+    },
+    "evidence/competition/05_程序与源码/platform/shared/schemas/ReceiptV5.json": {
+      "sha256": "97e3588dc482394ee3d68d3564de43ab6a14843c821a617699afd5644a83c62f",
+      "bytes": 4935
+    },
+    "evidence/competition/05_程序与源码/platform/shared/schemas/ReleaseDecisionV1.json": {
+      "sha256": "b1849b471b09ce2a2f42ad6813137a0f182d5c48fe5b65072841daefca359535",
+      "bytes": 1870
+    },
+    "evidence/competition/05_程序与源码/platform/shared/schemas/ReportEnvelope.json": {
+      "sha256": "842922b5f852d26637b7fd8b88b7a7ea4c494e7cc0aa751271d0b7a2c8b510c1",
+      "bytes": 1341
+    },
+    "evidence/competition/05_程序与源码/platform/shared/schemas/ReportEnvelopeV3.json": {
+      "sha256": "781d1c6281db20a5cc657a8290d6c7f941e02deaef6292a1ad3c19320e556d05",
+      "bytes": 1466
+    },
+    "evidence/competition/05_程序与源码/platform/shared/schemas/SignedAuthorization.json": {
+      "sha256": "1131f98674140db18c49779a3b1663a1c3de96b13ef68b4995eab6d938c284ee",
+      "bytes": 3183
+    },
+    "evidence/competition/05_程序与源码/platform/shared/schemas/SignedAuthorizationV2.json": {
+      "sha256": "ae36aedd72c289c84a933928d8bfd239ad7431332aac699f642b3d969d667582",
+      "bytes": 5753
+    },
+    "evidence/competition/05_程序与源码/platform/shared/schemas/SignedAuthorizationV3.json": {
+      "sha256": "7375bcc00b8a72e745908304402bedfb41b24e9bf4d09a1ecc327146ec5a86b9",
+      "bytes": 7144
+    },
+    "evidence/competition/05_程序与源码/platform/shared/schemas/SignedAuthorizationV4.json": {
+      "sha256": "740457d7db8be23701b040224a21753394d066fad8b4dea4dc2d6d24a5cf1268",
+      "bytes": 7440
+    },
+    "evidence/competition/05_程序与源码/platform/shared/schemas/SignedAuthorizationV5.json": {
+      "sha256": "0cdfd05d654472a2f7715220247dac233dea812c2bb176e70b5e28022b42d2e6",
+      "bytes": 8344
+    },
+    "evidence/competition/05_程序与源码/platform/shared/schemas/SignedEvaluationV1.json": {
+      "sha256": "2859e48bdc8a2c45e32b7383df7090b9fbe94ddd13511094653d7731a73b5295",
+      "bytes": 2627
+    },
+    "evidence/competition/05_程序与源码/platform/shared/schemas/SignedPublicationStatement.json": {
+      "sha256": "881f6438d4ada07ba2224f8e4d8181bf41c819570f0685eb12a2ed2ce4d5bb9e",
+      "bytes": 2710
+    },
+    "evidence/competition/05_程序与源码/platform/shared/schemas/SignedReceipt.json": {
+      "sha256": "ca826e2204d717481142644ba9a4ff3db624d0fee75129e2c66401aad08683a9",
+      "bytes": 3391
+    },
+    "evidence/competition/05_程序与源码/platform/shared/schemas/SignedReceiptV2.json": {
+      "sha256": "dff1cf5ff1fe8345269f3cd3cee1d0555b6d9a0b242d8146f0dd70e59e9b8401",
+      "bytes": 4429
+    },
+    "evidence/competition/05_程序与源码/platform/shared/schemas/SignedReceiptV3.json": {
+      "sha256": "f449e878fc1fc62f2566484fa02ebf6d484d4e46ab9d1fbeeb6a087d35f4c2bc",
+      "bytes": 5300
+    },
+    "evidence/competition/05_程序与源码/platform/shared/schemas/SignedReceiptV4.json": {
+      "sha256": "e114e4f7eaa508ff4eeee7c6195b214313998d6423ee57740bc65c806d1ffa95",
+      "bytes": 5445
+    },
+    "evidence/competition/05_程序与源码/platform/shared/schemas/SignedReceiptV5.json": {
+      "sha256": "c60868d85aedfaf7a0fd71464938ddb2af5c14c5b7ebecb7889b50d3a898977e",
+      "bytes": 5675
+    },
+    "evidence/competition/05_程序与源码/platform/shared/schemas/SignedReleaseDecisionV1.json": {
+      "sha256": "1aa573c8cb1eb9b78c0faba2dc53c1d91dd6c38c3fadb2b3b2bf3d0299538881",
+      "bytes": 2644
+    },
+    "evidence/competition/05_程序与源码/platform/shared/schemas/SignedUCResultV1.json": {
+      "sha256": "909f601a2fd385d6d360145207e9c4aff026e43f423fe745d129553f354d169b",
+      "bytes": 3303
+    },
+    "evidence/competition/05_程序与源码/platform/shared/schemas/SignedUCResultV2.json": {
+      "sha256": "70349ea24a73230a79eb466ec75262306c196c03320ce15c1f8031c00d5e5d5d",
+      "bytes": 2609
+    },
+    "evidence/competition/05_程序与源码/platform/shared/schemas/TaskAuthorization.json": {
+      "sha256": "db654f0e5e32fe896fde0df777c20251c3b47ccad5da078ca46bf0ed0731e6a7",
+      "bytes": 2439
+    },
+    "evidence/competition/05_程序与源码/platform/shared/schemas/TaskAuthorizationV2.json": {
+      "sha256": "bfd24d226c3635523757c1b9baf8013c2f79b641ac9cf4e955092fe819f1a14e",
+      "bytes": 4987
+    },
+    "evidence/competition/05_程序与源码/platform/shared/schemas/TaskAuthorizationV3.json": {
+      "sha256": "9e2df6f5ef2b6689bdf92c60f214c2d642972d605028ca0ae7be137a58069454",
+      "bytes": 6378
+    },
+    "evidence/competition/05_程序与源码/platform/shared/schemas/TaskAuthorizationV4.json": {
+      "sha256": "f4e69737dc549f2e1ebeb7c8887682cf122f88f36b8077c27af3cedb3e2f6cb1",
+      "bytes": 6674
+    },
+    "evidence/competition/05_程序与源码/platform/shared/schemas/UCResultV1.json": {
+      "sha256": "a83967dc0d09952eb12aae98cbfe2529d49ebd7718f582ee461df6c7e8a626c0",
+      "bytes": 2560
+    },
+    "evidence/competition/05_程序与源码/platform/shared/schemas/UCResultV2.json": {
+      "sha256": "a10a15ff6d5c9d97236d41448a68eb10a6182c9b1bb08e0dfb7116c7bd6423c4",
+      "bytes": 1856
+    },
+    "evidence/competition/05_程序与源码/platform/tests/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "evidence/competition/05_程序与源码/platform/tests/conftest.py": {
+      "sha256": "6585efd2099cc9419b92736e496d440a23b4fe587c55b1289a74443e0700a752",
+      "bytes": 11142
+    },
+    "evidence/competition/05_程序与源码/platform/tests/interop_sm.c": {
+      "sha256": "4ad76eda5063a66d6639abbaa2df39a886f20eb5ecda2ede84485bbe4885c283",
+      "bytes": 2635
+    },
+    "evidence/competition/05_程序与源码/platform/tests/oracle/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "evidence/competition/05_程序与源码/platform/tests/oracle/reference.py": {
+      "sha256": "73a7ef1ad67f44cde6a1616b75fa10f066f27bb3fe81710087dfd4f56fad81bd",
+      "bytes": 1203
+    },
+    "evidence/competition/05_程序与源码/platform/tests/provenance.py": {
+      "sha256": "e1ed41eebb51c81e9ea3cb6901df7c1bf005a3abe39c1a3b4e0cbe5453f7ea49",
+      "bytes": 659
+    },
+    "evidence/competition/05_程序与源码/platform/tests/server_harness.py": {
+      "sha256": "974dcf7829aae5f159ace2f1511ef653dc6f2550141ad6fd648e165d34fd9a15",
+      "bytes": 1101
+    },
+    "evidence/competition/05_程序与源码/platform/tests/test_acceptance.py": {
+      "sha256": "715e0329f8f4c8ad683bc543a1a093ab8a8b041de43b2e9abc66ef9460f18cd6",
+      "bytes": 25643
+    },
+    "evidence/competition/05_程序与源码/platform/tests/test_api.py": {
+      "sha256": "8e7b9084b2ba1769267949b7d135a0a0c906f44dffc395500ddf3864263e38e6",
+      "bytes": 5223
+    },
+    "evidence/competition/05_程序与源码/platform/tests/test_expansion.py": {
+      "sha256": "4a7327b5bad0a21792f79437780f4a0d367283823d7e10d56001140cd1a60473",
+      "bytes": 12018
+    },
+    "evidence/competition/05_程序与源码/platform/tests/test_expansion_recovery.py": {
+      "sha256": "896be1f01758068c098052e979a1599c1d23d0999b267056354239fde6cb783b",
+      "bytes": 3074
+    },
+    "evidence/competition/05_程序与源码/platform/tests/test_private_storage_boundary.py": {
+      "sha256": "39c703e8d8d1bb6e6a46a5588c6be2cba799ac65357228a6cf8cb8f0dc78d6e1",
+      "bytes": 2152
+    },
+    "evidence/competition/05_程序与源码/platform/tests/test_publication.py": {
+      "sha256": "75710fdc0686fe43dd089e8db35cda037b41fb5b99c8a64078156eb9356de325",
+      "bytes": 12188
+    },
+    "evidence/competition/05_程序与源码/platform/tests/test_publication_integration.py": {
+      "sha256": "33b946d5e839a416d50dd66577ed1774d456af21584626d59dd2afe71a57deac",
+      "bytes": 15176
+    },
+    "evidence/competition/05_程序与源码/platform/tests/test_recovery.py": {
+      "sha256": "d2158bcfa764a47543d8c75447bca88ab20f5951694795a34241a0d25c3d8ff5",
+      "bytes": 10755
+    },
+    "evidence/competition/05_程序与源码/platform/tests/test_recovery_transport.py": {
+      "sha256": "09d2f28aa1e7ff76f12f4c196242a0327b1e151c5c5d0ec3154754c2cdb1544a",
+      "bytes": 5165
+    },
+    "evidence/competition/05_程序与源码/platform/tests/test_selfcheck.py": {
+      "sha256": "0536a3e7165ee4954762c0dcbc29bb2c1f4b6ebf5cec70c7529de60e3583abfa",
+      "bytes": 13272
+    },
+    "evidence/competition/05_程序与源码/platform/tests/test_standards.py": {
+      "sha256": "c3368dae37c5ad1cf7861a974f93ea19b4bb6ca170b7050aed9464f31e87117e",
+      "bytes": 6049
+    },
+    "evidence/competition/05_程序与源码/platform/tests/test_transport.py": {
+      "sha256": "9bb9911eebe99020688bb9f4befc4abb0fb86808c257915ce09b5c68df1d386a",
+      "bytes": 13644
+    },
+    "evidence/competition/05_程序与源码/platform/tests/test_v41.py": {
+      "sha256": "1436291ae25916958976261163144c438406ff175b02274240dae4f40f981160",
+      "bytes": 13702
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/.github/CONTRIBUTING.md": {
+      "sha256": "b1b903ae1a378085bbe3909bad957b5c03bb506530100d00f9dbdfce474ae628",
+      "bytes": 1093
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/.github/workflows/arm64-windows.yml": {
+      "sha256": "94adefa56d3e676d91fe1fb44c236848dd6162280192d2ad42b88c3324811d51",
+      "bytes": 2687
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/.github/workflows/main.yml": {
+      "sha256": "98e16a2425dd40b0754e467a12a71a6418183362ff9fb4e68f49ffe6566f28e7",
+      "bytes": 1655
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/.gitignore": {
+      "sha256": "12e1c944b311d4a0d3be8bd8c4311674c1d7c6492401d4c72d5633e6e01467a3",
+      "bytes": 137
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/CMakeLists.txt": {
+      "sha256": "5d12553b1ab1fb3e5c3bc364d8cf3af91c371578bd2aee5b35286f9e787c5158",
+      "bytes": 18701
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/COPYRIGHT": {
+      "sha256": "5d1e7a7fc15e2249a7744ab54a37c93b6520d1be68d6f23430fd405197c7c8ab",
+      "bytes": 1501
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/Makefile": {
+      "sha256": "c4eab0cf509c0f7d29404e8a67c197815415a20786e76659064014858d9d625a",
+      "bytes": 17518
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/Makefile.cross": {
+      "sha256": "7674748dbca3e9050e2a7c15039a190fb0861dd2b282037d07f09a54ed6ea612",
+      "bytes": 1124
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/Makefile.wasm": {
+      "sha256": "952bf9edaee1a3aaad494f945ca5e1670aa68d7b71ed9b2ed842453af3996b16",
+      "bytes": 2669
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/PINNED_COMMIT": {
+      "sha256": "e43a6046898ce369b5cd77609782a7835c016ae57ed3a3ad3caa0d633ddc1b3e",
+      "bytes": 42
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/android/jni/Android.mk": {
+      "sha256": "83d518b5622900097b65b6580f3ee09d3b850f15c9f486f278ef768f89820acc",
+      "bytes": 1580
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/android/jni/Application.mk": {
+      "sha256": "6b2792095cf5af0e0283f98e79a7812891b0570f3c17341cd340eafacec2779b",
+      "bytes": 92
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/api.md": {
+      "sha256": "327e58f8c0e91ad5ee679a6c50e9c5c7abae682cbe7c10d6184ec8639d61647f",
+      "bytes": 29792
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/bench.txt": {
+      "sha256": "cbdd7f8c2dfc5a08ee982f0c4475f4f73b4d9d56a035cb6cf94c1b1ad3793592",
+      "bytes": 5532
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/bin/.emptydir": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/build.sh": {
+      "sha256": "66670fad93269a63931333a5bb244761247f482a03fd00cab4ec09b8605e3729",
+      "bytes": 1663
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/cmake/FindGMP.cmake": {
+      "sha256": "098e4cb5893e86b7f2b8cb7ea8f5024b954d9053b9f9665b07ec1e37ec602f9f",
+      "bytes": 2253
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/cmake/FindVisualStudio.cmake": {
+      "sha256": "0f7562558891e4238129d1c8f560401d61b81d32425fde439291097e1d4904dd",
+      "bytes": 2231
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/cmake/WinArm64Tools.cmake": {
+      "sha256": "2f00cf511cc95bd5b1503e3d2414d32219b9f543b451dd616e36f33816980a9e",
+      "bytes": 4197
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/cmake/arm64-windows-toolchain.cmake": {
+      "sha256": "541491c0551ebb3c2136048b775e0297cbebf1f5c5f2cbf178c5acb096207a0f",
+      "bytes": 1396
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/common.mk": {
+      "sha256": "26cad9d59e9eb0ca3c833400b843b917e6eddb28bf0c6d22659a546755b145f9",
+      "bytes": 3709
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/common.props": {
+      "sha256": "380c01b4fae5282c841d9e6b0dfc25ddd9f2c3a860f3f2f3adcbb6e8fbfbbaf1",
+      "bytes": 816
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/ffi/cs/App.config": {
+      "sha256": "7ac156ea4882053c8d3d08a8158c07c39b3b30594ec220a1fe3a2797a177fea1",
+      "bytes": 186
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/ffi/cs/Properties/AssemblyInfo.cs": {
+      "sha256": "83595b2790a2a800a01ac01dec506c3f0cbe9290a93420e5766622199ee53344",
+      "bytes": 1670
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/ffi/cs/mcl.sln": {
+      "sha256": "8060f0c72a43945421e1dad961b65f8ef3dc305a4ff580ed860509b5434fe60c",
+      "bytes": 1532
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/ffi/cs/mcl/mcl.cs": {
+      "sha256": "23294988fd5b61d16937d6b0041a8ea99ecb71ac9b1ef9521ad642ba27de61c0",
+      "bytes": 43248
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/ffi/cs/mcl/mclcs.csproj": {
+      "sha256": "5a9fa434b4dd061c30be1251306cb738792a9e1eaa24b5afa4de06b1bca9c99c",
+      "bytes": 317
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/ffi/cs/readme.md": {
+      "sha256": "585c66b781f3a9ec68aa2e9cef5bb357eae795593a087284882f3dde18029a46",
+      "bytes": 618
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/ffi/cs/test/test.cs": {
+      "sha256": "4b22fe5447c241ad1a7957498ff4c2ea4c9adbab517e2ac7f39c211572518723",
+      "bytes": 21632
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/ffi/cs/test/test.csproj": {
+      "sha256": "b68c92478c652bbcf6a85f3d855dfe6fea885669f6ffecaaaddac7c11877f27b",
+      "bytes": 746
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/ffi/go/mcl/init.go": {
+      "sha256": "df651cb9a07a97541bc689684d83d552757881d8e804bcf4ebd030a192987457",
+      "bytes": 397
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/ffi/go/mcl/link.go": {
+      "sha256": "1b6b29e9503e8ff9fac5e9cd38bce1dbbe6e6fb8237eca52e48f2440329c941f",
+      "bytes": 112
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/ffi/go/mcl/mcl.go": {
+      "sha256": "9f5fc444a8494110a6527133e9c2463bfa86168e32758f4abc2d2322c6b1524b",
+      "bytes": 30620
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/ffi/go/mcl/mcl_test.go": {
+      "sha256": "cc55288c732336b41908baf338eb4beccfb4864c36a4204840e14e6763b9297d",
+      "bytes": 6962
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/ffi/java/CMakeLists.txt": {
+      "sha256": "c93764f54b3366ecfd4cbb75d1fde353ebb04f06c68b0dc807d966374364723a",
+      "bytes": 2073
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/ffi/java/ElgamalTest.java": {
+      "sha256": "7a1d63db59047d2c5f1292ce301bf3dafcc42279855d0fd87c4fefb3ca733025",
+      "bytes": 3620
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/ffi/java/Makefile": {
+      "sha256": "9f8f5d20e4814c5cabb102fdfb40fdf0285afafe7bf819daf200d64675a6f283",
+      "bytes": 2210
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/ffi/java/MclTest.java": {
+      "sha256": "6bc35d3fcabd0f47f56ec8bb224446f7bc168d7a1949351f117ed35e823f4532",
+      "bytes": 4851
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/ffi/java/android/jni/Android.mk": {
+      "sha256": "5e698cdc5b8f6a617b67681667792a1b22089578ef099424889b78dd6a15b98a",
+      "bytes": 1281
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/ffi/java/android/jni/Application.mk": {
+      "sha256": "c6b9153edffd58da45ebf0e851146caf529013e34c060f1aa6431a7c9c500eda",
+      "bytes": 122
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/ffi/java/com/herumi/mcl/CipherText.java": {
+      "sha256": "c89e46b92aab5acffa45cd5022a3a09861ea1d98879afa95c79fa72221b420dc",
+      "bytes": 2062
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/ffi/java/com/herumi/mcl/Elgamal.java": {
+      "sha256": "69c3b397b48abbdda3566983f5a172197f7f32e0b6ab573ea111396d741adc08",
+      "bytes": 1286
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/ffi/java/com/herumi/mcl/ElgamalJNI.java": {
+      "sha256": "59dbbf8d72df84debfa1cad532a1fbae464d135bfa6cc0eca7c408685d8f3a50",
+      "bytes": 3960
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/ffi/java/com/herumi/mcl/Fp.java": {
+      "sha256": "1c77979000383c9a0b8b511c793aa4baa9b4c87dfdeb7478539a79d781acde5b",
+      "bytes": 2832
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/ffi/java/com/herumi/mcl/Fr.java": {
+      "sha256": "877c8fbbc5b2d467771de1cba36fe599fb04861d15741ce5716537354dd75694",
+      "bytes": 3040
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/ffi/java/com/herumi/mcl/G1.java": {
+      "sha256": "86b6f897dc0345ce5d96939a3ad1d8f2a0c65993ac25976e3cd525a4887de7b8",
+      "bytes": 3109
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/ffi/java/com/herumi/mcl/G2.java": {
+      "sha256": "ee6c5c60bd5839051d263a08292d7a4af790381bcf5e0147a8db74127ca31ebd",
+      "bytes": 2764
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/ffi/java/com/herumi/mcl/GT.java": {
+      "sha256": "3f42ee64cf53f4b361f655039b8c02fb3571b4cadcabc3a53f082d14daf1d573",
+      "bytes": 2342
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/ffi/java/com/herumi/mcl/Mcl.java": {
+      "sha256": "9495d01aa9ff5c0b894b585db8273b63e759c78833f789e5a9aed620f48d0a73",
+      "bytes": 4190
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/ffi/java/com/herumi/mcl/MclConstants.java": {
+      "sha256": "ab097a69dc39ea5bc40624fe87a5e4d94864e11018f226b7fa41d0f17c8bfed8",
+      "bytes": 569
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/ffi/java/com/herumi/mcl/MclJNI.java": {
+      "sha256": "e57ea5597d875ea8131858bb3a3917b37e971f1d7b12543d627d3894910b68c7",
+      "bytes": 10431
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/ffi/java/com/herumi/mcl/PrivateKey.java": {
+      "sha256": "ef41b9185558fba3dd377be9b1c9c893bdc441b6a98f8566f518e8c39765ac29",
+      "bytes": 2703
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/ffi/java/com/herumi/mcl/PublicKey.java": {
+      "sha256": "8d1d581da43bf06026ef2a06791cf3f702c086510e738a643baba294d833d538",
+      "bytes": 2626
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/ffi/java/com/herumi/mcl/SWIGTYPE_p_bool.java": {
+      "sha256": "c1ff476f5b42a0d9d4df4b1b8b8a6d0adfef568985f7ce5d622d8809f734bcf4",
+      "bytes": 881
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/ffi/java/elgamal.i": {
+      "sha256": "2689055ee5bd4ad18623b5a959c3044a77a943ec9c849de92caa972f220a1b5e",
+      "bytes": 509
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/ffi/java/elgamal_impl.hpp": {
+      "sha256": "3dd5535003715b454bcdbc812ea261fac8f8eb6c3286526b677906f111ef9145",
+      "bytes": 4504
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/ffi/java/elgamal_wrap.cxx": {
+      "sha256": "8aca85582300af54e81955be0c2bce532cf0db1be9346785fd4a642a509180c2",
+      "bytes": 32091
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/ffi/java/java.md": {
+      "sha256": "4438381ec9050a6ac5f2ba5994d38bb681e8ddbeac2b6bee3252e8a81083d36f",
+      "bytes": 2988
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/ffi/java/make_wrap.bat": {
+      "sha256": "0d8bcfe9c2e3c4cbddfe29c08f37b11402de9f5947312ad71417133da6e5a429",
+      "bytes": 794
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/ffi/java/mcl.i": {
+      "sha256": "cdd5397df15ec2bcc46c96dc69ef5794a2304a73c8e65d9daa5c7aaf8c5113c5",
+      "bytes": 756
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/ffi/java/mcl_impl.hpp": {
+      "sha256": "56087a6dca2ae359eb0d0773832405c4fed80a5b2eeae2cf70b14f47ada7a61c",
+      "bytes": 11178
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/ffi/java/mcl_wrap.cxx": {
+      "sha256": "a41bc78672c48ca866d40a8a2d00c864a9fee676cbd73b8e2eb8ac126f236ae2",
+      "bytes": 76932
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/ffi/java/readme.md": {
+      "sha256": "b820b1453df05efc748d20ace91fff94b9c9cea121e6000b1ad82aeedbc0c0b5",
+      "bytes": 2066
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/ffi/java/run-elgamal.bat": {
+      "sha256": "60a4d3162b9c527483f8a440ee7fe32cf261c7fc8b0a4ed9a52b2c397e2114df",
+      "bytes": 233
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/ffi/java/run-mcl.bat": {
+      "sha256": "fd6f7f125c3c47fb062d17414164cd24674db5ca3da7354be6556692b599506c",
+      "bytes": 217
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/ffi/java/set-java-path.bat": {
+      "sha256": "a19e092ab11f52357f14b1b335c2c545d57400d0ad93a220dccc86015122e799",
+      "bytes": 166
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/ffi/js/export-functions.py": {
+      "sha256": "957ab87a73d1c33c8d9492d315936e6e03ac9b47b34437eaa46e78a81e2a63f1",
+      "bytes": 2498
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/ffi/js/pre-mcl.js": {
+      "sha256": "e17ff35cdfcfdffa07a672eec45204f30bef69c32561a210229e51b9dea80213",
+      "bytes": 115
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/ffi/python/Makefile": {
+      "sha256": "2abf3c58ab5565f383d40d0aa5003840a9afe11818837cb67b642d6b60cf526d",
+      "bytes": 383
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/ffi/python/pairing.py": {
+      "sha256": "9bde5753bcb104dd27595c6a98798995f6ea93f81da3812040bc773b5be96ea0",
+      "bytes": 1790
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/ffi/python/readme.md": {
+      "sha256": "652b5ad4ab28f4f4540b2ed921dd85bfeb28725eaaf99ef58a337badc33cbb5e",
+      "bytes": 139
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/ffi/python/she.py": {
+      "sha256": "66ed2ad700c6b5fabc557bd37c5d55ea88e54c024a0a4d76eae7cd86484023fb",
+      "bytes": 13850
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/ffi/readme.md": {
+      "sha256": "068595004f2bbc131a6bf8040ffee62d351740d9b6cec9ed976a02fec8847dd2",
+      "bytes": 376
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/go.mod": {
+      "sha256": "a192e0acdd482a9be4e010283342294f1a1dd7e5fbad0106073ab70ab06a02e1",
+      "bytes": 41
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/cybozu/array.hpp": {
+      "sha256": "98411ba49ce28670659474c92c17d994d8145d078f29ff67a54a80ba9adcee05",
+      "bytes": 4597
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/cybozu/atoi.hpp": {
+      "sha256": "7b2ce2f268e0e973525d290d84c16cf9dd213031b4fbb46811e98e2adf71d076",
+      "bytes": 6504
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/cybozu/atomic.hpp": {
+      "sha256": "3c75932bc5e754fa5835528441e95c7cf305c0424f42d8414336ff1cef21a416",
+      "bytes": 3287
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/cybozu/benchmark.hpp": {
+      "sha256": "1009c9bdd3c6412d80897b3e0f8e032e0f77ef6d566b8af9e97bb586860ee068",
+      "bytes": 5947
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/cybozu/bit_operation.hpp": {
+      "sha256": "d96b7927b4142080641988ba06570470e6cfc58142aae12d6e147e25257c0588",
+      "bytes": 2761
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/cybozu/critical_section.hpp": {
+      "sha256": "80b9958995faa8f29e57d2b33e86eaf7322ce1890df633caeae2ca095bf12d6f",
+      "bytes": 1440
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/cybozu/crypto.hpp": {
+      "sha256": "55424902e2aa9a2e32926a2280e3540906b5848fb3e08e01043ea23c7eaa57b7",
+      "bytes": 10191
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/cybozu/endian.hpp": {
+      "sha256": "704d5effa98c5e8af6a90352ee602ffee1e0b01730c7ad0acda72ad9752d4efa",
+      "bytes": 5389
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/cybozu/exception.hpp": {
+      "sha256": "837c9689b95f07b3ef668573f4c3c5c66b0cf094b4332a7e9dd89462dcb5db97",
+      "bytes": 5113
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/cybozu/file.hpp": {
+      "sha256": "81bb412f7ff7558312c8cbc38f93e34518d6ed66bc737c0627ee02cdf9fcd209",
+      "bytes": 15456
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/cybozu/hash.hpp": {
+      "sha256": "91ce41b30d5a447df28aa402de2195f71df41b2ced9a6fe81d82e820b2179f66",
+      "bytes": 1222
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/cybozu/inttype.hpp": {
+      "sha256": "6e75179a19b28a0c08dd9c20dd9a15a0154c832b1152446f8c6ceaa4618a24a8",
+      "bytes": 5668
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/cybozu/itoa.hpp": {
+      "sha256": "48c6e8e077dc45d9303beb40a462078e92afd4923c6c410cc7d5f4951cfc5a5b",
+      "bytes": 7713
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/cybozu/link_libeay32.hpp": {
+      "sha256": "8d5978be4d13a7f7e23b3b14bdef4203499344549628b07f40c83f33ea1c71c7",
+      "bytes": 530
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/cybozu/link_mpir.hpp": {
+      "sha256": "4c8758fa082f5c3edfe23c979775eaeb46da62fb61bd58b7734e372526bae908",
+      "bytes": 532
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/cybozu/link_ssleay32.hpp": {
+      "sha256": "3d49a8b8469d24b8f963df1010b425f6a62e2ecd207aa0848f0ab8b3d190245e",
+      "bytes": 455
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/cybozu/mutex.hpp": {
+      "sha256": "2fd0111bfdb2d3285c7eac434e1231235a4384e458ec143dd84e195c0802eeb0",
+      "bytes": 3047
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/cybozu/option.hpp": {
+      "sha256": "31e739de6ea1be16514a1aaf27037ccda3b23a2b969002f54cc97551c036bd8e",
+      "bytes": 19518
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/cybozu/random_generator.hpp": {
+      "sha256": "59164e15ba61e9acfac472bfbfe473fb831fc7ca533d57f2e49ab59ce244b137",
+      "bytes": 2982
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/cybozu/serializer.hpp": {
+      "sha256": "21cd7b09294f9d6d6cf1111db67d6e23b04915d9a42c532a117ab3a2eec0ece1",
+      "bytes": 10746
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/cybozu/sha2.hpp": {
+      "sha256": "31337228e48f87d71635ee70ff5e9e7ad243251773d258a2af0a4fca87765433",
+      "bytes": 16648
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/cybozu/socket.hpp": {
+      "sha256": "253c4da9abbfefadf1e63f1632345a87fae32ee80262d94fd0d63cbc3de1f991",
+      "bytes": 19723
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/cybozu/stream.hpp": {
+      "sha256": "2355a2aec1aa8fc3fab6f7bab0c95b8e5b0981cbb7d5242d767cf2aaee811dd9",
+      "bytes": 7019
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/cybozu/test.hpp": {
+      "sha256": "a212ad7d48100ff7132ad98614eccc4d2986d639ed502b0cff57630b3e88b5eb",
+      "bytes": 9418
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/cybozu/time.hpp": {
+      "sha256": "4948225a1a49d857aabd830c0c56f6b9e226d5af859364882adc12f02388e49c",
+      "bytes": 7025
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/cybozu/unordered_map.hpp": {
+      "sha256": "9d5af9f95e18f3076b9c4674024d1f4718cacfaf130b612d9ba7266a813dd04b",
+      "bytes": 330
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/cybozu/xorshift.hpp": {
+      "sha256": "e4304276bef5e9c7df437e2f3ede7c4ab511b7f2761937046e9ff3b6fc036548",
+      "bytes": 3810
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/mcl/aggregate_sig.hpp": {
+      "sha256": "a2a491631c90413282b4fc62ca1e3daf269ef007cf27946ab905d0474117d9cf",
+      "bytes": 7906
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/mcl/array.hpp": {
+      "sha256": "72c68d70a1e13b18dce1718b8de976b7f463f336125f31d0f61f082d466a1948",
+      "bytes": 3175
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/mcl/bint.hpp": {
+      "sha256": "8dd92e1d5a750bd909111ffadb9e8faec4c8021aea009bcba0099798831fdaed",
+      "bytes": 16340
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/mcl/bls12_381.hpp": {
+      "sha256": "2ebeda472a90eb720c914ef64198208097da195b23dd347bbf04daae03c57888",
+      "bytes": 284
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/mcl/bn.h": {
+      "sha256": "be4651aec55422b38087855dddc12b659dacf5786699f3d1b0131057559ef2a9",
+      "bytes": 23059
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/mcl/bn.hpp": {
+      "sha256": "881289178a522ff2905b1c6b9f004dc6b573b6a50473fbd46db3f7410c19ed47",
+      "bytes": 5480
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/mcl/bn_c256.h": {
+      "sha256": "ed110133d7eabc9b7f0259e58240814972270c142d6caf7b380508d0b368c10f",
+      "bytes": 281
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/mcl/bn_c384.h": {
+      "sha256": "e4bbc8c467d604353a34b786c12bde7bacb9b17271a8456b8c8da6b1fa21737e",
+      "bytes": 281
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/mcl/bn_c384_256.h": {
+      "sha256": "b4827629c3e8286f73f30cc3df504fd43975eed307d1b4a80ce0e430fc9c5913",
+      "bytes": 285
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/mcl/config.hpp": {
+      "sha256": "3e4834e6cfc869a89db77b601937448c7acaf227fc94c25fab6d8be00c49e76f",
+      "bytes": 3566
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/mcl/conversion.hpp": {
+      "sha256": "52474705483cfa94b99598f60128c1fe0f57c1b614cfa693f0227fa5ce0569f4",
+      "bytes": 5110
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/mcl/curve_type.h": {
+      "sha256": "76a920e0484220dae217ec2f053d01f028956ac41f214705ac36c7010f85fad3",
+      "bytes": 1844
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/mcl/curve_type.hpp": {
+      "sha256": "de036ba6152e11b5622223bd3d6e7f0e6870e9dee273b24cd6649f5f931026ae",
+      "bytes": 2754
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/mcl/ec.hpp": {
+      "sha256": "68e5c6fe0f29ee71235908617d91aa30f9e1c0f598e755f698aaedb62db98895",
+      "bytes": 42594
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/mcl/ecdsa.h": {
+      "sha256": "b214c0d5e9db3bce27a14eba071d37eaf05f983524edb8845d0337e56bbac239",
+      "bytes": 3545
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/mcl/ecdsa.hpp": {
+      "sha256": "2f6450106a20873ff27946482b618d85367a3f9410816004a8d714ef49f08842",
+      "bytes": 10736
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/mcl/ecparam.hpp": {
+      "sha256": "edc9ab68a261cd9bf250574ea37141660e2cc4a40c2dfc322401ea6664160620",
+      "bytes": 7481
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/mcl/elgamal.hpp": {
+      "sha256": "d8df9cec960e86de7af4a037075332d776de29a24d42e823536fa256ea5a6658",
+      "bytes": 13892
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/mcl/fp.hpp": {
+      "sha256": "e8b00a1b319784f95e40adc18523dd4bd5506b6351430fb7058de5c2049dcb92",
+      "bytes": 20462
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/mcl/fp_def.hpp": {
+      "sha256": "a1106614b7d4ccb5b4c9a4f0d4b24b7b9fd54405864f8f5f47574883cf537c1b",
+      "bytes": 297
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/mcl/fp_tower.hpp": {
+      "sha256": "7f66f273f904da6eeafcf87380db1bc8c85200fe5e8918ea79c2f47237bfe181",
+      "bytes": 38499
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/mcl/fr_def.hpp": {
+      "sha256": "8d7731e9d9ee1c2ff1e8fef7b74be43bacb0f8dc55f587241dd04566a4f01200",
+      "bytes": 297
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/mcl/g1_def.hpp": {
+      "sha256": "d0eea0f5709fa83f2595a14fd6b57c7ea5bc026786b377bcfce58487e93d09d7",
+      "bytes": 260
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/mcl/g2_def.hpp": {
+      "sha256": "dc06e063b45fd695783a6a317082da617730a8c0eb4f1f4e70c91b20fefbac8e",
+      "bytes": 817
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/mcl/gmp_util.hpp": {
+      "sha256": "8196fefc93a5ff6e0ca53d89018e9ce0aa45610d51c36f0175ec6120695daf6e",
+      "bytes": 22886
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/mcl/invmod.hpp": {
+      "sha256": "4787639a304081a7a19c505faeb1a00f47f3e0c1ff998cf2bbae398625b3695e",
+      "bytes": 5761
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/mcl/invmod_fwd.hpp": {
+      "sha256": "01e3118f0dcc2bd203ce58ab3db27fc8dae38e3d17deb7884f5b8c43a0466a98",
+      "bytes": 662
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/mcl/lagrange.hpp": {
+      "sha256": "e338a1f3d58bbe30c0db01a731f24c1b1b30df3d027a46fb6a03d1cfb56bc24d",
+      "bytes": 2725
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/mcl/ntt.hpp": {
+      "sha256": "43ed16b69535b31839cd1493cf421885d4c02fdc73260dcf3f0e36f12e3c2380",
+      "bytes": 3992
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/mcl/op.hpp": {
+      "sha256": "e910c7d2a006f5ebe4c01c6c79121bcebe70fe2ee9dcb14afd55e04743df72b9",
+      "bytes": 9149
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/mcl/operator.hpp": {
+      "sha256": "e9a5508c3067b91e1d0553bd9047844bd450a5e67bfe68edae415fc4193e4ea8",
+      "bytes": 10042
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/mcl/paillier.hpp": {
+      "sha256": "69b282943b439fa8f18293fbd8f3ffff51fe86276b511ccd68765572536068cd",
+      "bytes": 1984
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/mcl/randgen.hpp": {
+      "sha256": "9e5e8e0d6450240d0ef6184195a6956477788e4ebc121017f19f3c2ddc8d91a4",
+      "bytes": 3306
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/mcl/she.h": {
+      "sha256": "367467113fd5f5a9fc9a0f6fee9ba89907a5d0f893b7055bc40a4e736827de1e",
+      "bytes": 15582
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/mcl/she.hpp": {
+      "sha256": "21a111ffe310503908f7e09419e3a0d860464e9e2ed3dda38e756fae9f15258a",
+      "bytes": 68183
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/mcl/tinylib/assert.h": {
+      "sha256": "6ab29ec457c83780668f986c0ce435af098466be905e811ce13f71e20fb9307f",
+      "bytes": 58
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/mcl/tinylib/memory.h": {
+      "sha256": "7e03e7b5b99a03799fb0ffb880556ede5cfa384bf1e3258cfb8f9175e042f523",
+      "bytes": 264
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/mcl/tinylib/stdlib.h": {
+      "sha256": "0de2ee4847acbbeaa0f7fecdb50a8cdfe3456078320fabb667d58527b8f359ef",
+      "bytes": 220
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/mcl/tinylib/string.h": {
+      "sha256": "50af1f62fcd0bc9d18d9ef10d7f938529074c76be57260e949858464c2877ff8",
+      "bytes": 642
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/mcl/util.hpp": {
+      "sha256": "be1f839580a6d51d19e7f8d2599ebabf4f63878a9bcc1b32ea101f0c50e2f4b0",
+      "bytes": 4497
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/mcl/vint.hpp": {
+      "sha256": "95597a4d5b32c38d3bb7682e53df578a48535a6d92c3a03377ea9a63713986a7",
+      "bytes": 28851
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/include/mcl/window_method.hpp": {
+      "sha256": "dcda5f34cf1f978a73d5150a109f7789afc6d47562d645c673d0797dae0a5230",
+      "bytes": 2670
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/lib/.emptydir": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/lib/libmcl.so": {
+      "sha256": "50de1adde1c574ba351b5739f70b2cf4299f29cd2975ebce69de96ca83e9b1a0",
+      "bytes": 8659856
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/makefile.win": {
+      "sha256": "3f9f5b57198a5a339c72da587b3be1fbbeb493eaffc04caf1ef96c784d3c0eb7",
+      "bytes": 1923
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/mcl.sln": {
+      "sha256": "b32a058c4de4c438b55f1a7a2a129e9ead8b3f1cdaea781d1cc195ba66b4f08b",
+      "bytes": 1697
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/misc/Makefile": {
+      "sha256": "8af6f114d94a9be49f5009f034ce7312bfc401a03bb7a03434339ceda0c46a90",
+      "bytes": 807
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/misc/bench.txt": {
+      "sha256": "33106a4a7a9c03cd09ce8c25a8c4ca808bf954b88828fa0f07263196a3a5fc63",
+      "bytes": 823
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/misc/divsmallx-diff.py": {
+      "sha256": "279246a9e4bb938fff366703ae3f95acb42ac9078155617ef4e542e3dc8a0872",
+      "bytes": 177
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/misc/gather_test.cpp": {
+      "sha256": "d49ddd6cf7439064355eaed408422dc5ef9012940f884962eabd8737326b85d5",
+      "bytes": 2330
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/misc/gen.py": {
+      "sha256": "7988b3d416537a97399fdd2e38ea98aa3a204032a8c38d7152d21e896cac99be",
+      "bytes": 1304
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/misc/gen_test.cpp": {
+      "sha256": "5438691756cd4dafbd5eb884dc6c933aea9e96df1f1061ae552454b1f35cc5b6",
+      "bytes": 9025
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/misc/gen_test.py": {
+      "sha256": "3812ba314f7dd8ad8b94d86cb13c6b58c93bf5f81506cb1665a1813e1183139f",
+      "bytes": 3818
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/misc/internal.md": {
+      "sha256": "2cc3404f8a998773c9f631b224fa41b8e3d5d18e6db827ab44fa4e2826ed76ec",
+      "bytes": 3964
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/misc/low_test.cpp": {
+      "sha256": "7def4ce0424095b66d6e0f0ad4188fec5383a9bcaa5d4c8a31b3237ce60d92ae",
+      "bytes": 2490
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/misc/memo.md": {
+      "sha256": "bd4c82e0e694e8b06c7cbae7b2612325c414b666eaf39bddc24b164721fb9a8e",
+      "bytes": 161
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/misc/mul-approx.py": {
+      "sha256": "b6e4828ca1b56d8aa596018bd1619a635a5bf36eee4a32edfc890519884eb15c",
+      "bytes": 3299
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/misc/mul.cpp": {
+      "sha256": "0d4f860d9958b34b48092d66a53050b9a8ad13d88b417acc5e36f1dead74c531",
+      "bytes": 2103
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/misc/mulvec_test.cpp": {
+      "sha256": "5887db60c9e51c4270f48b44d14700851724cda628fd288df2ba1ac39d3bf0d9",
+      "bytes": 2020
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/misc/new-div.py": {
+      "sha256": "123ca27fa7ae8daec031688922cac87709f59ead8da12059b0d8d72334e6c443",
+      "bytes": 4928
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/misc/precompute.cpp": {
+      "sha256": "a54e9a5df1d91c10073dfa0cd5db08d49d2b206055eaf9c5acac9b15bcd46ca2",
+      "bytes": 661
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/misc/she/Makefile": {
+      "sha256": "26674af03edd679ed1ae791a5ed6a30b990146df15bec98b56ba2f68037e371c",
+      "bytes": 745
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/misc/she/bench.cpp": {
+      "sha256": "670223b75e171e10e79cd11ba6af8b314ecc8d61c58e1b68dd6302ed32092038",
+      "bytes": 6356
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/misc/she/bench.sh": {
+      "sha256": "2a2556d1e29ac92b9f999cb7febc28e76916ce6cd0ccae7f77fc75ba7cd3baf0",
+      "bytes": 151
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/misc/she/bench4.txt": {
+      "sha256": "68487f257b764023cf62efb4b08dfdb6cc9163d84bca1dbb86b8ac596d745173",
+      "bytes": 2218
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/misc/she/bench6.txt": {
+      "sha256": "db7b1895f097e8277f165651169e68afc90c42cb5a5cbf9d6fbdb6966cdbffa4",
+      "bytes": 2217
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/misc/she/bench8.txt": {
+      "sha256": "69a44602858f2566b822ab95f5244a3f2e716abf07534b99b1d1b8e02827dbab",
+      "bytes": 2215
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/misc/she/memo.txt": {
+      "sha256": "edf12444e2761f52baa04ed30180e7048cc2e1d6e9cbe47e4a1e2eee952a7730",
+      "bytes": 2739
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/misc/she/nizkp.pdf": {
+      "sha256": "27f8172191060a3eb3651f7419f94a4a3fb9a79605487146951ea70806e67116",
+      "bytes": 39686
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/misc/she/she-api-ja.md": {
+      "sha256": "7a9af8057dc10e5336540bd62e2bf1924cdaf779d1dda50f8247bd676459a158",
+      "bytes": 12539
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/misc/she/she-api.md": {
+      "sha256": "04da3477051bd1d2d55f35f77df20f601e7deab58fa97acaed327033126e26ec",
+      "bytes": 12335
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/misc/she/she.pdf": {
+      "sha256": "4877b5462557a6cfe6671454ecc75cc5a8e535f9bb52251c1412359090e5ee0e",
+      "bytes": 25716
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/misc/snark-p.py": {
+      "sha256": "cea3d698fa945a42f0bf42b62851f9bf326075a964cf4815d62a12359be748f0",
+      "bytes": 359
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/misc/split.py": {
+      "sha256": "7cc01adbe6e9b4d1fa0cafff35919378c951af40b9bb55da3f23b22ab1f29a8e",
+      "bytes": 2136
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/misc/sqr_test.cpp": {
+      "sha256": "1554d5ecb3ea9357208520bb22eda07e451a224e11f01c0bf5c86dceda4feab6",
+      "bytes": 962
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/mk.bat": {
+      "sha256": "f590041035195fa1b82fb9fc81377ab6010b95dcc84f04515624de2e7ac194ed",
+      "bytes": 526
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/mk_arm64.bat": {
+      "sha256": "0649658ff2c81a7b775a4e14aa8a38b41dd663f48ecc49c7edc7c2e43c0708f7",
+      "bytes": 610
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/mklib.bat": {
+      "sha256": "2695a988e0abac737e503c2bd75a457dddb7f31a91fb990bc9c7aafd741795a8",
+      "bytes": 869
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/mklib_arm64.bat": {
+      "sha256": "30b59a071abd3f0c76143039dd728e6036b299940c3892da55128a7e326d10fb",
+      "bytes": 1546
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/obj/.emptydir": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/readme.md": {
+      "sha256": "c95a2ff72721b78f07663b9f8ceb754e4022e0867842935ba349a6d0b470dac2",
+      "bytes": 14670
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/sample/CMakeLists.txt": {
+      "sha256": "2a3df42591f00b4421f3c5d036913dfa8a23235f86045ab8e65c2fd06203306c",
+      "bytes": 753
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/sample/bench.cpp": {
+      "sha256": "40f2618ddb313c3a9d36b866511fdcf4650ebc26e780611cd23814a353c1987b",
+      "bytes": 6349
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/sample/bls_sig.cpp": {
+      "sha256": "c3d466d3a702a80a67225fb144e8b7833268e4cc3595d51416f38f8dbaf740ca",
+      "bytes": 1405
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/sample/ecdh.cpp": {
+      "sha256": "5a3b0901c83d66f85de30e06948740192030253918660f55cf637b21c8134465",
+      "bytes": 1134
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/sample/eip-196.cpp": {
+      "sha256": "17022746337300c8b1969b593bce369407a31d2dfb08b9f2a9238f86cb91c695",
+      "bytes": 5086
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/sample/large.cpp": {
+      "sha256": "2d9c09b06c4b857c6913ab7bcc17059e5bf954b56e4382dfad5d6ebf3fcacd77",
+      "bytes": 2714
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/sample/mt_test.cpp": {
+      "sha256": "5e9e4e87d8cb0d15bb3cf15521b74707d8f8f2d3aa911b15aaada452453c773f",
+      "bytes": 3305
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/sample/multi.cpp": {
+      "sha256": "337fe07939e848e06fb70cbc741e08b63ded66b2805751583e67d0307decaab3",
+      "bytes": 203
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/sample/pairing.cpp": {
+      "sha256": "0fdfefad2f41e4606725e7f8f2bab77401862ad89cb3058fe91a0f9706934db4",
+      "bytes": 1468
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/sample/pairing_c.c": {
+      "sha256": "cb9e641f38f173fe1e73e3db83af0a929fe6fe70c41081245000d9620651e07f",
+      "bytes": 1531
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/sample/random.cpp": {
+      "sha256": "e38885f41389e2ef20ce66b7a66eb11ff81189d1db6c6bc2f0f1b84af262506b",
+      "bytes": 648
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/sample/rawbench.cpp": {
+      "sha256": "39ac0c14f90a187e1b6e70edc28cee1e07aa0b57a0d81b00c11e12bbafb202c3",
+      "bytes": 6230
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/sample/she_g1only.cpp": {
+      "sha256": "4c61a32b6298cd665d28419cc82de532f2342486a4eee4ec6f57d996cd24ae7e",
+      "bytes": 1420
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/sample/she_make_dlp_table.cpp": {
+      "sha256": "0cafe4aeea95db7385fade4c3da9026ac50b274d7206200ae5891984fb09e9ad",
+      "bytes": 1885
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/sample/she_smpl.cpp": {
+      "sha256": "eb0f1e4db286cc79f6b140a65a2399e5a9f32617b808137d50e3e77684782d60",
+      "bytes": 2904
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/sample/tri-dh.cpp": {
+      "sha256": "4aad7f052d7a24e6382eaa10ada5b00567e6048d8e6f25b6ca0bf4d406993ab0",
+      "bytes": 2401
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/sample/vote.cpp": {
+      "sha256": "69aaf18684b02cb4f32d4fd9b165a4ef1b7bc09e23b7600c372ed0f1652e2ac6",
+      "bytes": 4791
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/setvar.bat": {
+      "sha256": "21bf569e7eede0083c7193026fc26620c3cd138f26847cffe056cc4f31ccc1b6",
+      "bytes": 218
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/setvar_arm64.bat": {
+      "sha256": "59aaedea4a02b480f05ff849cf4323d575cdec7642bb9751e02d981ddd8ffb63",
+      "bytes": 663
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/src/asm/bint-x64-amd64.S": {
+      "sha256": "c6e89bdd9e06329769a5b58804bec63da6660d665d757ff3cd4b52b9124f475e",
+      "bytes": 142272
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/src/asm/bint-x64-mingw.S": {
+      "sha256": "38e072febb20d5860c1ad53e4fce4db3696889ddd97b6564a8fc6a10fdf16888",
+      "bytes": 146524
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/src/asm/bint-x64-win.asm": {
+      "sha256": "feb2664e1171e198a1da70474fceb58469c742a790a42da3e17c2365d68a41c7",
+      "bytes": 137230
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/src/asm/x86-64.S": {
+      "sha256": "8154f1a2ad877acfd9b3eb5369996f63ef271bdf308d0c6b51bc6a4a06d6c49c",
+      "bytes": 200784
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/src/avx512.hpp": {
+      "sha256": "401ac948d52b48ea42b95acbd57e2a31d221080a33986e74f580006d5f4a815a",
+      "bytes": 10354
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/src/base32.ll": {
+      "sha256": "f71495f9362447fd8c95200ab72ce5de726fac34b7e8dbbf15ee638c276e2689",
+      "bytes": 158902
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/src/base64.ll": {
+      "sha256": "c2c28c185bfb7bbc822319e06990e111dff2df4666cec4e39637fd7c389b34ff",
+      "bytes": 82400
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/src/bint32.ll": {
+      "sha256": "4bbacf9e76f65635ce61146e845ff618652fe6fe3472e5f5fd55dbcb761e5d43",
+      "bytes": 379056
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/src/bint64.ll": {
+      "sha256": "79ad5ba786dd66d1f1148217ef53c0087906abd99e632461ff74d7749d1b118f",
+      "bytes": 112643
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/src/bint_impl.hpp": {
+      "sha256": "2ac75f988d4d9b996eeb43eb12880598afe6b9159f590b91eb2317584559ff03",
+      "bytes": 13342
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/src/bint_switch.hpp": {
+      "sha256": "49997d8be44c06234d6aa491ab18f1709162e22b0b15e3e5e6cf7f448a8de1ac",
+      "bytes": 38782
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/src/bn_c256.cpp": {
+      "sha256": "457912e8a1981a0cafcf68993956203c4ed84bdd7573f720b5ee30279bc2f9a6",
+      "bytes": 73
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/src/bn_c384_256.cpp": {
+      "sha256": "457912e8a1981a0cafcf68993956203c4ed84bdd7573f720b5ee30279bc2f9a6",
+      "bytes": 73
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/src/bn_c_impl.hpp": {
+      "sha256": "d1060c7903780e7be4540327906671f016d8738020a2e41993e3720426556bcd",
+      "bytes": 22124
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/src/cast.hpp": {
+      "sha256": "6aea5440da2a1a3eb31aa82e6de2abfe0f268fdf9630068582389348d20b3e4e",
+      "bytes": 1175
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/src/common.py": {
+      "sha256": "249b9c8bc992a651f7de7c38358561e59b053a832bfe53ff53fd5e1f92e3ae6b",
+      "bytes": 3502
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/src/compress.hpp": {
+      "sha256": "2ac29ceb90c324e55df9d9fe5c90a184bcc4c1d2dc996f6f5c7d6c072aef5218",
+      "bytes": 3386
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/src/conversion_impl.hpp": {
+      "sha256": "cc5e395810c4791caacb9e5205dc959a0e9764f175fb131442909b85771acd71",
+      "bytes": 8058
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/src/dump_code.cpp": {
+      "sha256": "c1fe4ef1a23f07d9e5128f2c174219e63ab5012e41d694b0bc01d0f3fc318c35",
+      "bytes": 112
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/src/ecdsa_c.cpp": {
+      "sha256": "c62c749cc921c24505f3710cb2f1f457de29340329751d68d8f14e4f81c60012",
+      "bytes": 3863
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/src/fp.cpp": {
+      "sha256": "4f51f88697e30dda811aa43d61b37a229e3f9e070900127868d59086abdcc60a",
+      "bytes": 15199
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/src/fp_generator.hpp": {
+      "sha256": "282e5341652b75654b1837b780e987a896ea4fe2a713eb38217ef24cc5d2bc92",
+      "bytes": 96352
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/src/fp_static_code.hpp": {
+      "sha256": "2dc9cf58fa00f9aadccc92cd5407d89df159d82d00f464396f53dd6b48604dc2",
+      "bytes": 3561
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/src/fp_tower_impl.hpp": {
+      "sha256": "880988c3c1fecd762d578183df67c7f1291c6ddb069d7ce4b99493c691ee15cc",
+      "bytes": 3442
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/src/gen.py": {
+      "sha256": "e4a12b5c87354b0f93660cc540846a27bf45a8a02e88cf3ec32d18df6ab4ba1c",
+      "bytes": 13631
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/src/gen_bint.py": {
+      "sha256": "bd9722607461fb377b5c12ed5d24f2d4bb6b096e1b00de8615364e99fa2517d7",
+      "bytes": 8244
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/src/gen_bint_header.py": {
+      "sha256": "11df33bf1066ec9cd9c3f3cb9e0afa98d4a084fbe98f8add4c54f8412cee3a59",
+      "bytes": 4974
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/src/gen_bint_x64.py": {
+      "sha256": "cfafa1481ed1775223159eb23c0a99d9b538633d50076e72565c3412d001ec58",
+      "bytes": 26605
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/src/gen_llvm_proto.py": {
+      "sha256": "e2ea46f2dfa1dfa0b97c623ef4681d833025e4dc885047b139ab4507a1777f32",
+      "bytes": 2392
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/src/gen_msm_para.py": {
+      "sha256": "2965f9751f1c09e94530bcc0a000750d9b6728acef6200e7f13d85efdd306ac2",
+      "bytes": 3142
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/src/glv.hpp": {
+      "sha256": "b4fb75a93986c6a790cd34ee9d2c84674c3e7c025b8be3049c1ab334eb9105f7",
+      "bytes": 20883
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/src/llvm_gen.hpp": {
+      "sha256": "0156395fd07e224c9a7376e33ca6abbfb4211ed065af6aad4fd7110886ef8cce",
+      "bytes": 16515
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/src/llvm_proto.hpp": {
+      "sha256": "9c1baf10eb531fdaefb9e2c769667519b9875b29d960449bfdb121f28942df6e",
+      "bytes": 13362
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/src/low_func.hpp": {
+      "sha256": "9def1726f27b922dd2763218d6ee72e75e8865f551c629d119e97c5484caf74a",
+      "bytes": 10942
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/src/map_impl.hpp": {
+      "sha256": "1373afca6317a2f6e89e405ff839f160160f8acd92e57982f1254ff37943761a",
+      "bytes": 9592
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/src/mapto_wb19.hpp": {
+      "sha256": "e66bff222a061787a3ebc65648cc5e3d6848c17a5d396d15df5453c965f41431",
+      "bytes": 20124
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/src/montgomery.py": {
+      "sha256": "714c856228bd7175bfcdfd080de2d872b7b94919c5f7312c4b13814ac3f02695",
+      "bytes": 2420
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/src/msm.hpp": {
+      "sha256": "e4d625d8c663a82ee46acc75d8080b5e87945f915bed51bca1397c77c998d376",
+      "bytes": 491
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/src/msm_avx.cpp": {
+      "sha256": "989b13ffdc8376969488fbe21f8a877891632a9a5c028cb3455fe45746900e86",
+      "bytes": 63904
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/src/msm_avx_bls12_381.h": {
+      "sha256": "8d5fd74c788254a07988d2cbd61976cd41a39b6d4cfab77506c3cd50a0d6a2e1",
+      "bytes": 29592
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/src/pairing_impl.hpp": {
+      "sha256": "6e72ed5a06c9954d52051dce92ef355894d7e8648b3d4f56f281c6bb16ff111f",
+      "bytes": 26893
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/src/proj/mcllib/mcllib.vcxproj": {
+      "sha256": "1edce4e8a9a77b43c16eb86c0c43a7b3491d7ddeb66b51f48625d9729a97d024",
+      "bytes": 5008
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/src/s_xbyak.py": {
+      "sha256": "5371f5b2a1641255a74b3a9272c4d0195d665cf6fed06f59617017af41d6d560",
+      "bytes": 145450
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/src/s_xbyak_llvm.py": {
+      "sha256": "5348fc3ec9e82a1f0b2d65bf9ff526f65bd738f4cd5efe3be94f66a18920a159",
+      "bytes": 11359
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/src/she_c256.cpp": {
+      "sha256": "18c1af5dcbc4547bb519e67ae8883f012cabc0d8fb71237e2250bf96bcbe53b1",
+      "bytes": 51
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/src/she_c384.cpp": {
+      "sha256": "2f8299c413d52e9c1852b6ffa03de22ee61552a771a73ef8c3a27f07aa2eaee9",
+      "bytes": 51
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/src/she_c384_256.cpp": {
+      "sha256": "93aa018003efdd2f533bcf3f1fd7bf7264b9b65a51db783db8dc57317614ac84",
+      "bytes": 75
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/src/she_c_impl.hpp": {
+      "sha256": "add73046ab5091a05e9c0a50fd3d99eb853209fbbcd880119d9fa917918619e0",
+      "bytes": 23966
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/src/sqr256_wasm.hpp": {
+      "sha256": "847ff575c7bd6cd716053e8cc8f9f5a70f10491f9106e76ccb884b7f538f802d",
+      "bytes": 3170
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/src/wasm/assert.h": {
+      "sha256": "950535c54c1607bcc327010dc4223894694c59642e6ee197a8027ef18b74bd05",
+      "bytes": 19
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/src/wasm/dlmalloc.c": {
+      "sha256": "83b62a245c7a2db2a10d10278b6cc56562a70d722a147ba10ce298336aac7f67",
+      "bytes": 228312
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/src/wasm/errno.h": {
+      "sha256": "b0fcd36885bd8a111cf8d9a9f77690d07718e0e1c3be0309af218753de068036",
+      "bytes": 101
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/src/wasm/glue.js": {
+      "sha256": "fa89e96975f1c77ee12492dc0f05ad75ec9be7ad7eae5ec3054c64cac79b3cda",
+      "bytes": 2032
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/src/wasm/libc.c": {
+      "sha256": "92571532e64fac7567b145d49c9f1552a16e3a2cc053676c61488ba11c8ee7b5",
+      "bytes": 1961
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/src/wasm/memory.h": {
+      "sha256": "09052f86aedf9471ee836035d7fc51cdc98c388a2c2281f28707e6d761ba0712",
+      "bytes": 67
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/src/wasm/stack.s": {
+      "sha256": "b1070a4afd56276b26cd75cf4a7aa0d2a580a6b261865dc6bf1c4747ee808278",
+      "bytes": 692
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/src/wasm/stack_c.c": {
+      "sha256": "551d0cb2804286b51b8d44ece10dbcc6478d27f174e8f000e0a42423f1f7120d",
+      "bytes": 464
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/src/wasm/stdlib.h": {
+      "sha256": "cb965839c76bb97c650a16fe415a312cbd726b7718844727061fc4c6e13a7b95",
+      "bytes": 292
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/src/wasm/string.h": {
+      "sha256": "f28e22f5b3e15ac4c72d1412eb07ebd3c4d59f3812a33a83cafa9110669553d5",
+      "bytes": 421
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/src/xbyak/xbyak.h": {
+      "sha256": "b81cfa03e8989fec20eb424fda99d4eb04e6f31c8f4395857d1e67071ce0b4cd",
+      "bytes": 101645
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/src/xbyak/xbyak_mnemonic.h": {
+      "sha256": "aea591f2820533477753fe93ff3d92c99c26d9a2e277cb2aac232397a1582ba4",
+      "bytes": 250944
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/src/xbyak/xbyak_util.h": {
+      "sha256": "60de674e436ffbbe392651894e495ff6d026349d6b91b0038ecd564755432b1f",
+      "bytes": 31060
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/test/CMakeLists.txt": {
+      "sha256": "dea783083b91e91c84dd6c289e579b9de551bcd7e0595331d5dd3b9aee7bb40b",
+      "bytes": 1777
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/test/aggregate_sig_test.cpp": {
+      "sha256": "fac0208bc1d5200b98c0eade19c21669ab4dd05e196db084483141bb003ff1d5",
+      "bytes": 2473
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/test/array_test.cpp": {
+      "sha256": "913917a597add0f480c2146fa75eb3fd15ec2027fd48a4db746f49562208eeb0",
+      "bytes": 2642
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/test/bench.hpp": {
+      "sha256": "d0a1c06facda617205840357644f19a5cab53d15bcf5923203558972b3476305",
+      "bytes": 9966
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/test/bint_test.cpp": {
+      "sha256": "3bfe68ac8efc334764f50736c8a8ed3882b15cf6d202fc32767a0474377a8155",
+      "bytes": 25942
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/test/bls12_test.cpp": {
+      "sha256": "a0419eca928960ae28ad676f4776ceb45c283136fe85dfff7d37770dacdbedc7",
+      "bytes": 23906
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/test/bn384_test.cpp": {
+      "sha256": "bbf156955e7ca1fcb37ff286c17e8fd10ca46715602fd9437276f31512d61fbe",
+      "bytes": 6875
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/test/bn_c256_test.cpp": {
+      "sha256": "39a876d4b2fbd6c59be3587c59b7db031241edcf7e52e50be5f54f89d4be0e9e",
+      "bytes": 54
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/test/bn_c384_256_test.cpp": {
+      "sha256": "44b8dada96e9db563c1e9a4ae86a47e4229680f6423e9134bff704d5426fa810",
+      "bytes": 58
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/test/bn_c384_test.cpp": {
+      "sha256": "01854de9dc648f5577dd1963658b5436cdb207528e7be32f4dffc644b4951bab",
+      "bytes": 54
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/test/bn_c_test.hpp": {
+      "sha256": "02c40619c3d44bc6df75f0806ef805cc6ee4564b8ad106e21b355030653b55f1",
+      "bytes": 38536
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/test/bn_test.cpp": {
+      "sha256": "33e9f153eec4da1eb53f470c5dffd66425b051cefaaa61f72407ee7786df33bb",
+      "bytes": 12557
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/test/common_test.hpp": {
+      "sha256": "ab2ce7ea807fdcefa7ad5a7eccfc6036bef11a9a063a0b9cdc9649db36686c8f",
+      "bytes": 6226
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/test/conversion_test.cpp": {
+      "sha256": "6f2ff16b10182614a6754420ce322e05c9969d7c5adbf2b813fecb964b2ee9b9",
+      "bytes": 3515
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/test/ec_test.cpp": {
+      "sha256": "83be4f8d59a374c9728bf1493df856e4c0f2415717ad8122bc4ee6dac91a39d2",
+      "bytes": 17722
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/test/ecdsa_c_test.cpp": {
+      "sha256": "2ddbd46c7e22cb113b53e232ac3d1204748a3917d2b9b163a9bba96fd0f57acc",
+      "bytes": 1767
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/test/ecdsa_test.cpp": {
+      "sha256": "f7f7d96e85c9f6157cb7c7fc80ddbb15a2cdf60165ffde0d668afe18c41fbaa5",
+      "bytes": 10613
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/test/elgamal_test.cpp": {
+      "sha256": "98542fab719d69bd5db799c8717fa0d7c807a1c7d8fb65d6d746553c4939e919",
+      "bytes": 3197
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/test/fp_generator_test.cpp": {
+      "sha256": "4f29632037f48e16df714c54a6f1f2d023922a7213d124d7c78af5293092828b",
+      "bytes": 4630
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/test/fp_test.cpp": {
+      "sha256": "e81197eb6e37d2743806eaf8431fd38869f0ffc3b11752d9f324b88bb1d5d717",
+      "bytes": 27022
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/test/fp_tower_test.cpp": {
+      "sha256": "3b4baa307119686dce2a9b38f681973e78beaa106cb94c2612c3020b2f1690f6",
+      "bytes": 11506
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/test/fp_util_test.cpp": {
+      "sha256": "541dfdb44e02f980d947dcfcab5043f4098c72c939bedfb66d2d74c41f9c7258",
+      "bytes": 9448
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/test/glv_test.cpp": {
+      "sha256": "be43cf179020693fc485ddf3806282c3376c7007e81697231a1373c76cf15b63",
+      "bytes": 6002
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/test/gmp_test.cpp": {
+      "sha256": "6e6e67162b99199217abf029950572cf163d4710b8724836e7751062c6012a64",
+      "bytes": 1708
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/test/invmod_test.cpp": {
+      "sha256": "7dbe15b74ee1ce6f39341f048927625619779bccad1ac64286de8efce9f3e6c9",
+      "bytes": 1932
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/test/llvm_test.cpp": {
+      "sha256": "4b05456f7ce04722a372911f553dafad35759ecef1018f0f225634c0bba26cad",
+      "bytes": 3926
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/test/low_func_test.cpp": {
+      "sha256": "1efdbf56d18d67551926c8b1c34bdb2ca4fbaf22097468806e52e545527867c4",
+      "bytes": 3528
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/test/mapto_wb19_test.cpp": {
+      "sha256": "d5316a7c49d8b2c5ae582b8d4cdc5e1ddb7437c87c273eccf2c4100e89a675b0",
+      "bytes": 40485
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/test/mk32.sh": {
+      "sha256": "04a2058c7cde1c5dd04e0f65d7e62eabef8d60e60e30ad57b5a3fe04800b4d05",
+      "bytes": 189
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/test/modp_test.cpp": {
+      "sha256": "ad06c4baa0f7757de99e23d2dae3fe76e3c48746c5f6e9e91abc65dbc435c2f4",
+      "bytes": 2750
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/test/mont.hpp": {
+      "sha256": "4fa4a2eff23e840a07f5b4b9b3e46755dbd27f6f53f184cdd56ed54566ba355e",
+      "bytes": 2755
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/test/mont_fp_test.cpp": {
+      "sha256": "825810fc8ef7f07d9122e6a070cb6cc29aea80f8b6629f67e7a9b125bc08f686",
+      "bytes": 4169
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/test/mul_test.cpp": {
+      "sha256": "18bfd2506e7552b8dc802ede7919e3ef2345110395a44538db2dfd2b8120113e",
+      "bytes": 3834
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/test/ntt_test.cpp": {
+      "sha256": "ba8e8e65e8b66cc14928a5bb93efa431b4b2bf7b1e03bdcee24821e5e90919fa",
+      "bytes": 2654
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/test/paillier_test.cpp": {
+      "sha256": "d3d04f1d3b0c1c35978f1f47699b725ce0d5bd7860c07de1631222eabf398606",
+      "bytes": 635
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/test/proj/bls12_test/bls12_test.vcxproj": {
+      "sha256": "6326d095a8d7ce510c480fb231f79bfae50aeed5f1e392561334922eea831982",
+      "bytes": 4386
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/test/she_c256_test.cpp": {
+      "sha256": "ef59b43bb51b6e9870c4fd4cf4301cc4c543b690c4fc26528f0c80ca253338b9",
+      "bytes": 51
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/test/she_c384_256_test.cpp": {
+      "sha256": "7259b0d62cfed1948eda41ca8797e1f0fbf7e38a3a3cf0d467105fa5f6546d20",
+      "bytes": 75
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/test/she_c384_test.cpp": {
+      "sha256": "15c88f15a384c8983be6f95baa86aa50ec23a9f1f13b345e428d5f2135cb47b9",
+      "bytes": 51
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/test/she_c_test.hpp": {
+      "sha256": "174fc5b7fd518b971271486705107084827b95ad31b144f80f22ea22a9cee387",
+      "bytes": 20651
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/test/she_test.cpp": {
+      "sha256": "0f4b15a4ce8aebbd732522ceabac5cd84966ba49c05d1e87ab11fa72075b9fc7",
+      "bytes": 25028
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/test/smallmodp_test.cpp": {
+      "sha256": "98970447f049232311bcc1a9795a3e50600a1b32d0f7d5eac1a72802402ef78a",
+      "bytes": 1108
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/test/sq_test.cpp": {
+      "sha256": "e3b5abcb914503a39d5caee6c25d629b7bd7e61e487df772b33381eb64327920",
+      "bytes": 593
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/test/static_code_test.cpp": {
+      "sha256": "46481927330ecb5433363d6e2e8f4491b4691b6fc0b90884b6d845443e24fb06",
+      "bytes": 1086
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/test/static_init_test.cpp": {
+      "sha256": "f738b3ee1be37ae054b0b4c2fc52f3534504c0065bf0f95843a7230dfcf6e0f6",
+      "bytes": 1175
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/test/vint_test.cpp": {
+      "sha256": "50c41107b69fcc5817be891a48377cf4bd4244b2aca4ae26aa25f8babc1fe45d",
+      "bytes": 39364
+    },
+    "evidence/competition/05_程序与源码/platform/third_party/mcl/test/window_method_test.cpp": {
+      "sha256": "8b3e9f06d2898bfd25c0f13e4054a5e9a0df04e80f67659128d929059ded0856",
+      "bytes": 1099
+    },
+    "evidence/competition/05_程序与源码/运行与审阅说明.txt": {
+      "sha256": "c8e178366c045b839daf938d6d8b8b7391107f5906efcabae267b35902ddb7fc",
+      "bytes": 1964
+    },
+    "evidence/competition/06_索引与来源/UCI-import.json": {
+      "sha256": "b3c07911ca1a332c5ff6d0f8a96ab547f4ab60f4c0836d25cfb03783ebb45185",
+      "bytes": 1320
+    },
+    "evidence/competition/06_索引与来源/evidence-manifest.json": {
+      "sha256": "4aefbdcebc577817ab54a6fbc1df77c4346944722a675c71bcc0b13aab841531",
+      "bytes": 91489
+    },
+    "evidence/competition/06_索引与来源/provenance.json": {
+      "sha256": "0c0fe9cba09692c3348f93e6d42d3750be49c7e5e3ae20e578a1475753bd4e1d",
+      "bytes": 129390
+    },
+    "evidence/competition/06_索引与来源/sources.json": {
+      "sha256": "427d978e97b9db6e5cb377ee4c541c8233560d1deef73cb4fc15ef97584ad084",
+      "bytes": 3403
+    },
+    "evidence/competition/06_索引与来源/version.json": {
+      "sha256": "1b02cd79f97f65400ca97b48b41afc0508e256ca7a3316772c6fa33f08e287b2",
+      "bytes": 10266
+    },
+    "evidence/github-upload-20261020/offline-verification.json": {
+      "sha256": "48020ac8132cf9529bab66702cbd20dd03d354d18ca44a948d5ee3e407e48cb6",
+      "bytes": 913
+    },
+    "evidence/github-upload-20261020/publication-review.json": {
+      "sha256": "14a0ed6bbe90e9c734571b095b1e4e33ee2abe624066b05977e39b44e1c48459",
+      "bytes": 1350
+    },
+    "materials/竞赛提交材料_CACR2026E7YZBA_优势强化版_20261018/CACR2026E7YZBA-2026密码竞赛复赛作品设计报告.docx": {
+      "sha256": "af06d36635799054e4b188484cab30466a7cc88cec077a46eae3718d0e73dcd5",
+      "bytes": 771787
+    },
+    "materials/竞赛提交材料_CACR2026E7YZBA_优势强化版_20261018/CACR2026E7YZBA-2026密码竞赛复赛相关支撑材料.zip": {
+      "sha256": "51ddfeba703e27f34c490bdb4863787d91565108ce3553377e773bb6ad6a17b0",
+      "bytes": 13377380
+    },
+    "materials/竞赛提交材料_CACR2026E7YZBA_优势强化版_20261018/CACR2026E7YZBA-2026密码竞赛审批及签字页_待签署.docx": {
+      "sha256": "39d4e5d4155076a81b0e6c2641d0a379694ea64417359cbea1778670a0010bd8",
+      "bytes": 16490
+    },
+    "materials/竞赛提交材料_CACR2026E7YZBA_优势强化版_20261018/SHA256.txt": {
+      "sha256": "0d7db9050e77d64ea18df969decfd2667d22c8b05c9042dc0a91ac9ae273e8ce",
+      "bytes": 387
+    },
+    "materials/竞赛提交材料_CACR2026E7YZBA_优势强化版_20261018/作品摘要.txt": {
+      "sha256": "0e409ca38893e91c8ac4d1bc37ec055b0326dcd357e3dff3e50d8e15026139ef",
+      "bytes": 1249
+    },
+    "materials/竞赛提交材料_CACR2026E7YZBA_优势强化版_20261018/材料说明.md": {
+      "sha256": "fdd19ec92208e3d2005b7bd4a376d2ae66512fa53a8b71cbe0c2060f13391d1f",
+      "bytes": 3320
+    },
+    "native/agility.cpp": {
+      "sha256": "33ca0cd08f588368a5b068e9f91c68dcc07ab851624681a7c4fa822e261ddc79",
+      "bytes": 5707
+    },
+    "native/grid_crypto.cpp": {
+      "sha256": "2b5d296d9eff72a17c1dc8b235140351b461214fabfb0a7e0ff141483ac7649c",
+      "bytes": 15178
+    },
+    "pytest.ini": {
+      "sha256": "ae10b5a88792bf29671a2c3b23c62de53edc7f1490e1c5a6d1c4f1ad4edd4aeb",
+      "bytes": 188
+    },
+    "references/crypto-vectors/NIST_NOTICE.txt": {
+      "sha256": "9f003a2888fca41b8440092d588068359fa7467a4c1e4dfe08c5905fa3a063da",
+      "bytes": 1852
+    },
+    "references/crypto-vectors/mldsa65-expectedResults.json": {
+      "sha256": "bcdb928d4bffd904ee9b2b6b0da4dce81e76ef0aa022c6c39dd10cef8a6c280d",
+      "bytes": 14744
+    },
+    "references/crypto-vectors/mldsa65-prompt.json": {
+      "sha256": "c5b2581fa8b59fa39650ab2d7c0d3c6c07b3641332977168cad8170dc09fec6b",
+      "bytes": 3127278
+    },
+    "references/crypto-vectors/source_manifest.json": {
+      "sha256": "fb7e5a3acf8a2fafa34a209389d599961e45944e9e51985de6a65766c631488b",
+      "bytes": 997
+    },
+    "references/crypto-vectors/standards_access_notes.json": {
+      "sha256": "19486574baaff1c1bdad683792d6662f3c836f84f9fda30f58ed230ec6753305",
+      "bytes": 524
+    },
+    "references/datasets/uci321/import.json": {
+      "sha256": "b3c07911ca1a332c5ff6d0f8a96ab547f4ab60f4c0836d25cfb03783ebb45185",
+      "bytes": 1320
+    },
+    "references/source_manifest.json": {
+      "sha256": "5684ee2b3008a0d1480d7a47bc94758e4a4f4d930e7ff540a4f68d533e07a0dd",
+      "bytes": 2173
+    },
+    "references/v41/USER_PLAN.md": {
+      "sha256": "81ccef1217bf3a365b0ccd3a65310d7053daab6fb2c58e73a14fdc574a5d2aeb",
+      "bytes": 26509
+    },
+    "requirements.lock.txt": {
+      "sha256": "7ba08a87c14a977456f550257a1afe6f70fbe54f016d5af7040dd572217fb3bb",
+      "bytes": 492
+    },
+    "requirements.txt": {
+      "sha256": "ad8f86f2297937f57db5b99e75a41a84bcbf819c5e1292e49b1218ff5d92b5ac",
+      "bytes": 104
+    },
+    "scripts/analyze_benchmarks.py": {
+      "sha256": "4700561986a53d93790673542157c65b37a20c3dd1fbc139e60d58b67c01ccc2",
+      "bytes": 11654
+    },
+    "scripts/bootstrap.sh": {
+      "sha256": "facb2053130f658eef8ede28c0bb463dab3145d6fa2f463cbacd634bcf1c4fe3",
+      "bytes": 1005
+    },
+    "scripts/build_deck.mjs": {
+      "sha256": "9d0e886a000064fccc31ba0e2eac7fb5ac24e3412526da4d2d7e59b7f8691bc5",
+      "bytes": 10285
+    },
+    "scripts/build_report.py": {
+      "sha256": "a1fe1f3cdcf6097529f9412ec8bb1158c1a2ec891d389f75c3a370a49b6fef31",
+      "bytes": 10591
+    },
+    "scripts/build_submission_materials.py": {
+      "sha256": "53e0b52eb384584addf86a75dc981a57eb96df05307fef532de5f58461422479",
+      "bytes": 25095
+    },
+    "scripts/cleanroom.py": {
+      "sha256": "16584b15c6d4fd47157037a6562eb782cc452504bca26fc3c1577c8622796e4c",
+      "bytes": 4527
+    },
+    "scripts/collect_licenses.py": {
+      "sha256": "a7b2fa8e1ef62d458590d024ac7c89c4ba81288e28627e9dba1bbaffc0e7d4a8",
+      "bytes": 4448
+    },
+    "scripts/core_probe.py": {
+      "sha256": "00f4ae7a5343cd8484b4a7d0348ab5be6f3f07b9798ccd1a9123de197266a854",
+      "bytes": 2787
+    },
+    "scripts/crypto_conformance.py": {
+      "sha256": "2daaab01707b94eb57cf3a09cb04c1e7cb9926be8df96d34c425956bca574ab2",
+      "bytes": 9494
+    },
+    "scripts/doctor.py": {
+      "sha256": "6bc77615afec078857a7a51b49e644396e4fb32fccdc9eb1162e15ac145c9586",
+      "bytes": 1620
+    },
+    "scripts/export_audit.py": {
+      "sha256": "9d921ff7c66925c386014a447ff34a9e8728a705f407572daa269ff5cb373e9c",
+      "bytes": 5074
+    },
+    "scripts/export_word.ps1": {
+      "sha256": "b43c0f679a831b18ad187d73528ff3269143db080bf1374dd5554eb67f21b449",
+      "bytes": 710
+    },
+    "scripts/fetch_competition_attachment.py": {
+      "sha256": "8bd930f8b3a0073599a18748936d4c497f3fe1eb21300e35e57feda4c2b9985b",
+      "bytes": 2059
+    },
+    "scripts/fetch_sources.py": {
+      "sha256": "9ea2f7c3bb52bff33e359eefc6b0547ce63a11a71f98df7c7dd1b593b8736530",
+      "bytes": 1395
+    },
+    "scripts/final_review.py": {
+      "sha256": "6cd4fb8880815310f27363078b0d5eaddbf9075bcd4a2125231f22a7fef665ed",
+      "bytes": 11271
+    },
+    "scripts/freeze.py": {
+      "sha256": "3c7933ede4628d784042ef02c993fe4a6271844b3190a52b32fe9121f4fb5ea8",
+      "bytes": 864
+    },
+    "scripts/import_public_load.py": {
+      "sha256": "25663ec3afd688ddc5568a115e8a1e9b55a786b9c4760abac9c2cfd7510bc17e",
+      "bytes": 5390
+    },
+    "scripts/install_offline.sh": {
+      "sha256": "bb650a0de33525b3fedefaa13fcc3ee2228ca7eef82a3e290603663c58da1f3f",
+      "bytes": 905
+    },
+    "scripts/key_boundary_validation.py": {
+      "sha256": "4b6a78a0bf0dff506f7bd1c19a5ecdbabe8aace124d65450d7fdc47366549dd3",
+      "bytes": 5544
+    },
+    "scripts/key_readiness.py": {
+      "sha256": "0b6d171631a95af34286989a784f5d882433fe1831b2f5a7b8292ab23378b065",
+      "bytes": 5747
+    },
+    "scripts/local_server.py": {
+      "sha256": "360cfce9c16bc08a814520793763fa63c50c299034ffcda8068b91b099e91463",
+      "bytes": 5609
+    },
+    "scripts/offline_namespace.sh": {
+      "sha256": "a83bf5bc8348f241ed1bde542cc5b86a77b2acfdd211e7ca41efc5a89820e61f",
+      "bytes": 247
+    },
+    "scripts/offline_run.py": {
+      "sha256": "6d9fcca9036f036e72b8a0ccdbaae8946a285b44dfd0a53a091216e1f5b9f3e1",
+      "bytes": 1222
+    },
+    "scripts/package_release.py": {
+      "sha256": "5423870a878c1bc958d480d223d2881053a7f684de2b6b81823750708ab8bb6c",
+      "bytes": 14102
+    },
+    "scripts/parameter_scope_review.py": {
+      "sha256": "9b48c195b96a3762f8199634cb8d9fb0ce02652329a3ac4eb8deb76559c13009",
+      "bytes": 5505
+    },
+    "scripts/policy_audit.py": {
+      "sha256": "ef32cccf2ba56e34d7202c3529b3b65f836d690d9edaca6af0182198ce69feb2",
+      "bytes": 2350
+    },
+    "scripts/privacy_benchmark_summary.py": {
+      "sha256": "ae9691d335c1e69f2ecf1aac2463c62455bb27b6610e517bec6697a812c5111c",
+      "bytes": 9128
+    },
+    "scripts/privacy_business_validation.py": {
+      "sha256": "e3827fe5ca6ddd4a69898da3d29b3cf08b35efd35554dd005c9b6e868da50e66",
+      "bytes": 8193
+    },
+    "scripts/privacy_development.py": {
+      "sha256": "0b65090112aca696d190733595253a5ca47681c3c03286ab68d781a2606cbb43",
+      "bytes": 4112
+    },
+    "scripts/privacy_history_validation.py": {
+      "sha256": "74bd81852083b6f208f6fba8111bfd4b8f6205942dc313c9f514e9a12fd6d11c",
+      "bytes": 2745
+    },
+    "scripts/privacy_large_envelope_validation.py": {
+      "sha256": "dd7d01e430ca31eca1881436d02bd3c810646c0c81e17e1f7785e33a6387f91e",
+      "bytes": 3009
+    },
+    "scripts/privacy_matched_benchmark.py": {
+      "sha256": "7b570fca9c20cbe81cabf69812da12f905a3f474e064e04cad4c1662ec61937c",
+      "bytes": 11185
+    },
+    "scripts/privacy_offline_validation.py": {
+      "sha256": "7c5386f534814a06c8a28e11c4ac9303c39dbb190519b8dea4f6a751b6146c7e",
+      "bytes": 7502
+    },
+    "scripts/privacy_parent_fault_validation.py": {
+      "sha256": "4452257f54727958977de571c53dd4358748d789d44d185e5b5189b3a8264800",
+      "bytes": 3122
+    },
+    "scripts/privacy_resume_series.py": {
+      "sha256": "4fe48610bd93988741954b8c6a49a93d8a5f9c077791a416a192a00898ffab8c",
+      "bytes": 4377
+    },
+    "scripts/privacy_run_series.py": {
+      "sha256": "accbb9e8141665f440e87187cca3d5797fd27e61ed5649b6a2655bfaf4241cf5",
+      "bytes": 2052
+    },
+    "scripts/privacy_storage_amendment.py": {
+      "sha256": "b79837fe8bbde152456d04b41bcff3b18db8a8b14f066eb31ae51fedcbac0bd5",
+      "bytes": 4916
+    },
+    "scripts/probe.py": {
+      "sha256": "9cb72430ac80762738cbb76d9980a198bf3bfc821323574264712a38e6ffa40f",
+      "bytes": 5862
+    },
+    "scripts/project": {
+      "sha256": "1d74daa777c5e8b891da8ee070c454a88ef92c2e685ec8bc6cfe6758880ba052",
+      "bytes": 395
+    },
+    "scripts/project.ps1": {
+      "sha256": "ef9f71edbbe5f22018065a60f34373b63610980447cb73985acb555ca53433fc",
+      "bytes": 2678
+    },
+    "scripts/render_word_fallback.py": {
+      "sha256": "48f01bbfb3614feb204e577c4ff159b43a4cf8bebc105ef67fc150e21590d2f1",
+      "bytes": 2148
+    },
+    "scripts/report_tag_audit.py": {
+      "sha256": "b016e9bb5c9a8cfa46fda43b4f18b5af534112e2fb085eaa5446368251a5ad3c",
+      "bytes": 3469
+    },
+    "scripts/review_media.py": {
+      "sha256": "0fa7611cf2b7946ba750f1a2e25dc648057eef987a3d0118e64e497bb7d35d6c",
+      "bytes": 2673
+    },
+    "scripts/scans.py": {
+      "sha256": "d8d9448988e4e8cec754a6eb2f7059cf5a80affbc1c50296a905b835341bdafa",
+      "bytes": 4939
+    },
+    "scripts/scenario_catalog.py": {
+      "sha256": "d7961dea28705718b067b6c706cf11a86000aec6630064f8ec34d52900d19656",
+      "bytes": 1075
+    },
+    "scripts/security_validation.py": {
+      "sha256": "289aba43d360ff8c64108be8868cd169fc884d6d917f669857d25bef713739ac",
+      "bytes": 18841
+    },
+    "scripts/standards_regression.py": {
+      "sha256": "6a084992337c321409dcff65e0814e0f7abb9616fb575d7d6d9bc5875bccf6fc",
+      "bytes": 2442
+    },
+    "scripts/standards_vectors.py": {
+      "sha256": "f204d9fd52e78d89c9edf042bfe41cfb0b7c85dd3c3fd061c5b83f36b7840938",
+      "bytes": 10805
+    },
+    "scripts/start_revalidation.py": {
+      "sha256": "f675de6e102d4bfb2433cc7dd731fcfafcc79ce94ee2862345bb4cc398ed06cc",
+      "bytes": 2562
+    },
+    "scripts/storage_migration_validation.py": {
+      "sha256": "6ba534e1c291c52d9b5e394dc56452b8bb5dc4d4fe93532195e089212025a261",
+      "bytes": 4619
+    },
+    "scripts/ui_test.py": {
+      "sha256": "5d080f39ed90f1be0d02d79ead017255f8d4713269250149a336b6d9f408bb95",
+      "bytes": 1803
+    },
+    "scripts/v41_benchmarks.py": {
+      "sha256": "071c2ca6eda837fa7e4bcc60b782ba3d180bd7fac3d146265d8b11d14855fa7a",
+      "bytes": 18964
+    },
+    "scripts/v41_offline_run.py": {
+      "sha256": "aefce1bed2c4efd73f21f66ce4500a614bc50fabac0e2ab7f344d3f799cd7d8e",
+      "bytes": 2256
+    },
+    "scripts/v41_plaintext.py": {
+      "sha256": "c135cfdfe28564a4262b8737b82e0fdf208a5bf5dcfd792d46ef81ca0b421089",
+      "bytes": 1579
+    },
+    "scripts/v42_offline_run.py": {
+      "sha256": "93e5e306f8ce00028596a546b3679e7298380e03e3e9dc7f6160d34c082ecbdf",
+      "bytes": 2290
+    },
+    "scripts/v42_scale.py": {
+      "sha256": "be5cb6c240e9fda3cecb911a30f7d15133399458fdd90b3297e9e4fd57bd7d65",
+      "bytes": 8114
+    },
+    "scripts/validate_runtime.py": {
+      "sha256": "362146ad42107d85757082a60d58751f85b20b8fbbc807edeb8d983756c9a17e",
+      "bytes": 2334
+    },
+    "scripts/verify_acceptance_provenance.py": {
+      "sha256": "e83b5e9f9dad76c21546dec09a748bc15865e6fad3f510930110692435de8e35",
+      "bytes": 4957
+    },
+    "scripts/verify_delivery.py": {
+      "sha256": "868df948cc62dadaa57d7a39fe770c7af5d2d407819b8794cfc9dcc76f49e393",
+      "bytes": 5979
+    },
+    "scripts/verify_package.py": {
+      "sha256": "7e8a67deef474c8dddfcdbf7a6b0e405396580b7a35e0c84f9a51ac03d67ccfc",
+      "bytes": 919
+    },
+    "scripts/verify_v42_scale.py": {
+      "sha256": "d0919e95893c4bd824022578de75da73b81bb6254ef62b6f6cb24e0b96564efd",
+      "bytes": 5757
+    },
+    "services/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "services/agility.py": {
+      "sha256": "85f31093c901e521c72d1965b3635aa683bbbb6b4cb839d21fc3509380f27bd0",
+      "bytes": 6279
+    },
+    "services/api.py": {
+      "sha256": "5a5065cf7f83ca0e71e69f0b75f02797fce2b014dcbba86cf4640b8cb351e5a9",
+      "bytes": 18582
+    },
+    "services/audit.py": {
+      "sha256": "395382d750f0c4e2b5bbc2dfe485f69bf7c7630ed7d824ac152939c4109e83f1",
+      "bytes": 2856
+    },
+    "services/benchmarks.py": {
+      "sha256": "cc75ded9f502c34818dd8ca594a8de5bf557cd17be6f11b4cc25cf2de14a8e50",
+      "bytes": 6715
+    },
+    "services/cli.py": {
+      "sha256": "5ec5c5bde703fcb3ab2fdb1970917bd575cc64059270478b4b30ea9f9dda6f81",
+      "bytes": 9913
+    },
+    "services/custody.py": {
+      "sha256": "0019ada46e9d7faa225ed5dd430f6cec6547fc6b7c6f20458dafefece842d0f8",
+      "bytes": 15659
+    },
+    "services/dataset.py": {
+      "sha256": "49733b3e1e1d1a76b5b88ce781e33941511d98c9bacb19297f9a48d3adcbdb1e",
+      "bytes": 2053
+    },
+    "services/encoding.py": {
+      "sha256": "5ec8670ab9c87733dd18ba0ea428ee003519911bf741c5df0d7142137027764d",
+      "bytes": 3018
+    },
+    "services/evidence.py": {
+      "sha256": "fa4a4795d946fdac13699a1d07efa59ed70686f9fd637943fad70e8a37f2d334",
+      "bytes": 17943
+    },
+    "services/expansion_api.py": {
+      "sha256": "a53da8b5245e30f06f95877765200284937217e77a10a23216664147c5f7d780",
+      "bytes": 7474
+    },
+    "services/expansion_data.py": {
+      "sha256": "7b4ee51b2d259aa53f3d537bec3491ffca2b212d8298e1f7c3a6422ec86a7477",
+      "bytes": 7388
+    },
+    "services/expansion_evidence.py": {
+      "sha256": "a620baac267169f2f54fd9746b781f40da2847415844a71485f968c60829fe87",
+      "bytes": 2464
+    },
+    "services/expansion_governance.py": {
+      "sha256": "5db208cf69092a21578bc465fd858a640d2a648e85078bb8d0642afdf956962a",
+      "bytes": 10596
+    },
+    "services/expansion_orchestrator.py": {
+      "sha256": "7c98a2ee30d8a2f01af444128a4117e6e166d52c7457be939bc7e98dfc6fb964",
+      "bytes": 15585
+    },
+    "services/expansion_schemas.py": {
+      "sha256": "e58799ca1e6258ba9febeab56d130607bc1a9e7a1d2bf91b5fcacfe31678648d",
+      "bytes": 3089
+    },
+    "services/expansion_workers.py": {
+      "sha256": "0d3f0817b83ed368fa1f3e1ca247afb8db1b7417d319629e1304b1029bda0a67",
+      "bytes": 22428
+    },
+    "services/governance.py": {
+      "sha256": "8490cc8bb150283918190ddfddde30f84023e5053a1bb59cf7441287846a99e2",
+      "bytes": 6783
+    },
+    "services/initialization.py": {
+      "sha256": "19d6de06159fb399cd5e2df57305db8f7dbe50b94b17dd65ebb2d137a3ef177d",
+      "bytes": 5706
+    },
+    "services/management.py": {
+      "sha256": "dc33957f91e610b89260fc4936855e2017c534440b96b19ccdcf240b6144ff64",
+      "bytes": 18958
+    },
+    "services/merkle.py": {
+      "sha256": "4cf68ba9b3dd45a68dd9b2286aa29ed132b0e5102417f5611aad7562349c69e6",
+      "bytes": 3553
+    },
+    "services/native.py": {
+      "sha256": "6252ac5eee8af5abd64c6c560c79baccde50ee29390c8c1818b4bb9e93441f6b",
+      "bytes": 11496
+    },
+    "services/orchestrator.py": {
+      "sha256": "8de8f18f2ae19d0bd679e983fda4f332cecb21c854909af680de2cd1a5f3cb1b",
+      "bytes": 17680
+    },
+    "services/pairing.py": {
+      "sha256": "5949b1bb2161b7a41e3a1a2f8f6521da7b56a25307d4ceeabbcb6e70129c57c9",
+      "bytes": 4497
+    },
+    "services/pfdam.py": {
+      "sha256": "ed696e1963964940898c100733bdd48d94d70d6385abfc99aa2933379bdfd37d",
+      "bytes": 10092
+    },
+    "services/publication.py": {
+      "sha256": "01d4ebea4cde15880019ad09bad226a383af72a5066872b618f1c62b61592160",
+      "bytes": 17118
+    },
+    "services/publication_evidence.py": {
+      "sha256": "e0d38b1a93ef26c3d956fcb2fca7bf2cfa48b7a10e92b995c0303896db157687",
+      "bytes": 12449
+    },
+    "services/publication_runtime.py": {
+      "sha256": "19019d796f56e2fea6d0afd5c728f94925fefa5b6d9683a8e55e4905f4e84ebd",
+      "bytes": 6748
+    },
+    "services/publication_schemas.py": {
+      "sha256": "494f4d840ea83489b879bb425bf5a0997bc82c1e6d549aae69e7dfcf3514c050",
+      "bytes": 2920
+    },
+    "services/recovery.py": {
+      "sha256": "0704b2e6b9d54b518558f3b798e1118bc4a0ccb59e02ee763765c401fef0eaa7",
+      "bytes": 8360
+    },
+    "services/release.py": {
+      "sha256": "a7acd27e1c432ff12259a48531732869aab6783d586d72d2ba1e3a1d1d7df8e3",
+      "bytes": 3141
+    },
+    "services/response.py": {
+      "sha256": "5857649b95831c66af1d8c4b8aa6a8023ee37bd947a94c3d970aadadb2cfc629",
+      "bytes": 19999
+    },
+    "services/response_api.py": {
+      "sha256": "3937b341ae3be2f1318144fe6da97800b258db659092190160cc93a0871c5b8d",
+      "bytes": 3146
+    },
+    "services/result_attestation.py": {
+      "sha256": "328db4c7a502e5b8f54de5f87c1b394a814ebb3f88b27d16ffb5365fc7207c63",
+      "bytes": 2549
+    },
+    "services/schemas.py": {
+      "sha256": "57a280c9138afab4cbb97c7bdb5db3d4ba4d3d674ff624e04318725929ddef9e",
+      "bytes": 6952
+    },
+    "services/security_schemas.py": {
+      "sha256": "cdde19fa6db4c4d172e0e8a94ee4faee701c92ef8798a4edecd3b0566e94ea04",
+      "bytes": 2333
+    },
+    "services/selfcheck.py": {
+      "sha256": "efcf7828d6a0a248e1a735485477c698d0a9736dc97eaf4da5175da346d5114e",
+      "bytes": 18349
+    },
+    "services/selfcheck_probes.py": {
+      "sha256": "c310b91774fff17c3949d8525070b6314685c7b91b54a0a60f4c8e9faf1dd9e8",
+      "bytes": 20897
+    },
+    "services/sessions.py": {
+      "sha256": "b6a475f451b67bfccf3f215813e6f97a06947176a301d10ef1a58fef41db5211",
+      "bytes": 3157
+    },
+    "services/signatures.py": {
+      "sha256": "e1712a480b05506c1d954d7a0b3517bc9c4fff5d3f161a0c6c99aa64cdf15197",
+      "bytes": 12174
+    },
+    "services/standards_profile.py": {
+      "sha256": "69af6ccfc21c9d00753d0db08149b89e506f8fabebecf2cf92657f1b9a1fbc87",
+      "bytes": 6060
+    },
+    "services/storage.py": {
+      "sha256": "0e1c4af3cc3807756b164d014dc34437954fa75472259b0411dad3fdd60eaaa0",
+      "bytes": 2611
+    },
+    "services/trust.py": {
+      "sha256": "af823859668bdd2208d13eaf883397b0e1b2f7e93b6741dac64e4d1c39ea1146",
+      "bytes": 13951
+    },
+    "services/v41_api.py": {
+      "sha256": "62bfc864d2523ad54d7f82640e82c964d567a0ec90f53a380f47a36a2916bc8c",
+      "bytes": 9026
+    },
+    "services/v41_attacks.py": {
+      "sha256": "526f279fe6b61df950e8c10f659d5105b27abe9a5d06b39bf6bcb89f8e0b32e3",
+      "bytes": 4975
+    },
+    "services/v41_evidence.py": {
+      "sha256": "0cf2291be04cae00b4e8846d36fd8152d275e3118329b1192806ee9a2d894064",
+      "bytes": 3503
+    },
+    "services/versioning.py": {
+      "sha256": "17eece28893c4f177ac4c0cb0d5ce2ecc624f234e9b9fa60eeb7b235cc617ec4",
+      "bytes": 779
+    },
+    "services/workers.py": {
+      "sha256": "f0e11de151d082b29dcc7b8a3833c077952938f9d5c4c719f9b0671de8b0675e",
+      "bytes": 34586
+    },
+    "shared/schemas/AggregationReceipt.json": {
+      "sha256": "7391735893abc90ad425d2f2623bd18d8b7528ed863f5910e2a1aa99925a7ad9",
+      "bytes": 2651
+    },
+    "shared/schemas/AggregationReceiptV2.json": {
+      "sha256": "89f08be7c5d0a5498cb0768cd94f767866f5431f8bfbaf86deea1463f64fe633",
+      "bytes": 3667
+    },
+    "shared/schemas/AggregationReceiptV3.json": {
+      "sha256": "f08eed37ad3ee085f92f8f88a81af4fbdd8c2c71ba176d659f89f5798a3d637d",
+      "bytes": 4538
+    },
+    "shared/schemas/AggregationReceiptV4.json": {
+      "sha256": "57343fc06dc43d36c00d1eb1b76762f77b1c584b7c982f03351e2b46f7a34697",
+      "bytes": 4683
+    },
+    "shared/schemas/AuthorizationV5.json": {
+      "sha256": "3f88b6d7e7702c429e8460d67ca210bf59dae48198261e79c76de1cf962446ab",
+      "bytes": 7586
+    },
+    "shared/schemas/CollaborationRequest.json": {
+      "sha256": "cc50ebd070f2a9fc034b05a0ac2a8928520c1c853bf303d2a1f44bb9dffcb505",
+      "bytes": 973
+    },
+    "shared/schemas/CreateRun.json": {
+      "sha256": "d47138ce793e1aaa38c401ed32f636499c98fa3457300a7c8e10b2a28df3fa2c",
+      "bytes": 649
+    },
+    "shared/schemas/EvaluationV1.json": {
+      "sha256": "9eeaa0a9a970885018abb1796aa7cc39d6c38dd9785b3e2f6d7195038036aad4",
+      "bytes": 1868
+    },
+    "shared/schemas/ExpansionPolicy.json": {
+      "sha256": "4426c37d8a2a1356fedfaf1476a2878f0cc6f34e99b07be86c7a5d4e0ef7d9f2",
+      "bytes": 4128
+    },
+    "shared/schemas/ExpansionPolicyV4.json": {
+      "sha256": "9cac0beaf79e42d6fbbe65fec88df0392e68f444b6a5621ca51c5a8c8183ed02",
+      "bytes": 4275
+    },
+    "shared/schemas/ExpansionRequest.json": {
+      "sha256": "9d10292c9b5a49e097707f62546bb746fbb062d0a46eaf523502a251733b496e",
+      "bytes": 1399
+    },
+    "shared/schemas/GovernancePolicy.json": {
+      "sha256": "b102f78d1dc78c0685594a55aa22b89f442d5f2228cb782c2c77687f92df40df",
+      "bytes": 2237
+    },
+    "shared/schemas/PublicTaskContext.json": {
+      "sha256": "c141252ac6077860640bd197bccd6357b221a077b5cbc9ca027350aa956a1729",
+      "bytes": 1431
+    },
+    "shared/schemas/PublicTaskContextV2.json": {
+      "sha256": "15423ebd730182ecd131da8958d49599ce938e6f41926fadac68ce5562120767",
+      "bytes": 3853
+    },
+    "shared/schemas/PublicTaskContextV3.json": {
+      "sha256": "c922347209d40c996f2a7454caff54a13ea9d5e2a4792e0d9e672ab7e5be4b1d",
+      "bytes": 5244
+    },
+    "shared/schemas/PublicTaskContextV4.json": {
+      "sha256": "41a0b6e33b5e59ab4c18af02fbef778e0d76d0b145154f5d0ae46189e95c61b7",
+      "bytes": 5395
+    },
+    "shared/schemas/PublicTaskV5.json": {
+      "sha256": "500cfa4fea3fcccbf6b7aaea5351c05bb0fd3c059415b1b18acc8617cb8c1489",
+      "bytes": 6304
+    },
+    "shared/schemas/PublicationPolicy.json": {
+      "sha256": "1a29d1b905d48ab23254cd5e485c54e2f1be1a744609dcdd29424247797f69de",
+      "bytes": 5191
+    },
+    "shared/schemas/PublicationStatement.json": {
+      "sha256": "2c8b85e0260c180e99efbadbcf73ca4fba6d8f79af06176e1a7f58e0675688ab",
+      "bytes": 1927
+    },
+    "shared/schemas/ReceiptV5.json": {
+      "sha256": "97e3588dc482394ee3d68d3564de43ab6a14843c821a617699afd5644a83c62f",
+      "bytes": 4935
+    },
+    "shared/schemas/ReleaseDecisionV1.json": {
+      "sha256": "b1849b471b09ce2a2f42ad6813137a0f182d5c48fe5b65072841daefca359535",
+      "bytes": 1870
+    },
+    "shared/schemas/ReportEnvelope.json": {
+      "sha256": "842922b5f852d26637b7fd8b88b7a7ea4c494e7cc0aa751271d0b7a2c8b510c1",
+      "bytes": 1341
+    },
+    "shared/schemas/ReportEnvelopeV3.json": {
+      "sha256": "781d1c6281db20a5cc657a8290d6c7f941e02deaef6292a1ad3c19320e556d05",
+      "bytes": 1466
+    },
+    "shared/schemas/SignedAuthorization.json": {
+      "sha256": "1131f98674140db18c49779a3b1663a1c3de96b13ef68b4995eab6d938c284ee",
+      "bytes": 3183
+    },
+    "shared/schemas/SignedAuthorizationV2.json": {
+      "sha256": "ae36aedd72c289c84a933928d8bfd239ad7431332aac699f642b3d969d667582",
+      "bytes": 5753
+    },
+    "shared/schemas/SignedAuthorizationV3.json": {
+      "sha256": "7375bcc00b8a72e745908304402bedfb41b24e9bf4d09a1ecc327146ec5a86b9",
+      "bytes": 7144
+    },
+    "shared/schemas/SignedAuthorizationV4.json": {
+      "sha256": "740457d7db8be23701b040224a21753394d066fad8b4dea4dc2d6d24a5cf1268",
+      "bytes": 7440
+    },
+    "shared/schemas/SignedAuthorizationV5.json": {
+      "sha256": "0cdfd05d654472a2f7715220247dac233dea812c2bb176e70b5e28022b42d2e6",
+      "bytes": 8344
+    },
+    "shared/schemas/SignedEvaluationV1.json": {
+      "sha256": "2859e48bdc8a2c45e32b7383df7090b9fbe94ddd13511094653d7731a73b5295",
+      "bytes": 2627
+    },
+    "shared/schemas/SignedPublicationStatement.json": {
+      "sha256": "881f6438d4ada07ba2224f8e4d8181bf41c819570f0685eb12a2ed2ce4d5bb9e",
+      "bytes": 2710
+    },
+    "shared/schemas/SignedReceipt.json": {
+      "sha256": "ca826e2204d717481142644ba9a4ff3db624d0fee75129e2c66401aad08683a9",
+      "bytes": 3391
+    },
+    "shared/schemas/SignedReceiptV2.json": {
+      "sha256": "dff1cf5ff1fe8345269f3cd3cee1d0555b6d9a0b242d8146f0dd70e59e9b8401",
+      "bytes": 4429
+    },
+    "shared/schemas/SignedReceiptV3.json": {
+      "sha256": "f449e878fc1fc62f2566484fa02ebf6d484d4e46ab9d1fbeeb6a087d35f4c2bc",
+      "bytes": 5300
+    },
+    "shared/schemas/SignedReceiptV4.json": {
+      "sha256": "e114e4f7eaa508ff4eeee7c6195b214313998d6423ee57740bc65c806d1ffa95",
+      "bytes": 5445
+    },
+    "shared/schemas/SignedReceiptV5.json": {
+      "sha256": "c60868d85aedfaf7a0fd71464938ddb2af5c14c5b7ebecb7889b50d3a898977e",
+      "bytes": 5675
+    },
+    "shared/schemas/SignedReleaseDecisionV1.json": {
+      "sha256": "1aa573c8cb1eb9b78c0faba2dc53c1d91dd6c38c3fadb2b3b2bf3d0299538881",
+      "bytes": 2644
+    },
+    "shared/schemas/SignedUCResultV1.json": {
+      "sha256": "909f601a2fd385d6d360145207e9c4aff026e43f423fe745d129553f354d169b",
+      "bytes": 3303
+    },
+    "shared/schemas/SignedUCResultV2.json": {
+      "sha256": "70349ea24a73230a79eb466ec75262306c196c03320ce15c1f8031c00d5e5d5d",
+      "bytes": 2609
+    },
+    "shared/schemas/TaskAuthorization.json": {
+      "sha256": "db654f0e5e32fe896fde0df777c20251c3b47ccad5da078ca46bf0ed0731e6a7",
+      "bytes": 2439
+    },
+    "shared/schemas/TaskAuthorizationV2.json": {
+      "sha256": "bfd24d226c3635523757c1b9baf8013c2f79b641ac9cf4e955092fe819f1a14e",
+      "bytes": 4987
+    },
+    "shared/schemas/TaskAuthorizationV3.json": {
+      "sha256": "9e2df6f5ef2b6689bdf92c60f214c2d642972d605028ca0ae7be137a58069454",
+      "bytes": 6378
+    },
+    "shared/schemas/TaskAuthorizationV4.json": {
+      "sha256": "f4e69737dc549f2e1ebeb7c8887682cf122f88f36b8077c27af3cedb3e2f6cb1",
+      "bytes": 6674
+    },
+    "shared/schemas/UCResultV1.json": {
+      "sha256": "a83967dc0d09952eb12aae98cbfe2529d49ebd7718f582ee461df6c7e8a626c0",
+      "bytes": 2560
+    },
+    "shared/schemas/UCResultV2.json": {
+      "sha256": "a10a15ff6d5c9d97236d41448a68eb10a6182c9b1bb08e0dfb7116c7bd6423c4",
+      "bytes": 1856
+    },
+    "tests/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "tests/conftest.py": {
+      "sha256": "6585efd2099cc9419b92736e496d440a23b4fe587c55b1289a74443e0700a752",
+      "bytes": 11142
+    },
+    "tests/interop_sm.c": {
+      "sha256": "4ad76eda5063a66d6639abbaa2df39a886f20eb5ecda2ede84485bbe4885c283",
+      "bytes": 2635
+    },
+    "tests/oracle/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "tests/oracle/reference.py": {
+      "sha256": "73a7ef1ad67f44cde6a1616b75fa10f066f27bb3fe81710087dfd4f56fad81bd",
+      "bytes": 1203
+    },
+    "tests/provenance.py": {
+      "sha256": "e1ed41eebb51c81e9ea3cb6901df7c1bf005a3abe39c1a3b4e0cbe5453f7ea49",
+      "bytes": 659
+    },
+    "tests/server_harness.py": {
+      "sha256": "974dcf7829aae5f159ace2f1511ef653dc6f2550141ad6fd648e165d34fd9a15",
+      "bytes": 1101
+    },
+    "tests/test_acceptance.py": {
+      "sha256": "715e0329f8f4c8ad683bc543a1a093ab8a8b041de43b2e9abc66ef9460f18cd6",
+      "bytes": 25643
+    },
+    "tests/test_api.py": {
+      "sha256": "8e7b9084b2ba1769267949b7d135a0a0c906f44dffc395500ddf3864263e38e6",
+      "bytes": 5223
+    },
+    "tests/test_expansion.py": {
+      "sha256": "4a7327b5bad0a21792f79437780f4a0d367283823d7e10d56001140cd1a60473",
+      "bytes": 12018
+    },
+    "tests/test_expansion_recovery.py": {
+      "sha256": "896be1f01758068c098052e979a1599c1d23d0999b267056354239fde6cb783b",
+      "bytes": 3074
+    },
+    "tests/test_private_storage_boundary.py": {
+      "sha256": "39c703e8d8d1bb6e6a46a5588c6be2cba799ac65357228a6cf8cb8f0dc78d6e1",
+      "bytes": 2152
+    },
+    "tests/test_publication.py": {
+      "sha256": "75710fdc0686fe43dd089e8db35cda037b41fb5b99c8a64078156eb9356de325",
+      "bytes": 12188
+    },
+    "tests/test_publication_integration.py": {
+      "sha256": "33b946d5e839a416d50dd66577ed1774d456af21584626d59dd2afe71a57deac",
+      "bytes": 15176
+    },
+    "tests/test_recovery.py": {
+      "sha256": "d2158bcfa764a47543d8c75447bca88ab20f5951694795a34241a0d25c3d8ff5",
+      "bytes": 10755
+    },
+    "tests/test_recovery_transport.py": {
+      "sha256": "09d2f28aa1e7ff76f12f4c196242a0327b1e151c5c5d0ec3154754c2cdb1544a",
+      "bytes": 5165
+    },
+    "tests/test_selfcheck.py": {
+      "sha256": "0536a3e7165ee4954762c0dcbc29bb2c1f4b6ebf5cec70c7529de60e3583abfa",
+      "bytes": 13272
+    },
+    "tests/test_standards.py": {
+      "sha256": "c3368dae37c5ad1cf7861a974f93ea19b4bb6ca170b7050aed9464f31e87117e",
+      "bytes": 6049
+    },
+    "tests/test_transport.py": {
+      "sha256": "9bb9911eebe99020688bb9f4befc4abb0fb86808c257915ce09b5c68df1d386a",
+      "bytes": 13644
+    },
+    "tests/test_v41.py": {
+      "sha256": "1436291ae25916958976261163144c438406ff175b02274240dae4f40f981160",
+      "bytes": 13702
+    }
+  },
+  "manifest_self_excluded": true
+}

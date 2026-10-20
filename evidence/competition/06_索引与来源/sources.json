@@ -1,0 +1,64 @@
+{
+  "checked_on": "2026-10-18",
+  "references": [
+    {
+      "reference": "[1] 国家发展改革委、国家能源局. 关于促进电网高质量发展的指导意见. 发改能源〔2025〕1710号，2025年12月26日. https://www.nea.gov.cn/20251231/1be7eddc38c74ec09f528c126c9bdb1c/c.html",
+      "urls": [
+        "https://www.nea.gov.cn/20251231/1be7eddc38c74ec09f528c126c9bdb1c/c.html"
+      ]
+    },
+    {
+      "reference": "[2] 国家发展改革委、国家能源局. 关于加快推进虚拟电厂发展的指导意见. 发改能源〔2025〕357号，2025年3月25日. https://www.ndrc.gov.cn/xxgk/zcfb/tz/202504/t20250411_1397162.html",
+      "urls": [
+        "https://www.ndrc.gov.cn/xxgk/zcfb/tz/202504/t20250411_1397162.html"
+      ]
+    },
+    {
+      "reference": "[3] 国家数据局. 可信数据空间发展行动计划（2024—2028年）. 国数资源〔2024〕119号，2024年11月21日. https://www.nda.gov.cn/sjj/zwgk/zcfb/1122/20241122164142182915964_mobile.html",
+      "urls": [
+        "https://www.nda.gov.cn/sjj/zwgk/zcfb/1122/20241122164142182915964_mobile.html"
+      ]
+    },
+    {
+      "reference": "[4] 国家能源局. 能源行业数据安全管理办法（试行）. 国能发规划规〔2025〕108号，2025年12月8日，2026年7月1日施行. https://www.nea.gov.cn/20251212/f8ee9d3f829641cb9cc4f1e9405e794a/c.html",
+      "urls": [
+        "https://www.nea.gov.cn/20251212/f8ee9d3f829641cb9cc4f1e9405e794a/c.html"
+      ]
+    },
+    {
+      "reference": "[5] 团队前期PFDAM研究. PFDAM: Privacy-Preserving Fine-Grained Data Aggregation Scheme Supporting Multi-Functionality in Smart Grid. IEEE Internet of Things Journal. DOI: 10.1109/JIOT.2024.3356593.",
+      "urls": []
+    },
+    {
+      "reference": "[6] Ma H, Han S, Lei H. Optimized Paillier’s Cryptosystem with Fast Encryption and Decryption. ACSAC 2021. DOI: 10.1145/3485832.3485842.",
+      "urls": []
+    },
+    {
+      "reference": "[7] NIST. FIPS 204 Module-Lattice-Based Digital Signature Standard. 2024. https://csrc.nist.gov/pubs/fips/204/final",
+      "urls": [
+        "https://csrc.nist.gov/pubs/fips/204/final"
+      ]
+    },
+    {
+      "reference": "[8] IETF. RFC 10024 Post-Quantum Traditional (PQ/T) Hybrid Key Agreement Mechanisms for TLS 1.3. https://www.rfc-editor.org/rfc/rfc10024.html",
+      "urls": [
+        "https://www.rfc-editor.org/rfc/rfc10024.html"
+      ]
+    },
+    {
+      "reference": "[9] GB/T 39786-2021 信息安全技术 信息系统密码应用基本要求. https://www.jsmm.gov.cn/u/cms/www/202110/140914053ph6.pdf",
+      "urls": [
+        "https://www.jsmm.gov.cn/u/cms/www/202110/140914053ph6.pdf"
+      ]
+    },
+    {
+      "reference": "[10] UCI Machine Learning Repository. ElectricityLoadDiagrams20112014. DOI: 10.24432/C58C86. https://archive.ics.uci.edu/dataset/321/electricityloaddiagrams20112014",
+      "urls": [
+        "https://archive.ics.uci.edu/dataset/321/electricityloaddiagrams20112014"
+      ]
+    }
+  ],
+  "policy_use": "Policy requirements are linked to concrete implemented functions in report sections 1.1 and 4.1",
+  "prior_research": "PFDAM is the team scheme; the report separates prior research and this system iteration",
+  "ai_assistance": "AI tools assisted code, validation scripts and prose; reported measurements originate from actual local operations"
+}

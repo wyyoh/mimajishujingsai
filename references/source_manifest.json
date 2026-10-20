@@ -1,0 +1,42 @@
+[
+  {
+    "path": "references/papers/PFDAM.pdf",
+    "sha256": "6a4c5a4348e717f53074793af38ae2481093db6f3542aaacc8ced95592f00aa3",
+    "source": "期刊：PFDAM_Privacy-Preserving_Fine-Grained_Data_Aggregation_Scheme_Supporting_Multi-Functionality_in_Smart_Grid.pdf"
+  },
+  {
+    "path": "docs/AGENT_IMPLEMENTATION_GUIDE.md",
+    "sha256": "548fcdcd7eb1d06e5f6ca85578ab6ba5c9cbd190f7eb9c92bdad5abbda7be168",
+    "source": "新型电网平台_Agent开发实施与竞赛交付手册.md"
+  },
+  {
+    "path": "references/design/V3.md",
+    "sha256": "0e82cb64a661093132eecffe601557e155e7ad2871989fa10e55c3b75adeceb3",
+    "source": "新型电网平台_最终方案V3_完整设计包\\新型电网平台_最终方案V3\\新型电网平台_最终方案_V3.md"
+  },
+  {
+    "path": "references/design/V3.docx",
+    "sha256": "22e6ad6ef11af42b45e253a6a8f75768c4feaa3984982e0c2436a81e94ffb3d7",
+    "source": "新型电网平台_最终方案V3_完整设计包\\新型电网平台_最终方案V3\\新型电网平台_最终方案_V3.docx"
+  },
+  {
+    "path": "references/ui/V2.png",
+    "sha256": "afd762ec78c046cc5a201d2aab1517770007e811d170effcb5a25d94de72533b",
+    "source": "新型电网平台_最终方案V3_完整设计包\\新型电网平台_最终方案V3\\assets\\V2_界面基线.png"
+  },
+  {
+    "path": "contracts/v3_security_profiles.json",
+    "sha256": "361f487228bbcc331472d2be059ecc0fc7834e3683d791f42e7625290ed94ff7",
+    "source": "新型电网平台_最终方案V3_完整设计包\\新型电网平台_最终方案V3\\开发契约\\security_profiles.json"
+  },
+  {
+    "path": "contracts/v3_acceptance_cases.json",
+    "sha256": "5c935ca2396e23ac22e60f8816d14858fd90b2a862372453de776ee2a779333d",
+    "source": "新型电网平台_最终方案V3_完整设计包\\新型电网平台_最终方案V3\\开发契约\\acceptance_cases.json"
+  },
+  {
+    "path": "contracts/v3_evidence_contract.json",
+    "sha256": "bce4a4c14a349d42a39d95a047b053bf6b83a7be0aab6c922f30cf07b82d82d2",
+    "source": "新型电网平台_最终方案V3_完整设计包\\新型电网平台_最终方案V3\\开发契约\\evidence_contract.json"
+  }
+]

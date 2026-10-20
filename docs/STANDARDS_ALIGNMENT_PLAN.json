@@ -1,0 +1,840 @@
+{
+  "schema": "GRID_STANDARDS_ALIGNMENT_PLAN_V1",
+  "as_of_client_date": "2026-10-17",
+  "status": "PLAN_ONLY",
+  "source_analysis": "references/standards/20261017/alignment.json",
+  "human_plan": "docs/STANDARDS_ALIGNMENT_PLAN.md",
+  "baseline_core_source_digest": "df6eb6e267852f1ec2f0168464f2ce1ba7ae977e3c4dd5609181e72582fe17af",
+  "baseline_native_library_sha256": "8f3f007697605c164e9f5e585e386b4ab0b4f1d98f9b2120e03749079c3a8f7c",
+  "formal_evaluation": false,
+  "whole_standard_pass_claimed": false,
+  "compliance_percentage": null,
+  "implementation_changes_made_by_planning": false,
+  "final_submission_materials_paused": true,
+  "remote_publishing_authorized": false,
+  "phases": [
+    {
+      "id": "S0",
+      "title": "标准和保护对象登记",
+      "depends_on": [],
+      "scope": "CORE",
+      "responsibility_category": "方案分析与工程架构",
+      "person_assigned": null,
+      "implementation_status": "PLANNED",
+      "acceptance_gates": [
+        "S0.A",
+        "S0.B",
+        "S0.C"
+      ],
+      "actual_result_references": []
+    },
+    {
+      "id": "S1",
+      "title": "算法和协议边界验证",
+      "depends_on": [
+        "S0"
+      ],
+      "scope": "CORE",
+      "responsibility_category": "密码实现与验证",
+      "person_assigned": null,
+      "implementation_status": "PLANNED",
+      "acceptance_gates": [
+        "S1.A",
+        "S1.B",
+        "S1.C"
+      ],
+      "actual_result_references": []
+    },
+    {
+      "id": "S2",
+      "title": "身份职责和管理审计",
+      "depends_on": [
+        "S0"
+      ],
+      "scope": "CORE",
+      "responsibility_category": "应用安全与运维",
+      "person_assigned": null,
+      "implementation_status": "PLANNED",
+      "acceptance_gates": [
+        "S2.A",
+        "S2.B",
+        "S2.C"
+      ],
+      "actual_result_references": []
+    },
+    {
+      "id": "S3",
+      "title": "密钥和信任生命周期",
+      "depends_on": [
+        "S1",
+        "S2"
+      ],
+      "scope": "CORE_DESIGN_REQUIRED",
+      "responsibility_category": "密钥管理与协议工程",
+      "person_assigned": null,
+      "implementation_status": "PLANNED",
+      "acceptance_gates": [
+        "S3.A",
+        "S3.B",
+        "S3.C",
+        "S3.D"
+      ],
+      "actual_result_references": []
+    },
+    {
+      "id": "S4",
+      "title": "业务存储和UC结果声明",
+      "depends_on": [
+        "S3"
+      ],
+      "scope": "CORE_DESIGN_REQUIRED",
+      "responsibility_category": "数据保护与证据工程",
+      "person_assigned": null,
+      "implementation_status": "PLANNED",
+      "acceptance_gates": [
+        "S4.A",
+        "S4.B",
+        "S4.C"
+      ],
+      "actual_result_references": []
+    },
+    {
+      "id": "S5",
+      "title": "标准消息和密码产品接口",
+      "depends_on": [
+        "S1",
+        "S3"
+      ],
+      "scope": "CONDITIONAL_BRANCHES",
+      "responsibility_category": "标准互通与密码产品适配",
+      "person_assigned": null,
+      "implementation_status": "PLANNED",
+      "acceptance_gates": [
+        "S5.A",
+        "S5.B",
+        "S5.C"
+      ],
+      "actual_result_references": []
+    },
+    {
+      "id": "S6",
+      "title": "部署恢复和应急核验",
+      "depends_on": [
+        "S3",
+        "S4"
+      ],
+      "scope": "LOCAL_CORE_EXTERNAL_CONDITIONAL",
+      "responsibility_category": "部署运维与恢复验证",
+      "person_assigned": null,
+      "implementation_status": "PLANNED",
+      "acceptance_gates": [
+        "S6.A",
+        "S6.B",
+        "S6.C"
+      ],
+      "actual_result_references": []
+    },
+    {
+      "id": "S7",
+      "title": "回归验收和持续检查",
+      "depends_on": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S6"
+      ],
+      "scope": "SCOPED_RESEARCH_VALIDATION",
+      "responsibility_category": "测试验证与独立复核",
+      "person_assigned": null,
+      "implementation_status": "PLANNED",
+      "acceptance_gates": [
+        "S7.A",
+        "S7.B",
+        "S7.C"
+      ],
+      "actual_result_references": []
+    }
+  ],
+  "conditional_dependencies": [
+    {
+      "phase": "S6",
+      "depends_on": "S5",
+      "when": "Deployment uses an S5 interface or product branch"
+    },
+    {
+      "phase": "S7",
+      "depends_on": "S5",
+      "when": "An S5 branch is enabled within the claimed validation scope"
+    }
+  ],
+  "items": [
+    {
+      "id": "G01",
+      "subject": "算法/技术/产品分别论证",
+      "baseline_engineering_status": "PENDING_EVIDENCE",
+      "source_standard_key": "GB_T39786-2021",
+      "primary_phase": "S1",
+      "supporting_phases": [
+        "S0",
+        "S5",
+        "S7"
+      ],
+      "acceptance_gate_references": [
+        "S1.A",
+        "S1.B",
+        "S1.C"
+      ],
+      "implementation_status": "PLANNED",
+      "formal_conformity_verdict": null
+    },
+    {
+      "id": "N01",
+      "subject": "通信实体和重要数据传输保护",
+      "baseline_engineering_status": "IMPLEMENTED_LIMITED",
+      "source_standard_key": "GB_T39786-2021",
+      "primary_phase": "S1",
+      "supporting_phases": [
+        "S6"
+      ],
+      "acceptance_gate_references": [
+        "S1.A",
+        "S1.B",
+        "S1.C"
+      ],
+      "implementation_status": "PLANNED",
+      "formal_conformity_verdict": null
+    },
+    {
+      "id": "N02",
+      "subject": "边界控制和实际设备接入",
+      "baseline_engineering_status": "GAP",
+      "source_standard_key": "GB_T39786-2021",
+      "primary_phase": "S6",
+      "supporting_phases": [
+        "S0",
+        "S2",
+        "S3"
+      ],
+      "acceptance_gate_references": [
+        "S6.A",
+        "S6.B",
+        "S6.C"
+      ],
+      "implementation_status": "PLANNED",
+      "formal_conformity_verdict": null
+    },
+    {
+      "id": "D01",
+      "subject": "设备登录和远程管理",
+      "baseline_engineering_status": "GAP",
+      "source_standard_key": "GB_T39786-2021",
+      "primary_phase": "S6",
+      "supporting_phases": [
+        "S2"
+      ],
+      "acceptance_gate_references": [
+        "S6.A",
+        "S6.B",
+        "S6.C"
+      ],
+      "implementation_status": "PLANNED",
+      "formal_conformity_verdict": null
+    },
+    {
+      "id": "D02",
+      "subject": "资源策略与安全标记",
+      "baseline_engineering_status": "PARTIAL",
+      "source_standard_key": "GB_T39786-2021",
+      "primary_phase": "S2",
+      "supporting_phases": [],
+      "acceptance_gate_references": [
+        "S2.A",
+        "S2.B",
+        "S2.C"
+      ],
+      "implementation_status": "PLANNED",
+      "formal_conformity_verdict": null
+    },
+    {
+      "id": "D03",
+      "subject": "日志完整性",
+      "baseline_engineering_status": "PARTIAL",
+      "source_standard_key": "GB_T39786-2021",
+      "primary_phase": "S2",
+      "supporting_phases": [
+        "S3",
+        "S4",
+        "S6"
+      ],
+      "acceptance_gate_references": [
+        "S2.A",
+        "S2.B",
+        "S2.C"
+      ],
+      "implementation_status": "PLANNED",
+      "formal_conformity_verdict": null
+    },
+    {
+      "id": "D04",
+      "subject": "重要程序来源和完整性",
+      "baseline_engineering_status": "GAP",
+      "source_standard_key": "GB_T39786-2021",
+      "primary_phase": "S2",
+      "supporting_phases": [
+        "S0",
+        "S7"
+      ],
+      "acceptance_gate_references": [
+        "S2.A",
+        "S2.B",
+        "S2.C"
+      ],
+      "implementation_status": "PLANNED",
+      "formal_conformity_verdict": null
+    },
+    {
+      "id": "A01",
+      "subject": "应用身份鉴别",
+      "baseline_engineering_status": "PARTIAL",
+      "source_standard_key": "GB_T39786-2021",
+      "primary_phase": "S2",
+      "supporting_phases": [
+        "S6"
+      ],
+      "acceptance_gate_references": [
+        "S2.A",
+        "S2.B",
+        "S2.C"
+      ],
+      "implementation_status": "PLANNED",
+      "formal_conformity_verdict": null
+    },
+    {
+      "id": "A02",
+      "subject": "策略和安全标记关联",
+      "baseline_engineering_status": "IMPLEMENTED_LIMITED",
+      "source_standard_key": "GB_T39786-2021",
+      "primary_phase": "S1",
+      "supporting_phases": [
+        "S2",
+        "S4"
+      ],
+      "acceptance_gate_references": [
+        "S1.A",
+        "S1.B",
+        "S1.C"
+      ],
+      "implementation_status": "PLANNED",
+      "formal_conformity_verdict": null
+    },
+    {
+      "id": "A03",
+      "subject": "传输机密性和完整性",
+      "baseline_engineering_status": "IMPLEMENTED_LIMITED",
+      "source_standard_key": "GB_T39786-2021",
+      "primary_phase": "S1",
+      "supporting_phases": [
+        "S6"
+      ],
+      "acceptance_gate_references": [
+        "S1.A",
+        "S1.B",
+        "S1.C"
+      ],
+      "implementation_status": "PLANNED",
+      "formal_conformity_verdict": null
+    },
+    {
+      "id": "A04",
+      "subject": "重要数据存储机密性",
+      "baseline_engineering_status": "GAP",
+      "source_standard_key": "GB_T39786-2021",
+      "primary_phase": "S4",
+      "supporting_phases": [
+        "S3"
+      ],
+      "acceptance_gate_references": [
+        "S4.A",
+        "S4.B",
+        "S4.C"
+      ],
+      "implementation_status": "PLANNED",
+      "formal_conformity_verdict": null
+    },
+    {
+      "id": "A05",
+      "subject": "存储完整性和原发接收证据",
+      "baseline_engineering_status": "PARTIAL",
+      "source_standard_key": "GB_T39786-2021",
+      "primary_phase": "S4",
+      "supporting_phases": [
+        "S3"
+      ],
+      "acceptance_gate_references": [
+        "S4.A",
+        "S4.B",
+        "S4.C"
+      ],
+      "implementation_status": "PLANNED",
+      "formal_conformity_verdict": null
+    },
+    {
+      "id": "P01",
+      "subject": "参考第三级时所用产品模块要求",
+      "baseline_engineering_status": "PENDING_EVIDENCE",
+      "source_standard_key": "GB_T39786-2021",
+      "primary_phase": "S5",
+      "supporting_phases": [
+        "S0",
+        "S1",
+        "S6"
+      ],
+      "acceptance_gate_references": [
+        "S5.A",
+        "S5.B",
+        "S5.C"
+      ],
+      "implementation_status": "PLANNED",
+      "formal_conformity_verdict": null
+    },
+    {
+      "id": "M01",
+      "subject": "制度和执行规程",
+      "baseline_engineering_status": "GAP",
+      "source_standard_key": "GB_T39786-2021",
+      "primary_phase": "S2",
+      "supporting_phases": [
+        "S0",
+        "S6",
+        "S7"
+      ],
+      "acceptance_gate_references": [
+        "S2.A",
+        "S2.B",
+        "S2.C"
+      ],
+      "implementation_status": "PLANNED",
+      "formal_conformity_verdict": null
+    },
+    {
+      "id": "M02",
+      "subject": "关键岗位职责与多人共管",
+      "baseline_engineering_status": "GAP",
+      "source_standard_key": "GB_T39786-2021",
+      "primary_phase": "S2",
+      "supporting_phases": [],
+      "acceptance_gate_references": [
+        "S2.A",
+        "S2.B",
+        "S2.C"
+      ],
+      "implementation_status": "PLANNED",
+      "formal_conformity_verdict": null
+    },
+    {
+      "id": "M03",
+      "subject": "实施和评估",
+      "baseline_engineering_status": "PARTIAL",
+      "source_standard_key": "GB_T39786-2021",
+      "primary_phase": "S7",
+      "supporting_phases": [
+        "S0",
+        "S6"
+      ],
+      "acceptance_gate_references": [
+        "S7.A",
+        "S7.B",
+        "S7.C"
+      ],
+      "implementation_status": "PLANNED",
+      "formal_conformity_verdict": null
+    },
+    {
+      "id": "M04",
+      "subject": "密码安全应急",
+      "baseline_engineering_status": "GAP",
+      "source_standard_key": "GB_T39786-2021",
+      "primary_phase": "S6",
+      "supporting_phases": [
+        "S3",
+        "S4"
+      ],
+      "acceptance_gate_references": [
+        "S6.A",
+        "S6.B",
+        "S6.C"
+      ],
+      "implementation_status": "PLANNED",
+      "formal_conformity_verdict": null
+    },
+    {
+      "id": "K01",
+      "subject": "密钥产生、用途和使用约束",
+      "baseline_engineering_status": "PARTIAL",
+      "source_standard_key": "GB_T39786-2021",
+      "primary_phase": "S3",
+      "supporting_phases": [
+        "S1"
+      ],
+      "acceptance_gate_references": [
+        "S3.A",
+        "S3.B",
+        "S3.C",
+        "S3.D"
+      ],
+      "implementation_status": "PLANNED",
+      "formal_conformity_verdict": null
+    },
+    {
+      "id": "K02",
+      "subject": "秘密存储与公钥防替换",
+      "baseline_engineering_status": "GAP",
+      "source_standard_key": "GB_T39786-2021",
+      "primary_phase": "S3",
+      "supporting_phases": [
+        "S2",
+        "S4"
+      ],
+      "acceptance_gate_references": [
+        "S3.A",
+        "S3.B",
+        "S3.C",
+        "S3.D"
+      ],
+      "implementation_status": "PLANNED",
+      "formal_conformity_verdict": null
+    },
+    {
+      "id": "K03",
+      "subject": "更新和撤销",
+      "baseline_engineering_status": "GAP",
+      "source_standard_key": "GB_T39786-2021",
+      "primary_phase": "S3",
+      "supporting_phases": [
+        "S2",
+        "S4",
+        "S6"
+      ],
+      "acceptance_gate_references": [
+        "S3.A",
+        "S3.B",
+        "S3.C",
+        "S3.D"
+      ],
+      "implementation_status": "PLANNED",
+      "formal_conformity_verdict": null
+    },
+    {
+      "id": "K04",
+      "subject": "历史归档与信任维护",
+      "baseline_engineering_status": "PARTIAL",
+      "source_standard_key": "GB_T39786-2021",
+      "primary_phase": "S3",
+      "supporting_phases": [
+        "S4",
+        "S7"
+      ],
+      "acceptance_gate_references": [
+        "S3.A",
+        "S3.B",
+        "S3.C",
+        "S3.D"
+      ],
+      "implementation_status": "PLANNED",
+      "formal_conformity_verdict": null
+    },
+    {
+      "id": "K05",
+      "subject": "按用途备份恢复和销毁",
+      "baseline_engineering_status": "GAP",
+      "source_standard_key": "GB_T39786-2021",
+      "primary_phase": "S6",
+      "supporting_phases": [
+        "S3",
+        "S4"
+      ],
+      "acceptance_gate_references": [
+        "S6.A",
+        "S6.B",
+        "S6.C"
+      ],
+      "implementation_status": "PLANNED",
+      "formal_conformity_verdict": null
+    },
+    {
+      "id": "SM201",
+      "subject": "SM2身份预处理和签验",
+      "baseline_engineering_status": "IMPLEMENTED_LIMITED",
+      "source_standard_key": "GB_T35276-2017",
+      "primary_phase": "S1",
+      "supporting_phases": [],
+      "acceptance_gate_references": [
+        "S1.A",
+        "S1.B",
+        "S1.C"
+      ],
+      "implementation_status": "PLANNED",
+      "formal_conformity_verdict": null
+    },
+    {
+      "id": "SM202",
+      "subject": "参数、编码和DER边界",
+      "baseline_engineering_status": "PENDING_EVIDENCE",
+      "source_standard_key": "GB_T35276-2017",
+      "primary_phase": "S1",
+      "supporting_phases": [],
+      "acceptance_gate_references": [
+        "S1.A",
+        "S1.B",
+        "S1.C"
+      ],
+      "implementation_status": "PLANNED",
+      "formal_conformity_verdict": null
+    },
+    {
+      "id": "SM203",
+      "subject": "标准消息封装",
+      "baseline_engineering_status": "CONDITIONAL_NOT_IMPLEMENTED",
+      "source_standard_key": "GB_T35275-2017",
+      "primary_phase": "S5",
+      "supporting_phases": [
+        "S0",
+        "S1",
+        "S3",
+        "S4"
+      ],
+      "acceptance_gate_references": [
+        "S5.A",
+        "S5.B",
+        "S5.C"
+      ],
+      "implementation_status": "PLANNED",
+      "formal_conformity_verdict": null
+    },
+    {
+      "id": "SYM01",
+      "subject": "GCM标准映射",
+      "baseline_engineering_status": "NOT_COVERED_BY_THIS_STANDARD",
+      "source_standard_key": "GB_T17964-2021",
+      "primary_phase": "S1",
+      "supporting_phases": [
+        "S0"
+      ],
+      "acceptance_gate_references": [
+        "S1.A",
+        "S1.B",
+        "S1.C"
+      ],
+      "implementation_status": "PLANNED",
+      "formal_conformity_verdict": null
+    },
+    {
+      "id": "ID01",
+      "subject": "标准标识映射",
+      "baseline_engineering_status": "PARTIAL",
+      "source_standard_key": "GB_T33560-2017",
+      "primary_phase": "S1",
+      "supporting_phases": [
+        "S0",
+        "S5"
+      ],
+      "acceptance_gate_references": [
+        "S1.A",
+        "S1.B",
+        "S1.C"
+      ],
+      "implementation_status": "PLANNED",
+      "formal_conformity_verdict": null
+    },
+    {
+      "id": "MOD01",
+      "subject": "模块边界和敏感安全参数控制",
+      "baseline_engineering_status": "PENDING_EVIDENCE",
+      "source_standard_key": "GB_T37092-2018",
+      "primary_phase": "S1",
+      "supporting_phases": [
+        "S0",
+        "S3",
+        "S5"
+      ],
+      "acceptance_gate_references": [
+        "S1.A",
+        "S1.B",
+        "S1.C"
+      ],
+      "implementation_status": "PLANNED",
+      "formal_conformity_verdict": null
+    },
+    {
+      "id": "MOD02",
+      "subject": "运行前与条件自测试",
+      "baseline_engineering_status": "CONDITIONAL_NOT_IMPLEMENTED",
+      "source_standard_key": "GB_T37092-2018",
+      "primary_phase": "S5",
+      "supporting_phases": [
+        "S1"
+      ],
+      "acceptance_gate_references": [
+        "S5.A",
+        "S5.B",
+        "S5.C"
+      ],
+      "implementation_status": "PLANNED",
+      "formal_conformity_verdict": null
+    },
+    {
+      "id": "SVS01",
+      "subject": "签验服务证书/备份/日志/时间",
+      "baseline_engineering_status": "CONDITIONAL_NOT_IMPLEMENTED",
+      "source_standard_key": "GB_T38629-2020",
+      "primary_phase": "S5",
+      "supporting_phases": [
+        "S2",
+        "S3",
+        "S6"
+      ],
+      "acceptance_gate_references": [
+        "S5.A",
+        "S5.B",
+        "S5.C"
+      ],
+      "implementation_status": "PLANNED",
+      "formal_conformity_verdict": null
+    },
+    {
+      "id": "SVS02",
+      "subject": "签验产品管理员鉴别与自检",
+      "baseline_engineering_status": "CONDITIONAL_NOT_IMPLEMENTED",
+      "source_standard_key": "GB_T38629-2020",
+      "primary_phase": "S5",
+      "supporting_phases": [
+        "S2"
+      ],
+      "acceptance_gate_references": [
+        "S5.A",
+        "S5.B",
+        "S5.C"
+      ],
+      "implementation_status": "PLANNED",
+      "formal_conformity_verdict": null
+    },
+    {
+      "id": "SVS03",
+      "subject": "标准签验服务接口",
+      "baseline_engineering_status": "CONDITIONAL_NOT_IMPLEMENTED",
+      "source_standard_key": "GB_T38629-2020",
+      "primary_phase": "S5",
+      "supporting_phases": [
+        "S1"
+      ],
+      "acceptance_gate_references": [
+        "S5.A",
+        "S5.B",
+        "S5.C"
+      ],
+      "implementation_status": "PLANNED",
+      "formal_conformity_verdict": null
+    },
+    {
+      "id": "DOC01",
+      "subject": "文件内容与属性关联",
+      "baseline_engineering_status": "IMPLEMENTED_LIMITED",
+      "source_standard_key": "GB_T38541-2020",
+      "primary_phase": "S4",
+      "supporting_phases": [
+        "S1"
+      ],
+      "acceptance_gate_references": [
+        "S4.A",
+        "S4.B",
+        "S4.C"
+      ],
+      "implementation_status": "PLANNED",
+      "formal_conformity_verdict": null
+    },
+    {
+      "id": "DOC02",
+      "subject": "结果声明及长期归档",
+      "baseline_engineering_status": "PARTIAL",
+      "source_standard_key": "GB_T38541-2020",
+      "primary_phase": "S4",
+      "supporting_phases": [
+        "S3",
+        "S6",
+        "S7"
+      ],
+      "acceptance_gate_references": [
+        "S4.A",
+        "S4.B",
+        "S4.C"
+      ],
+      "implementation_status": "PLANNED",
+      "formal_conformity_verdict": null
+    },
+    {
+      "id": "TLCP01",
+      "subject": "TLCP协议互通",
+      "baseline_engineering_status": "CONDITIONAL_NOT_IMPLEMENTED",
+      "source_standard_key": "GB_T38636-2020",
+      "primary_phase": "S5",
+      "supporting_phases": [
+        "S6"
+      ],
+      "acceptance_gate_references": [
+        "S5.A",
+        "S5.B",
+        "S5.C"
+      ],
+      "implementation_status": "PLANNED",
+      "formal_conformity_verdict": null
+    },
+    {
+      "id": "SKF01",
+      "subject": "智能密码钥匙接口",
+      "baseline_engineering_status": "CONDITIONAL_NOT_IMPLEMENTED",
+      "source_standard_key": "GB_T35291-2017",
+      "primary_phase": "S5",
+      "supporting_phases": [
+        "S3"
+      ],
+      "acceptance_gate_references": [
+        "S5.A",
+        "S5.B",
+        "S5.C"
+      ],
+      "implementation_status": "PLANNED",
+      "formal_conformity_verdict": null
+    },
+    {
+      "id": "OTP01",
+      "subject": "动态口令",
+      "baseline_engineering_status": "CONDITIONAL_NOT_IMPLEMENTED",
+      "source_standard_key": "GB_T38556-2020",
+      "primary_phase": "S5",
+      "supporting_phases": [
+        "S2"
+      ],
+      "acceptance_gate_references": [
+        "S5.A",
+        "S5.B",
+        "S5.C"
+      ],
+      "implementation_status": "PLANNED",
+      "formal_conformity_verdict": null
+    }
+  ],
+  "scope_gates": {
+    "research_iteration": "Implemented selected controls, meaningful positive/negative tests, history and evidence version checks; limitations retained",
+    "deployment_readiness": "Actual host/network/device/identity, duties, time, product and recovery evidence; unavailable resources remain pending",
+    "formal_evaluation": "Separate formal process for a determined deployment; no conclusion supplied by this plan"
+  },
+  "open_research": [
+    "PFDAM parameter security",
+    "candidate policy/class identification",
+    "statistical release privacy",
+    "trusted UC and noncollusion",
+    "same-host deployment",
+    "classical inner cryptography and certificate identity"
+  ]
+}

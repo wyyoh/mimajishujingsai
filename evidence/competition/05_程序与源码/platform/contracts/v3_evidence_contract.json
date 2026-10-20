@@ -1,0 +1,40 @@
+{
+  "document_type": "EVIDENCE_SCHEMA_GUIDE",
+  "version": "3.0",
+  "must_have_connection_fields": [
+    "connection_id",
+    "link_id",
+    "opened_at",
+    "handshake_completed_at",
+    "tls_version",
+    "actual_group",
+    "record_cipher",
+    "peer_verified",
+    "peer_role",
+    "certificate_signature_algorithm",
+    "session_reused",
+    "early_data_accepted",
+    "business_request_refs"
+  ],
+  "must_have_run_fields": [
+    "run_id",
+    "task_id",
+    "execution_mode",
+    "data_source",
+    "param_id",
+    "core_version",
+    "security_profile",
+    "results",
+    "signature_evidence_refs",
+    "connection_evidence_refs",
+    "benchmark_context"
+  ],
+  "rules": [
+    "Actual group must come from the actual business SSL connection, not configuration.",
+    "Unknown values must be null, not success.",
+    "Expired execution eligibility is separate from mathematical signature validity.",
+    "All latency values require unit, measured interval, sample count and environment.",
+    "No private keys, session secrets or per-household plaintext in public export.",
+    "Trusted public verification keys must be loaded from an offline registry, not adopted from message payload."
+  ]
+}

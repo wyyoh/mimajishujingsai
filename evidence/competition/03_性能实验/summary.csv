@@ -1,0 +1,4 @@
+﻿input_points,authorized_points,formal_pairs,C1_median_seconds,C0_median_seconds,paired_median_delta_seconds,paired_median_overhead_percent,core_source_digest
+120,60,5,45.71,44.89,0.59,1.30,44d66a025bef56b3e2136d897869eecbb55709bb69e2a5441975c062ee4ead32
+300,150,10,84.90,84.43,0.10,0.12,44d66a025bef56b3e2136d897869eecbb55709bb69e2a5441975c062ee4ead32
+900,450,5,215.90,215.84,0.26,0.12,7bdcf87e971a9ef6da956b59feaa668ced5ddd033223798cca67fcd7ceb06e7c

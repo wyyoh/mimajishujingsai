@@ -1,0 +1,21 @@
+{
+  "recorded_date": "2026-10-15",
+  "source": "direct_user_message",
+  "topic_category": "B",
+  "paper_use_permission": "USER_CONFIRMED_AUTHOR_CONSENT",
+  "user_statement": "这论文可以用来参赛，已征得作者同意；选题是B",
+  "work_number": "CACR2026E7YZBA",
+  "submission_materials_resumed": {
+    "recorded_date": "2026-10-18",
+    "source": "direct_user_message",
+    "scope": "Prepare and repeatedly polish local competition materials; functional development remains paused; no remote upload or signature authorization"
+  },
+  "scope": "Record the user's confirmation, preserve attribution and distinguish new engineering work; no submission or signature performed.",
+  "ownership_clarification": {
+    "recorded_date": "2026-10-16",
+    "source": "direct_user_message",
+    "user_statement": "我们不要表述为用这篇论文的方案进行参赛，而是这就是我们的方案，因为论文作者就在我们的团队里，我给你发论文只是便于你理解而已",
+    "current_positioning": "Team-owned PFDAM scheme and application system; paper provided as technical explanation of prior team research",
+    "anonymous_materials": "Do not list team-member names in anonymous materials"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "files": {
+    "ca.pem": "5abbbbd6d24e7b80e90c10f7f576e4cd97162a4e6edce3ec52f16fbc5f75731e",
+    "gateway-ecdsa-1.pem": "7321e5c6740b23ece3e6897b79a24e0f269e5b50519bf0c367f335e1b35ec5b6",
+    "gateway-mldsa-1.pem": "518faccc25962404112e2c45d7da2caf8e3ca08cff1328333a08df0c9cbbe862",
+    "gateway-sm2-1.pem": "74b1f524228d23846c324c41cf4b0a8a364743094d04f8e9d6d9cbd1b6bbc167",
+    "gateway-tls-1.pem": "bea82745a7b6d5914b0a184793b4b2dcf6ed09c0650d8accbf9cc431fbe05c7e",
+    "registry-root-ecdsa.pem": "aaffcf05baee5fa3186fbb01a5585767f0f4d177bbd28dbefb5ff5dfd6f3ca3c",
+    "registry-root-mldsa.pem": "e7be43d3708fd129bbfc7a65a3dd809ce5c45c5325623953411d2c79b51e6d6b",
+    "source-1-tls-1.pem": "6f7aa554f54dfebae1179e49f50eca3822317156b3e5a20980a5581148571219",
+    "source-2-tls-1.pem": "0925d6a9f7d894a6e2c67172e6ed6ba2af4f06321f3b7b3cab81f977f837eff2",
+    "source-3-tls-1.pem": "527b1f1a2d8a1f2bcda289a7c15a2b0a17a161c8a2e99109d47485e18ada2b9a",
+    "source-tls-1.pem": "ad9e22a632256662af514c8ba5cbff89ac8dc54b2ad5c039fb5816420700d3a7",
+    "utility-ecdsa-1.pem": "1c943837b2084298efac5c0ef372b0d0e365016017b21bf22d0a224c1849c6f6",
+    "utility-mldsa-1.pem": "4e8ad3e1fda1435611c8501717e87ddc29efc2f160ba4f2dc3eaf63c8a570c07",
+    "utility-sm2-1.pem": "df0d2c97773a9501fa2a2b3c5a54d0610d279b74356ac167b941431bce0c0e49",
+    "utility-tls-1.pem": "f129ec39f58a8eb1d8d8e19260dc48fdef39f70150bfd74cc777bd317001ff9d",
+    "trust-registry.json": "7aa6527e9f4f8c7a6a8b50c19a425383f42fb6b4a545e6a0a8c6e3ce6812b8f8",
+    "trust-history/9b1b1ead5cb83f380f3162e3cb024e90dc583d5e1822e0c13f63cd76ff5e0c8f74f0292a7c1b05ed1b3407ea34464c40.json": "8826738abaeaecd21c6273f1b7b36ba03a9c2a256f4e0c7802483c15fce17bd9",
+    "trust-history/b973fbc239722480c4e08806690d5e1aa028dbfff3d8e9428ef04d6fef0ad63256a609393b55ba59dd13dfaf8f70cf58.json": "7aa6527e9f4f8c7a6a8b50c19a425383f42fb6b4a545e6a0a8c6e3ce6812b8f8"
+  },
+  "trust_pin_sha256": "cc9486b2b700bf525411e4b3d9271d4d33ea7451c3f2a0df0e8c03bc8f316030",
+  "expected_context": {
+    "run_id": "67027b12c5884f9f8f3ce99415bc58c3",
+    "security_profile": "SAB",
+    "slot_count": 4
+  },
+  "private_material_exported": false
+}

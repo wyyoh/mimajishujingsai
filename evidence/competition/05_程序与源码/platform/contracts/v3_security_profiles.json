@@ -1,0 +1,126 @@
+{
+  "document_type": "DESIGN_CONTRACT",
+  "version": "3.0",
+  "project_title": "面向新型电网的细粒度密态聚合与可信数据协同平台",
+  "implementation_status": "NOT_IMPLEMENTED_BY_THIS_DELIVERABLE",
+  "default_business_profile": "SAB",
+  "pfdam": {
+    "parameter_id": null,
+    "audit_status": "PENDING",
+    "native_gateway_signature": "required_in_all_profiles",
+    "quantum_resistant_core_claim": false
+  },
+  "object_encoding": {
+    "format": "RFC8785-JCS",
+    "duplicate_fields": "reject",
+    "large_integers": "decimal_strings",
+    "binary": "base64url_without_padding",
+    "signature_scope": "canonical_payload_bytes",
+    "payload_includes_object_type": true
+  },
+  "classical_object_signature": {
+    "algorithm": "ECDSA-P256-SHA256",
+    "key_source": "offline_trusted_role_registry",
+    "wire_encoding": "ASN1_DER_base64url",
+    "required_in_all_profiles": true
+  },
+  "pq_object_signature": {
+    "algorithm": "ML-DSA-65",
+    "variant": "Pure",
+    "contexts": {
+      "GRID_TASK_AUTH_V1": "GRID-TASK-AUTH-V1",
+      "GRID_AGG_RECEIPT_V1": "GRID-AGG-RECEIPT-V1"
+    },
+    "randomized": true,
+    "key_source": "offline_trusted_role_registry",
+    "test_entropy": "forbidden_in_real_runs"
+  },
+  "tls_common": {
+    "min_version": "TLS1.3",
+    "max_version": "TLS1.3",
+    "record_cipher": "TLS_AES_256_GCM_SHA384",
+    "authentication": "classic_role_mTLS",
+    "peer_chain_verification": true,
+    "peer_identity_verification": true,
+    "early_data_enabled": false,
+    "main_acceptance_session_resumption": false,
+    "plaintext_fallback": false,
+    "quantum_resistant_tls_authentication_claim": false
+  },
+  "links": {
+    "L1": "source_service_to_gateway",
+    "L2": "gateway_to_utility"
+  },
+  "profiles": {
+    "S0": {
+      "pfdam_core": "same_reviewed_P1",
+      "required_object_signatures": [
+        "ECDSA-P256-SHA256"
+      ],
+      "signature_acceptance": "ALL_REQUIRED",
+      "tls_allowed_groups": [
+        "X25519"
+      ],
+      "required_on_links": [
+        "L1",
+        "L2"
+      ],
+      "silent_downgrade": false,
+      "user_selectable_in_business_mode": false,
+      "experiment_only": true
+    },
+    "SA": {
+      "pfdam_core": "same_reviewed_P1",
+      "required_object_signatures": [
+        "ECDSA-P256-SHA256",
+        "ML-DSA-65"
+      ],
+      "signature_acceptance": "ALL_REQUIRED",
+      "tls_allowed_groups": [
+        "X25519"
+      ],
+      "required_on_links": [
+        "L1",
+        "L2"
+      ],
+      "silent_downgrade": false,
+      "user_selectable_in_business_mode": false,
+      "experiment_only": true
+    },
+    "SB": {
+      "pfdam_core": "same_reviewed_P1",
+      "required_object_signatures": [
+        "ECDSA-P256-SHA256"
+      ],
+      "signature_acceptance": "ALL_REQUIRED",
+      "tls_allowed_groups": [
+        "X25519MLKEM768"
+      ],
+      "required_on_links": [
+        "L1",
+        "L2"
+      ],
+      "silent_downgrade": false,
+      "user_selectable_in_business_mode": false,
+      "experiment_only": true
+    },
+    "SAB": {
+      "pfdam_core": "same_reviewed_P1",
+      "required_object_signatures": [
+        "ECDSA-P256-SHA256",
+        "ML-DSA-65"
+      ],
+      "signature_acceptance": "ALL_REQUIRED",
+      "tls_allowed_groups": [
+        "X25519MLKEM768"
+      ],
+      "required_on_links": [
+        "L1",
+        "L2"
+      ],
+      "silent_downgrade": false,
+      "user_selectable_in_business_mode": false,
+      "experiment_only": false
+    }
+  }
+}

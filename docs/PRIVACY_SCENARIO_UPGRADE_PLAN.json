@@ -1,0 +1,315 @@
+{
+  "schema": "GRID_PRIVACY_SCENARIO_UPGRADE_PLAN_V1",
+  "date": "2026-10-17",
+  "status": "COMPLETED",
+  "implementation_started": true,
+  "authorization_scope": "User authorized full goal-mode implementation of this plan on 2026-10-17",
+  "plan": "docs/PRIVACY_SCENARIO_UPGRADE_PLAN.md",
+  "baseline": {
+    "core_source_digest": "404317da1124993f6f490c13f83ce45550aec7fa016c830ac15df4ab6709ceb3",
+    "pfdam_sha256": "ed696e1963964940898c100733bdd48d94d70d6385abfc99aa2933379bdfd37d"
+  },
+  "goals": [
+    "UC-enforced statistical release protection",
+    "Park demand-response evaluation with explicit metrics and matched private controls"
+  ],
+  "proposed_defaults": {
+    "status": "FROZEN_FOR_IMPLEMENTATION",
+    "protection_unit": "Registered distinct metering point; no claim of unique natural person",
+    "minimum_cohort": 10,
+    "threshold_sensitivity_values": [
+      5,
+      10,
+      20
+    ],
+    "partition": "Fixed disjoint cells and authorized unions only",
+    "completeness": "All registered contributors for each required cell and interval",
+    "revision_policy": "One public numeric version per cell and UTC interval across aliases/revisions",
+    "ledger_scope": "Shared within the trusted population/data lineage and metric, across requesters",
+    "differential_privacy_claim": false,
+    "reference_days": 3,
+    "event_intervals": 4,
+    "interval_seconds": 900,
+    "child_jobs_per_evaluation": 4,
+    "public_demo_injection_percent": 10,
+    "private_control_injection_percent": [
+      0,
+      10,
+      20
+    ],
+    "matched_measurements": [
+      {
+        "input_nodes": 120,
+        "source_processes": 3,
+        "formal_pairs": 5,
+        "warmup_pairs": 2
+      },
+      {
+        "input_nodes": 300,
+        "source_processes": 3,
+        "formal_pairs": 10,
+        "warmup_pairs": 2
+      },
+      {
+        "input_nodes": 900,
+        "source_processes": 3,
+        "formal_pairs": 5,
+        "warmup_pairs": 2
+      }
+    ],
+    "latency_goal": {
+      "main_input_nodes": 300,
+      "seconds": 180,
+      "required_observed_fraction": "9/10",
+      "status": "FROZEN_BEFORE_MEASUREMENT"
+    },
+    "summary_statistics": [
+      "paired difference",
+      "paired overhead",
+      "median",
+      "minimum",
+      "maximum",
+      "failures"
+    ],
+    "excluded_claims": [
+      "stable p95",
+      "statistical superiority",
+      "production throughput",
+      "formal differential privacy",
+      "whole-system post-quantum security"
+    ]
+  },
+  "stages": [
+    {
+      "id": "P0",
+      "status": "COMPLETED",
+      "depends_on": [],
+      "tasks": [
+        {
+          "id": "T01",
+          "status": "COMPLETED"
+        },
+        {
+          "id": "T02",
+          "status": "COMPLETED"
+        },
+        {
+          "id": "T03",
+          "status": "COMPLETED"
+        }
+      ],
+      "gate": "G0",
+      "status_of_gate": "FROZEN_AND_VERIFIED"
+    },
+    {
+      "id": "P1",
+      "status": "COMPLETED",
+      "depends_on": [
+        "P0"
+      ],
+      "tasks": [
+        {
+          "id": "T04",
+          "status": "COMPLETED"
+        },
+        {
+          "id": "T05",
+          "status": "COMPLETED"
+        },
+        {
+          "id": "T06",
+          "status": "COMPLETED"
+        }
+      ],
+      "gate": "G1",
+      "status_of_gate": "VERIFIED"
+    },
+    {
+      "id": "P2",
+      "status": "COMPLETED",
+      "depends_on": [
+        "P1"
+      ],
+      "tasks": [
+        {
+          "id": "T07",
+          "status": "COMPLETED"
+        },
+        {
+          "id": "T08",
+          "status": "COMPLETED"
+        },
+        {
+          "id": "T09",
+          "status": "COMPLETED"
+        }
+      ],
+      "gate": "G2",
+      "status_of_gate": "VERIFIED"
+    },
+    {
+      "id": "P3",
+      "status": "COMPLETED",
+      "depends_on": [
+        "P2"
+      ],
+      "tasks": [
+        {
+          "id": "T10",
+          "status": "COMPLETED"
+        },
+        {
+          "id": "T11",
+          "status": "COMPLETED"
+        },
+        {
+          "id": "T12",
+          "status": "COMPLETED"
+        }
+      ],
+      "gate": "G3",
+      "status_of_gate": "VERIFIED"
+    },
+    {
+      "id": "P4",
+      "status": "COMPLETED",
+      "depends_on": [
+        "P3"
+      ],
+      "tasks": [
+        {
+          "id": "T13",
+          "status": "COMPLETED"
+        },
+        {
+          "id": "T14",
+          "status": "COMPLETED"
+        },
+        {
+          "id": "T15",
+          "status": "COMPLETED"
+        }
+      ],
+      "gate": "G4",
+      "status_of_gate": "VERIFIED"
+    },
+    {
+      "id": "P5",
+      "status": "COMPLETED",
+      "depends_on": [
+        "P4"
+      ],
+      "tasks": [
+        {
+          "id": "T16",
+          "status": "COMPLETED"
+        },
+        {
+          "id": "T17",
+          "status": "COMPLETED"
+        },
+        {
+          "id": "T18",
+          "status": "COMPLETED"
+        }
+      ],
+      "gate": "G5",
+      "status_of_gate": "VERIFIED"
+    }
+  ],
+  "mandatory_checks": [
+    "distinct-contributor boundaries and valid zero",
+    "same-interval duplicates rejected without count-only deduplication",
+    "fixed-cell and multi-query composition restrictions",
+    "cross-account/function/nonce/source/alias ledger continuity",
+    "missing/late/revised data with one numeric version",
+    "all output surfaces and hidden-value hash dictionary channels",
+    "schema integrity and signature/context/permission binding",
+    "cross-process publication transaction and crash/restore monotonicity",
+    "parent-child/cohort/registry/time-context binding",
+    "independent expected sets and exact integer/rational business results",
+    "controlled response truth separated from baseline estimation error",
+    "historical verification and SAB/real-TLS/GW-isolation regressions"
+  ],
+  "baseline_controls": [
+    {
+      "id": "REFERENCE",
+      "scope": "Private UC/test exact reference; never gateway plaintext"
+    },
+    {
+      "id": "RESPONSE_EFFECT",
+      "scope": "Private matched untreated trajectory versus prespecified 0/10/20 percent intervention"
+    },
+    {
+      "id": "REFERENCE_METHOD",
+      "scope": "Same private inputs; three-day mean versus nearest prior day; absolute estimation error, no post-hoc method selection"
+    },
+    {
+      "id": "C0",
+      "scope": "Private lab only; skip release decisions/ledger; retain crypto and matched diagnostic signing"
+    },
+    {
+      "id": "C1",
+      "scope": "Same encrypted pipeline with release decisions and durable ledger enforced"
+    },
+    {
+      "id": "RISK_MODELS",
+      "scope": "Private model comparison, does not expand production query expressiveness"
+    }
+  ],
+  "preserved_constraints": [
+    "PFDAM mathematics unchanged",
+    "ECDSA AND ML-DSA-65 and both actual hybrid TLS links",
+    "SM enhancement requirements unchanged",
+    "GW cannot load source plaintext, UC secrets, private contributor mapping or oracle fixtures",
+    "independent oracle never replaced by gateway accepted-set",
+    "REAL/PREVIEW/REPLAY visible",
+    "V1/V2/V3/V4 and UC_RESULT_V1 historical verification retained",
+    "new business cannot bypass through old routes",
+    "standard vector and historical performance evidence not relabelled",
+    "final submission, recording, packaging and publishing remain paused"
+  ],
+  "residual_limits": [
+    "PFDAM concrete parameter security pending",
+    "candidate policy and report-class recognition",
+    "trusted UC, honest registered Source and noncollusion",
+    "trusted OS/coordinator and same-host protected-root rollback exclusion",
+    "fixed-group exact release is not differential privacy",
+    "public data cannot acquire retroactive confidentiality",
+    "baseline comparison is not verified market-response causality or settlement",
+    "physical cross-host and real-device deployment remain unverified"
+  ],
+  "results": {
+    "security_tests": "101_PASSED_PLUS_REAL_PARENT_MISSING_SCENARIO",
+    "evidence_references_verified": 1002,
+    "business_tests": "PASS_PRIVATE_CONTROLS",
+    "performance_measurements": "PASS_20_FORMAL_PAIRS_6_WARMUP_PAIRS",
+    "successful_real_tasks": 52,
+    "independently_verified_windows": 832,
+    "prior_failed_warmup_attempts": 1,
+    "formal_failures": 0,
+    "measured_table_browser": "PASS",
+    "uniform_measurement_core_version": false,
+    "main_latency_goal_observation": {
+      "input_nodes": 300,
+      "measured_core_source_digest": "44d66a025bef56b3e2136d897869eecbb55709bb69e2a5441975c062ee4ead32",
+      "within_180_seconds": 10,
+      "formal_protected_tasks": 10,
+      "preregistered_requirement": "9/10",
+      "not_relabelled_as_current_build": true
+    }
+  },
+  "frozen_core_source_digest": "7bdcf87e971a9ef6da956b59feaa668ced5ddd033223798cca67fcd7ceb06e7c",
+  "release_rules_version": 2,
+  "input_binding_scheme": "ROLE_HMAC_SHA384_V1",
+  "measurement_amendment": "artifacts/iterations/privacy/benchmarks/release-protection-20261017-v1/history-amendment.json",
+  "historical_regression": {
+    "core_source_digest": "44d66a025bef56b3e2136d897869eecbb55709bb69e2a5441975c062ee4ead32",
+    "passed": 100,
+    "current_version": false
+  },
+  "regression_record": "artifacts/iterations/privacy/regressions/2026-10-17T16-19-27.177Z/validation.json",
+  "completed_date": "2026-10-18",
+  "completion_record": "artifacts/iterations/privacy/completion.json",
+  "measurement_index": "artifacts/iterations/privacy/benchmarks/current.json"
+}

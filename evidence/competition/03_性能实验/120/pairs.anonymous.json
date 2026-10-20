@@ -1,0 +1,37 @@
+[
+  {
+    "business_metrics_equal": true,
+    "pair": 0,
+    "phase": "warmup"
+  },
+  {
+    "business_metrics_equal": true,
+    "pair": 1,
+    "phase": "warmup"
+  },
+  {
+    "business_metrics_equal": true,
+    "pair": 0,
+    "phase": "formal"
+  },
+  {
+    "business_metrics_equal": true,
+    "pair": 1,
+    "phase": "formal"
+  },
+  {
+    "business_metrics_equal": true,
+    "pair": 2,
+    "phase": "formal"
+  },
+  {
+    "business_metrics_equal": true,
+    "pair": 3,
+    "phase": "formal"
+  },
+  {
+    "business_metrics_equal": true,
+    "pair": 4,
+    "phase": "formal"
+  }
+]

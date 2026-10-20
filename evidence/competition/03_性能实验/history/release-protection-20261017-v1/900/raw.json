@@ -1,0 +1,18 @@
+[
+  {
+    "arm": "C0",
+    "core_source_digest": "44d66a025bef56b3e2136d897869eecbb55709bb69e2a5441975c062ee4ead32",
+    "failure_code": "FileNotFoundError",
+    "finished_at": "2026-10-17T15:50:46.446Z",
+    "nodes": 900,
+    "pair": 0,
+    "param_id": "9269a459ac8248d023578ba8638aecac1b4ebcef2e07e56265b41b27a3cc866f4119f2a44fd74b084817d385c6248ed2",
+    "phase": "warmup",
+    "public_numeric_output": false,
+    "run_id": "3547afbd63e04c94abae285fa3c18742",
+    "source_count": 3,
+    "started_at": "2026-10-17T15:49:51.382Z",
+    "success": false,
+    "wall_ns": 55066786060
+  }
+]

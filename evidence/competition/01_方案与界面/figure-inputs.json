@@ -1,0 +1,11 @@
+{
+  "evaluation": {
+    "path": "artifacts\\runs\\67027b12c5884f9f8f3ce99415bc58c3\\evaluation.json",
+    "sha256": "23da9820c3f17f34d7619d6dfc2130cd0bc0546a83ed234db0b71e72a3ea231e"
+  },
+  "benchmarks": {
+    "path": "artifacts\\iterations\\privacy\\benchmarks\\current.json",
+    "sha256": "9745b01ca9306c2035d5161b453f65ab31066c5707c2424af5f4a4ab8cb0b967"
+  },
+  "chart_scope": "Real stored observations; architecture/publication/evidence images are labelled schematics"
+}

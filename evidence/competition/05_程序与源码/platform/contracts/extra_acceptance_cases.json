@@ -1,0 +1,188 @@
+{
+  "document_type": "TEST_DESIGN_NOT_TEST_RESULTS",
+  "origin": "reconstructed from handbook section 13.2 and actual test identifiers; original extra contract file was absent",
+  "cases": [
+    {
+      "id": "E01",
+      "title": "全量报告后由GW选择",
+      "test_implementations": [
+        "tests/test_acceptance.py::test_normal_full_population"
+      ],
+      "status": "NOT_RUN",
+      "actual_result": null
+    },
+    {
+      "id": "E02",
+      "title": "参与集合和数值独立真值",
+      "test_implementations": [
+        "tests/test_acceptance.py::test_normal_full_population"
+      ],
+      "status": "NOT_RUN",
+      "actual_result": null
+    },
+    {
+      "id": "E03",
+      "title": "双签按ALL_REQUIRED",
+      "test_implementations": [
+        "tests/test_acceptance.py::test_actual_conjunctive_signatures"
+      ],
+      "status": "NOT_RUN",
+      "actual_result": null
+    },
+    {
+      "id": "E04",
+      "title": "本地信任及档位不可降级",
+      "test_implementations": [
+        "tests/test_acceptance.py::test_trusted_registry_and_profile_local_policy"
+      ],
+      "status": "NOT_RUN",
+      "actual_result": null
+    },
+    {
+      "id": "E05",
+      "title": "实际库与原生连接来源",
+      "test_implementations": [
+        "tests/test_acceptance.py::test_real_business_connection_provenance"
+      ],
+      "status": "NOT_RUN",
+      "actual_result": null
+    },
+    {
+      "id": "E06",
+      "title": "业务对象关联连接证据",
+      "test_implementations": [
+        "tests/test_acceptance.py::test_real_business_connection_provenance"
+      ],
+      "status": "NOT_RUN",
+      "actual_result": null
+    },
+    {
+      "id": "E07",
+      "title": "真实文件隔离与公开字段白名单",
+      "test_implementations": [
+        "tests/test_acceptance.py::test_real_filesystem_isolation_and_export_fields"
+      ],
+      "status": "NOT_RUN",
+      "actual_result": null
+    },
+    {
+      "id": "E08",
+      "title": "真实失败保持REAL",
+      "test_implementations": [
+        "tests/test_acceptance.py::test_browser_state_and_failure_labels"
+      ],
+      "status": "NOT_RUN",
+      "actual_result": null
+    },
+    {
+      "id": "E09",
+      "title": "换条件与历史回放来源",
+      "test_implementations": [
+        "tests/test_acceptance.py::test_browser_state_and_failure_labels"
+      ],
+      "status": "NOT_RUN",
+      "actual_result": null
+    },
+    {
+      "id": "E10",
+      "title": "归档验签与当前受理区分",
+      "test_implementations": [
+        "tests/test_acceptance.py::test_archive_receipt_validity_and_public_export"
+      ],
+      "status": "NOT_RUN",
+      "actual_result": null
+    },
+    {
+      "id": "E11",
+      "title": "新环境断网真实复跑",
+      "test_implementations": [
+        "tests/test_acceptance.py::test_independent_offline_reproduction_record"
+      ],
+      "status": "NOT_RUN",
+      "actual_result": null
+    },
+    {
+      "id": "E12",
+      "title": "内层限定域与参数审查状态",
+      "test_implementations": [
+        "tests/test_acceptance.py::test_current_parameter_bounds_are_explicit"
+      ],
+      "status": "NOT_RUN",
+      "actual_result": null
+    },
+    {
+      "id": "E13",
+      "title": "数据种子和密码熵分离",
+      "test_implementations": [
+        "tests/test_acceptance.py::test_randomness_separate_from_data_seed"
+      ],
+      "status": "NOT_RUN",
+      "actual_result": null
+    },
+    {
+      "id": "E14",
+      "title": "规范化前歧义拒绝",
+      "test_implementations": [
+        "tests/test_acceptance.py::test_canonicalization_rejects_ambiguous_inputs"
+      ],
+      "status": "NOT_RUN",
+      "actual_result": null
+    },
+    {
+      "id": "E15",
+      "title": "数学签名与上下文分开",
+      "test_implementations": [
+        "tests/test_acceptance.py::test_valid_signature_wrong_business_context"
+      ],
+      "status": "NOT_RUN",
+      "actual_result": null
+    },
+    {
+      "id": "E16",
+      "title": "真实修改CT并核对剩余集合",
+      "test_implementations": [
+        "tests/test_acceptance.py::test_actual_report_mutation"
+      ],
+      "status": "NOT_RUN",
+      "actual_result": null
+    },
+    {
+      "id": "E17",
+      "title": "非法群元及零临时量退化拒绝",
+      "test_implementations": [
+        "tests/test_acceptance.py::test_invalid_element_and_cipher_domain",
+        "tests/test_acceptance.py::test_zero_ephemeral_cannot_turn_mac_key_into_public_identity"
+      ],
+      "status": "NOT_RUN",
+      "actual_result": null
+    },
+    {
+      "id": "E18",
+      "title": "真实窗口标签绑定",
+      "test_implementations": [
+        "tests/test_acceptance.py::test_real_cryptographic_window_binding"
+      ],
+      "status": "NOT_RUN",
+      "actual_result": null
+    },
+    {
+      "id": "E19",
+      "title": "单/多标签候选测试限制",
+      "test_implementations": [
+        "tests/test_acceptance.py::test_policy_limitation_is_recorded"
+      ],
+      "status": "NOT_RUN",
+      "actual_result": null
+    },
+    {
+      "id": "E20",
+      "title": "参数阶与恢复上界的明确限制",
+      "test_implementations": [
+        "tests/test_acceptance.py::test_current_parameter_bounds_are_explicit"
+      ],
+      "status": "NOT_RUN",
+      "actual_result": null
+    }
+  ],
+  "results_location": "artifacts/tests/acceptance_results.json"
+}

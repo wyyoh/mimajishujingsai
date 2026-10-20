@@ -1,0 +1,733 @@
+{
+  "document_type": "TEST_DESIGN_NOT_TEST_RESULTS",
+  "version": "3.0",
+  "test_count": 40,
+  "all_tests_unexecuted": true,
+  "cases": [
+    {
+      "id": "T01",
+      "area": "CORE",
+      "title": "正常聚合",
+      "profiles": [
+        "S0",
+        "SA",
+        "SB",
+        "SAB"
+      ],
+      "action": "固定SYN-120数据和区域A居民/充电类别，逐窗执行",
+      "expected": "恢复值与同一有效报告集合的整数和一致",
+      "evidence_required": [
+        "oracle.json",
+        "results.json",
+        "param_manifest.json"
+      ],
+      "status": "NOT_RUN",
+      "actual_result": null,
+      "run_id": null
+    },
+    {
+      "id": "T02",
+      "area": "CORE",
+      "title": "复合条件语义",
+      "profiles": [
+        "S0",
+        "SA",
+        "SB",
+        "SAB"
+      ],
+      "action": "对区域与类别进行且/或组合",
+      "expected": "UC编译的完整复合标签与参考选择范围相同",
+      "evidence_required": [
+        "compiled_policy_private.json",
+        "oracle.json"
+      ],
+      "status": "NOT_RUN",
+      "actual_result": null,
+      "run_id": null
+    },
+    {
+      "id": "T03",
+      "area": "CORE",
+      "title": "单类别与多类别",
+      "profiles": [
+        "S0",
+        "SA",
+        "SB",
+        "SAB"
+      ],
+      "action": "分别执行居民、居民或充电",
+      "expected": "由内核改变参与集合，非浏览器明文预筛选",
+      "evidence_required": [
+        "gateway_events.json",
+        "results.json"
+      ],
+      "status": "NOT_RUN",
+      "actual_result": null,
+      "run_id": null
+    },
+    {
+      "id": "T04",
+      "area": "CORE",
+      "title": "无匹配报告",
+      "profiles": [
+        "S0",
+        "SA",
+        "SB",
+        "SAB"
+      ],
+      "action": "选择不含已提交报告的合法类别",
+      "expected": "返回无有效数据；不标记全体零负荷",
+      "evidence_required": [
+        "results.json"
+      ],
+      "status": "NOT_RUN",
+      "actual_result": null,
+      "run_id": null
+    },
+    {
+      "id": "T05",
+      "area": "CORE",
+      "title": "合法零值",
+      "profiles": [
+        "S0",
+        "SA",
+        "SB",
+        "SAB"
+      ],
+      "action": "提交合法零功率报告",
+      "expected": "接受且计入覆盖，统计值为零",
+      "evidence_required": [
+        "oracle.json",
+        "results.json"
+      ],
+      "status": "NOT_RUN",
+      "actual_result": null,
+      "run_id": null
+    },
+    {
+      "id": "T06",
+      "area": "CORE",
+      "title": "报告修改",
+      "profiles": [
+        "S0",
+        "SA",
+        "SB",
+        "SAB"
+      ],
+      "action": "在生成后TLS发送前修改选中CT且不更新认证量",
+      "expected": "联合检查拒绝；剩余集合正确",
+      "evidence_required": [
+        "injection_manifest.json",
+        "gateway_events.json",
+        "oracle.json"
+      ],
+      "status": "NOT_RUN",
+      "actual_result": null,
+      "run_id": null
+    },
+    {
+      "id": "T07",
+      "area": "CORE",
+      "title": "20%缺报",
+      "profiles": [
+        "S0",
+        "SA",
+        "SB",
+        "SAB"
+      ],
+      "action": "每窗阻止8个已选择模拟节点上报",
+      "expected": "默认40节点集合每窗收到32目标报告；覆盖80%，无插补",
+      "evidence_required": [
+        "fixture_manifest.json",
+        "results.json"
+      ],
+      "status": "NOT_RUN",
+      "actual_result": null,
+      "run_id": null
+    },
+    {
+      "id": "T08",
+      "area": "CORE",
+      "title": "完全相同报告重传",
+      "profiles": [
+        "S0",
+        "SA",
+        "SB",
+        "SAB"
+      ],
+      "action": "重发同一字节报告",
+      "expected": "不会重复计入；记录幂等重试",
+      "evidence_required": [
+        "gateway_events.json",
+        "results.json"
+      ],
+      "status": "NOT_RUN",
+      "actual_result": null,
+      "run_id": null
+    },
+    {
+      "id": "T09",
+      "area": "CORE",
+      "title": "跨窗口报告",
+      "profiles": [
+        "S0",
+        "SA",
+        "SB",
+        "SAB"
+      ],
+      "action": "提交属于另一slot的报告",
+      "expected": "上下文或真实密码匹配拒绝，不进入目标窗口",
+      "evidence_required": [
+        "gateway_events.json"
+      ],
+      "status": "NOT_RUN",
+      "actual_result": null,
+      "run_id": null
+    },
+    {
+      "id": "T10",
+      "area": "CORE",
+      "title": "参数与类型错误",
+      "profiles": [
+        "S0",
+        "SA",
+        "SB",
+        "SAB"
+      ],
+      "action": "输入错误param_id、非法群元素或超长报告",
+      "expected": "在相应校验阶段失败，不崩溃，不产生假结果",
+      "evidence_required": [
+        "error_events.json"
+      ],
+      "status": "NOT_RUN",
+      "actual_result": null,
+      "run_id": null
+    },
+    {
+      "id": "T11",
+      "area": "CORE",
+      "title": "令牌猜测复核",
+      "profiles": [
+        "S0",
+        "SA",
+        "SB",
+        "SAB"
+      ],
+      "action": "依据上传版本复核单/多标签候选测试与安全目标",
+      "expected": "形成真实结论，解释授权集合与报告标签目标；未解释前不宣称性质成立",
+      "evidence_required": [
+        "protocol_audit.md"
+      ],
+      "status": "NOT_RUN",
+      "actual_result": null,
+      "run_id": null
+    },
+    {
+      "id": "T12",
+      "area": "CORE",
+      "title": "随机数与预计算",
+      "profiles": [
+        "S0",
+        "SA",
+        "SB",
+        "SAB"
+      ],
+      "action": "执行并发、重启和重试",
+      "expected": "新报告不复用预计算随机量；同一重传保持原字节",
+      "evidence_required": [
+        "randomness_lifecycle_test.json"
+      ],
+      "status": "NOT_RUN",
+      "actual_result": null,
+      "run_id": null
+    },
+    {
+      "id": "T13",
+      "area": "AUTH",
+      "title": "正常授权双验签",
+      "profiles": [
+        "SAB"
+      ],
+      "action": "生成有效SAB授权并验证",
+      "expected": "两项所需签名都成功，才进入上下文检查",
+      "evidence_required": [
+        "authorization.json",
+        "signature_events.json"
+      ],
+      "status": "NOT_RUN",
+      "actual_result": null,
+      "run_id": null
+    },
+    {
+      "id": "T14",
+      "area": "AUTH",
+      "title": "修改授权字段",
+      "profiles": [
+        "SAB"
+      ],
+      "action": "修改已签目标/窗口/令牌/安全配置",
+      "expected": "验签拒绝，不开始计算",
+      "evidence_required": [
+        "authorization_mutations.json",
+        "signature_events.json"
+      ],
+      "status": "NOT_RUN",
+      "actual_result": null,
+      "run_id": null
+    },
+    {
+      "id": "T15",
+      "area": "AUTH",
+      "title": "不可信公钥替换",
+      "profiles": [
+        "SAB"
+      ],
+      "action": "随消息提供新公钥并自签",
+      "expected": "不替换本地信任来源，拒绝",
+      "evidence_required": [
+        "signature_events.json"
+      ],
+      "status": "NOT_RUN",
+      "actual_result": null,
+      "run_id": null
+    },
+    {
+      "id": "T16",
+      "area": "AUTH",
+      "title": "完整授权过期",
+      "profiles": [
+        "SAB"
+      ],
+      "action": "使用原始签名正确但expired的授权",
+      "expected": "签名可有效；业务有效期检查拒绝，正确区分原因",
+      "evidence_required": [
+        "auth_context_events.json"
+      ],
+      "status": "NOT_RUN",
+      "actual_result": null,
+      "run_id": null
+    },
+    {
+      "id": "T17",
+      "area": "AUTH",
+      "title": "错误接收方",
+      "profiles": [
+        "SAB"
+      ],
+      "action": "把已签给另一GW的授权交本GW",
+      "expected": "接收方检查拒绝，不声称签名数学错误",
+      "evidence_required": [
+        "auth_context_events.json"
+      ],
+      "status": "NOT_RUN",
+      "actual_result": null,
+      "run_id": null
+    },
+    {
+      "id": "T18",
+      "area": "AUTH",
+      "title": "对象类型混用",
+      "profiles": [
+        "SAB"
+      ],
+      "action": "把回执字节或context作为授权处理",
+      "expected": "类型/域分离检查拒绝",
+      "evidence_required": [
+        "signature_events.json"
+      ],
+      "status": "NOT_RUN",
+      "actual_result": null,
+      "run_id": null
+    },
+    {
+      "id": "T19",
+      "area": "AUTH",
+      "title": "缺失后量子签名",
+      "profiles": [
+        "SAB"
+      ],
+      "action": "SAB中删掉MLDSA但保留经典签名",
+      "expected": "ALL_REQUIRED失败，不退回S0",
+      "evidence_required": [
+        "signature_events.json"
+      ],
+      "status": "NOT_RUN",
+      "actual_result": null,
+      "run_id": null
+    },
+    {
+      "id": "T20",
+      "area": "AUTH",
+      "title": "规范编码歧义",
+      "profiles": [
+        "S0",
+        "SA",
+        "SB",
+        "SAB"
+      ],
+      "action": "构造重复键/非有限值/非法Unicode/超界整数",
+      "expected": "在规范化前拒绝；业务只处理已验签对象",
+      "evidence_required": [
+        "encoding_tests.json"
+      ],
+      "status": "NOT_RUN",
+      "actual_result": null,
+      "run_id": null
+    },
+    {
+      "id": "T21",
+      "area": "RECEIPT",
+      "title": "正常回执恢复",
+      "profiles": [
+        "S0",
+        "SA",
+        "SB",
+        "SAB"
+      ],
+      "action": "对有效回执验证并恢复",
+      "expected": "外层所需验签、上下文、原生签名均通过后恢复",
+      "evidence_required": [
+        "receipt.json",
+        "uc_events.json"
+      ],
+      "status": "NOT_RUN",
+      "actual_result": null,
+      "run_id": null
+    },
+    {
+      "id": "T22",
+      "area": "RECEIPT",
+      "title": "修改回执",
+      "profiles": [
+        "SAB"
+      ],
+      "action": "改聚合密文、计数或快照但不更新签名",
+      "expected": "验签失败，不发布",
+      "evidence_required": [
+        "receipt_mutations.json",
+        "uc_events.json"
+      ],
+      "status": "NOT_RUN",
+      "actual_result": null,
+      "run_id": null
+    },
+    {
+      "id": "T23",
+      "area": "RECEIPT",
+      "title": "跨任务回执复用",
+      "profiles": [
+        "SAB"
+      ],
+      "action": "把其他任务的合法回执交当前任务",
+      "expected": "签名与任务上下文分开核查，拒绝错配",
+      "evidence_required": [
+        "uc_events.json"
+      ],
+      "status": "NOT_RUN",
+      "actual_result": null,
+      "run_id": null
+    },
+    {
+      "id": "T24",
+      "area": "RECEIPT",
+      "title": "重复回执执行",
+      "profiles": [
+        "SAB"
+      ],
+      "action": "重复提交同一回执",
+      "expected": "幂等返回旧结果或拒绝再执行，不重复发布",
+      "evidence_required": [
+        "uc_events.json",
+        "results.json"
+      ],
+      "status": "NOT_RUN",
+      "actual_result": null,
+      "run_id": null
+    },
+    {
+      "id": "T25",
+      "area": "RECEIPT",
+      "title": "旧档案验签",
+      "profiles": [
+        "SAB"
+      ],
+      "action": "离线验证历史回执且尝试重新执行",
+      "expected": "签名有效性与当前任务受理资格分开展示",
+      "evidence_required": [
+        "offline_verify.json",
+        "uc_events.json"
+      ],
+      "status": "NOT_RUN",
+      "actual_result": null,
+      "run_id": null
+    },
+    {
+      "id": "T26",
+      "area": "RECEIPT",
+      "title": "双签之一失败",
+      "profiles": [
+        "SAB"
+      ],
+      "action": "保留有效MLDSA但损坏经典签名，反向再测",
+      "expected": "任一required签名失败均拒绝，不按OR接受",
+      "evidence_required": [
+        "signature_events.json"
+      ],
+      "status": "NOT_RUN",
+      "actual_result": null,
+      "run_id": null
+    },
+    {
+      "id": "T27",
+      "area": "TLS",
+      "title": "两链路实际混合协商",
+      "profiles": [
+        "SB",
+        "SAB"
+      ],
+      "action": "L1/L2传输本次真实任务报告回执",
+      "expected": "实际TLS1.3且group为X25519MLKEM768，对端身份通过",
+      "evidence_required": [
+        "connection_evidence.json",
+        "request_connection_map.json"
+      ],
+      "status": "NOT_RUN",
+      "actual_result": null,
+      "run_id": null
+    },
+    {
+      "id": "T28",
+      "area": "TLS",
+      "title": "经典对端拒绝",
+      "profiles": [
+        "SAB"
+      ],
+      "action": "对端只允许X25519，客户端为SAB",
+      "expected": "连接无法满足本地策略，业务材料不发送，无自动回退",
+      "evidence_required": [
+        "connection_failures.json"
+      ],
+      "status": "NOT_RUN",
+      "actual_result": null,
+      "run_id": null
+    },
+    {
+      "id": "T29",
+      "area": "TLS",
+      "title": "不可信证书",
+      "profiles": [
+        "SAB"
+      ],
+      "action": "使用不可信签发者的证书",
+      "expected": "证书验证失败并终止",
+      "evidence_required": [
+        "connection_failures.json"
+      ],
+      "status": "NOT_RUN",
+      "actual_result": null,
+      "run_id": null
+    },
+    {
+      "id": "T30",
+      "area": "TLS",
+      "title": "身份不符",
+      "profiles": [
+        "SAB"
+      ],
+      "action": "证书链可信但服务名称/角色不匹配",
+      "expected": "身份校验拒绝，不接受所有可信证书持有者",
+      "evidence_required": [
+        "connection_failures.json"
+      ],
+      "status": "NOT_RUN",
+      "actual_result": null,
+      "run_id": null
+    },
+    {
+      "id": "T31",
+      "area": "TLS",
+      "title": "过期证书",
+      "profiles": [
+        "SAB"
+      ],
+      "action": "对端提供过期证书",
+      "expected": "拒绝，不采用忽略验证调试模式",
+      "evidence_required": [
+        "connection_failures.json"
+      ],
+      "status": "NOT_RUN",
+      "actual_result": null,
+      "run_id": null
+    },
+    {
+      "id": "T32",
+      "area": "TLS",
+      "title": "业务旁路",
+      "profiles": [
+        "SAB"
+      ],
+      "action": "尝试直连未受保护应用端口或IPC",
+      "expected": "未授权访问失败，所有两段实际业务均有对应保护路径",
+      "evidence_required": [
+        "deployment_ports.json",
+        "bypass_tests.json"
+      ],
+      "status": "NOT_RUN",
+      "actual_result": null,
+      "run_id": null
+    },
+    {
+      "id": "T33",
+      "area": "TLS",
+      "title": "早期数据与恢复",
+      "profiles": [
+        "S0",
+        "SA",
+        "SB",
+        "SAB"
+      ],
+      "action": "检查主验收配置并尝试0RTT/恢复",
+      "expected": "主验收关闭0RTT和恢复；复用不伪称新握手",
+      "evidence_required": [
+        "connection_evidence.json",
+        "runtime_config.json"
+      ],
+      "status": "NOT_RUN",
+      "actual_result": null,
+      "run_id": null
+    },
+    {
+      "id": "T34",
+      "area": "TLS",
+      "title": "线缆上修改密文",
+      "profiles": [
+        "S0",
+        "SA",
+        "SB",
+        "SAB"
+      ],
+      "action": "隔离网络环境中修改TLS记录",
+      "expected": "TLS连接拒绝异常，归类TLS测试而非PFDAM检查",
+      "evidence_required": [
+        "network_test.json",
+        "tls_errors.json"
+      ],
+      "status": "NOT_RUN",
+      "actual_result": null,
+      "run_id": null
+    },
+    {
+      "id": "T35",
+      "area": "EVIDENCE",
+      "title": "四组结果一致",
+      "profiles": [
+        "S0",
+        "SA",
+        "SB",
+        "SAB"
+      ],
+      "action": "相同数据/任务/P1参数执行四组",
+      "expected": "统计结果相同；签名和TLS各增量可分离，不比较随机字节相等",
+      "evidence_required": [
+        "four_profile_results.json",
+        "benchmark_raw.json"
+      ],
+      "status": "NOT_RUN",
+      "actual_result": null,
+      "run_id": null
+    },
+    {
+      "id": "T36",
+      "area": "EVIDENCE",
+      "title": "真实性与降级界面",
+      "profiles": [
+        "SAB"
+      ],
+      "action": "触发REAL失败并尝试查看原型/回放",
+      "expected": "保留REAL失败；任何模式切换明确标注，不自动假成功",
+      "evidence_required": [
+        "ui_test_results.json",
+        "run_record.json"
+      ],
+      "status": "NOT_RUN",
+      "actual_result": null,
+      "run_id": null
+    },
+    {
+      "id": "T37",
+      "area": "EVIDENCE",
+      "title": "导出与秘密隔离",
+      "profiles": [
+        "S0",
+        "SA",
+        "SB",
+        "SAB"
+      ],
+      "action": "检查普通结果/API/导出/前端包",
+      "expected": "无私钥、会话秘密、单户明文及完整敏感标签",
+      "evidence_required": [
+        "exposure_review.json"
+      ],
+      "status": "NOT_RUN",
+      "actual_result": null,
+      "run_id": null
+    },
+    {
+      "id": "T38",
+      "area": "EVIDENCE",
+      "title": "状态与条件同步",
+      "profiles": [
+        "S0",
+        "SA",
+        "SB",
+        "SAB"
+      ],
+      "action": "更换类别、窗口、安全配置并重新运行",
+      "expected": "生成新ID，旧指标清空，所有证据绑定本次运行",
+      "evidence_required": [
+        "ui_test_results.json",
+        "run_records.json"
+      ],
+      "status": "NOT_RUN",
+      "actual_result": null,
+      "run_id": null
+    },
+    {
+      "id": "T39",
+      "area": "EVIDENCE",
+      "title": "时延测量口径",
+      "profiles": [
+        "S0",
+        "SA",
+        "SB",
+        "SAB"
+      ],
+      "action": "分别测预计算、在线、完整握手、复用和e2e",
+      "expected": "记录样本/失败/环境，未知值null，不用动画或标准尺寸代替实测",
+      "evidence_required": [
+        "benchmark_manifest.json",
+        "benchmark_raw.json"
+      ],
+      "status": "NOT_RUN",
+      "actual_result": null,
+      "run_id": null
+    },
+    {
+      "id": "T40",
+      "area": "DELIVERY",
+      "title": "清洁环境复跑",
+      "profiles": [
+        "SAB"
+      ],
+      "action": "在说明指定的普通计算机独立安装启动测试",
+      "expected": "完成全流程与导出，真实运行无需互联网，截图模式明确",
+      "evidence_required": [
+        "reproduction_log.txt",
+        "build_manifest.json"
+      ],
+      "status": "NOT_RUN",
+      "actual_result": null,
+      "run_id": null
+    }
+  ]
+}

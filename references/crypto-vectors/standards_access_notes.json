@@ -1,0 +1,8 @@
+{
+  "checked_at": "2026-10-16T06:02:19.610627+00:00",
+  "fips204_page": "https://csrc.nist.gov/pubs/fips/204/final",
+  "errata_link": "https://csrc.nist.gov/files/pubs/fips/204/final/docs/fips-204-potential-updates.xlsx",
+  "page_note_date": "2026-07-31",
+  "errata_download_status": 403,
+  "scope": "Official page indicates potential minor updates; spreadsheet contents were not retrieved or reviewed. Selected official ACVP vectors and application integration were tested, not every erratum or a certification."
+}

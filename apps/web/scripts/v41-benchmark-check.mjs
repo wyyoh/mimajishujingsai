@@ -1,0 +1,71 @@
+import {chromium,expect} from '@playwright/test';
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+import {execFileSync} from 'node:child_process';
+import {createHash} from 'node:crypto';
+import {uiFingerprint} from './ui-fingerprint.mjs';
+
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'../../..');
+const inspectOnly=process.argv.includes('--inspect');
+const started=new Date().toISOString(), stamp=started.replaceAll(':','-');
+const directory=path.join(root,'artifacts/iterations/frontend-refresh/benchmark-ui',stamp);
+await fs.mkdir(directory,{recursive:true});
+const frozen=JSON.parse(await fs.readFile(path.join(root,'artifacts/iterations/frontend-refresh/baseline.json'),'utf8'));
+const sourceUI=JSON.parse(await fs.readFile(path.join(root,'artifacts/iterations/frontend-refresh/current/v41-browser.json'),'utf8'));
+const input=await uiFingerprint(root);
+const accounts=JSON.parse(execFileSync('wsl',['-d','Ubuntu','--cd','/mnt/c/Users/Lenovo/Desktop/密码技术竞赛','--','.venv/bin/python','-c','from services.sessions import ACCESS_PATH; from services.storage import read; import json; print(json.dumps(read(ACCESS_PATH)["accounts"]))'],{encoding:'utf8'}));
+const browser=await chromium.launch({executablePath:process.env.PLAYWRIGHT_EXECUTABLE??'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe',headless:true});
+const page=await browser.newPage({viewport:{width:1366,height:768}});
+const errors=[];page.on('pageerror',value=>errors.push(String(value)));
+const result={schema:'GRID_V41_BENCHMARK_BROWSER_CHECK',scope:'HISTORICAL_BENCHMARK_PRESENTATION_AND_CURRENT_SELF_CHECK',started_at:started,command:['node','apps/web/scripts/v41-benchmark-check.mjs',...(inspectOnly?['--inspect']:[])],script_sha256:createHash('sha256').update(await fs.readFile(fileURLToPath(import.meta.url))).digest('hex'),screenshots:[],browser_errors:errors};
+result.versions={node:process.version,browser:browser.version()};
+try{
+  const login=await page.request.post('http://127.0.0.1:8580/api/session',{data:{subject:'grid_operator_A',password:accounts.grid_operator_A}});
+  if(!login.ok())throw new Error('Private local authentication failed');
+  await page.goto(`http://127.0.0.1:8580/?v41=1&run=${sourceUI.normal_run_id}`,{waitUntil:'networkidle'});
+  await expect(page.locator('.v41-cipher')).toHaveCount(3);
+  await page.getByRole('navigation',{name:'主导航'}).getByRole('button',{name:'密码能力',exact:true}).click();
+  const read=page.waitForResponse(response=>response.url().endsWith('/lab/v41/benchmarks'));
+  await page.getByRole('button',{name:'查看性能测试结果',exact:true}).click();
+  const summary=await (await read).json();
+  if(summary.status!=='COMPLETED'||typeof summary.current_version_matches!=='boolean'||summary.profiles.length!==5||summary.profiles.some(row=>row.sample_count!==10||row.failure_count!==0))throw new Error('Incomplete measured benchmark series');
+  await expect(page.getByText(summary.current_version_matches?'当前版本实测':'历史版本实测',{exact:true})).toBeVisible();
+  await expect(page.locator('.v41-bench-view tbody tr')).toHaveCount(5);
+  await expect(page.getByRole('img',{name:'五种密码配置任务耗时中位数，坐标从零开始'})).toBeVisible();
+  const chart=await page.locator('.v41-bench-view svg').boundingBox();
+  if(!chart||chart.width<500)throw new Error('Measured chart is too narrow for desktop review: '+JSON.stringify(chart));
+  result.chart_bounds=chart;
+  const download=page.waitForEvent('download');
+  await page.getByRole('button',{name:'下载性能测试记录',exact:true}).click();
+  const file=await download;
+  await file.saveAs(path.join(directory,'downloaded-experiment.json'));
+  const exported=JSON.parse(await fs.readFile(path.join(directory,'downloaded-experiment.json'),'utf8'));
+  if(exported.core_source_digest!==summary.core_source_digest||exported.profiles.length!==5)throw new Error('Downloaded experiment record differs from the measured summary');
+  result.download_verified=true;
+  for(const [width,height] of [[1366,768],[390,844]]){
+    await page.setViewportSize({width,height});
+    const name=`benchmark-${width}.png`;
+    await page.screenshot({path:path.join(directory,name),fullPage:true});
+    result.screenshots.push(path.relative(root,path.join(directory,name)).replaceAll('\\','/'));
+    const dimensions=await page.evaluate(()=>({scroll:document.documentElement.scrollWidth,width:innerWidth}));
+    if(dimensions.scroll>dimensions.width+1)throw new Error('Benchmark page horizontal overflow');
+  }
+  await page.getByRole('navigation',{name:'主导航'}).getByRole('button',{name:'安全自检',exact:true}).click();
+  await page.getByRole('button',{name:'开始安全自检',exact:true}).click();
+  await expect(page.getByRole('button',{name:'下载自检记录',exact:true})).toBeVisible({timeout:60000});
+  const selfDownload=page.waitForEvent('download');
+  await page.getByRole('button',{name:'下载自检记录',exact:true}).click();
+  const selfFile=await selfDownload;
+  await selfFile.saveAs(path.join(directory,'downloaded-self-check.json'));
+  const check=JSON.parse(await fs.readFile(path.join(directory,'downloaded-self-check.json'),'utf8'));
+  if(check.formal_evaluation!==false||check.core_source_digest!==frozen.core_source_digest||!check.checks.some(value=>value.status==='PENDING'))throw new Error('Prototype self-check scope or open items were lost');
+  result.prototype_download_verified=true;
+  result.current_version_matches=summary.current_version_matches;result.current_core_source_digest=check.core_source_digest;result.core_source_digest=summary.core_source_digest;
+  result.measured_raw_directory=summary.raw_directory;
+  result.ui_fingerprint=await uiFingerprint(root);
+  if(result.ui_fingerprint.sha256!==input.sha256||errors.length)throw new Error('UI changed during check or browser error occurred');
+  result.no_horizontal_overflow=true;result.exit_code=0;
+}catch(error){result.exit_code=1;result.error=String(error);await page.screenshot({path:path.join(directory,'failure.png'),fullPage:true}).catch(()=>{});}
+finally{result.finished_at=new Date().toISOString();await fs.writeFile(path.join(directory,'result.json'),JSON.stringify(result,null,2));await fs.writeFile(path.join(root,'artifacts/iterations/frontend-refresh/current/benchmark-browser.json'),JSON.stringify(result,null,2));await browser.close();}
+console.log(JSON.stringify({exit_code:result.exit_code,record:path.relative(root,path.join(directory,'result.json')),error:result.error}));if(result.exit_code)process.exitCode=1;

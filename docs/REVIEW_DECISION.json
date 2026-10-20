@@ -1,0 +1,21 @@
+{
+  "decided_at": "2026-10-15T12:07:11.696833+00:00",
+  "authority": "direct_human_user_reply_in_this_chat",
+  "original_source_code": "unavailable; reproduce from paper",
+  "authorization_set_hiding_required": false,
+  "decision": "retain PFDAM, explicitly disclose the limitation, and remove this security claim",
+  "human_reply": "保留PFDAM，明确限制并删除该安全主张（推荐）",
+  "does_not_approve": "substantive protocol repair, parameter certification, external publishing or competition submission",
+  "reference37_fallback": {
+    "authority": "direct_human_user_reply_in_this_chat",
+    "human_reply": "继续寻找其他途径的原文。若实在找不到就使用摘要信息",
+    "applied_at": "2026-10-16",
+    "outcome": "Further legal-source searches did not yield readable full text; use the official ACSAC abstract for a limited review",
+    "scope": "Waives full-text acquisition as a prerequisite for local engineering delivery; does not certify concrete parameter security"
+  },
+  "ownership_clarification": {
+    "authority": "direct_human_user_message_2026-10-16",
+    "scheme_origin": "PFDAM is our team scheme; paper author is a team member",
+    "presentation": "Our scheme and its application system; do not frame as adopting an external paper"
+  }
+}

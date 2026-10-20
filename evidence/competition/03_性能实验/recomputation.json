@@ -1,0 +1,8 @@
+{
+  "success": true,
+  "successful_runs": 52,
+  "independent_windows": 832,
+  "formal_pairs": 20,
+  "warmup_pairs": 6,
+  "method": "Medians and paired differences independently recomputed from raw integer nanosecond records; decimal display uses two places"
+}

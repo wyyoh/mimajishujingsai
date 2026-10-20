@@ -1,0 +1,11 @@
+{
+  "document_type": "BLANK_HUMAN_REHEARSAL_RECORD_NOT_EXECUTION_EVIDENCE",
+  "status": "NOT_RUN",
+  "software_version": "0.1.0",
+  "core_source_digest": "558c3fe824c0d989437a66b14a836f918247ab15d8cadcbbe757ce2a69622351",
+  "rehearsals": [
+    {"target_seconds": 480, "started_at": null, "finished_at": null, "actual_seconds": null, "param_id": null, "dataset_digest": null, "run_ids": [], "machine": null, "omitted_steps": [], "narrator_confirmation": null, "status": "NOT_RUN"},
+    {"target_seconds": 180, "started_at": null, "finished_at": null, "actual_seconds": null, "param_id": null, "dataset_digest": null, "run_ids": [], "machine": null, "omitted_steps": [], "narrator_confirmation": null, "status": "NOT_RUN"}
+  ],
+  "instruction": "Fill only after an actual narrated rehearsal. Do not infer completion from the automated five-minute recording."
+}

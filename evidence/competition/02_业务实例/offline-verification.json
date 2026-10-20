@@ -1,0 +1,917 @@
+{
+  "run_id": "67027b12c5884f9f8f3ce99415bc58c3",
+  "file_hashes_valid": true,
+  "expected_context_checked": true,
+  "uc_result_origin_and_integrity_verified": true,
+  "uc_result_keys_trusted_for_provided_state": true,
+  "v41_checks": [],
+  "business_metrics_recomputed": true,
+  "release_decision_verified": true,
+  "release_decision": "PUBLISHED",
+  "uc_result_signatures_mathematically_valid": true,
+  "uc_result_content_authenticated": true,
+  "receipt_signatures_mathematically_valid": true,
+  "receipt_authenticity_verified": true,
+  "receipt_checks": [
+    {
+      "object_type": "GRID_AGG_RECEIPT_V5",
+      "signature_valid": true,
+      "ecdsa_valid": true,
+      "mldsa_valid": true,
+      "sm2_valid": true,
+      "timings": [
+        {
+          "operation": "verify",
+          "algorithm": "ECDSA-P256-SHA256",
+          "elapsed_ns": 2166827
+        },
+        {
+          "operation": "verify",
+          "algorithm": "ML-DSA-65",
+          "elapsed_ns": 2309680
+        },
+        {
+          "operation": "verify",
+          "algorithm": "SM2-SM3",
+          "elapsed_ns": 1964935
+        }
+      ],
+      "key_trust": [
+        {
+          "key_id": "gateway-ecdsa-1",
+          "current_status": "ACTIVE",
+          "historical_time_trust": "NO_INDEPENDENT_SIGNING_TIME"
+        },
+        {
+          "key_id": "gateway-mldsa-1",
+          "current_status": "ACTIVE",
+          "historical_time_trust": "NO_INDEPENDENT_SIGNING_TIME"
+        },
+        {
+          "key_id": "gateway-sm2-1",
+          "current_status": "ACTIVE",
+          "historical_time_trust": "NO_INDEPENDENT_SIGNING_TIME"
+        }
+      ],
+      "uc_result_current_trust_verified": true
+    },
+    {
+      "object_type": "GRID_AGG_RECEIPT_V5",
+      "signature_valid": true,
+      "ecdsa_valid": true,
+      "mldsa_valid": true,
+      "sm2_valid": true,
+      "timings": [
+        {
+          "operation": "verify",
+          "algorithm": "ECDSA-P256-SHA256",
+          "elapsed_ns": 1731308
+        },
+        {
+          "operation": "verify",
+          "algorithm": "ML-DSA-65",
+          "elapsed_ns": 1693763
+        },
+        {
+          "operation": "verify",
+          "algorithm": "SM2-SM3",
+          "elapsed_ns": 1646906
+        }
+      ],
+      "key_trust": [
+        {
+          "key_id": "gateway-ecdsa-1",
+          "current_status": "ACTIVE",
+          "historical_time_trust": "NO_INDEPENDENT_SIGNING_TIME"
+        },
+        {
+          "key_id": "gateway-mldsa-1",
+          "current_status": "ACTIVE",
+          "historical_time_trust": "NO_INDEPENDENT_SIGNING_TIME"
+        },
+        {
+          "key_id": "gateway-sm2-1",
+          "current_status": "ACTIVE",
+          "historical_time_trust": "NO_INDEPENDENT_SIGNING_TIME"
+        }
+      ],
+      "uc_result_current_trust_verified": true
+    },
+    {
+      "object_type": "GRID_AGG_RECEIPT_V5",
+      "signature_valid": true,
+      "ecdsa_valid": true,
+      "mldsa_valid": true,
+      "sm2_valid": true,
+      "timings": [
+        {
+          "operation": "verify",
+          "algorithm": "ECDSA-P256-SHA256",
+          "elapsed_ns": 1186153
+        },
+        {
+          "operation": "verify",
+          "algorithm": "ML-DSA-65",
+          "elapsed_ns": 1840591
+        },
+        {
+          "operation": "verify",
+          "algorithm": "SM2-SM3",
+          "elapsed_ns": 1930797
+        }
+      ],
+      "key_trust": [
+        {
+          "key_id": "gateway-ecdsa-1",
+          "current_status": "ACTIVE",
+          "historical_time_trust": "NO_INDEPENDENT_SIGNING_TIME"
+        },
+        {
+          "key_id": "gateway-mldsa-1",
+          "current_status": "ACTIVE",
+          "historical_time_trust": "NO_INDEPENDENT_SIGNING_TIME"
+        },
+        {
+          "key_id": "gateway-sm2-1",
+          "current_status": "ACTIVE",
+          "historical_time_trust": "NO_INDEPENDENT_SIGNING_TIME"
+        }
+      ],
+      "uc_result_current_trust_verified": true
+    },
+    {
+      "object_type": "GRID_AGG_RECEIPT_V5",
+      "signature_valid": true,
+      "ecdsa_valid": true,
+      "mldsa_valid": true,
+      "sm2_valid": true,
+      "timings": [
+        {
+          "operation": "verify",
+          "algorithm": "ECDSA-P256-SHA256",
+          "elapsed_ns": 1409512
+        },
+        {
+          "operation": "verify",
+          "algorithm": "ML-DSA-65",
+          "elapsed_ns": 1585475
+        },
+        {
+          "operation": "verify",
+          "algorithm": "SM2-SM3",
+          "elapsed_ns": 1487661
+        }
+      ],
+      "key_trust": [
+        {
+          "key_id": "gateway-ecdsa-1",
+          "current_status": "ACTIVE",
+          "historical_time_trust": "NO_INDEPENDENT_SIGNING_TIME"
+        },
+        {
+          "key_id": "gateway-mldsa-1",
+          "current_status": "ACTIVE",
+          "historical_time_trust": "NO_INDEPENDENT_SIGNING_TIME"
+        },
+        {
+          "key_id": "gateway-sm2-1",
+          "current_status": "ACTIVE",
+          "historical_time_trust": "NO_INDEPENDENT_SIGNING_TIME"
+        }
+      ],
+      "uc_result_current_trust_verified": true
+    },
+    {
+      "object_type": "GRID_AGG_RECEIPT_V5",
+      "signature_valid": true,
+      "ecdsa_valid": true,
+      "mldsa_valid": true,
+      "sm2_valid": true,
+      "timings": [
+        {
+          "operation": "verify",
+          "algorithm": "ECDSA-P256-SHA256",
+          "elapsed_ns": 1272888
+        },
+        {
+          "operation": "verify",
+          "algorithm": "ML-DSA-65",
+          "elapsed_ns": 1552688
+        },
+        {
+          "operation": "verify",
+          "algorithm": "SM2-SM3",
+          "elapsed_ns": 1947369
+        }
+      ],
+      "key_trust": [
+        {
+          "key_id": "gateway-ecdsa-1",
+          "current_status": "ACTIVE",
+          "historical_time_trust": "NO_INDEPENDENT_SIGNING_TIME"
+        },
+        {
+          "key_id": "gateway-mldsa-1",
+          "current_status": "ACTIVE",
+          "historical_time_trust": "NO_INDEPENDENT_SIGNING_TIME"
+        },
+        {
+          "key_id": "gateway-sm2-1",
+          "current_status": "ACTIVE",
+          "historical_time_trust": "NO_INDEPENDENT_SIGNING_TIME"
+        }
+      ],
+      "uc_result_current_trust_verified": true
+    },
+    {
+      "object_type": "GRID_AGG_RECEIPT_V5",
+      "signature_valid": true,
+      "ecdsa_valid": true,
+      "mldsa_valid": true,
+      "sm2_valid": true,
+      "timings": [
+        {
+          "operation": "verify",
+          "algorithm": "ECDSA-P256-SHA256",
+          "elapsed_ns": 1401095
+        },
+        {
+          "operation": "verify",
+          "algorithm": "ML-DSA-65",
+          "elapsed_ns": 1774632
+        },
+        {
+          "operation": "verify",
+          "algorithm": "SM2-SM3",
+          "elapsed_ns": 1385494
+        }
+      ],
+      "key_trust": [
+        {
+          "key_id": "gateway-ecdsa-1",
+          "current_status": "ACTIVE",
+          "historical_time_trust": "NO_INDEPENDENT_SIGNING_TIME"
+        },
+        {
+          "key_id": "gateway-mldsa-1",
+          "current_status": "ACTIVE",
+          "historical_time_trust": "NO_INDEPENDENT_SIGNING_TIME"
+        },
+        {
+          "key_id": "gateway-sm2-1",
+          "current_status": "ACTIVE",
+          "historical_time_trust": "NO_INDEPENDENT_SIGNING_TIME"
+        }
+      ],
+      "uc_result_current_trust_verified": true
+    },
+    {
+      "object_type": "GRID_AGG_RECEIPT_V5",
+      "signature_valid": true,
+      "ecdsa_valid": true,
+      "mldsa_valid": true,
+      "sm2_valid": true,
+      "timings": [
+        {
+          "operation": "verify",
+          "algorithm": "ECDSA-P256-SHA256",
+          "elapsed_ns": 1305576
+        },
+        {
+          "operation": "verify",
+          "algorithm": "ML-DSA-65",
+          "elapsed_ns": 1428700
+        },
+        {
+          "operation": "verify",
+          "algorithm": "SM2-SM3",
+          "elapsed_ns": 1467368
+        }
+      ],
+      "key_trust": [
+        {
+          "key_id": "gateway-ecdsa-1",
+          "current_status": "ACTIVE",
+          "historical_time_trust": "NO_INDEPENDENT_SIGNING_TIME"
+        },
+        {
+          "key_id": "gateway-mldsa-1",
+          "current_status": "ACTIVE",
+          "historical_time_trust": "NO_INDEPENDENT_SIGNING_TIME"
+        },
+        {
+          "key_id": "gateway-sm2-1",
+          "current_status": "ACTIVE",
+          "historical_time_trust": "NO_INDEPENDENT_SIGNING_TIME"
+        }
+      ],
+      "uc_result_current_trust_verified": true
+    },
+    {
+      "object_type": "GRID_AGG_RECEIPT_V5",
+      "signature_valid": true,
+      "ecdsa_valid": true,
+      "mldsa_valid": true,
+      "sm2_valid": true,
+      "timings": [
+        {
+          "operation": "verify",
+          "algorithm": "ECDSA-P256-SHA256",
+          "elapsed_ns": 1426460
+        },
+        {
+          "operation": "verify",
+          "algorithm": "ML-DSA-65",
+          "elapsed_ns": 2163166
+        },
+        {
+          "operation": "verify",
+          "algorithm": "SM2-SM3",
+          "elapsed_ns": 1434824
+        }
+      ],
+      "key_trust": [
+        {
+          "key_id": "gateway-ecdsa-1",
+          "current_status": "ACTIVE",
+          "historical_time_trust": "NO_INDEPENDENT_SIGNING_TIME"
+        },
+        {
+          "key_id": "gateway-mldsa-1",
+          "current_status": "ACTIVE",
+          "historical_time_trust": "NO_INDEPENDENT_SIGNING_TIME"
+        },
+        {
+          "key_id": "gateway-sm2-1",
+          "current_status": "ACTIVE",
+          "historical_time_trust": "NO_INDEPENDENT_SIGNING_TIME"
+        }
+      ],
+      "uc_result_current_trust_verified": true
+    },
+    {
+      "object_type": "GRID_AGG_RECEIPT_V5",
+      "signature_valid": true,
+      "ecdsa_valid": true,
+      "mldsa_valid": true,
+      "sm2_valid": true,
+      "timings": [
+        {
+          "operation": "verify",
+          "algorithm": "ECDSA-P256-SHA256",
+          "elapsed_ns": 1381719
+        },
+        {
+          "operation": "verify",
+          "algorithm": "ML-DSA-65",
+          "elapsed_ns": 2352420
+        },
+        {
+          "operation": "verify",
+          "algorithm": "SM2-SM3",
+          "elapsed_ns": 1930530
+        }
+      ],
+      "key_trust": [
+        {
+          "key_id": "gateway-ecdsa-1",
+          "current_status": "ACTIVE",
+          "historical_time_trust": "NO_INDEPENDENT_SIGNING_TIME"
+        },
+        {
+          "key_id": "gateway-mldsa-1",
+          "current_status": "ACTIVE",
+          "historical_time_trust": "NO_INDEPENDENT_SIGNING_TIME"
+        },
+        {
+          "key_id": "gateway-sm2-1",
+          "current_status": "ACTIVE",
+          "historical_time_trust": "NO_INDEPENDENT_SIGNING_TIME"
+        }
+      ],
+      "uc_result_current_trust_verified": true
+    },
+    {
+      "object_type": "GRID_AGG_RECEIPT_V5",
+      "signature_valid": true,
+      "ecdsa_valid": true,
+      "mldsa_valid": true,
+      "sm2_valid": true,
+      "timings": [
+        {
+          "operation": "verify",
+          "algorithm": "ECDSA-P256-SHA256",
+          "elapsed_ns": 1331334
+        },
+        {
+          "operation": "verify",
+          "algorithm": "ML-DSA-65",
+          "elapsed_ns": 1454981
+        },
+        {
+          "operation": "verify",
+          "algorithm": "SM2-SM3",
+          "elapsed_ns": 1350034
+        }
+      ],
+      "key_trust": [
+        {
+          "key_id": "gateway-ecdsa-1",
+          "current_status": "ACTIVE",
+          "historical_time_trust": "NO_INDEPENDENT_SIGNING_TIME"
+        },
+        {
+          "key_id": "gateway-mldsa-1",
+          "current_status": "ACTIVE",
+          "historical_time_trust": "NO_INDEPENDENT_SIGNING_TIME"
+        },
+        {
+          "key_id": "gateway-sm2-1",
+          "current_status": "ACTIVE",
+          "historical_time_trust": "NO_INDEPENDENT_SIGNING_TIME"
+        }
+      ],
+      "uc_result_current_trust_verified": true
+    },
+    {
+      "object_type": "GRID_AGG_RECEIPT_V5",
+      "signature_valid": true,
+      "ecdsa_valid": true,
+      "mldsa_valid": true,
+      "sm2_valid": true,
+      "timings": [
+        {
+          "operation": "verify",
+          "algorithm": "ECDSA-P256-SHA256",
+          "elapsed_ns": 1533867
+        },
+        {
+          "operation": "verify",
+          "algorithm": "ML-DSA-65",
+          "elapsed_ns": 1819880
+        },
+        {
+          "operation": "verify",
+          "algorithm": "SM2-SM3",
+          "elapsed_ns": 1449621
+        }
+      ],
+      "key_trust": [
+        {
+          "key_id": "gateway-ecdsa-1",
+          "current_status": "ACTIVE",
+          "historical_time_trust": "NO_INDEPENDENT_SIGNING_TIME"
+        },
+        {
+          "key_id": "gateway-mldsa-1",
+          "current_status": "ACTIVE",
+          "historical_time_trust": "NO_INDEPENDENT_SIGNING_TIME"
+        },
+        {
+          "key_id": "gateway-sm2-1",
+          "current_status": "ACTIVE",
+          "historical_time_trust": "NO_INDEPENDENT_SIGNING_TIME"
+        }
+      ],
+      "uc_result_current_trust_verified": true
+    },
+    {
+      "object_type": "GRID_AGG_RECEIPT_V5",
+      "signature_valid": true,
+      "ecdsa_valid": true,
+      "mldsa_valid": true,
+      "sm2_valid": true,
+      "timings": [
+        {
+          "operation": "verify",
+          "algorithm": "ECDSA-P256-SHA256",
+          "elapsed_ns": 1293132
+        },
+        {
+          "operation": "verify",
+          "algorithm": "ML-DSA-65",
+          "elapsed_ns": 2311031
+        },
+        {
+          "operation": "verify",
+          "algorithm": "SM2-SM3",
+          "elapsed_ns": 1420318
+        }
+      ],
+      "key_trust": [
+        {
+          "key_id": "gateway-ecdsa-1",
+          "current_status": "ACTIVE",
+          "historical_time_trust": "NO_INDEPENDENT_SIGNING_TIME"
+        },
+        {
+          "key_id": "gateway-mldsa-1",
+          "current_status": "ACTIVE",
+          "historical_time_trust": "NO_INDEPENDENT_SIGNING_TIME"
+        },
+        {
+          "key_id": "gateway-sm2-1",
+          "current_status": "ACTIVE",
+          "historical_time_trust": "NO_INDEPENDENT_SIGNING_TIME"
+        }
+      ],
+      "uc_result_current_trust_verified": true
+    },
+    {
+      "object_type": "GRID_AGG_RECEIPT_V5",
+      "signature_valid": true,
+      "ecdsa_valid": true,
+      "mldsa_valid": true,
+      "sm2_valid": true,
+      "timings": [
+        {
+          "operation": "verify",
+          "algorithm": "ECDSA-P256-SHA256",
+          "elapsed_ns": 1162222
+        },
+        {
+          "operation": "verify",
+          "algorithm": "ML-DSA-65",
+          "elapsed_ns": 1342170
+        },
+        {
+          "operation": "verify",
+          "algorithm": "SM2-SM3",
+          "elapsed_ns": 1377855
+        }
+      ],
+      "key_trust": [
+        {
+          "key_id": "gateway-ecdsa-1",
+          "current_status": "ACTIVE",
+          "historical_time_trust": "NO_INDEPENDENT_SIGNING_TIME"
+        },
+        {
+          "key_id": "gateway-mldsa-1",
+          "current_status": "ACTIVE",
+          "historical_time_trust": "NO_INDEPENDENT_SIGNING_TIME"
+        },
+        {
+          "key_id": "gateway-sm2-1",
+          "current_status": "ACTIVE",
+          "historical_time_trust": "NO_INDEPENDENT_SIGNING_TIME"
+        }
+      ],
+      "uc_result_current_trust_verified": true
+    },
+    {
+      "object_type": "GRID_AGG_RECEIPT_V5",
+      "signature_valid": true,
+      "ecdsa_valid": true,
+      "mldsa_valid": true,
+      "sm2_valid": true,
+      "timings": [
+        {
+          "operation": "verify",
+          "algorithm": "ECDSA-P256-SHA256",
+          "elapsed_ns": 1541391
+        },
+        {
+          "operation": "verify",
+          "algorithm": "ML-DSA-65",
+          "elapsed_ns": 1992926
+        },
+        {
+          "operation": "verify",
+          "algorithm": "SM2-SM3",
+          "elapsed_ns": 1394975
+        }
+      ],
+      "key_trust": [
+        {
+          "key_id": "gateway-ecdsa-1",
+          "current_status": "ACTIVE",
+          "historical_time_trust": "NO_INDEPENDENT_SIGNING_TIME"
+        },
+        {
+          "key_id": "gateway-mldsa-1",
+          "current_status": "ACTIVE",
+          "historical_time_trust": "NO_INDEPENDENT_SIGNING_TIME"
+        },
+        {
+          "key_id": "gateway-sm2-1",
+          "current_status": "ACTIVE",
+          "historical_time_trust": "NO_INDEPENDENT_SIGNING_TIME"
+        }
+      ],
+      "uc_result_current_trust_verified": true
+    },
+    {
+      "object_type": "GRID_AGG_RECEIPT_V5",
+      "signature_valid": true,
+      "ecdsa_valid": true,
+      "mldsa_valid": true,
+      "sm2_valid": true,
+      "timings": [
+        {
+          "operation": "verify",
+          "algorithm": "ECDSA-P256-SHA256",
+          "elapsed_ns": 1509992
+        },
+        {
+          "operation": "verify",
+          "algorithm": "ML-DSA-65",
+          "elapsed_ns": 1741742
+        },
+        {
+          "operation": "verify",
+          "algorithm": "SM2-SM3",
+          "elapsed_ns": 1484884
+        }
+      ],
+      "key_trust": [
+        {
+          "key_id": "gateway-ecdsa-1",
+          "current_status": "ACTIVE",
+          "historical_time_trust": "NO_INDEPENDENT_SIGNING_TIME"
+        },
+        {
+          "key_id": "gateway-mldsa-1",
+          "current_status": "ACTIVE",
+          "historical_time_trust": "NO_INDEPENDENT_SIGNING_TIME"
+        },
+        {
+          "key_id": "gateway-sm2-1",
+          "current_status": "ACTIVE",
+          "historical_time_trust": "NO_INDEPENDENT_SIGNING_TIME"
+        }
+      ],
+      "uc_result_current_trust_verified": true
+    },
+    {
+      "object_type": "GRID_AGG_RECEIPT_V5",
+      "signature_valid": true,
+      "ecdsa_valid": true,
+      "mldsa_valid": true,
+      "sm2_valid": true,
+      "timings": [
+        {
+          "operation": "verify",
+          "algorithm": "ECDSA-P256-SHA256",
+          "elapsed_ns": 1614437
+        },
+        {
+          "operation": "verify",
+          "algorithm": "ML-DSA-65",
+          "elapsed_ns": 1484417
+        },
+        {
+          "operation": "verify",
+          "algorithm": "SM2-SM3",
+          "elapsed_ns": 2985068
+        }
+      ],
+      "key_trust": [
+        {
+          "key_id": "gateway-ecdsa-1",
+          "current_status": "ACTIVE",
+          "historical_time_trust": "NO_INDEPENDENT_SIGNING_TIME"
+        },
+        {
+          "key_id": "gateway-mldsa-1",
+          "current_status": "ACTIVE",
+          "historical_time_trust": "NO_INDEPENDENT_SIGNING_TIME"
+        },
+        {
+          "key_id": "gateway-sm2-1",
+          "current_status": "ACTIVE",
+          "historical_time_trust": "NO_INDEPENDENT_SIGNING_TIME"
+        }
+      ],
+      "uc_result_current_trust_verified": true
+    }
+  ],
+  "result_checks": [
+    {
+      "object_type": "GRID_UC_RESULT_V2",
+      "signature_valid": true,
+      "ecdsa_valid": true,
+      "mldsa_valid": true,
+      "sm2_valid": true,
+      "timings": [
+        {
+          "operation": "verify",
+          "algorithm": "ECDSA-P256-SHA256",
+          "elapsed_ns": 2222981
+        },
+        {
+          "operation": "verify",
+          "algorithm": "ML-DSA-65",
+          "elapsed_ns": 1582115
+        },
+        {
+          "operation": "verify",
+          "algorithm": "SM2-SM3",
+          "elapsed_ns": 1849538
+        }
+      ],
+      "key_trust": [
+        {
+          "key_id": "utility-ecdsa-1",
+          "current_status": "ACTIVE",
+          "historical_time_trust": "NO_INDEPENDENT_SIGNING_TIME"
+        },
+        {
+          "key_id": "utility-mldsa-1",
+          "current_status": "ACTIVE",
+          "historical_time_trust": "NO_INDEPENDENT_SIGNING_TIME"
+        },
+        {
+          "key_id": "utility-sm2-1",
+          "current_status": "ACTIVE",
+          "historical_time_trust": "NO_INDEPENDENT_SIGNING_TIME"
+        }
+      ],
+      "content_binding_verified": true,
+      "publication_decision": "PUBLISHED",
+      "current_signer_trust_verified": true,
+      "scope": "Trusted UC release statement; no public decryption, source truth or differential privacy proof"
+    },
+    {
+      "object_type": "GRID_UC_RESULT_V2",
+      "signature_valid": true,
+      "ecdsa_valid": true,
+      "mldsa_valid": true,
+      "sm2_valid": true,
+      "timings": [
+        {
+          "operation": "verify",
+          "algorithm": "ECDSA-P256-SHA256",
+          "elapsed_ns": 1669964
+        },
+        {
+          "operation": "verify",
+          "algorithm": "ML-DSA-65",
+          "elapsed_ns": 2915432
+        },
+        {
+          "operation": "verify",
+          "algorithm": "SM2-SM3",
+          "elapsed_ns": 2086286
+        }
+      ],
+      "key_trust": [
+        {
+          "key_id": "utility-ecdsa-1",
+          "current_status": "ACTIVE",
+          "historical_time_trust": "NO_INDEPENDENT_SIGNING_TIME"
+        },
+        {
+          "key_id": "utility-mldsa-1",
+          "current_status": "ACTIVE",
+          "historical_time_trust": "NO_INDEPENDENT_SIGNING_TIME"
+        },
+        {
+          "key_id": "utility-sm2-1",
+          "current_status": "ACTIVE",
+          "historical_time_trust": "NO_INDEPENDENT_SIGNING_TIME"
+        }
+      ],
+      "content_binding_verified": true,
+      "publication_decision": "PUBLISHED",
+      "current_signer_trust_verified": true,
+      "scope": "Trusted UC release statement; no public decryption, source truth or differential privacy proof"
+    },
+    {
+      "object_type": "GRID_UC_RESULT_V2",
+      "signature_valid": true,
+      "ecdsa_valid": true,
+      "mldsa_valid": true,
+      "sm2_valid": true,
+      "timings": [
+        {
+          "operation": "verify",
+          "algorithm": "ECDSA-P256-SHA256",
+          "elapsed_ns": 2398744
+        },
+        {
+          "operation": "verify",
+          "algorithm": "ML-DSA-65",
+          "elapsed_ns": 2298179
+        },
+        {
+          "operation": "verify",
+          "algorithm": "SM2-SM3",
+          "elapsed_ns": 3106187
+        }
+      ],
+      "key_trust": [
+        {
+          "key_id": "utility-ecdsa-1",
+          "current_status": "ACTIVE",
+          "historical_time_trust": "NO_INDEPENDENT_SIGNING_TIME"
+        },
+        {
+          "key_id": "utility-mldsa-1",
+          "current_status": "ACTIVE",
+          "historical_time_trust": "NO_INDEPENDENT_SIGNING_TIME"
+        },
+        {
+          "key_id": "utility-sm2-1",
+          "current_status": "ACTIVE",
+          "historical_time_trust": "NO_INDEPENDENT_SIGNING_TIME"
+        }
+      ],
+      "content_binding_verified": true,
+      "publication_decision": "PUBLISHED",
+      "current_signer_trust_verified": true,
+      "scope": "Trusted UC release statement; no public decryption, source truth or differential privacy proof"
+    },
+    {
+      "object_type": "GRID_UC_RESULT_V2",
+      "signature_valid": true,
+      "ecdsa_valid": true,
+      "mldsa_valid": true,
+      "sm2_valid": true,
+      "timings": [
+        {
+          "operation": "verify",
+          "algorithm": "ECDSA-P256-SHA256",
+          "elapsed_ns": 2048583
+        },
+        {
+          "operation": "verify",
+          "algorithm": "ML-DSA-65",
+          "elapsed_ns": 2113219
+        },
+        {
+          "operation": "verify",
+          "algorithm": "SM2-SM3",
+          "elapsed_ns": 1830340
+        }
+      ],
+      "key_trust": [
+        {
+          "key_id": "utility-ecdsa-1",
+          "current_status": "ACTIVE",
+          "historical_time_trust": "NO_INDEPENDENT_SIGNING_TIME"
+        },
+        {
+          "key_id": "utility-mldsa-1",
+          "current_status": "ACTIVE",
+          "historical_time_trust": "NO_INDEPENDENT_SIGNING_TIME"
+        },
+        {
+          "key_id": "utility-sm2-1",
+          "current_status": "ACTIVE",
+          "historical_time_trust": "NO_INDEPENDENT_SIGNING_TIME"
+        }
+      ],
+      "content_binding_verified": true,
+      "publication_decision": "PUBLISHED",
+      "current_signer_trust_verified": true,
+      "scope": "Trusted UC release statement; no public decryption, source truth or differential privacy proof"
+    }
+  ],
+  "release_check": {
+    "object_type": "GRID_RELEASE_DECISION_V1",
+    "signature_valid": true,
+    "ecdsa_valid": true,
+    "mldsa_valid": true,
+    "sm2_valid": true,
+    "timings": [
+      {
+        "operation": "verify",
+        "algorithm": "ECDSA-P256-SHA256",
+        "elapsed_ns": 1585058
+      },
+      {
+        "operation": "verify",
+        "algorithm": "ML-DSA-65",
+        "elapsed_ns": 1554271
+      },
+      {
+        "operation": "verify",
+        "algorithm": "SM2-SM3",
+        "elapsed_ns": 1845447
+      }
+    ],
+    "key_trust": [
+      {
+        "key_id": "utility-ecdsa-1",
+        "current_status": "ACTIVE",
+        "historical_time_trust": "NO_INDEPENDENT_SIGNING_TIME"
+      },
+      {
+        "key_id": "utility-mldsa-1",
+        "current_status": "ACTIVE",
+        "historical_time_trust": "NO_INDEPENDENT_SIGNING_TIME"
+      },
+      {
+        "key_id": "utility-sm2-1",
+        "current_status": "ACTIVE",
+        "historical_time_trust": "NO_INDEPENDENT_SIGNING_TIME"
+      }
+    ],
+    "content_binding_verified": true,
+    "publication_decision": "PUBLISHED",
+    "current_signer_trust_verified": true,
+    "scope": "Trusted UC release statement; no public decryption, source truth or differential privacy proof"
+  },
+  "scope": "UC statement authenticity and linkage; not public decryption, truth, completeness, or differential privacy proof"
+}

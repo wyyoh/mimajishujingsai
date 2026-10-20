@@ -1,0 +1,21 @@
+{
+  "schema": "GRID_SUBMISSION_EXTRACTED_VERIFICATION_V1",
+  "success": true,
+  "zip_sha256": "51ddfeba703e27f34c490bdb4863787d91565108ce3553377e773bb6ad6a17b0",
+  "file_hashes_verified": 652,
+  "fresh_venv": true,
+  "dependency_install": "pip --isolated install --no-index --find-links .build/wheelhouse -r requirements.lock.txt",
+  "only_packaged_sources_native_libraries_and_public_trust_used": true,
+  "business_tasks_submitted": 0,
+  "verification": {
+    "run_id": "67027b12c5884f9f8f3ce99415bc58c3",
+    "file_hashes_valid": true,
+    "expected_context_checked": true,
+    "release_decision_verified": true,
+    "business_metrics_recomputed": true,
+    "uc_result_origin_and_integrity_verified": true
+  },
+  "elapsed_seconds": 2.747,
+  "temporary_directory": "<isolated-verification-directory>",
+  "path_normalization": "Only the ephemeral directory name was replaced for publication"
+}

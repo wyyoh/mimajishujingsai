@@ -1,0 +1,110 @@
+{
+  "functional_correctness": {
+    "status": "SUPPORTED_WITH_ASSUMPTIONS",
+    "evidence": [
+      "artifacts/tests/acceptance_results.json",
+      "tests/oracle/reference.py",
+      "artifacts/tests/cleanroom_result.json"
+    ],
+    "scope": "Bounded integer sum on synthetic fixtures; independent accepted-set and value checks; no claim of truthfulness of a compromised source"
+  },
+  "authorization_set_hiding": {
+    "status": "DEMONSTRATED_LIMITATION",
+    "evidence": [
+      "artifacts/probes/primitives.json",
+      "artifacts/probes/policy_audit.json"
+    ],
+    "scope": "Real BLS12-381 candidate membership test for 1,2,3,5 distinct authorized tags. User approved retaining PFDAM with this claim removed."
+  },
+  "report_tag_unlinkability": {
+    "status": "PENDING",
+    "evidence": [],
+    "scope": "Physical-sender/entity linkage has not been independently established or ruled out; a report-class dictionary relation is separately documented."
+  },
+  "inner_post_quantum_security": {
+    "status": "DEMONSTRATED_LIMITATION",
+    "scope": "Paillier and pairing core remain classical"
+  },
+  "ml_dsa_integration": {
+    "status": "SUPPORTED_WITH_ASSUMPTIONS",
+    "evidence": [
+      "artifacts/tests/acceptance_results.json",
+      "services/signatures.py",
+      "artifacts/tests/ui_results.json",
+      "artifacts/tests/crypto_conformance.json"
+    ],
+    "scope": "Pure ML-DSA-65 plus ECDSA P-256, ALL_REQUIRED on task authorization and aggregate receipt; trusted local role/key/epoch registry; no claim that the pairing core is post-quantum"
+  },
+  "hybrid_tls_integration": {
+    "status": "SUPPORTED_WITH_ASSUMPTIONS",
+    "evidence": [
+      "artifacts/tests/acceptance_results.json",
+      "native/grid_crypto.cpp",
+      "artifacts/tests/ui_results.json"
+    ],
+    "scope": "Actual TLS1.3 X25519MLKEM768 negotiation on both role links with mTLS, role identities, no fallback/resumption/0RTT; certificates and handshake authentication remain classical"
+  },
+  "optimized_paillier_parameter_security": {
+    "status": "PENDING",
+    "scope": "User authorized official abstract fallback after unsuccessful full-text retrieval; concrete optimized-Paillier parameter security remains independently unreviewed; no unified modern security-bit claim"
+  },
+  "report_tag_confidentiality": {
+    "status": "DEMONSTRATED_LIMITATION",
+    "evidence": [
+      "artifacts/probes/report_tag_audit.json"
+    ],
+    "scope": "With a covering low-entropy dictionary, recovered policy set, degree>=2 and usable nonzero coefficients, the gateway can identify encrypted-report labels. This does not recover readings or identify physical senders."
+  },
+  "public_receipt_metadata_verification": {
+    "status": "SUPPORTED_WITH_ASSUMPTIONS",
+    "evidence": [
+      "artifacts/tests/export_prepatch_audit.json",
+      "artifacts/tests/export_postpatch_audit.json",
+      "services/evidence.py"
+    ],
+    "scope": "V1/V2/V3 external trust, expected task and signed receipt association; UC plaintext remains unsigned for those historical objects. V4 separately includes mandatory UC result statements; status, timing and connection logs remain outside authenticated scope."
+  },
+  "online_key_rotation": {
+    "status": "SUPPORTED_WITH_LIMITED_SCOPE",
+    "evidence": [
+      "artifacts/iterations/standards/security/2026-10-17T04-29-39.962Z.json"
+    ],
+    "scope": "Actual six-key business signing rotation, current TLS renewal/revocation and signed registry commit recovery; task-boundary updates after active jobs drain, no downgrade. CA/registry root and PFDAM parameter migration remain separate. Software custody, no HSM or human-duty certification."
+  },
+  "statistical_release_privacy": {
+    "status": "SUPPORTED_WITH_LIMITED_SCOPE",
+    "evidence": ["contracts/privacy_release.json", "services/publication.py", "tests/test_publication.py", "tests/test_publication_integration.py", "artifacts/iterations/privacy/current/business.json"],
+    "differential_privacy": "NOT_ESTABLISHED",
+    "scope": "Exact release for complete fixed disjoint registered-meter cells, minimum 10 per cell, shared cross-requester/function history, one numeric version per cell/UTC interval. V5 role-derived HMAC-SHA384 binds private inputs/partitions instead of publishing deterministic plaintext hashes. Trusted UC/coordinator, honest registered Sources and OS. Prevents the specified split/revision/duplicate/incomplete/direct-hash-dictionary cases; no arbitrary auxiliary-knowledge, general composition or unique-natural-person privacy guarantee. Process-crash recovery tested; not a power-loss or whole-host rollback guarantee."
+  },
+  "uc_result_statement_authentication": {
+    "status": "SUPPORTED_WITH_ASSUMPTIONS",
+    "evidence": [
+      "artifacts/iterations/standards/security/2026-10-17T04-29-39.962Z.json",
+      "artifacts/iterations/standards/regressions/2026-10-17T04-33-14.153Z/acceptance_results.json"
+    ],
+    "scope": "V4 independent UC result type binds complete canonical result including value/presentation/count/units and receipt/policy/dataset/slot/epoch/registry; mandatory ECDSA AND ML-DSA-65 and selected SM2. Not public verifiable decryption, source completeness or statistical privacy."
+  },
+  "role_secret_storage": {
+    "status": "SUPPORTED_WITH_LIMITED_SCOPE",
+    "evidence": [
+      "artifacts/iterations/standards/security/2026-10-17T04-29-39.962Z.json"
+    ],
+    "scope": "Encrypted PKCS#8 active role keys, authenticated role/path-bound new private JSON, independent protected root and one-role pipe; public outputs/fixtures and historical private experiment archives are separate. Trusted OS account/coordinator; no whole-host compromise or all-history confidentiality claim."
+  },
+  "management_audit_and_recovery": {
+    "status": "SUPPORTED_WITH_LIMITED_SCOPE",
+    "evidence": [
+      "artifacts/iterations/standards/security/2026-10-17T04-29-39.962Z.json"
+    ],
+    "scope": "Different authenticated accounts, one-time bounded approval and protected local chain/anchor; material backup restoration retains current trust and logical deletion. Audit damage recovery records permanent historical gap. Not proof of two natural people, physical zeroization or whole-host disaster recovery."
+  },
+  "selected_standard_vectors_and_independent_sm_interop": {
+    "status": "SUPPORTED_WITH_LIMITED_SCOPE",
+    "evidence": [
+      "artifacts/iterations/standards/vectors/2026-10-17T04-29-39.115Z.json",
+      "artifacts/iterations/standards/current/crypto-conformance.json"
+    ],
+    "scope": "Selected SM2/SM3/SM4/HKDF standard examples and independent GmSSL 3.2.0 peer; 15 selected public NIST ML-DSA-65 sigVer cases plus same-OpenSSL CLI integration. Peer accepts trailing SM2 signature bytes while application rejects them. No CAVP/module/product certification or independent TLS peer claim."
+  }
+}

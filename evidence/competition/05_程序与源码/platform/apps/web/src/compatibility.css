@@ -1,0 +1,77 @@
+/* Historical workbenches keep their workflows and share the current type scale. */
+.v41-shell:not(.grid-shell) {font:14px/1.7 var(--ui-font);background:var(--ui-canvas);color:var(--ui-ink)}
+.v41-shell:not(.grid-shell) .v41-sidebar {background:#eaf0f5;border-right:1px solid var(--ui-line);color:var(--ui-ink)}
+.v41-shell:not(.grid-shell) .v41-brand {font:700 17px var(--ui-display);letter-spacing:0;color:var(--ui-ink);padding:0 5px}
+.v41-shell:not(.grid-shell) .v41-brand small {color:var(--ui-muted);letter-spacing:0;font-size:11px;line-height:1.8}
+.v41-shell:not(.grid-shell) .v41-brand-mark {color:var(--ui-primary);font-size:28px}
+.v41-shell:not(.grid-shell) .v41-sidebar-caption {color:#667e90;letter-spacing:0;font-size:11px}
+.v41-shell:not(.grid-shell) .v41-sidebar nav button {color:#47637a;font-size:13px;border-radius:4px;padding:12px 14px}
+.v41-shell:not(.grid-shell) .v41-sidebar nav button.active {color:var(--ui-primary);background:white;box-shadow:inset 3px 0 var(--ui-primary)}
+.v41-shell:not(.grid-shell) .v41-sidebar nav button:hover {background:#f6f9fc}
+.v41-shell:not(.grid-shell) .v41-sidebar-foot {border-color:#cedde7;color:#627e92}
+.v41-shell:not(.grid-shell) .v41-sidebar-foot p,.v41-shell:not(.grid-shell) .v41-sidebar-foot small {color:#627e92;font-size:11px}
+.v41-shell:not(.grid-shell) .v41-sidebar .v41-badge.teal {background:#e0eee7;color:#176e5e}
+.v41-shell:not(.grid-shell) .v41-topbar h1 {font-family:var(--ui-display);font-size:18px;line-height:1.65}
+.v41-shell:not(.grid-shell) .v41-breadcrumb {font-size:12px;color:#637f93}
+.v41-shell:not(.grid-shell) .v41-page-title p {font-size:11px;letter-spacing:0;color:var(--ui-muted)}
+.v41-shell:not(.grid-shell) .v41-page-title h2 {font-family:var(--ui-display);font-size:28px}
+.v41-shell:not(.grid-shell) .v41-page-title span {font-size:12px;color:#566f82}
+.v41-shell:not(.grid-shell) .v41-hero {display:grid;grid-template-columns:minmax(240px,.8fr) minmax(490px,1.4fr);align-items:center;gap:25px;border:0;border-radius:0;padding:14px 0 28px;background:none;overflow:visible}
+.v41-shell:not(.grid-shell) .v41-hero h2 {font:700 32px/1.5 var(--ui-display);letter-spacing:0;margin:16px 0}
+.v41-shell:not(.grid-shell) .v41-hero p {font-size:13px;line-height:1.9;color:var(--ui-secondary)}
+.v41-shell:not(.grid-shell) .v41-primary {background:var(--ui-primary);box-shadow:none;border-radius:5px;font-size:13px!important;padding:11px 17px}
+.v41-shell:not(.grid-shell) .v41-secondary {font-size:13px!important;padding:10px 16px;color:#345d7c;border-radius:5px}
+.v41-shell:not(.grid-shell) .v41-card {border-radius:7px;padding:25px;margin-bottom:24px}
+.v41-shell:not(.grid-shell) .v41-section-head h2 {font-size:17px;line-height:1.6}
+.v41-shell:not(.grid-shell) .v41-section-head p {font-size:12px;line-height:1.9;color:#667f90;max-width:80ch}
+.v41-shell:not(.grid-shell) .v41-metrics {gap:0;border-top:1px solid var(--ui-line);border-bottom:1px solid var(--ui-line);padding:15px 0}
+.v41-shell:not(.grid-shell) .v41-metrics>div {border:0;border-right:1px solid var(--ui-line);border-radius:0;background:none;padding:12px 20px}
+.v41-shell:not(.grid-shell) .v41-metrics>div:last-child {border-right:0}
+.v41-shell:not(.grid-shell) .v41-metrics small,.v41-shell:not(.grid-shell) .v41-metrics span {font-size:12px;color:#667e90;line-height:1.8}
+.v41-shell:not(.grid-shell) .v41-metrics strong {font:600 28px/1.9 var(--ui-number)}
+.v41-shell:not(.grid-shell) .v41-metrics .v41-small-value {font-size:15px;line-height:2.6}
+.v41-shell:not(.grid-shell) table {font-size:12px;line-height:1.8}
+.v41-shell:not(.grid-shell) td {color:#3e5e73;padding:15px 13px}
+.v41-shell:not(.grid-shell) th {color:#60798c;font-size:11px}
+.v41-shell:not(.grid-shell) .v41-link {color:var(--ui-primary);font-size:12px!important}
+.v41-shell:not(.grid-shell) .v41-muted {color:#637c8f;font-size:12px;line-height:1.9}
+.v41-shell:not(.grid-shell) .v41-controls>label {font-size:12px;color:#4d6c83;line-height:1.8}
+.v41-shell:not(.grid-shell) .v41-controls select {font-size:13px;min-height:41px;border-radius:4px}
+.v41-shell:not(.grid-shell) .v41-notice {font-size:12px;line-height:1.95;color:#4c6d81}
+.v41-shell:not(.grid-shell) .v41-badge {font-size:11px!important;line-height:1.65;padding:4px 8px}
+.v41-shell:not(.grid-shell) .v41-empty {font-size:13px;line-height:1.9;color:#637e90;padding:26px 12px}
+.v41-shell:not(.grid-shell) .v41-asset p,.v41-shell:not(.grid-shell) .v41-asset dl {font-size:12px;line-height:1.9;color:#5a7588}
+.v41-shell:not(.grid-shell) .v41-digest {font-size:12px;line-height:1.9;gap:14px;flex-wrap:wrap}
+.v41-shell:not(.grid-shell) .v41-digest small {font-size:12px;color:#526f84}
+.v41-shell:not(.grid-shell) .v41-digest code {font-size:11px;overflow-wrap:anywhere}
+.v41-shell:not(.grid-shell) .v41-selfcheck-list p,.v41-shell:not(.grid-shell) .v41-selfcheck-list article>small {font-size:12px;line-height:1.95;color:#547183}
+.v41-shell:not(.grid-shell) .v41-selfcheck-list h3 {font-size:14px}
+.v41-shell:not(.grid-shell) .v41-selfcheck-summary {font-size:12px;color:#617d91}
+.v41-shell:not(.grid-shell) .v41-audit-timeline small,.v41-shell:not(.grid-shell) .v41-audit-timeline span {font-size:12px;line-height:1.8;color:#607c8e}
+.v41-shell:not(.grid-shell) .v41-audit-timeline strong {font-size:14px}
+.v41-shell:not(.grid-shell) .v41-signature-row,.v41-shell:not(.grid-shell) .v41-connection {font-size:13px}
+.v41-shell:not(.grid-shell) .v41-error {font-size:13px;line-height:1.9;color:#a33f38}
+.v41-shell:not(.grid-shell) .v41-check-grid {font-size:12px;line-height:1.8}
+.v41-shell:not(.grid-shell) .v41-verification p {font-size:12px;color:#537c71;line-height:1.9}
+.v41-shell:not(.grid-shell) .v41-footer {font-size:11px;line-height:1.9;color:#617b8e}
+.v42-version-link {display:inline-flex;padding:9px 0;color:var(--ui-primary);font-size:12px;margin-bottom:18px;border-bottom:1px solid #ccdceb;border-radius:0;background:none}
+.v41-modal-backdrop {background:#153a526b;padding:22px;backdrop-filter:blur(2px);overflow:auto;overscroll-behavior:contain}
+.v41-login {font:14px/1.8 var(--ui-font);color:var(--ui-ink);width:450px;max-height:calc(100svh - 44px);overflow:auto;border-radius:9px;padding:34px;gap:19px;box-shadow:0 20px 65px #153a5233}
+.v41-login h2 {font:650 24px/1.5 var(--ui-display);color:var(--ui-ink)}
+.v41-login p {font-size:13px;line-height:1.9;color:var(--ui-secondary)}
+.v41-login>label {display:flex;flex-direction:column;gap:7px;font-size:13px;color:var(--ui-secondary)}
+.v41-login select,.v41-login input {width:100%;border:1px solid #c7d7e2;border-radius:4px;min-height:43px;padding:9px 11px;font:14px var(--ui-font);color:var(--ui-ink);background:white}
+.v41-login>small {font-size:12px;line-height:1.9;color:#637b8d}
+.v41-login>small code {font-size:12px;overflow-wrap:anywhere}
+.v41-login .v41-primary {background:var(--ui-primary);font-size:13px!important;padding:12px;box-shadow:none}
+.v41-login .v41-secondary {font-size:13px!important;padding:11px}
+.v41-login .v41-badge {font-size:11px!important;width:fit-content}
+.v41-login .v41-error {font-size:12px;line-height:1.8;margin:0}
+.v41-login .v41-login-notice {font-size:12px;line-height:1.9;color:#365f81;background:#edf4fb;border-color:#cbdff0}
+.v41-login .v41-modal-close {color:#607b8f;top:13px;right:15px;min-height:35px;min-width:35px}
+.v41-login :where(input,select,button):focus-visible {outline:3px solid #4c8cd4;outline-offset:3px}
+.header {padding:22px 34px}.brand h1 {font-family:var(--ui-display)}.brand p {letter-spacing:0;font-size:12px}.hero {background:none}.hero h2 {font-family:var(--ui-display);font-size:40px}.hero h2 em {font-style:normal;color:inherit}.eyebrow {letter-spacing:0}.scenario-card {box-shadow:none;border-radius:7px}.panel {border-radius:7px}.primary {background:var(--ui-primary);box-shadow:none}.text-button {color:var(--ui-primary)}.nav>button>span {display:none}
+@media(max-width:1250px) {.v41-shell:not(.grid-shell) .v41-hero {grid-template-columns:1fr;gap:15px}.v41-shell:not(.grid-shell) .v41-hero p {max-width:70ch}.v41-shell:not(.grid-shell) .v41-hero h2 {font-size:30px}.v41-shell:not(.grid-shell) .v41-card {padding:23px}}
+@media(max-width:680px) {.v41-shell:not(.grid-shell) .v41-sidebar {padding:18px 16px 10px}.v41-shell:not(.grid-shell) .v41-sidebar nav button {font-size:12px;gap:6px;padding:8px 10px}.v41-shell:not(.grid-shell) .v41-topbar h1 {font-size:13px;line-height:1.8}.v41-shell:not(.grid-shell) .v41-account {font-size:10px!important;line-height:1.7;max-width:108px}.v41-shell:not(.grid-shell) .v41-hero {padding:5px 0 23px;gap:23px}.v41-shell:not(.grid-shell) .v41-hero h2 {font-size:27px}.v41-shell:not(.grid-shell) .v41-hero p {font-size:13px}.v41-shell:not(.grid-shell) .v41-card {padding:21px 17px}.v41-shell:not(.grid-shell) .v41-metrics>div {padding:12px 13px}.v41-shell:not(.grid-shell) .v41-metrics small,.v41-shell:not(.grid-shell) .v41-metrics span {font-size:11px}.v41-shell:not(.grid-shell) .v41-primary,.v41-shell:not(.grid-shell) .v41-secondary {font-size:12px!important;padding:10px 13px}.v41-shell:not(.grid-shell) .v41-controls>label {font-size:12px}.v41-shell:not(.grid-shell) .v41-controls select {font-size:12px}.v41-shell:not(.grid-shell) .v41-section-head h2 {font-size:16px}.v41-shell:not(.grid-shell) .v41-digest {gap:7px}.v41-shell:not(.grid-shell) .v41-digest small {font-size:11px}.v41-shell:not(.grid-shell) .v41-digest code {font-size:10px}.v41-shell:not(.grid-shell) .v41-digest code {max-width:100%}.v41-login {padding:29px 23px;gap:17px;max-height:calc(100svh - 30px)}.v41-login h2 {font-size:22px}.v41-modal-backdrop {padding:15px}.hero h2 {font-size:30px}.header {padding:17px}.brand h1 {font-size:14px}}
+
+.v41-shell:not(.grid-shell) svg text {fill:var(--ui-muted)}

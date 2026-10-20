@@ -1,0 +1,13 @@
+{
+  "document_type": "TEST_DESIGN_NOT_TEST_RESULTS",
+  "origin": "agent_guide_section_14.3",
+  "revision": "V5_ATOMIC_PUBLICATION_20261017; original contract preserved with implementation baseline",
+  "cases": [
+    {"id": "R01", "title": "Concurrent receipt submission", "scope": "Two producers enqueue valid receipts over the one authenticated GW/UC connection; UC serializes processing and commits one snapshot.", "status": "NOT_RUN"},
+    {"id": "R02", "title": "Changed late report batch after seal", "scope": "Actual GW rejects changed input for a sealed slot; previous UC publication is retained.", "status": "NOT_RUN"},
+    {"id": "R03", "title": "Cancel while private source calculation continues", "scope": "After an actual private UC result, cancel before atomic public commit. Expose no numerical result or invalid archive.", "status": "NOT_RUN"},
+    {"id": "R04", "title": "Concurrent API retry and completed replay after restart", "scope": "One idempotent submission, new API process, unchanged published receipt bytes.", "status": "NOT_RUN"},
+    {"id": "R05", "title": "API crash before publication commit", "scope": "Kill and restart after an actual private result; terminate owned orphan roles, retain submission identity, expose no uncommitted numeric output. Separate mother test exercises successful recovery after root commit.", "status": "NOT_RUN"},
+    {"id": "R06", "title": "Corrupted committed private stage", "scope": "Alter a signature or integer type in a real root-committed stage after process kill; recovery must reject the changed digest and expose no result.", "status": "NOT_RUN"}
+  ]
+}

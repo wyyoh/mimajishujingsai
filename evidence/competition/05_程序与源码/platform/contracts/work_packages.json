@@ -1,0 +1,107 @@
+{
+  "origin": "reconstructed_from_agent_guide_section_17",
+  "packages": [
+    {
+      "id": "WP00",
+      "title": "接管与契约",
+      "dependencies": [],
+      "status": "IMPLEMENTED_AND_TESTED"
+    },
+    {
+      "id": "WP01",
+      "title": "PFDAM复现与复核",
+      "dependencies": [
+        "WP00"
+      ],
+      "status": "FUNCTIONAL_AND_LIMITED_REVIEW_COMPLETED",
+      "note": "Paper reproduction and documented P1 interpretation tested. User authorized official-abstract fallback after unsuccessful full-text search. Concrete parameter security remains PENDING and is not claimed."
+    },
+    {
+      "id": "WP02",
+      "title": "签名与TLS探针",
+      "dependencies": [
+        "WP00"
+      ],
+      "status": "IMPLEMENTED_AND_TESTED"
+    },
+    {
+      "id": "WP03",
+      "title": "数据和独立oracle",
+      "dependencies": [
+        "WP00"
+      ],
+      "status": "IMPLEMENTED_AND_TESTED"
+    },
+    {
+      "id": "WP04",
+      "title": "双签授权回执",
+      "dependencies": [
+        "WP02"
+      ],
+      "status": "IMPLEMENTED_AND_TESTED"
+    },
+    {
+      "id": "WP05",
+      "title": "两段真实传输",
+      "dependencies": [
+        "WP02"
+      ],
+      "status": "IMPLEMENTED_AND_TESTED"
+    },
+    {
+      "id": "WP06",
+      "title": "角色任务集成",
+      "dependencies": [
+        "WP01",
+        "WP03"
+      ],
+      "status": "IMPLEMENTED_AND_TESTED"
+    },
+    {
+      "id": "WP07",
+      "title": "三页界面",
+      "dependencies": [
+        "WP00"
+      ],
+      "status": "IMPLEMENTED_AND_TESTED"
+    },
+    {
+      "id": "WP08",
+      "title": "SAB完整流程",
+      "dependencies": [
+        "WP04",
+        "WP05",
+        "WP06",
+        "WP07"
+      ],
+      "status": "IMPLEMENTED_AND_TESTED"
+    },
+    {
+      "id": "WP09",
+      "title": "四组实验",
+      "dependencies": [
+        "WP08"
+      ],
+      "status": "IMPLEMENTED_AND_TESTED"
+    },
+    {
+      "id": "WP10",
+      "title": "视觉与离线恢复",
+      "dependencies": [
+        "WP08"
+      ],
+      "status": "IMPLEMENTED_AND_TESTED"
+    },
+    {
+      "id": "WP11",
+      "title": "发布与材料",
+      "dependencies": [
+        "WP09",
+        "WP10"
+      ],
+      "status": "ENGINEERING_IMPLEMENTED_FORMAL_CONFIRMATION_PENDING",
+      "note": "Local source, offline dependencies and current-version materials prepared. Exact archive verification is recorded separately against its SHA256. Human numbering, review, signatures, narration and submission remain with the team."
+    }
+  ],
+  "not_a_release_certificate": true
+}

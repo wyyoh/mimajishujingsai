@@ -1,0 +1,50 @@
+{
+  "schema": "GRID_RELEASE_RULES_V1",
+  "version": 2,
+  "input_binding_scheme": "ROLE_HMAC_SHA384_V1",
+  "minimum_contributors": 10,
+  "unit": "registered_metering_point",
+  "partition": "fixed_disjoint_region_resource",
+  "completeness": "ALL_REGISTERED",
+  "revision": "ONE_NUMERIC_VERSION",
+  "functions": [
+    "SUM",
+    "AVG",
+    "COUNT"
+  ],
+  "differential_privacy": false,
+  "coverage_required_basis_points": 10000,
+  "baseline_days": 3,
+  "event_periods": [
+    68,
+    69,
+    70,
+    71
+  ],
+  "event_day": 4,
+  "reference_days": [
+    1,
+    2,
+    3
+  ],
+  "demo_response_basis_points": 1000,
+  "main_measurement": {
+    "nodes": 300,
+    "sources": 3,
+    "formal_pairs": 10,
+    "warmup_pairs": 2,
+    "latency_seconds": 180
+  },
+  "supplement_measurements": [
+    {
+      "nodes": 120,
+      "formal_pairs": 5,
+      "warmup_pairs": 2
+    },
+    {
+      "nodes": 900,
+      "formal_pairs": 5,
+      "warmup_pairs": 2
+    }
+  ]
+}

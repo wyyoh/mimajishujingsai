@@ -1,0 +1,20 @@
+建议先从00_支撑材料导读.html了解三项贡献和证据位置，再阅读设计报告。
+
+环境：Ubuntu/WSL2 x86_64，Python 3.14.4，OpenSSL 3.5.5，mcl v3.08。Windows通过WSL运行；浏览器访问http://127.0.0.1:8580/。
+platform含当前核心源码、已构建前端、Linux原生库、固定版本依赖wheel、mcl源码及许可证。当前53个核心文件和前端指纹见06_索引与来源/version.json；性能记录按各自构建版本列示。
+
+仅核验已存档业务证据（先确认本机OpenSSL版本与所列环境相符）：
+cd platform
+python3 -m venv .venv
+.venv/bin/python -m pip --isolated install --no-index --find-links .build/wheelhouse -r requirements.lock.txt
+按02_业务实例/核验说明.txt运行verify-export。
+
+启动新的合成数据演示：
+bash scripts/project init --profile SAB
+bash scripts/project serve
+在另一终端运行bash scripts/project access，按输出的本机访问账户登录工作台。账户由各次初始化生成，口令只在本机使用。
+如需从源码重新构建，安装g++、make、Python venv及匹配版本OpenSSL开发依赖后执行bash scripts/project build。前端已有dist成品；修改前端时在apps/web按package-lock.json安装依赖后执行npm run build。
+
+UCI公开数据的来源、许可证和转换摘要见06_索引与来源/UCI-import.json。程序快照包含合成负荷生成路径；UCI逐户数据在独立运行目录按源侧职责导入，导入工具为scripts/import_public_load.py。已有业务实例与截图可直接审阅。
+
+源码审阅入口：services/pfdam.py（聚合构造），services/publication*.py（发布规则与证据），services/response.py（业务公式），services/signatures.py与native/（签名和通信），services/trust.py与custody.py（公开信任与密钥管理），apps/web/src（工作台）。测试与源代码分目录保存，已有测量证据放在03和04目录。

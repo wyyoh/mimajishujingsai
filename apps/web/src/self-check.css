@@ -1,0 +1,22 @@
+.self-check-results {min-width:0}
+.self-check-lead {display:flex;align-items:center;gap:17px;padding:22px;background:var(--ui-bg,#f5f7fa);border:1px solid var(--ui-line,#dfe7eb);border-radius:9px}
+.self-check-lead.passed {background:#eff8f4;border-color:#c9e5d8}
+.self-check-lead>svg {flex-shrink:0;color:#567280}
+.self-check-lead.passed>svg {color:#18745b}
+.self-check-lead>div {flex:1;min-width:0}
+.self-check-lead h4 {margin:0 0 5px;font-size:17px;font-weight:600}
+.self-check-lead p {margin:0;font-size:12px;line-height:1.8;color:var(--ui-muted,#667c8a)}
+.self-check-context {display:flex;align-items:center;gap:9px 14px;flex-wrap:wrap;padding:18px 0;font-size:11px;color:var(--ui-muted,#667c8a)}
+.self-check-context>code {overflow-wrap:anywhere;color:var(--ui-ink,#213c4d)}
+.self-check-context .ui-hash {margin-left:auto}
+.self-check-results article {min-width:0}
+.self-check-results article pre {max-height:320px;overflow:auto;font-size:11px;white-space:pre-wrap;overflow-wrap:anywhere}
+.self-check-results article details p {font-size:12px;line-height:1.9}
+.self-check-error {display:block;overflow-wrap:anywhere;font-size:11px;color:#b44239;padding:0 0 12px}
+.self-check-open {margin-top:30px;border-top:1px solid var(--ui-line,#dfe7eb);padding-top:24px}
+.self-check-open-heading {display:flex;align-items:flex-start;gap:11px;margin-bottom:18px}
+.self-check-open-heading>svg {color:#9b752c;flex-shrink:0;margin-top:2px}
+.self-check-open-heading>div {flex:1}
+.self-check-open-heading h4 {margin:0 0 6px;font-size:14px;font-weight:600}
+.self-check-open-heading p {margin:0;font-size:12px;line-height:1.8;color:var(--ui-muted,#667c8a)}
+@media(max-width:680px){.self-check-lead{align-items:flex-start;flex-wrap:wrap;padding:16px;gap:12px}.self-check-lead>div{flex-basis:calc(100% - 50px)}.self-check-lead>.ui-tag{margin-left:42px}.self-check-lead h4{font-size:15px}.self-check-context .ui-hash{margin-left:0;max-width:100%}.self-check-open-heading{flex-wrap:wrap}.self-check-open-heading>.ui-tag{margin-left:31px}.self-check-open-heading>div{flex-basis:calc(100% - 40px)}}

@@ -1,0 +1,727 @@
+{
+  "schema": "GRID_APPLICATION_SELF_CHECK_V3",
+  "display_scope": "LOCAL_APPLICATION_FUNCTIONS",
+  "check_id": "553a94bc4be14b33950cac2966202a2e",
+  "checked_at": "2026-10-18T03:23:16.758Z",
+  "run_id": "67027b12c5884f9f8f3ce99415bc58c3",
+  "selection": "EXPLICIT",
+  "version_matches": true,
+  "source_stable_during_check": true,
+  "core_source_digest": "250da67238de715c9ffeb1d44a0d8c314a5cfc5e6d92b7cc045f4f20768ebe23",
+  "native_library_sha256": "f37f407d61567ec304904c693ef7dc3259eafa44f843a884bf88a2a4b67ce000",
+  "core_source_files": {
+    "contracts/privacy_release.json": "4bcd4e6fca6d311c96af1005ad2ea032bbed25e1b4f81e3ff5af2488631a1ab6",
+    "native/agility.cpp": "33ca0cd08f588368a5b068e9f91c68dcc07ab851624681a7c4fa822e261ddc79",
+    "native/grid_crypto.cpp": "2b5d296d9eff72a17c1dc8b235140351b461214fabfb0a7e0ff141483ac7649c",
+    "requirements.lock.txt": "7ba08a87c14a977456f550257a1afe6f70fbe54f016d5af7040dd572217fb3bb",
+    "requirements.txt": "ad8f86f2297937f57db5b99e75a41a84bcbf819c5e1292e49b1218ff5d92b5ac",
+    "services/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "services/agility.py": "85f31093c901e521c72d1965b3635aa683bbbb6b4cb839d21fc3509380f27bd0",
+    "services/api.py": "5a5065cf7f83ca0e71e69f0b75f02797fce2b014dcbba86cf4640b8cb351e5a9",
+    "services/audit.py": "395382d750f0c4e2b5bbc2dfe485f69bf7c7630ed7d824ac152939c4109e83f1",
+    "services/benchmarks.py": "cc75ded9f502c34818dd8ca594a8de5bf557cd17be6f11b4cc25cf2de14a8e50",
+    "services/cli.py": "5ec5c5bde703fcb3ab2fdb1970917bd575cc64059270478b4b30ea9f9dda6f81",
+    "services/custody.py": "0019ada46e9d7faa225ed5dd430f6cec6547fc6b7c6f20458dafefece842d0f8",
+    "services/dataset.py": "49733b3e1e1d1a76b5b88ce781e33941511d98c9bacb19297f9a48d3adcbdb1e",
+    "services/encoding.py": "5ec8670ab9c87733dd18ba0ea428ee003519911bf741c5df0d7142137027764d",
+    "services/evidence.py": "fa4a4795d946fdac13699a1d07efa59ed70686f9fd637943fad70e8a37f2d334",
+    "services/expansion_api.py": "a53da8b5245e30f06f95877765200284937217e77a10a23216664147c5f7d780",
+    "services/expansion_data.py": "7b4ee51b2d259aa53f3d537bec3491ffca2b212d8298e1f7c3a6422ec86a7477",
+    "services/expansion_evidence.py": "a620baac267169f2f54fd9746b781f40da2847415844a71485f968c60829fe87",
+    "services/expansion_governance.py": "5db208cf69092a21578bc465fd858a640d2a648e85078bb8d0642afdf956962a",
+    "services/expansion_orchestrator.py": "7c98a2ee30d8a2f01af444128a4117e6e166d52c7457be939bc7e98dfc6fb964",
+    "services/expansion_schemas.py": "e58799ca1e6258ba9febeab56d130607bc1a9e7a1d2bf91b5fcacfe31678648d",
+    "services/expansion_workers.py": "0d3f0817b83ed368fa1f3e1ca247afb8db1b7417d319629e1304b1029bda0a67",
+    "services/governance.py": "8490cc8bb150283918190ddfddde30f84023e5053a1bb59cf7441287846a99e2",
+    "services/initialization.py": "19d6de06159fb399cd5e2df57305db8f7dbe50b94b17dd65ebb2d137a3ef177d",
+    "services/management.py": "dc33957f91e610b89260fc4936855e2017c534440b96b19ccdcf240b6144ff64",
+    "services/merkle.py": "4cf68ba9b3dd45a68dd9b2286aa29ed132b0e5102417f5611aad7562349c69e6",
+    "services/native.py": "6252ac5eee8af5abd64c6c560c79baccde50ee29390c8c1818b4bb9e93441f6b",
+    "services/orchestrator.py": "8de8f18f2ae19d0bd679e983fda4f332cecb21c854909af680de2cd1a5f3cb1b",
+    "services/pairing.py": "5949b1bb2161b7a41e3a1a2f8f6521da7b56a25307d4ceeabbcb6e70129c57c9",
+    "services/pfdam.py": "ed696e1963964940898c100733bdd48d94d70d6385abfc99aa2933379bdfd37d",
+    "services/publication.py": "01d4ebea4cde15880019ad09bad226a383af72a5066872b618f1c62b61592160",
+    "services/publication_evidence.py": "e0d38b1a93ef26c3d956fcb2fca7bf2cfa48b7a10e92b995c0303896db157687",
+    "services/publication_runtime.py": "19019d796f56e2fea6d0afd5c728f94925fefa5b6d9683a8e55e4905f4e84ebd",
+    "services/publication_schemas.py": "494f4d840ea83489b879bb425bf5a0997bc82c1e6d549aae69e7dfcf3514c050",
+    "services/recovery.py": "0704b2e6b9d54b518558f3b798e1118bc4a0ccb59e02ee763765c401fef0eaa7",
+    "services/release.py": "a7acd27e1c432ff12259a48531732869aab6783d586d72d2ba1e3a1d1d7df8e3",
+    "services/response.py": "5857649b95831c66af1d8c4b8aa6a8023ee37bd947a94c3d970aadadb2cfc629",
+    "services/response_api.py": "3937b341ae3be2f1318144fe6da97800b258db659092190160cc93a0871c5b8d",
+    "services/result_attestation.py": "328db4c7a502e5b8f54de5f87c1b394a814ebb3f88b27d16ffb5365fc7207c63",
+    "services/schemas.py": "57a280c9138afab4cbb97c7bdb5db3d4ba4d3d674ff624e04318725929ddef9e",
+    "services/security_schemas.py": "cdde19fa6db4c4d172e0e8a94ee4faee701c92ef8798a4edecd3b0566e94ea04",
+    "services/selfcheck.py": "efcf7828d6a0a248e1a735485477c698d0a9736dc97eaf4da5175da346d5114e",
+    "services/selfcheck_probes.py": "c310b91774fff17c3949d8525070b6314685c7b91b54a0a60f4c8e9faf1dd9e8",
+    "services/sessions.py": "b6a475f451b67bfccf3f215813e6f97a06947176a301d10ef1a58fef41db5211",
+    "services/signatures.py": "e1712a480b05506c1d954d7a0b3517bc9c4fff5d3f161a0c6c99aa64cdf15197",
+    "services/standards_profile.py": "69af6ccfc21c9d00753d0db08149b89e506f8fabebecf2cf92657f1b9a1fbc87",
+    "services/storage.py": "0e1c4af3cc3807756b164d014dc34437954fa75472259b0411dad3fdd60eaaa0",
+    "services/trust.py": "af823859668bdd2208d13eaf883397b0e1b2f7e93b6741dac64e4d1c39ea1146",
+    "services/v41_api.py": "62bfc864d2523ad54d7f82640e82c964d567a0ec90f53a380f47a36a2916bc8c",
+    "services/v41_attacks.py": "526f279fe6b61df950e8c10f659d5105b27abe9a5d06b39bf6bcb89f8e0b32e3",
+    "services/v41_evidence.py": "0cf2291be04cae00b4e8846d36fd8152d275e3118329b1192806ee9a2d894064",
+    "services/versioning.py": "17eece28893c4f177ac4c0cb0d5ce2ecc624f234e9b9fa60eeb7b235cc617ec4",
+    "services/workers.py": "f0e11de151d082b29dcc7b8a3833c077952938f9d5c4c719f9b0671de8b0675e"
+  },
+  "overall": "HAS_OPEN_ITEMS",
+  "functional_overall": "PASS",
+  "formal_evaluation": false,
+  "counts": {
+    "functional_pass": 12,
+    "functional_total": 12,
+    "functional_not_applicable": 0,
+    "open_assurance": 1
+  },
+  "checks": [
+    {
+      "id": "primitives",
+      "label": "国密算法功能",
+      "status": "PASS",
+      "category": "functional",
+      "evidence": {
+        "SM3_abc": true,
+        "SM4_GCM_RFC8998_A1": true,
+        "SM4_GCM_decrypt": true,
+        "sm2_sign_verify": true,
+        "sm2_wrong_domain_rejected": true,
+        "sm2_modified_message_rejected": true,
+        "sm4_gcm_roundtrip": true,
+        "sm4_modified_aad_rejected": true
+      },
+      "summary": "SM3、SM4-GCM标准向量通过；SM2签验、错误身份与改动消息测试通过。",
+      "risk": "这些是本机密码算法功能检查，不代表算法或密码模块认证。",
+      "recommendation": "继续按适用标准补充选定向量和独立实现互通记录。"
+    },
+    {
+      "id": "keys",
+      "label": "密钥和证书管理",
+      "status": "PASS",
+      "category": "functional",
+      "evidence": {
+        "software_custody_enabled": true,
+        "binding": {
+          "key_epoch": 1,
+          "trust_registry_digest": "b973fbc239722480c4e08806690d5e1aa028dbfff3d8e9428ef04d6fef0ad63256a609393b55ba59dd13dfaf8f70cf58"
+        },
+        "certificates": [
+          {
+            "current_chain_and_identity_valid": true,
+            "not_after": "2026-11-14T10:45:06+00:00",
+            "not_before": "2026-10-15T10:45:06+00:00",
+            "ready_for_planned_horizon": true,
+            "renew_before": "2026-11-07T10:45:06+00:00",
+            "role": "ta"
+          },
+          {
+            "current_chain_and_identity_valid": true,
+            "not_after": "2026-10-29T10:45:06+00:00",
+            "not_before": "2026-10-15T10:45:06+00:00",
+            "ready_for_planned_horizon": true,
+            "renew_before": "2026-10-22T10:45:06+00:00",
+            "role": "source"
+          },
+          {
+            "current_chain_and_identity_valid": true,
+            "not_after": "2026-10-29T10:45:06+00:00",
+            "not_before": "2026-10-15T10:45:06+00:00",
+            "ready_for_planned_horizon": true,
+            "renew_before": "2026-10-22T10:45:06+00:00",
+            "role": "gateway"
+          },
+          {
+            "current_chain_and_identity_valid": true,
+            "not_after": "2026-10-29T10:45:06+00:00",
+            "not_before": "2026-10-15T10:45:06+00:00",
+            "ready_for_planned_horizon": true,
+            "renew_before": "2026-10-22T10:45:06+00:00",
+            "role": "utility"
+          },
+          {
+            "current_chain_and_identity_valid": true,
+            "not_after": "2026-10-30T15:04:57+00:00",
+            "not_before": "2026-10-16T15:04:57+00:00",
+            "ready_for_planned_horizon": true,
+            "renew_before": "2026-10-23T15:04:57+00:00",
+            "role": "source-1"
+          },
+          {
+            "current_chain_and_identity_valid": true,
+            "not_after": "2026-10-30T15:04:57+00:00",
+            "not_before": "2026-10-16T15:04:57+00:00",
+            "ready_for_planned_horizon": true,
+            "renew_before": "2026-10-23T15:04:57+00:00",
+            "role": "source-2"
+          },
+          {
+            "current_chain_and_identity_valid": true,
+            "not_after": "2026-10-30T15:04:57+00:00",
+            "not_before": "2026-10-16T15:04:57+00:00",
+            "ready_for_planned_horizon": true,
+            "renew_before": "2026-10-23T15:04:57+00:00",
+            "role": "source-3"
+          }
+        ],
+        "signing_key_pairs_checked": 6,
+        "issues": [],
+        "readiness_record": "artifacts/iterations/selfcheck/key-readiness/f626e3114d5148419e165312f32beda7.json",
+        "readiness_sha256": "28b85ff2a842434e2e524d4ceee73c0930d788df6d26562177bc103b7d41a855",
+        "lifecycle_scope": "Current active material only; rotation/revocation validated separately without mutating live keys during self-check"
+      },
+      "summary": "软件托管已启用；有效密钥、公私钥对应、证书身份、有效期和私有目录权限核对通过。",
+      "risk": "本次不轮换或撤销业务密钥；保护依赖可信操作系统账户，未取得硬件托管认证。",
+      "recommendation": "部署时接入实际密钥管理设备，并核对人员分工和证书使用期限。"
+    },
+    {
+      "id": "authorization",
+      "label": "分类与授权控制",
+      "status": "PASS",
+      "category": "functional",
+      "evidence": {
+        "allowed_request_checked": true,
+        "negative_checks": [
+          {
+            "id": "wrong_region",
+            "passed": true,
+            "observed": "POLICY_REGION_DENIED",
+            "expected": [
+              "POLICY_REGION_DENIED"
+            ]
+          },
+          {
+            "id": "wrong_level",
+            "passed": true,
+            "observed": "POLICY_DATA_LEVEL_DENIED",
+            "expected": [
+              "POLICY_DATA_LEVEL_DENIED"
+            ]
+          },
+          {
+            "id": "wrong_function",
+            "passed": true,
+            "observed": "POLICY_FUNCTION_DENIED",
+            "expected": [
+              "POLICY_FUNCTION_DENIED"
+            ]
+          },
+          {
+            "id": "business_downgrade_V41_CLASSIC",
+            "passed": true,
+            "observed": "POLICY_CRYPTO_DOWNGRADE",
+            "expected": [
+              "POLICY_CRYPTO_DOWNGRADE"
+            ]
+          },
+          {
+            "id": "business_downgrade_V41_SM",
+            "passed": true,
+            "observed": "POLICY_CRYPTO_DOWNGRADE",
+            "expected": [
+              "POLICY_CRYPTO_DOWNGRADE"
+            ]
+          },
+          {
+            "id": "business_downgrade_V41_PQ",
+            "passed": true,
+            "observed": "POLICY_CRYPTO_DOWNGRADE",
+            "expected": [
+              "POLICY_CRYPTO_DOWNGRADE"
+            ]
+          },
+          {
+            "id": "important_data_requires_sm",
+            "passed": true,
+            "observed": "POLICY_CRYPTO_DOWNGRADE",
+            "expected": [
+              "POLICY_CRYPTO_DOWNGRADE"
+            ]
+          },
+          {
+            "id": "expired_policy",
+            "passed": true,
+            "observed": "POLICY_EXPIRED",
+            "expected": [
+              "POLICY_EXPIRED"
+            ]
+          }
+        ],
+        "classification_scope": "SIMULATED_NOT_OFFICIAL"
+      },
+      "summary": "允许的请求通过；跨区、越级、无权统计、过期授权和降低保护要求均被拒绝。",
+      "risk": "当前使用模拟数据等级与本机账户权限；正式数据定级和企业身份系统仍是部署条件。",
+      "recommendation": "接入企业身份后，使用实际岗位和数据等级复验。"
+    },
+    {
+      "id": "integrity",
+      "label": "回执与快照关联",
+      "status": "PASS",
+      "category": "functional",
+      "evidence": {
+        "window_count": 16,
+        "child_count": 4,
+        "snapshot_checks": [
+          {
+            "id": "ciphertext_modified",
+            "passed": true,
+            "observed": "SNAPSHOT_ROOT_MISMATCH",
+            "expected": [
+              "SNAPSHOT_ROOT_MISMATCH"
+            ]
+          },
+          {
+            "id": "accepted_set_deleted",
+            "passed": true,
+            "observed": "ACCEPTED_SET_DIGEST_MISMATCH",
+            "expected": [
+              "ACCEPTED_SET_DIGEST_MISMATCH"
+            ]
+          }
+        ],
+        "audit_checks": [
+          {
+            "id": "audit_modified",
+            "passed": true,
+            "observed": "AUDIT_HASH_MISMATCH",
+            "expected": [
+              "AUDIT_HASH_MISMATCH"
+            ]
+          },
+          {
+            "id": "audit_deleted",
+            "passed": true,
+            "observed": "AUDIT_SHAPE_INVALID",
+            "expected": [
+              "AUDIT_SHAPE_INVALID"
+            ]
+          },
+          {
+            "id": "audit_reordered",
+            "passed": true,
+            "observed": "AUDIT_CONTEXT_OR_ORDER_MISMATCH",
+            "expected": [
+              "AUDIT_CONTEXT_OR_ORDER_MISMATCH"
+            ]
+          }
+        ],
+        "all_source_and_period_bindings_verified": true,
+        "all_audit_checkpoints_verified": true,
+        "evidence_scope": "Local UC working copies plus signed parent inputs"
+      },
+      "summary": "已核对16个时段的签名、逐源快照与统计范围；改动密文和删除参与记录均被拒绝。",
+      "risk": "四日期评估额外核对本机UC保存的子任务快照；母归档本身不包含这些快照。签名与Merkle树不证明读数真实或解密正确。",
+      "recommendation": "缺少子任务工作副本时恢复可信备份或重新运行；不得用母任务签名代替快照核验。"
+    },
+    {
+      "id": "communication",
+      "label": "业务通信保护",
+      "status": "PASS",
+      "category": "functional",
+      "evidence": {
+        "connection_pairs": 16,
+        "endpoint_records": 32,
+        "child_count": 4,
+        "actual_group": "X25519MLKEM768",
+        "sm4_required": true,
+        "all_identities_and_business_links_checked": true,
+        "records_digest": "d50b81839cefb882c772a8ca356092ce69549e215e6a84df1fbd4422ad5ff9e117b939e588f34457bb2ad7399ae4e990",
+        "evidence_scope": "Local endpoint observations; trusted host, not independently signed transport attestation"
+      },
+      "summary": "已逐一核对16条连接的两端记录、身份、实际混合组和业务关联。",
+      "risk": "连接记录是可信宿主上的运行观察。证书身份为ECDSA；SM4用于TLS内业务保护，当前没有TLCP协议。",
+      "recommendation": "在真实部署网络中补充独立对端验证。"
+    },
+    {
+      "id": "audit",
+      "label": "审计记录关联",
+      "status": "PASS",
+      "category": "functional",
+      "evidence": {
+        "window_count": 16,
+        "negative_checks": [
+          {
+            "id": "audit_modified",
+            "passed": true,
+            "observed": "AUDIT_HASH_MISMATCH",
+            "expected": [
+              "AUDIT_HASH_MISMATCH"
+            ]
+          },
+          {
+            "id": "audit_deleted",
+            "passed": true,
+            "observed": "AUDIT_SHAPE_INVALID",
+            "expected": [
+              "AUDIT_SHAPE_INVALID"
+            ]
+          },
+          {
+            "id": "audit_reordered",
+            "passed": true,
+            "observed": "AUDIT_CONTEXT_OR_ORDER_MISMATCH",
+            "expected": [
+              "AUDIT_CONTEXT_OR_ORDER_MISMATCH"
+            ]
+          }
+        ]
+      },
+      "summary": "所有时段的回执审计锚核对通过；删除、修改和打乱记录顺序均被拒绝。",
+      "risk": "检查范围是回执绑定的检查点；普通进程日志和主机管理员行为未逐条独立认证。",
+      "recommendation": "在部署环境中接入外部日志系统，明确受认证记录的范围。"
+    },
+    {
+      "id": "agility",
+      "label": "密码方案切换与迁移",
+      "status": "PASS",
+      "category": "functional",
+      "evidence": {
+        "required_algorithms": [
+          "ECDSA-P256-SHA256",
+          "ML-DSA-65",
+          "SM2-SM3"
+        ],
+        "all_required_verified": true,
+        "negative_checks": [
+          {
+            "id": "missing_ECDSA-P256-SHA256",
+            "passed": true,
+            "observed": "REQUIRED_SIGNATURE_MISSING",
+            "expected": [
+              "OBJECT_SCHEMA_INVALID",
+              "REQUIRED_SIGNATURE_MISSING"
+            ]
+          },
+          {
+            "id": "modified_ECDSA-P256-SHA256",
+            "passed": true,
+            "observed": "OBJECT_SIGNATURE_INVALID",
+            "expected": [
+              "OBJECT_SIGNATURE_INVALID"
+            ]
+          },
+          {
+            "id": "missing_ML-DSA-65",
+            "passed": true,
+            "observed": "REQUIRED_SIGNATURE_MISSING",
+            "expected": [
+              "OBJECT_SCHEMA_INVALID",
+              "REQUIRED_SIGNATURE_MISSING"
+            ]
+          },
+          {
+            "id": "modified_ML-DSA-65",
+            "passed": true,
+            "observed": "OBJECT_SIGNATURE_INVALID",
+            "expected": [
+              "OBJECT_SIGNATURE_INVALID"
+            ]
+          },
+          {
+            "id": "missing_SM2-SM3",
+            "passed": true,
+            "observed": "REQUIRED_SIGNATURE_MISSING",
+            "expected": [
+              "OBJECT_SCHEMA_INVALID",
+              "REQUIRED_SIGNATURE_MISSING"
+            ]
+          },
+          {
+            "id": "modified_SM2-SM3",
+            "passed": true,
+            "observed": "OBJECT_SIGNATURE_INVALID",
+            "expected": [
+              "OBJECT_SIGNATURE_INVALID"
+            ]
+          },
+          {
+            "id": "wrong_task",
+            "passed": true,
+            "observed": "PUBLICATION_EXPECTED_CONTEXT_INVALID",
+            "expected": [
+              "PUBLICATION_EXPECTED_CONTEXT_INVALID"
+            ]
+          }
+        ],
+        "selected_suite": "V41_HYBRID_SM",
+        "historical_formats_scope": "Separate versioned regression evidence required"
+      },
+      "summary": "当前业务路径使用SAB及实际混合通信；逐个删除或改动必需签名均被拒绝。",
+      "risk": "本项核对当前选用路径和降级拒绝，不代表全部实验配置或PFDAM参数迁移完成；内核仍采用经典密码。",
+      "recommendation": "更换算法实现、密钥版本或参数后分别保留旧验证能力和新运行证据。"
+    },
+    {
+      "id": "publication",
+      "label": "统计结果发布保护",
+      "status": "PASS",
+      "category": "functional",
+      "evidence": {
+        "release_decision_verified": true,
+        "commit": {
+          "protected_commit_verified": true,
+          "staged_public_projection_matches": true,
+          "decision": "PUBLISHED",
+          "registered_participation_windows_rechecked": 16,
+          "ledger_mutated": false
+        },
+        "rule_probes": {
+          "input_scope": "Synthetic in-memory rule probes; no business publication or ledger mutation",
+          "minimum_contributors": 10,
+          "positive_release_checked": true,
+          "shared_function_history_checked": true,
+          "negative_checks": [
+            {
+              "id": "small_cell",
+              "passed": true,
+              "observed": "MINIMUM_COHORT",
+              "expected": "MINIMUM_COHORT"
+            },
+            {
+              "id": "missing_meter",
+              "passed": true,
+              "observed": "INCOMPLETE_REGISTERED_COHORT",
+              "expected": "INCOMPLETE_REGISTERED_COHORT"
+            },
+            {
+              "id": "duplicate_meter",
+              "passed": true,
+              "observed": "INCOMPLETE_REGISTERED_COHORT",
+              "expected": "INCOMPLETE_REGISTERED_COHORT"
+            },
+            {
+              "id": "overlapping_partition_change",
+              "passed": true,
+              "observed": "CELL_PARTITION_CHANGED",
+              "expected": "CELL_PARTITION_CHANGED"
+            },
+            {
+              "id": "input_revision",
+              "passed": true,
+              "observed": "PUBLISHED_INPUT_REVISION",
+              "expected": "PUBLISHED_INPUT_REVISION"
+            },
+            {
+              "id": "numeric_revision_through_COUNT",
+              "passed": true,
+              "observed": "PUBLISHED_VALUE_CHANGED",
+              "expected": "PUBLISHED_VALUE_CHANGED"
+            },
+            {
+              "id": "numeric_revision_through_AVG",
+              "passed": true,
+              "observed": "PUBLISHED_VALUE_CHANGED",
+              "expected": "PUBLISHED_VALUE_CHANGED"
+            }
+          ]
+        },
+        "differential_privacy": false
+      },
+      "summary": "发布决定与受保护历史一致；小组、漏报、重复计量点、分组变更及跨统计方式改值测试通过。",
+      "risk": "固定分组和共享历史约束精确查询；依赖可信UC、诚实Source与宿主，不保证任意背景知识或组合攻击下的隐私，也不是差分隐私。",
+      "recommendation": "维持固定分组、完整上报和全部出口的统一发布控制。"
+    },
+    {
+      "id": "response",
+      "label": "园区评估指标复算",
+      "status": "PASS",
+      "category": "functional",
+      "evidence": {
+        "four_date_inputs_verified": true
+      },
+      "summary": "16份统计端签名输入与四日期关系核对通过，业务指标已按精确值重新计算。",
+      "risk": "指标复算不证明解密、现场读数或调控因果；受控模拟与真实节能效果分开说明。",
+      "recommendation": "接入实际计量和调控记录后再评估现场效果。"
+    },
+    {
+      "id": "management",
+      "label": "管理操作与程序核对",
+      "status": "PASS",
+      "category": "functional",
+      "evidence": {
+        "audit": {
+          "event_count": 184,
+          "head": "96018b8c1fee7e6b0204ac4a9e57a0f3e3536bb84e940287cf52c56cfdd88ccf",
+          "integrity_verified": true,
+          "historical_gap_recorded": false,
+          "scope": "Protected local management audit; OS account/coordinator trusted, not an independent public audit"
+        },
+        "program": {
+          "approved_fingerprint": "de17e96f7056a3a27651703e200184e9abec4537ae93137664be8b24ecca839d89dac8d8eae64d9d639a5640f5e05758",
+          "scope": "Pinned application/native/entry-point integrity; not OS or module certification"
+        }
+      },
+      "summary": "本地管理审计的认证链和独立锚核对通过；运行程序与已批准指纹一致。",
+      "risk": "账户分别承担申请、审批和审计职责；实际人员分工与操作系统账户管理需在部署时验证。历史缺口不因恢复而消失。",
+      "recommendation": "保留独立审批、单次授权和审计恢复记录。"
+    },
+    {
+      "id": "result_statement",
+      "label": "统计端结果签名",
+      "status": "PASS",
+      "category": "functional",
+      "evidence": {
+        "origin_and_content_verified": true,
+        "expected_context_checked": true
+      },
+      "summary": "统计端结果签名、结果内容、指定任务与可信公钥登记核对通过。",
+      "risk": "结果签名认证声明来源和内容；不能单独证明解密正确或源数据完整真实。",
+      "recommendation": "继续用隔离参考数据分别核对参与集合和整数和。"
+    },
+    {
+      "id": "confidentiality",
+      "label": "密态计算的安全限制",
+      "status": "PENDING",
+      "category": "research",
+      "evidence": {
+        "parameter_security": "PENDING",
+        "policy_hiding": "DEMONSTRATED_LIMITATION",
+        "report_class_hiding": "DEMONSTRATED_LIMITATION"
+      },
+      "summary": "该项尚不能通过：参数安全论证未完成，已确认的候选识别限制继续保留。",
+      "risk": "低熵候选策略及特定条件下的数据类别可被识别。外层签名和TLS不能修复这一内核限制。",
+      "recommendation": "独立开展参数与攻击面论证；改变实质协议需另行设计和评审。"
+    },
+    {
+      "id": "standards",
+      "label": "本机密码标准对齐",
+      "status": "PASS",
+      "category": "functional",
+      "evidence": {
+        "profile_id": "GRID_LOCAL_APPLICATION_STANDARD_PROFILE_V1",
+        "status": "PASS",
+        "scope": "LOCAL_SOFTWARE_SELECTED_FUNCTIONAL_REQUIREMENTS",
+        "standard_references": [
+          "GB/T 32905-2016",
+          "GB/T 32918.2-2016",
+          "GB/T 32918.5-2017",
+          "GM/T 0002-2012",
+          "GB/T 36624-2018",
+          "GB/T 39786-2021（所选应用条款）"
+        ],
+        "vector_checks": [
+          {
+            "id": "SM3_abc",
+            "standard": "GB/T 32905-2016",
+            "status": "PASS"
+          },
+          {
+            "id": "SM3_multiblock",
+            "standard": "GB/T 32905-2016",
+            "status": "PASS"
+          },
+          {
+            "id": "SM2_recommended_curve_example",
+            "standard": "GB/T 32918.5-2017",
+            "status": "PASS"
+          },
+          {
+            "id": "SM2_identity_bound",
+            "standard": "GB/T 32918.2-2016",
+            "status": "PASS"
+          },
+          {
+            "id": "SM2_message_bound",
+            "standard": "GB/T 32918.2-2016",
+            "status": "PASS"
+          },
+          {
+            "id": "SM2_strict_signature_encoding",
+            "standard": "GB/T 32918.2-2016",
+            "status": "PASS"
+          },
+          {
+            "id": "SM4_single_block_example",
+            "standard": "GM/T 0002-2012",
+            "status": "PASS"
+          },
+          {
+            "id": "SM4_GCM_C5_empty",
+            "standard": "GB/T 36624-2018 资料性C.5",
+            "status": "PASS"
+          },
+          {
+            "id": "SM4_GCM_C5_block",
+            "standard": "GB/T 36624-2018 资料性C.5",
+            "status": "PASS"
+          },
+          {
+            "id": "SM4_GCM_context_authentication",
+            "standard": "GB/T 36624-2018",
+            "status": "PASS"
+          },
+          {
+            "id": "HKDF_SHA256_case1_prefix",
+            "standard": "RFC 5869 A.1",
+            "status": "PASS"
+          }
+        ],
+        "control_checks": [
+          {
+            "engineering_reference": "SM201/SM202",
+            "check": "SM2身份与签验、规范编码",
+            "source_check": "primitives",
+            "status": "PASS"
+          },
+          {
+            "engineering_reference": "SYM01/MOD02",
+            "check": "算法已知答案和运行前检查",
+            "source_check": "primitives",
+            "status": "PASS"
+          },
+          {
+            "engineering_reference": "K01/K02",
+            "check": "软件托管、活动密钥与证书登记",
+            "source_check": "keys",
+            "status": "PASS"
+          },
+          {
+            "engineering_reference": "A02",
+            "check": "分类授权和安全策略关联",
+            "source_check": "authorization",
+            "status": "PASS"
+          },
+          {
+            "engineering_reference": "A03/N01",
+            "check": "业务链路身份、混合组与认证加密",
+            "source_check": "communication",
+            "status": "PASS"
+          },
+          {
+            "engineering_reference": "A05/DOC01",
+            "check": "回执、数据范围与密文快照关联",
+            "source_check": "integrity",
+            "status": "PASS"
+          },
+          {
+            "engineering_reference": "D03",
+            "check": "回执绑定的审计检查点",
+            "source_check": "audit",
+            "status": "PASS"
+          },
+          {
+            "engineering_reference": "D04",
+            "check": "已批准程序与受保护管理审计",
+            "source_check": "management",
+            "status": "PASS"
+          },
+          {
+            "engineering_reference": "DOC02",
+            "check": "统计端签名结果及任务关联",
+            "source_check": "result_statement",
+            "status": "PASS"
+          }
+        ],
+        "current_task_evidence_required": true,
+        "third_party_assessment_required": false,
+        "whole_standard_conformance_claimed": false,
+        "formal_evaluation": false,
+        "business_ecb_enabled": false,
+        "reference_inventory_items": 37,
+        "reference_inventory_core_source_digest": "404317da1124993f6f490c13f83ce45550aec7fa016c830ac15df4ab6709ceb3"
+      },
+      "summary": "SM2、SM3、SM4与密钥派生的11项向量和边界检查通过；9组本机应用控制已关联实际任务证据。",
+      "risk": "检查范围为本机软件适用功能与所选标准条款。37项原始工程对照另行保留，用于需求追溯。",
+      "recommendation": "每次检查重新执行标准向量，使用当前任务核对应用控制。"
+    }
+  ],
+  "record_path": "artifacts/iterations/selfcheck/reports/553a94bc4be14b33950cac2966202a2e.json",
+  "scope": "Local application enforcement and authorized task evidence. Open research/deployment conditions are not passed or certified."
+}

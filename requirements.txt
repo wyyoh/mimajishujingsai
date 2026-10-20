@@ -1,0 +1,7 @@
+fastapi==0.135.1
+uvicorn==0.42.0
+pytest==9.0.2
+jcs==0.2.1
+gmpy2==2.2.1
+jsonschema==4.26.0
+httpx==0.28.1

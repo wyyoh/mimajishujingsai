@@ -1,0 +1,10 @@
+业务实例：300个合成输入计量点，150个授权参与点，三Source，四日期共16个密态统计窗口。
+公开证据档案：park-evaluation-public-evidence.zip（原字节保留）。
+offline-verification.json：使用另存的公开登记和信任固定值完成的离线核验记录。
+trusted-pin.json 与 trust-runtime/：本作品该次演示的公开信任状态。评审应先核对导读与version.json所关联的档案、任务和固定值，再进行验签。
+核验验证对象来源、内容、任务关联、发布决定和业务指标复算。正式部署时，登记根及当前信任状态由相应机构配置和分发。
+
+在程序目录完成依赖准备后，进入05_程序与源码/platform，执行：
+PYTHONPATH=. .venv/bin/python -m services.cli verify-export --path ../../02_业务实例/park-evaluation-public-evidence.zip --expect-run 67027b12c5884f9f8f3ce99415bc58c3 --expect-profile SAB --expect-slots 4 --trusted-pin ../../02_业务实例/trusted-pin.json --trust-runtime ../../02_业务实例/trust-runtime
+
+四项实例指标：平均降负荷160.47 kW，相对参考变化10.28%，窗口能量差160.47 kWh，有效覆盖100%。10%是合成输入预设响应，10.28%是三日参考方法所得评估值。
